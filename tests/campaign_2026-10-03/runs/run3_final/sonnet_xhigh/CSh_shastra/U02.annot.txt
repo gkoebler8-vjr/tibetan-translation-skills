@@ -1,0 +1,66 @@
+## unit 1: sems can rnams la phan pa 'i phyir dbang bskur ba ni bzhi ru bsgrags 'di yis bkrus shing dbang bskur ba s de phyir dbang bskur zhes bya r brjod ces gsungs pa yin no
+NEG: 0 (none)
+COMPOUND? sems can rnams la phan = benefit beings, benefiting beings, beings bene… (MITRA) · gsungs pa yin no = explains next, earlier statement, says how (MITRA) · dbang bskur ba = empowerment, initiation, consecration (MITRA) · dbang bskur = empowerment, initiation, empowered (MITRA)
+  sems can       NOUN  
+      MITRA: [noun 100%] | 1. sentient being; any living creature possessing a mind <en: beings, being, sentient, people> <skt: sattva, satva>
+      JH: [mind-having]; sentient being; animals [Skt. sattva; sattvata; loka] {relation to a being; world}
+  rnams          PARTICLE PLURAL
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  phan pa        VERB  
+      MITRA: [noun 91%, verbal noun 7%, adjective 2%] | 1. benefit, welfare, or that which is advantageous; also used as a verbal noun <en: benefit, help, benefits, welfare> <skt: hita, kārā>
+      JH: help; benefit; be of use [Skt. hita; upakāra; kṛta; anugraha; upakara] {bestowal; service; welfare;…
+  'i             PARTICLE GEN
+  phyir          PARTICLE PURPOSE / CAUSE (in order to; because)
+  dbang          NOUN    VERB-FORM?: dbang (pres, Verbinator); dbang (past, Verbinator); dbang (fut, Verbinator)  …
+      MITRA: [noun 99%] | 1. empowerment, initiation, or consecration; abhiṣeka <en: empowerment, empowerments, initiation, initiations> <skt: abhiṣeka>
+      JH: initiation; empowerment; consecration; power; force; control [Skt. abhiṣeka; vaśa; vaśitā; vaśitva;…
+  bskur ba       VERB  
+      MITRA: [verbal noun 84%, noun 10%, verb 6%] | 1. to send, dispatch, or deliver something; also used as a verbal noun for the act of sending <en: imparting, sent bimbisāra> <skt: preṣay, anupreṣay>
+      JH: {C}should be guided [Skt. netavya]
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  bzhi           NUM   
+      MITRA: 1. four; fourfold; fourth <en: four, fourfold, fourth, bzhi> <skt: catur, catuṣṭaya>
+      JH: four [Skt. catur; catvāri]
+  ru             PARTICLE LA-DON
+  bsgrags        NO_POS  VERB-FORM?: sgrog (past, MITRA); sgrog (past, Verbinator)
+      MITRA: [verb 95%, noun 5%] | VERB sgrog (transitive, voluntary): present sgrog; past bsgrags, bsgrogs; future bsgrag, bsgrog; imperative sgrogs, sgrag, sgrags · syntax [Erg. Abs.] (Hackett 2003). | 1. to proclaim, announce, or make known publicly <en: proclaimed, proclaim, proclaiming, announced> <skt: av…
+      JH: / sgrogs/ [Skt. yongs su bsgrags = parikīrtita] {proclaim; declare; shout forth}
+  'di            DET   
+      MITRA: [determiner 52%, adverb 27%, particle 15%, pronoun 3%, noun 2%] | 1. this; these <en: these, them> <skt: iha, itas>
+      RY: [JV] it, this it, the, nearness, such a one, particular, this / * [RY] now, this, the present, the …
+  yis            PARTICLE ERG/INSTR
+  bkrus          NO_POS  VERB-FORM?: 'khrud (past, MITRA); 'khrud (past, Verbinator)
+      MITRA: [verb 99%] | VERB 'khrud (transitive, voluntary): present 'khru, 'khrud; past bkrus, 'khrus; future bkru; imperative khru, khrus · syntax [Erg. Abs.] (Tournadre & Dorje 2003), (Hackett 2003). | 1. to wash, rinse, or cleanse with water; also used for bathing the body or scrubbing objects <en: washed…
+      RY: [JV] wash, SA 'khrud pa / * [RY] 1) wash; action of water. 2) cleanse, erase / * [IW] wash, cleanse…
+  shing dbang    NO_POS
+      MITRA: [noun 100%] | 1. a great tree; a lord of trees <en: supreme tree> <skt: druma-indra, drumendra>
+      RY: [RY] the great tree / * [IW] bodhi tree, lord of trees
+  bskur ba       (see above)
+  s              PART   -> gis
+      JH: Comment: One of five instrumental particles—gis, kyis, gyis, 'is, yis. Also used adverbially.
+      RY: [RY] (verb) + gis - though/ while. Syn {kyis} [used after final {ga} and {nga}. 2) ! [imperative] /…
+  de phyir       NO_POS
+      MITRA: [adverb 99%] | 1. therefore; hence; consequently <en: therefore, hence, consequently, wherefore> <skt: tasmāt, atas>
+      JH: because of that; therefore [Skt. artha; sattvārthi (=tasmāhu?)] {wealth; aim; fortune; benefits; en…
+  dbang          (see above)
+  bskur          NO_POS  VERB-FORM?: skur (past, MITRA); skur (futu, MITRA); skur (fut, Verbinator)
+      MITRA: [noun 52%, verb 48%] | VERB skur (transitive, voluntary): present skur; past bskur; future bskur; imperative skur · syntax [Erg. Abs.] (Hackett 2003). | 1. to send, dispatch, or deliver <en: sent, send> <skt: preṣay, prahi> | nominalised: skur pa, skur ba, bskur ba
+      JH: / skur/ bskurd/ skurd/ [Skt. abhiṣikta; abhiṣeka] {bestow; make someone carry; send}
+  zhes           PARTICLE QUOT (thus, saying)
+  bya            VERB    VERB-FORM?: byed (futu, MITRA); khas blang bar bya ba (past, JH); byed (fut, Verbinator)
+      MITRA: [verb 95%, noun 5%] | VERB byed (transitive, voluntary): present byed; past byas; future bya; imperative byo, byos, byed · syntax [Erg. Abs.] (Hackett 2003) | 1. to do, perform, carry out, or execute an action <en: do, made, perform, done> <skt: kṛ, kāray> | nominalised: bya ba, byed pa, byas pa, b…
+      JH: / byed/ byas/ byos/ [Skt. (1) kārya; kriyā; karaṇe; karaṇīya; kṛtya (2) pakṣin; dvija; śakuni] {(1)…
+  r              PARTICLE LA-DON (terminative)  (or fused: byar — say, said, call, MITRA)
+  brjod          VERB    VERB-FORM?: rjod (past, MITRA); rjod (futu, MITRA); brjod (fut, JH)  …
+      MITRA: [verb 97%, noun 3%] | VERB rjod (intransitive, voluntary): present rjod; past brjod; future brjod; imperative rjod · syntax [Erg. Abs.] (Hackett 2003). | 1. to say, speak, or utter words <en: say, said, speak, saying> <skt: vac, bhāṣ> | nominalised: brjod pa, rjod pa, brjod ba
+      JH: [Skt. ākhyāyate; ākhyā; (√khyā): khyāpayati; khyāpayitvā; kathayi (=kathayati); ucyate; udīrayati; …
+  ces            PARTICLE QUOT
+  gsungs pa      VERB  
+      MITRA: [verbal noun 90%, verb 10%] | 1. statement; words; that which is spoken or uttered, also used as a verb meaning to say, speak, or utter <en: statement, statements, words, said> <skt: ah, vac>
+      JH: statement(s){BJ 21.3}; said; mentioned; spoken; speak; say; talk; speech [Skt. bhāśita; ākhyātatā; …
+  yin            NO_POS  VERB-FORM?: yin (pres, MITRA); yin (futu, MITRA); yin (pres, Verbinator)  …
+      MITRA: [verb 95%, noun 5%] | VERB yin: present yin; past —; future yin · syntax [Abs. Abs.] (Hackett 2003). | 1. to be; to exist; to be the case; to be identical to <en: being, copula, identity, yes> <skt: bhū, as> | nominalised: yin pa
+      JH: is; be [Skt. bhava]
+  no             PART  
+      RY: [RY] completing particle; {rdzogs yig} / * [JV] SA nu bo, figure 132 / * [IW] 1) terminative after …
+      ML: [particle indicating the end of a statement] [ML] / SA nu bo, figure 132 [ML]

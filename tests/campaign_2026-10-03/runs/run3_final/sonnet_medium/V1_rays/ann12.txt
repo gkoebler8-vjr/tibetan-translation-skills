@@ -1,0 +1,59 @@
+## unit 1: dgos pa ni thos bsam gyis de rtogs pa 'o dgos pa 'i dgos pa ni de'i don bsgoms pa s 'bras bu mngon du 'gyur ba 'o 'brel ba ni snga ma la brten te phyi ma rim gyis thabs dang thabs las byung ba 'i tshul gyis 'brel pa 'o
+NEG: 0 — snga ma la (noun) · phyi ma rim (noun)
+COMPOUND? dgos pa'i dgos pa = essential purpose (MITRA) · mngon du 'gyur ba = manifest, manifestation, evident (MITRA) · thabs las byung ba = the goal or object to be attained (MITRA) · de'i don = In general, «that meaning». In particular it is used to show… (Duff)
+  dgos pa        VERB  
+      MITRA: [noun 88%, verbal noun 6%, verb 5%] | 1. purpose, aim, or goal; also used as a verbal noun <en: purpose>
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  thos bsam      NOUN  
+      MITRA: [noun 99%] | 1. the process of studying the Dharma through hearing and reflection, typically as the first two stages of a thr… <en: study reflection>
+  gyis           PARTICLE ERG/INSTR
+  de             PARTICLE SEMI-FINAL (or the demonstrative 'that')
+  rtogs pa       VERB  
+      MITRA: [noun 61%, verbal noun 37%] | 1. spiritual realization; the act of attaining a state of insight or enlightenment <en: realization>
+  'o             PARTICLE FINAL (statement)
+  dgos pa        (see above)
+  'i             PARTICLE GEN
+  dgos pa        (see above)
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  de'i           PART  
+      RY: [RY] of that / * [JV] of that, even though clause connective
+  don            NOUN    VERB-FORM?: don (pres)  …
+      MITRA: [noun 100%] | 1. Don (proper name) <en: don>
+  bsgoms pa      VERB  
+      MITRA: [verbal noun 78%, noun 21%] | 1. meditation or mental cultivation; the act of developing a spiritual quality or path <en: meditation>
+  s              PART   -> gis
+      JH: Comment: One of five instrumental particles—gis, kyis, gyis, 'is, yis. Also used adverbially.
+  'bras bu       NOUN  
+      MITRA: [noun 100%] | 1. result, effect, or consequence; also the produced entity or effect of a cause <en: result>
+  mngon du       NO_POS
+      MITRA: [verb 85%, noun 10%, adverb 5%] | VERB mngon (intransitive, involuntary): present mngon; past mngon; future mngon · syntax [Abs. Obl.] (Hackett 2003). | 1. to be clear, evident, or obvious; also used as a noun meaning manifestation or the state of being open <en: clear> | nominalised: mngon pa, mng…
+  'gyur ba       VERB  
+      MITRA: [verbal noun 37%, noun 36%, verb 27%] | 1. to become, be, or be constituted as; the act of coming into existence <en: become>
+  'o             PARTICLE FINAL (statement)
+  'brel ba       VERB  
+      MITRA: [noun 70%, verbal noun 25%, adjective 3%] | 1. A relationship, connection, or association between entities, concepts, or people; also the state of being rel… <en: relationship>
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  snga ma        ADJ   
+      MITRA: [adjective 95%, noun 3%] | 1. previous, former, or preceding; also used to mean original <en: previous>
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  brten          VERB    VERB-FORM?: rten (past)  …
+      MITRA: [noun 51%, verb 49%] | VERB rten (intransitive, voluntary): present rten; past brten; future brten; imperative rton, rten · syntax [Abs. Obl.](Hackett 2003). | 1. to depend on, rely upon, or be based on something; also used as a noun for the support, basis, or substrate <en: support> | nominalised:…
+  te             PARTICLE SEMI-FINAL
+  phyi ma        ADJ   
+      MITRA: [adjective 90%, adverb 6%, noun 4%] | 1. latter, later, or subsequent; following a previous one <en: latter>
+  rim gyis       NO_POS
+      JH: [series-by]; in series; gradually; in stages; by stages [Skt. krameṇa; anupūrva; anupūrve; anupūrve…
+  thabs          NOUN    VERB-FORM?: thabs mkhas (fut)
+      MITRA: [noun 100%] | 1. means, method, or technique; also used for logical modes of demonstration <en: means>
+  dang           PARTICLE COMIT / COORD (and; with; after some verbs: from)
+  thabs          (see above)
+  las            PARTICLE ABL (from, out of; than; after a title: 'from the …')
+  byung ba       VERB  
+      MITRA: [verbal noun 82%, noun 10%, verb 6%, adjective 3%] | 1. to arise, originate, or be produced from a cause or source; also used as a noun for the act of origination <en: derived>
+  'i             PARTICLE GEN
+  tshul          NOUN  
+      MITRA: [noun 100%] | 1. way, manner, or mode of being or acting <en: way>
+  gyis           PARTICLE ERG/INSTR
+  'brel pa       VERB  
+      MITRA: [noun 74%, verbal noun 24%] | 1. connection, relation, or association; the state of being related to or pertaining to something <en: connection>
+  'o             PARTICLE FINAL (statement)

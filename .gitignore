@@ -1,0 +1,10 @@
+# built/derived data: never commit (copyrighted dictionary inputs, large files)
+resources/*.zip
+resources/mitra-tib-llm-2026/
+*.sqlite
+__pycache__/
+.DS_Store
+# private calibration corpus (Gabriel's own Lam Zab translations) — remove this line if you decide to publish it
+tests/lz_verses.json
+# test campaign: the Vikra reference translations are not redistributed
+tests/campaign_2026-10-03/material/vikra/*_reference_H.md

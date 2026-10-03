@@ -1,0 +1,25 @@
+# Reference English (H) for test page C_shastra — 84000 translation, verbatim (see C_shastra.md for translator and version)
+
+U01 Returning to the passage that begins “the categories of the concealed,” concealed can refer to sprinkling and its divisions. Concerning these, Vajradhara will say:
+
+U02 “The sprinkling, described as fourfold, / Brings accomplishment to beings. / With it one is sprinkled, one is bathed, / Hence it is given the name ‘sprinkling.’ ”
+
+U03 Thus, there is a fourfold division of sprinkling. In the same passage he will also say:
+
+U04 “The master, secret, and wisdom, / Followed by the fourth in the same way…”… / and so forth.
+
+U05 In this Yoginī tantra, a master is called an ācārya because they tread (carati) far from (ārāt) evil dharmas. That is the specific concealed intent here. The essential nature of the master initiation is achieved with the support of an activity seal through the innate condition of the four moments and four joys. Moreover, it cannot be said that one has been initiated with the master initiation merely upon receiving the initiation that prevents regression, as is common in the Kriyā tantras and other classes of tantra. If that were the case, it would follow that in all circumstances one would be qualified to listen to the explanations of the Yoga tantras, Yoginī tantras, and similar tantras. That is why this initiation is given first in Yoginī tantras such as the Hevajra Tantra and the like. One is initiated with the master initiation in order to become qualified for study, reflection, and meditation. Depending on the realization that ensues, one will be able to recognize what is pointed out during the master initiation, and the secret, wisdom, and fourth initiations.
+
+U06 Those of inferior capacity who have received the master initiation should first stabilize their resolve, and then be taught how to practice cultivation using an activity seal. Thus, in the context of the stage of the arisen, the “secret initiation” is the experience of the four joys that are inherent in the four moments, following a master’s instructions on placing the jewel in the secret place. It is called the “secret initiation” because it should not be revealed to yogins who practice conceptual types of meditation. Those of intermediate capacity who receive this initiation should be given instruction on cultivating the samaya seal.
+
+U07 The wisdom initiation is similar. Wisdom is superior knowledge‍—the knowledge that all phenomena are merely mind. The initiation that is given to generate knowledge of this kind is the wisdom-knowledge initiation. This initiation, moreover, is intrinsically related to the confluence of the three subtle channels that have the natures of the imagined, dependent, and perfected modes of consciousness. It consists of an indication of the moments based on the master’s instructions that involve the heart jewel. Because it involves an external seal, this initiation is known as “wisdom-knowledge.” Once initiated with this initiation, those of the highest capacity should be given instruction on the dharma seal, the illusion-like samādhi.
+
+U08 We also have the statement “followed by the fourth in the same way.” There is no difference in meaning between thusness, limit of reality, and the dharmadhātu. Their nature is seen or accomplished through initiation. The phrase the same way expresses thatness, while followed by indicates that this initiation is given immediately after the wisdom-knowledge initiation. The initiation called the fourth initiation follows after the initiation involving an external seal and is dependent on the master’s instructions. It utilizes a yoga free of objective reference to make into one’s focal point the moments that are not divided according to fixed position. The fourth initiation is not merely based on the instructions imparted by the master. If this were the case, how could the Blessed One’s instructions to be “sprinkled and bathed”‍—instructions intended to wash off impurities during initiations‍—come about through verbal instructions alone?
+
+U09 Someone may ask, “Why is the reality that is inherent in the fourth initiation not conveyed by words?” This is a valid question, but it is not possible to express this reality because it is beyond the scope of words, nor could it be understood by a listener. As it is said:
+
+U10 “A listener does not directly perceive / The truth that shines forth from a speaker, / But can see the reflections of the concepts, / Born from the words.
+
+U11 “Who could realize the truth / While constantly overwhelmed with concepts, / Fabricating their cultivation of truth / With hundreds of concepts of their own?”
+
+U12 But surely, if initiation itself were the direct realization of reality and removed every impurity, why would the realization of the great seal not occur at that very moment? It certainly could, but only for those of the highest capacity with ardent diligence. Would someone who does not wish for it see it? No, this reality cannot be seen merely through initiation by those who do not wish for it. As was said by the honored Samayavajra:

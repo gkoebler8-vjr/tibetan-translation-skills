@@ -1,0 +1,56 @@
+## unit 1: rang gi rnam rtog de de rgyas brtags pa 'i de nyid bsgoms pa yis rgyud la rnam rtog 'khrug 'gyur na de nyid rtog pa r ji ltar 'gyur zhes bstan pa yin no
+NEG: 0 (none)
+COMPOUND? rang gi rnam rtog = your thoughts, own thinking (MITRA) · de nyid bsgoms pa = the cultivation of the reality (MITRA) · ji ltar 'gyur = what happens, what becomes, what became (MITRA) · yin no = yes (RY)
+  rang           PRON    VERB-FORM?: rang (pres, Verbinator); rang (fut, Verbinator)
+      MITRA: [noun, pronoun] | 1. own; belonging to oneself, also used as a noun <en: own, your, our> <skt: sva, svaka>
+      JH: own; itself; himself; herself [Skt. sva; ātman; svaka; svayam] {one's own; self; himself; myself; f…
+  gi             PARTICLE GEN (of; 's; marks the preceding phrase as modifier of what follows)
+  rnam rtog      NOUN  
+      MITRA: [noun 100%] | 1. conceptual thought; the act of forming concepts or mental fabrications, also used to denote the quality of be… <en: thoughts, thought, concepts, conceptual> <skt: vikalpa, vikalpay>
+      JH: [Skt. vitarka; vikalpa; kalpanā] {conceptuality; discursiveness; coarse conceptuality; thought; con…
+  de de          NO_POS  (or split: de | de)
+      RY: [JV] exactly that / * [IW] de dang de
+      ML: exactly that [ML]
+  rgyas          VERB    VERB-FORM?: rgya (past, MITRA); rgya (impe, MITRA); sangs rgyas gsang ba (pres, JH)  …
+      MITRA: [noun 54%, verb 37%, adjective 8%] | VERB rgya (intransitive, voluntary): present rgya, rgyas; past rgyas; future rgya, rgyas; imperative rgyas · syntax [Abs. Obl.] (Hackett 2003). | 1. China, the Chinese people, or the Chinese language <en: chinese, china> <skt: cīna> | nominalised: rgya pa
+      JH: verb: extend; fill; spread; increase; further adjective: extensive; broad; wide; full [Skt. vipula;…
+  brtags pa      VERB  
+      MITRA: [verbal noun 77%, noun 21%] | 1. the act of imagining, conceptually constructing, or imputing a quality or identity to something; also used as… <en: imagined, imputed, imputation, imputations> <skt: kalpay, kalpanā>
+      JH: 'dogs btags/brtags thogs [Skt. vitarkita; kalpita; mīmāṃsita] {analyze; investigate; examine; imput…
+  'i             PARTICLE GEN
+  de nyid        NOUN  
+      MITRA: [noun 95%, pronoun 4%] | 1. The ultimate reality, suchness, or true nature of phenomena; often translates tathatā or tattva <en: reality, suchness, nature, thatness> <skt: tattva, tatva>
+      JH: [Skt. tattva; satattva; tathatā] {reality; suchness; principle}
+  bsgoms pa      VERB  
+      MITRA: [verbal noun 78%, noun 21%] | 1. meditation or mental cultivation; the act of developing a spiritual quality or path <en: meditation, cultivation, meditating, cultivated> <skt: bhāvanā, bhāvay>
+      JH: [Skt. bhāvanā; ( √bhū): bhāvayati; bhāva] {meditate; meditatively cultivate}
+  yis            PARTICLE ERG/INSTR
+  rgyud          NOUN    VERB-FORM?: brgyud (pres, MITRA); brgyud (impe, MITRA); rgyud gzhan grub pa zhes bya ba'i rab tu byed pa (fut, JH)  …
+      MITRA: [noun 99%] | 1. a tantra; a scripture of the tantric tradition <en: tantra, tantras> <skt: tantra>
+      JH: continuum; mental continuum; life continuum; tantra [Skt. saṃtāna; saṃtati; tantra; prabandha; jāti…
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  rnam rtog      (see above)
+  'khrug         VERB    VERB-FORM?: 'khrug (pres, MITRA); 'khrug (past, MITRA); 'khrug (futu, MITRA)  …
+      MITRA: [verb 91%, noun 9%] | VERB 'khrug (intransitive, voluntary): present 'khrug; past 'khrug; future 'khrug; imperative 'khrugs · syntax [Abs. Obl.] (Hackett 2003). | 1. to disturb, agitate, or unsettle, especially the mind or a state of being; also used as a noun for such a sta… <en: disturbed, agitat…
+      JH: 'khrug 'khrug 'khrugs 'khrugs [Skt. upāyāsa; kṣobha; vikṣipta] {be disturbed/angry/agitated; fight}
+  'gyur          VERB    VERB-FORM?: 'gyur (pres, MITRA); 'gyur (futu, MITRA); 'gyur (pres, Verbinator)  …
+      MITRA: [verb 98%] | VERB 'gyur (intransitive, involuntary): present 'gyur; past gyur, 'gyur; future 'gyur · syntax [Abs. Obl.] (Goldstein 1991: 130), (Hackett 2003). | 1. to become, come to be, or happen; also used to express the arising of a state or emotion <en: become, became, becomes, becoming> <skt: …
+      JH: 'gyur 'gyurd gyur gyurd [Skt. as; syāt; bhū; bhavati; pariṇāma; (ni√gam): nigacchati; yāti vikṛtiṃ;…
+  na             PARTICLE LOC / COND (in, at; if, when)
+  de nyid        (see above)
+  rtog pa        VERB  
+      MITRA: [noun 92%, verbal noun 6%] | 1. conceptualization; a mental construction, discursive thought, or conceptual representation <en: concepts, conceptual, conceptions, concept> <skt: vitarka, kalpanā>
+      JH: conceptual consciousness; conceptuality; imputation; investigation; conceptual thought; thought [Sk…
+  r              PARTICLE LA-DON (terminative)
+  ji ltar        PARTICLE just as; how
+  'gyur          (see above)
+  zhes           PARTICLE QUOT (thus, saying)
+  bstan pa       VERB  
+      MITRA: [noun 61%, verbal noun 38%] | 1. the teachings, doctrine, or religious dispensation of the Buddha or other masters <en: teachings, teaching, doctrine, law> <skt: śāsana, anuśāsana>
+      JH: [Skt. upadeśa; uddeśa; upadeśikatva; deśanā; deśita; nirdiśati (=kathyamānāyāḥ = nirdeṣṭum); nirdiṣ…
+  yin            NO_POS  VERB-FORM?: yin (pres, MITRA); yin (futu, MITRA); yin (pres, Verbinator)  …
+      MITRA: [verb 95%, noun 5%] | VERB yin: present yin; past —; future yin · syntax [Abs. Abs.] (Hackett 2003). | 1. to be; to exist; to be the case; to be identical to <en: being, copula, identity, yes> <skt: bhū, as> | nominalised: yin pa
+      JH: is; be [Skt. bhava]
+  no             PART  
+      RY: [RY] completing particle; {rdzogs yig} / * [JV] SA nu bo, figure 132 / * [IW] 1) terminative after …
+      ML: [particle indicating the end of a statement] [ML] / SA nu bo, figure 132 [ML]

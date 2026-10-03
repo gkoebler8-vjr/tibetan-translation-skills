@@ -1,0 +1,73 @@
+## unit 1: gal te bzhi pa 'i bdag nyid can gyi de kho na nyid bstan na der ji ltar mi 'gyur zhe na de ni bden mod 'on kyang de kho na nyid ni ngag gi spyod yul ma yin pa 'i phyir brjod pa r nus pa ma yin la thos pa s bsgrub pa r yang mi nus so de yang 'di skad du
+NEG: 3 — ltar mi 'gyur (noun) · yul ma yin · pa ma yin · yang mi nus
+COMPOUND? de kho na nyid bstan = reveal suchness, expound reality (MITRA) · de kho na nyid = reality, suchness, thatness (MITRA) · ngag gi spyod yul = the range, sphere, or domain of linguistic expressi… (MITRA) · ma yin pa'i phyir = not established (MITRA) · bdag nyid can = nature sentient, natured, possessing (MITRA) · ji ltar mi = a human being (MITRA) · brjod par nus = cannot describe, can say, can recount (MITRA) · ma yin = not empty, not perishable, unnecessary (MITRA)
+  gal te         NO_POS
+      MITRA: [particle] | 1. if; suppose; provided that <en: suppose>
+  bzhi pa        ADJ   
+      MITRA: 1. fourth; 4th <en: fourth>
+  'i             PARTICLE GEN
+  bdag nyid      NOUN  
+      MITRA: [noun 88%, pronoun 11%] | 1. reflexive pronoun: himself, herself, themselves, oneself, myself, yourself; also used as a noun for the indiv… <en: oneself>
+  can            PART  
+      JH: English for example six. {T}
+  gyi            PARTICLE GEN
+  de             PARTICLE SEMI-FINAL (or the demonstrative 'that')
+  kho na nyid    NO_POS
+      MITRA: [noun 100%] | 1. ultimate reality, truth, or the true nature of things <en: reality>
+  bstan          VERB    VERB-FORM?: ston (past)  …
+      MITRA: [verb 90%, noun 9%] | VERB ston (transitive, voluntary): present ston; past bstan; future bstan; imperative ston · syntax [Erg. Abs.] (Tournadre & Dorje 2003: 166), (Hackett 2003). | 1. to teach, instruct, or …
+  na             PARTICLE LOC / COND (in, at; if, when)
+  der            PART  
+      MITRA: [determiner 78%, pronoun 11%, adverb 11%] | 1. there; to that place <en: there>
+  ji ltar        PARTICLE just as; how
+  mi             PARTICLE NEG (present/future)
+  'gyur          VERB    VERB-FORM?: 'gyur (pres)  …
+      MITRA: [verb 98%] | VERB 'gyur (intransitive, involuntary): present 'gyur; past gyur, 'gyur; future 'gyur · syntax [Abs. Obl.] (Goldstein 1991: 130), (Hackett 2003). | 1. to become, come to be, or happen; also used t…
+  zhe na         PART  
+      JH: if it is asked; if someone asks; if one adheres to ...{BJ 21.3} [Skt. iti cet] …
+  de             PARTICLE SEMI-FINAL (or the demonstrative 'that')
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  bden           VERB  
+      MITRA: [noun 77%, verb 15%, adjective 8%] | 1. truth; a true statement, principle, or Buddhist truth; also used as an adjective meaning true or genuine, and… <en: truths> | nominalised: bden pa, bden ba
+  mod            VERB  
+      MITRA: [noun 95%, verb 2%, particle 2%] | 1. a moment; an instant; also used to express the immediate occurrence of an action (as soon as) <en: moment>
+  'on kyang      NO_POS
+      JH: however; but; yet; notwithstanding [Skt. api tu-khu; api kho pana] {but on the …
+  de             PARTICLE SEMI-FINAL (or the demonstrative 'that')
+  kho na nyid    (see above)
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  ngag           NOUN  
+      MITRA: [noun 100%] | 1. speech; the faculty of speaking; voice <en: speech>
+  gi             PARTICLE GEN (of; 's; marks the preceding phrase as modifier of what follows)
+  spyod yul      NOUN  
+      MITRA: [noun 100%] | 1. the domain, sphere, or range of activity and influence of a being or state <en: domain>
+  ma yin pa      OTHER 
+      MITRA: [adjective 66%, noun 10%, adverb 9%, verbal noun 9%, verb 7%] | 1. wrong, incorrect, or not in accordance with truth or fact; also used adverbially <en: wrong>
+  'i             PARTICLE GEN
+  phyir          PARTICLE PURPOSE / CAUSE (in order to; because)
+  brjod pa       VERB  
+      MITRA: [verbal noun 74%, noun 22%, verb 3%] | 1. expression; the act of speaking, stating, or expressing something through language, signs, or mental activity <en: expression>
+  r              PARTICLE LA-DON (terminative)
+  nus pa         VERB  
+      MITRA: [noun 81%, verbal noun 15%, verb 3%] | 1. ability, capacity, or competence to perform a specific action or function <en: ability>
+  ma             PARTICLE NEG (past / prohibitive)
+  yin            NO_POS  VERB-FORM?: yin (pres)  …
+      MITRA: [verb 95%, noun 5%] | VERB yin: present yin; past —; future yin · syntax [Abs. Abs.] (Hackett 2003). | 1. to be; to exist; to be the case; to be identical to <en: being> | nominalised: yin pa
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  thos pa        VERB  
+      MITRA: [noun 58%, verbal noun 41%] | 1. the faculty of hearing or the act of listening <en: hearing>
+  s              PART   -> gis
+      JH: Comment: One of five instrumental particles—gis, kyis, gyis, 'is, yis. Also use…
+  bsgrub pa      VERB  
+      MITRA: [verbal noun 51%, noun 48%] | 1. spiritual practice; the act of cultivating a method, discipline, or path of conduct <en: practice>
+  r              PARTICLE LA-DON (terminative)
+  yang           PARTICLE CONC / also
+  mi             PARTICLE NEG (present/future)
+  nus            VERB    VERB-FORM?: nus (pres)  …
+      MITRA: [verb 95%, noun 5%] | VERB nus (transitive, involuntary): present nus; past nus; future nus · syntax [Erg. Abs.] (Hackett 2003). | 1. to be able, can, or be capable of doing something <en: able> | nominalised:…
+  so             PARTICLE FINAL
+  de yang        ADV     (or split: de | yang)
+      RY: [IW] furthermore, moreover, namely, that is to say, / * [RY] even so, / * [IW] …
+  'di skad       NO_POS
+      MITRA: [adverb 100%] | 1. thus; in this way <en: thus>
+  du             PARTICLE LA-DON

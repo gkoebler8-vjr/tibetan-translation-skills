@@ -1,0 +1,48 @@
+## unit 1: nges 'byung dka' ba spyod pa dang byang chub snying po r gshegs pa dang bdud sde 'joms dang rdzogs pa r ni byang chub chos kyi 'khor lo dang
+NEG: 0 (none)
+COMPOUND? dka' ba spyod pa = practicing austerities, ascetic practices, practiced… (MITRA) · byang chub snying po = bodhimaṇḍa, seat, bodhgayā (MITRA) · bdud sde 'joms = defeat demons (MITRA) · byang chub chos = enlightened qualities (MITRA)
+  nges 'byung    NOUN  
+      MITRA: [noun 98%] | 1. renunciation; the act of leaving home life or worldly existence to seek enlightenment, also used to denote th… <en: renunciation, determination, definite emergence, renounced> <skt: niryāṇa, naiṣkramya>
+      JH: 'byung 'byung byung byung [Skt. niḥsaraṇa; niryāyatī; niryāṇa; niryāta; nairyāṇika; naiṣkramya] {[d…
+  dka' ba        VERB  
+      MITRA: [noun 63%, adjective 36%] | 1. Difficult; hard to perform, achieve, fathom, or understand. Also used as a noun for a challenging task or har… <en: difficult, hardships, hardship, difficulties> <skt: duṣkara, kaṣṭa>
+      JH: difficult; hard; hardship [Skt. duṣkara; dhandaka; duḥkha] {hard to understand; hard to express; to…
+  spyod pa       VERB  
+      MITRA: [noun 59%, verbal noun 36%, verb 5%] | 1. conduct; behavior; way of acting <en: conduct, behavior> <skt: caryā, car>
+      JH: [Skt. caryā; (√car): carati; samudācarati; samudācārāt; avacara; caramāṇa; caran; caraṇa(m); carati…
+  dang           PARTICLE COMIT / COORD (and; with; after some verbs: from)
+  byang chub     NOUN  
+      MITRA: [noun 100%] | 1. awakening, enlightenment, or the state of buddhahood <en: awakening, enlightenment, enlightenm, buddhahood> <skt: bodhi, bodha>
+      JH: [purified-realized]; enlightenment [Skt. bodhi; bodha] {mngon par byang chub pa}
+  snying po      NOUN  
+      MITRA: [noun 99%] | 1. essence, quintessence, or the most essential part; also used to describe an essential being <en: essence, essential, quintessence, quintessential> <skt: sāra>
+      JH: essence; {T} matrix [Skt. garbha (=madhya); sāra; asāratā; varti; maṇḍa] {enshrining; womb; embryo;…
+  r              PARTICLE LA-DON (terminative)
+  gshegs pa      VERB  
+      MITRA: [verbal noun 77%, noun 15%, verb 7%] | 1. the tathāgata; a Buddha <en: tathāgatas, thus-gone, buddhas, gone> <skt: tathāgata>
+      JH: / gshegs/ gshegs/ gshegs/ [Skt. gamana; mthar thug par gshegs pa = niṣṭhā-gamana] {go; go away; dep…
+  dang           PARTICLE COMIT / COORD (and; with; after some verbs: from)
+  bdud           NOUN  
+      MITRA: [noun 100%] | 1. the demon māra; a personification of death, desire, and the obstacles to enlightenment <en: māra, māras> <skt: māra, sarvamāra>
+      JH: Demon [Skt. māra]
+  sde            NOUN  
+      MITRA: [noun 100%] | 1. a class, category, or group of beings or things <en: classes, class, group> <skt: nikāya, varga>
+      JH: sde is not a continuative! [de te ste are the lhag bcas gsum]
+  'joms          NO_POS  VERB-FORM?: 'joms (pres, MITRA); 'joms (pres, Verbinator)
+      MITRA: [verb 98%, noun 2%] | VERB 'joms (transitive, voluntary): present 'joms; past bcom, bcoms; future gzhom, zhom; imperative choms, chom · syntax [Erg. Abs.] (Hackett 2003). | 1. to destroy, annihilate, or kill; also used for shattering or harming <en: destroy, destroys, destroyed> <skt: han, pramath>…
+      JH: 'joms bcom choms [Skt. hāna; vidhamitva; (upa √han): upahanti] {to destroy; suppress; overcome}
+  dang           PARTICLE COMIT / COORD (and; with; after some verbs: from)
+  rdzogs pa      VERB  
+      MITRA: [verbal noun 53%, adjective 33%, noun 7%, verb 6%] | 1. perfection; the state of being perfect, complete, or fully developed <en: perfection, complete, perfected, perfect> <skt: niṣpad, niṣpatti>
+      JH: [Skt. pūrṇa; pratipūrṇa; paripūraṇa; samāpti; niṣpanna; saṃbharaṇa] {complete; end; finish; perfect…
+  r              PARTICLE LA-DON (terminative)  (or fused: rdzogs par — completely; fully; perfectly, JH)
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  byang chub     (see above)
+  chos           NOUN    VERB-FORM?: 'cha' (impe, MITRA); 'chos (impe, MITRA); chos rgyal (fut, JH)  …
+      MITRA: [noun 100%] | 1. phenomenon; any existing thing, object of experience, or principle of reality <en: phenomena, things, phenomenon> <skt: dharma, dharman>
+      JH: phenomenon; religion; property; quality; doctrine; qualificand; practice; way; attribute; phenomena…
+  kyi            PARTICLE GEN
+  'khor lo       NOUN  
+      MITRA: [noun 100%] | 1. wheel, disk, or circular object <en: wheel, wheels> <skt: cakra, cakraka>
+      JH: wheel; channel wheel [Skt. cakra]
+  dang           PARTICLE COMIT / COORD (and; with; after some verbs: from)

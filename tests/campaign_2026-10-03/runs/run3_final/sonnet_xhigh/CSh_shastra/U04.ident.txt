@@ -1,0 +1,27 @@
+query (14 syllables): slob dpon gsang ba shes rab dang/ de ltar de bzhin bzhi pa yang/
+157 hits in 91 works (semantic search, Tibetan sources)
+VERBATIM MATCH: yes, canonical — 31 Kangyur/Tengyur hit(s) share 14 consecutive syllables; best: rdo rje'i tshig ces bya ba/ (vajrapada-nāma) [Toh 2255 (Tengyur)] BO_T02_D2255:177b-53
+
+CANONICAL / SOURCE CANDIDATES
+- rab tu gsal ba'i kha sbyor gyi rgya cher 'grel pa zhes bya ba/ (suviś…  [Toh 1190 (Tengyur)]  BO_T02_D1190:163a-1  (4 hits; verbatim run 14)
+    do// dbang bstan pa ni/ slob dpon gsang ba shes rab dang // de ltar de bzhin bzhi pa yang // dbang ni bzhi yi grangs kyis ni// dga' ba la so
+- rdo rje'i tshig ces bya ba/ (vajrapada-nāma)  [Toh 2255 (Tengyur)]  BO_T02_D2255:177b-53  (2 hits; verbatim run 14)
+    brjod med gzugs// shes rab bcu drug lon pa la// lag pa gnyis kyis dam 'khyud nas// rdo rje dril bu mnyam sbyor bas// slob dpon dbang du bzhe
+- dgyes pa rdo rje'i dka' 'grel rnal 'byor rin po che'i phreng ba zhes …  [Toh 1183 (Tengyur)]  BO_T02_D1183:6a-21  (2 hits; verbatim run 14)
+    ir dbang bskur zhes byar brjod// ces gsungs pa yin no// dbang bskur ba bzhi po de nyid kyi rab tu dbye ba brjod pa'i phyir/ 'di ltar yang / 
+- dbang gi bya ba mdor bsdus pa/ (saṁkṣiptasekaprakriyā)  [Toh 2244 (Tengyur)]  BO_T02_D2244:132b-31  (1 hit; verbatim run 14)
+    lob ma de ni rjes su gzung // zhes pa'o// ji skad du/ bcom ldan 'das kyis/ dbang bskur ba ni rnam pa gsum// rgyud 'di ru ni rab tu grags// s
+- kye'i rdo rje mkha' 'gro ma dra ba'i sdom pa'i rgyud kyi rgyal po  [Toh 418 (Kangyur)]  BO_K12_D0418:17a-11  (2 hits; verbatim run 7)
+    / slob dpon gsang ba shes rab dang // bzhi bde yang de bzhin no// dbang ni bzhi yi grangs kyis ni// dga' ba la sogs rim zhes bya// dgod pa d
+
+QUOTED IN / COMMENTED ON BY (53 other works; first 8):
+- gsar rnying spyir 'gro ba'i dbang bshad bye brag so so…  BO_NK041_(di)035:404  [Nyingma Kama; run 8]
+- bla ma'i thugs sgrub rdo rje drag rtsal las zhal gdams…  BO_TSD_BO_DC_KN-LYN-01:2439  [Tsadra series; run 8]
+- sdom gsum rab dbye'i spyi don yid bzhin nor bu zhes by…  BO_S10_GRAM028:1518  [Sungbum/series; run 7]
+- dpal gsang ba 'dus pa'i dkyil 'khor 'khor lo sgrub pa'…  BO_S10_AMAI102:2162  [Sungbum/series; run 7]
+- sdom gsum rab dbye'i spyi don yid bzhin nor bu zhes by…  BO_TSD_BO_DC_IBA-GR-21:1512  [Tsadra series; run 7]
+- dpal kye rdo rje'i dbang gi chu bo chen mo'i rnam bsha…  BO_S10_GRAM069:6853  [Sungbum/series; run 7]
+- T17MW1PD95844_0075  BO_T17_MW1PD95844_0075:2204  [Tengyur; run 7]
+- dpal kyai rdo rje'i zhes bya'i rgyud kyi rgyal po bzhu…  BO_S10_GTSA005:1634  [Sungbum/series; run 7]
+
+Next: dm.py parallels <segmentnr> for variant readings; dm.py segment <segmentnr> --context for the surrounding text (e.g. a commentary's gloss of the line).

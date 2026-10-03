@@ -1,0 +1,77 @@
+## unit 1: yang na mthing ga ni chos kyi dbyings rnam pa r dag pa 'i ye shes so dkar po ni me long lta bu 'i ye shes so ser po ni mnyam pa nyid kyi ye shes so dmar po ni so so r rtog pa 'i ye shes so ljang gu ni bya ba grub pa 'i ye shes so
+NEG: 0 (none)
+COMPOUND? rnam par dag pa = purity, pure, immaculate (MITRA) · me long lta bu = mirrorlike, mirror-like, mirror like (MITRA) · so sor rtog pa = examination, investigation, analysis (MITRA) · bya ba grub pa = all-accomplishing, all-accomplishing activity, allacco… (MITRA) · chos kyi dbyings = dharmadhātu, dharma realm, expanse (MITRA)
+  yang na        NO_POS  (or split: yang | na)
+      RY: [IW] [either...]or, or else, and again / * [RY] either, or, or else; alternatively; moreover/ (once…
+      Mvy: atha vā
+  mthing ga      ADJ   
+      MITRA: [adjective 60%, noun 40%] | 1. blue, dark blue, or indigo; also used as a noun for the color <en: blue>
+      RY: [RY] deep blue, azure / * [JV] a bird of deep blue color blue / * [IW] blue TSE
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  chos           NOUN    VERB-FORM?: 'cha' (impe, MITRA); 'chos (impe, MITRA); chos rgyal (fut, JH)  …
+      MITRA: [noun 100%] | 1. phenomenon; any existing thing, object of experience, or principle of reality <en: phenomena>
+      JH: phenomenon; religion; property; quality; doctrine; qualificand; practice; way; attribute; phenomena…
+  kyi            PARTICLE GEN
+  dbyings        NOUN  
+      MITRA: [noun 100%] | 1. space, expanse, or the open void <en: space>
+      JH: expanse; sphere; element; space; basic element [Skt. dhātu] {world}
+  rnam pa        NOUN  
+      MITRA: [noun 94%, adverb 6%] | 1. type, kind, variety, or category <en: types>
+      JH: kind; type; aspect; form [Skt. ākāra; prakāra; ākāratā; ākṛti; bheda (=dharma-bheda); gati; vidhi; …
+  r              PARTICLE LA-DON (terminative)
+  dag pa         VERB  
+      MITRA: [adjective 71%, noun 17%, verbal noun 6%, adverb 5%] | 1. pure; stainless; free from defilements or impurities <en: pure>
+      JH: lacking; free of; devoid of; pure of; clear; correct [Skt. śuddha; pariśuddha; śuddhaka; śuddhi; vi…
+  'i             PARTICLE GEN
+  ye shes        NOUN  
+      MITRA: [noun 100%] | 1. primordial wisdom, gnosis, or innate awareness; also used to denote consciousness or cognitive faculty <en: wisdom>
+      JH: [perfectly-know]; exalted wisdom; exalted wisdom consciousness; wisdom; {T} primordial wisdom [Skt.…
+  so             PARTICLE FINAL
+  dkar po        ADJ   
+      MITRA: [adjective 92%, noun 5%, adverb 3%] | 1. white; also used as a proper name <en: white>
+      JH: white [one of the four primary colors (rtsa ba'i kha dog)]; wholesome; pure [Skt. śukla; avadāta; s…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  me long        NOUN  
+      MITRA: [noun 100%] | 1. mirror; looking glass <en: mirror>
+      JH: mirror [Skt. ādarśa]
+  lta bu         PARTICLE SIMILE (like, such as)
+  'i             PARTICLE GEN
+  ye shes        (see above)
+  so             PARTICLE FINAL
+  ser po         ADJ   
+      MITRA: [adjective 82%, noun 13%, adverb 5%] | 1. yellow; yellowish <en: yellow>
+      JH: yellow [Skt. pīta] {one of the four primary colors (rtsa ba'i kha dog); the others are: white (dkar…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  mnyam pa nyid  NOUN  
+      MITRA: [noun 100%] | 1. sameness, equality, or the state of being identical; also used to denote the identity of things <en: sameness>
+      JH: equality; sameness; similarity [Skt. samatā; samatva; samānatā] {self-identity}
+  kyi            PARTICLE GEN
+  ye shes        (see above)
+  so             PARTICLE FINAL
+  dmar po        ADJ   
+      MITRA: [adjective 90%, noun 5%, adverb 4%] | 1. red; crimson; reddish <en: red>
+      JH: red [Skt. lohita; rakta] {one of the four primary colors (rtsa ba'i kha dog); the others are: white…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  so so          PRON  
+      MITRA: [adverb 62%, determiner 33%] | 1. each; individually; respectively; per <en: each>
+      JH: individual; diverse; discrete; separate; different [Skt. pṛthak; pratyekam] {by oneself; onself; si…
+  r              PARTICLE LA-DON (terminative)  (or fused: so sor — individual(ly); ordinary; discrete; sep…, JH)
+  rtog pa        VERB  
+      MITRA: [noun 92%, verbal noun 6%] | 1. conceptualization; a mental construction, discursive thought, or conceptual representation <en: concepts>
+      JH: conceptual consciousness; conceptuality; imputation; investigation; conceptual thought; thought [Sk…
+  'i             PARTICLE GEN
+  ye shes        (see above)
+  so             PARTICLE FINAL
+  ljang gu       NO_POS
+      MITRA: [adjective 82%, noun 18%] | 1. green or dark-green; also used as a noun for the color green <en: green>
+      RY: [IW] green / * [RY] green. Syn {lcang khu} / * [JV] green, light green
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  bya ba         VERB  
+      MITRA: [noun 86%, verbal noun 13%] | 1. action, activity, or act; also used as a verbal noun <en: action>
+      JH: / byed/ byas/ byos/ [Skt. kriyā; kartavya; kṛtya; kartavyatā; kārya; karaṇīya; vyāpāra; vyāpāra-kar…
+  grub pa        VERB  
+      MITRA: [verbal noun 64%, noun 30%, adjective 3%, verb 2%] | 1. the state of being established, proven, or logically demonstrated; also used as a noun for a logical proof <en: established>
+      JH: 'grub 'grub 'grubs/grub grubs [Skt. siddha; siddhi; samupārjita; niṣpatti; niṣpanna] {be establishe…
+  'i             PARTICLE GEN
+  ye shes        (see above)
+  so             PARTICLE FINAL

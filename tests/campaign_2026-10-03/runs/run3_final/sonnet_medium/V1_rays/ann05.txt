@@ -1,0 +1,73 @@
+## unit 1: mdzad pa bcu gnyis su bstan te zhi bde dam pa 'i chos kyi cha r gyis rigs yang dag pa r sad pa 'i gdul bya rnams kyi rgyud brlan te grol ba r mdzad pa 'i bde ba r gshegs pa rnams kyi gtso bo shakya seng ge la lus ngag yid gsum gus pa s 'dud do
+NEG: 0 (none)
+COMPOUND? dam pa'i chos kyi char = dharma rain (MITRA) · lus ngag yid gsum gus = respectful body speech, devoted body speech, re… (MITRA) · mdzad pa bcu gnyis = twelve deeds, twelve acts, twelve actions (MITRA) · grol bar mdzad pa = liberating, deliverer, liberator (MITRA) · bde bar gshegs pa = sugata, well-gone, bliss gone (MITRA) · shakya seng ge = shakyamuni, lion śākyamuni (MITRA) · 'dud do = to extend (MITRA)
+  mdzad pa       VERB  
+      MITRA: [noun 72%, verbal noun 25%, verb 2%] | 1. deed, act, or action; also used as a verbal noun for the performance of an action <en: deeds>
+  bcu gnyis      NO_POS
+      JH: twelve [Skt. dvādaśa]
+  su             PARTICLE LA-DON
+  bstan          VERB    VERB-FORM?: ston (past)  …
+      MITRA: [verb 90%, noun 9%] | VERB ston (transitive, voluntary): present ston; past bstan; future bstan; imperative ston · syntax [Erg. Abs.] (Tournadre & Dorje 2003: 166), (Hackett 2003). | 1. to teach, instruct, or expound the Dharma; also used as a noun for the resulting doctrine or body of instruct… <e…
+  te             PARTICLE SEMI-FINAL
+  zhi bde        OTHER 
+      MITRA: [noun 99%] | 1. peace, tranquility, or serenity of mind; also used to describe a peaceful state or quality <en: peace>
+  dam pa         VERB  
+      MITRA: [adjective 96%, adverb 2%] | 1. supreme, highest, or ultimate; also used to denote the final or definitive <en: sublime>
+  'i             PARTICLE GEN
+  chos           NOUN    VERB-FORM?: 'cha' (impe)  …
+      MITRA: [noun 100%] | 1. phenomenon; any existing thing, object of experience, or principle of reality <en: phenomena>
+  kyi            PARTICLE GEN
+  cha            NOUN    VERB-FORM?: cha (fut)
+      MITRA: [noun 100%] | 1. a part, portion, fraction, or constituent of a whole <en: parts>
+  r              PARTICLE LA-DON (terminative)  (or fused: char — rain, shower, rainfall, MITRA)
+  gyis           PARTICLE ERG/INSTR
+  rigs           NOUN    VERB-FORM?: rigs (pres)  …
+      MITRA: [noun 89%, verb 11%] | VERB rigs (intransitive, involuntary): present rigs; past rigs; future rigs · syntax [Abs. Obl.] (Hackett 2003). | 1. family, lineage, descent, or clan; also used to denote caste or social class <en: family> | nominalised: rigs pa, rigs ba
+  yang dag pa    ADJ   
+      MITRA: [adjective 91%, noun 5%, adverb 4%] | 1. Right, correct, or proper; also used adverbially to mean correctly or perfectly. <en: right>
+  r              PARTICLE LA-DON (terminative)  (or fused: yang dag par — correctly, correct, properly, MITRA)
+  sad pa         VERB  
+      MITRA: [verbal noun 70%, noun 22%, verb 7%] | 1. the act of waking from sleep or the state of being awake; also used as a verb <en: waking>
+  'i             PARTICLE GEN
+  gdul bya       NOUN  
+      MITRA: [noun 100%] | 1. disciple, student, or follower of a teacher <en: disciples>
+  rnams          PARTICLE PLURAL
+  kyi            PARTICLE GEN
+  rgyud          NOUN    VERB-FORM?: brgyud (pres)  …
+      MITRA: [noun 99%] | 1. a tantra; a scripture of the tantric tradition <en: tantra>
+  brlan          NO_POS  VERB-FORM?: rlan (futu)  …
+      MITRA: [noun 61%, verb 34%, adjective 5%] | VERB rlan: present rlan; past —; future brlan | 1. moisture, humidity, or wetness; often used metaphorically for craving as the nourishing agent for karmic seeds <en: moisture> | nominalised: brlan pa, rlan pa
+  te             PARTICLE SEMI-FINAL
+  grol ba        VERB  
+      MITRA: [verbal noun 50%, noun 40%, adjective 6%, verb 5%] | 1. liberation, freedom, or release from bondage and suffering; also used attributively as 'liberated' or 'free' <en: liberation>
+  r              PARTICLE LA-DON (terminative)
+  mdzad pa       (see above)
+  'i             PARTICLE GEN
+  bde ba         VERB  
+      MITRA: [noun 90%, adverb 7%, adjective 3%] | 1. happiness, joy, or comfort; also used adverbially to mean happily or comfortably <en: happiness>
+  r              PARTICLE LA-DON (terminative)  (or fused: bde bar — happily; blissfully, JH)
+  gshegs pa      VERB  
+      MITRA: [verbal noun 77%, noun 15%, verb 7%] | 1. the tathāgata; a Buddha <en: tathāgatas>
+  rnams          PARTICLE PLURAL
+  kyi            PARTICLE GEN
+  gtso bo        ADJ   
+      MITRA: [noun 89%, adjective 10%] | 1. Main, principal, or primary; the most important one. <en: main>
+  shakya         PROPN 
+      MITRA: [noun 100%] | 1. A member of the Śākya clan or tribe. <en: śākya>
+  seng ge        NOUN  
+      MITRA: [noun 100%] | 1. lion; also used for lioness or attributively as 'lion-like' to describe the qualities of a great being <en: lion>
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  lus ngag       NOUN  
+      MITRA: [noun 100%] | 1. body and speech <en: body speech>
+  yid            NOUN  
+      MITRA: [noun 100%] | 1. mind; consciousness; the mental faculty <en: mind>
+  gsum           NUM   
+      MITRA: 1. three; threefold, triple <en: three>
+  gus pa         VERB  
+      MITRA: [noun 95%, verbal noun 3%] | 1. respect, reverence, or veneration; also used to denote humility or a respectful state of being <en: respect>
+  s              PART   -> gis
+      JH: Comment: One of five instrumental particles—gis, kyis, gyis, 'is, yis. Also used adverbially.
+  'dud           NO_POS  VERB-FORM?: 'dud (pres)  …
+      MITRA: [verb 99%] | VERB 'dud (transitive, voluntary): present 'dud; past btud; future btud, 'thud, gdud; imperative 'dud, thud · syntax [Erg. Obl.] (Hackett 2003). | 1. to bow, prostrate, or pay homage; to offer obeisance <en: bow> | nominalised: 'dud pa, btud pa
+  do             PART    VERB-FORM?: do (pres)  …
+      MITRA: [determiner, numeral] | 1. two; a pair <en: two>

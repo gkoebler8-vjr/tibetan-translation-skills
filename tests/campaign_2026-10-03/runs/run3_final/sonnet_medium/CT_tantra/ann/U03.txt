@@ -1,0 +1,53 @@
+## unit 1: de nas bcom ldan 'das mas gsol pa lha yi rnam pa r dag pa gang 'dren pa bdag ni nyan pa r 'tshal sngon du gsungs nyid dkyil 'khor rnams gtso bo bdag la rnam dag gsungs de nas bcom ldan 'das kyis bka' stsal pa
+NEG: 0 (none)
+COMPOUND? bcom ldan 'das ma = blessed, goddess, bhagavatī (MITRA) · lha yi rnam pa = divine form (MITRA) · 'dren pa bdag = guide i, leader i (MITRA) · nyan par 'tshal = please listen (MITRA) · sngon du gsungs = previously described, described above, described befo… (MITRA) · bka' stsal pa = subhūti said, subhūti continued, declared ānanda (MITRA)
+  de nas         PARTICLE then, after that
+  bcom ldan 'das NOUN  
+      MITRA: [noun 100%] | 1. The Blessed One; the Lord; the Buddha, translating the Sanskrit bhagavān. <en: blessed>
+  mas            OTHER 
+      MITRA: [noun 94%, particle 4%] | 1. mother; also used as a term for the biological or spiritual progenitor <en: mother>
+  gsol pa        VERB  
+      MITRA: [verb 89%, verbal noun 11%] | 1. to say, speak, or declare (honorific); also used as a verbal noun <en: said>
+  lha            NOUN    VERB-FORM?: lha (pres)
+      MITRA: [noun 100%] | 1. god, deity, or celestial being; also used attributively as 'divine' or 'heavenly' <en: gods>
+  yi             PARTICLE GEN
+  rnam pa        NOUN  
+      MITRA: [noun 94%, adverb 6%] | 1. type, kind, variety, or category <en: types>
+  r              PARTICLE LA-DON (terminative)
+  dag pa         VERB  
+      MITRA: [adjective 71%, noun 17%, verbal noun 6%, adverb 5%] | 1. pure; stainless; free from defilements or impurities <en: pure>
+  gang           PARTICLE which; whoever; what
+  'dren pa       VERB  
+      MITRA: [noun 95%, verbal noun 4%] | 1. guide, leader, or spiritual teacher; also used as a verbal noun for the act of leading or guiding <en: guide>
+  bdag           PRON    VERB-FORM?: bdag nyid che (fut)  …
+      MITRA: 1. I, me, my, mine; we, us <en: me>
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  nyan pa        VERB  
+      MITRA: [verbal noun 76%, noun 22%] | 1. the act of listening or hearing, especially to the Dharma as part of study <en: listening>
+  r              PARTICLE LA-DON (terminative)
+  'tshal         VERB    VERB-FORM?: 'tshal (pres)  …
+      MITRA: [verb 100%] | VERB 'tshal (transitive, voluntary): present 'tshal; past btsal, 'tshal; future 'tshal, btsal; imperative 'tshol · syntax [Erg. Abs.] (Hackett 2003). | 1. to seek, search for, or look for <en: seek> | nominalised: 'tshal ba, btsal ba, 'tshal pa
+  sngon          ADV   
+      MITRA: [noun 61%, adverb 38%] | 1. the past; former times; previously <en: past>
+  du             PARTICLE LA-DON
+  gsungs         VERB    VERB-FORM?: gsung (past)  …
+      MITRA: [verb 80%, noun 20%] | VERB gsung (transitive, voluntary): present gsung; past gsungs; future gsung; imperative gsung, gsungs · syntax [Erg. Obl. Abs.] (Tournadre & Dorje 2003: 210). [Erg. Abs.] (Hackett 2003). | 1. to say, state, or utter; also used as a noun for speech, voice, or the faculty of s…
+  nyid           DET     VERB-FORM?: bdag nyid che (pres)  …
+      MITRA: [determiner, pronoun] | 1. reflexive or emphatic pronoun referring back to the subject; himself, yourself, myself, itself <en: himself>
+  dkyil 'khor    NOUN  
+      MITRA: [noun 100%] | 1. mandala; a sacred diagram, cosmic representation, or consecrated ritual space <en: mandala>
+  rnams          PARTICLE PLURAL
+  gtso bo        ADJ   
+      MITRA: [noun 89%, adjective 10%] | 1. Main, principal, or primary; the most important one. <en: main>
+  bdag           (see above)
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  rnam dag       ADJ   
+      MITRA: [adjective 71%, noun 29%] | 1. pure, stainless, or immaculate; also used as a noun for the state of purity <en: pure>
+  gsungs         (see above)
+  de nas         PARTICLE then, after that
+  bcom ldan 'das (see above)
+  kyis           PARTICLE ERG/INSTR
+  bka'           NOUN  
+      MITRA: [noun 100%] | 1. the words, teachings, or scriptures of a Buddha or enlightened being <en: words>
+  stsal pa       VERB  
+      MITRA: [verb 53%, verbal noun 47%] | 1. to say, speak, or ask; also used as a verbal noun for instructing or commanding <en: asked>

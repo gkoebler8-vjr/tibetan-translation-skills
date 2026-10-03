@@ -1,0 +1,60 @@
+## unit 1: de yang rgyud bla ma las thugs rje chen po s 'jig rten mkhyen 'jig rten kun la gzigs nas ni chos kyi sku las ma g.yos pa r sprul pa 'i rang bzhin sna tshogs kyis
+NEG: 1 — bla ma las (noun) · las ma g.yos
+COMPOUND? thugs rje chen po = great compassion, great compassionate, supreme comp… (MITRA) · sprul pa'i rang bzhin = manifestations (MITRA) · 'jig rten mkhyen = all worlds, world-knowers (MITRA) · 'jig rten kun = entire world, whole world, all worlds (MITRA) · chos kyi sku = dharmakāya, dharma body, dharma-kaya (MITRA) · ma g.yos pa = unwavering, undisturbed (MITRA)
+  de yang        ADV     (or split: de | yang)
+      RY: [IW] furthermore, moreover, namely, that is to say, / * [RY] even so, / * [IW] furthermore, moreove…
+      ML: furthermore, that is, moreover, this also, or that too, he also, namely, to wit, in this regard, in…
+  rgyud bla ma   PROPN 
+      MITRA: [noun 98%] | 1. the Uttaratantra-śāstra (a Mahāyāna treatise on Buddha-nature) <en: uttaratantra, sublime continuum>
+      JH: / theg pa chen po rgyud bla ma'i bstan bcos [Skt. mahāyānottaratantraśāstra; uttaratantra] {[Maitre…
+  las            PARTICLE ABL (from, out of; than; after a title: 'from the …')
+  thugs rje      NOUN  
+      MITRA: [noun 100%] | 1. compassion, kindness, or mercy; also used to refer to a compassionate being <en: compassion, compassionate> <skt: karuṇā>
+      JH: compassion [Skt. karuṇā; mahākaruṇā; (√karuṇāya}: karuṇāyate; kṛpā] {mercy; great compassion}
+  chen po        ADJ   
+      MITRA: [adjective 100%] | 1. great; large; big; huge <en: great, large> <skt: mahat>
+      JH: great; large; big; great one [Skt. mahā; mahat; mahattā; mahattva; mahatī; adhimātra; adhimātratā; …
+  s              PART   -> gis
+      JH: Comment: One of five instrumental particles—gis, kyis, gyis, 'is, yis. Also used adverbially.
+      RY: [RY] (verb) + gis - though/ while. Syn {kyis} [used after final {ga} and {nga}. 2) ! [imperative] /…
+  'jig rten      NOUN  
+      MITRA: [noun 100%] | 1. the world, the universe, or the cosmos <en: world, worlds> <skt: loka>
+      JH: [disintegrating-support]; the transient world; world; people [Skt. loka; laukika; laukya; lokadhātu…
+  mkhyen         VERB    VERB-FORM?: mkhyen (pres, MITRA); mkhyen (past, MITRA); mkhyen (futu, MITRA)  …
+      MITRA: [verb 90%, noun 10%] | VERB mkhyen (transitive, voluntary): present mkhyen; past mkhyen; future mkhyen; imperative mkhyen · syntax [Erg. Abs.] (Tournadre & Dorje 2003: 191), (Hackett 2003). | 1. to know, understand, or be aware of <en: know, understands> <skt: jñā> | nominalised: mkhyen pa
+      JH: [Skt. jānitā; jñāna; jñāto; buddha; boddhṛ; vid] {exalted wisdom; know; wisdom (hon.); knowledge; c…
+  'jig rten      (see above)
+  kun            DET   
+      MITRA: [determiner 92%, adverb 7%] | 1. all; every; whole; entire <en: everyone, every> <skt: sarva>
+      JH: all; complete; entire; whole; total; entirety; thorough [Skt. sarva; akhila; kṛtsna; samagra; mātra…
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  gzigs          VERB    VERB-FORM?: gzigs (pres, MITRA); gzigs (past, MITRA); gzigs (futu, MITRA)  …
+      MITRA: [verb 99%] | VERB gzigs (transitive, voluntary): present gzigs; past gzigs; future gzigs; imperative gzigs · syntax [Erg. Obl.] (Tournadre & Dorje 2003: 159). | 1. to see; to perceive visually or mentally; also used to mean to realize or discern the truth <en: see, saw> <skt: dṛś> | nominalised: gz…
+      JH: see (hon.); perceive; realize; to buy(hon.) [Skt. dṛṣṭa; (abhy-ud √īkṣ): abhyudīkṣate; (√paś): paśy…
+  nas            PARTICLE ABL / SEQ (from; having done, then)
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  chos           NOUN    VERB-FORM?: 'cha' (impe, MITRA); 'chos (impe, MITRA); chos rgyal (fut, JH)  …
+      MITRA: [noun 100%] | 1. phenomenon; any existing thing, object of experience, or principle of reality <en: phenomena, things> <skt: dharma>
+      JH: phenomenon; religion; property; quality; doctrine; qualificand; practice; way; attribute; phenomena…
+  kyi            PARTICLE GEN
+  sku            NOUN  
+      MITRA: [noun 100%] | 1. body; physical form <en: body, bodies> <skt: kāya>
+      JH: body (hon.); image; statue [Skt. kāya; mūrti; tanus; ātmā-bhāva; āśraya; gātra; gātratā; gātratva; …
+  las            PARTICLE ABL (from, out of; than; after a title: 'from the …')
+  ma             PARTICLE NEG (past / prohibitive)
+      (tibdict split: botok had "las ma"; read as las + ma NEG)
+  g.yos pa       VERB  
+      MITRA: [verbal noun 69%, noun 26%, verb 5%] | 1. trembling, shaking, or quaking, especially of the earth; often occurs as sa g.yos pa for earthquake <en: trembling, quaking> <skt: pṛthivīcāla>
+      84000: •Moved (—) — An area in Kuru. [Toh 287, The Application of Mindfulness of the Sacred Dharma]
+  r              PARTICLE LA-DON (terminative)
+  sprul pa       VERB  
+      MITRA: [noun 61%, verbal noun 39%] | 1. an emanation, manifestation, or incarnation of a buddha or bodhisattva; also the act of emanating or transfor… <en: emanation, emanations> <skt: nirmita>
+      JH: verb: to send forth an emanation; emanate. noun: emanation [Skt. nirmāṇa; nirmita; nirmitaka; nairm…
+  'i             PARTICLE GEN
+  rang bzhin     NOUN  
+      MITRA: [noun 100%] | 1. nature, essence, or intrinsic characteristic; also used to denote the form or manifestation of a thing <en: nature, essence> <skt: svabhāva>
+      JH: nature; own-being; inherent existence; exist inherently{BJ 20.3}; fundamental nature; inherent natu…
+  sna tshogs     DET   
+      MITRA: [adjective 100%] | 1. various, diverse, or of many kinds; also used to denote a myriad or countless number <en: various, variety> <skt: nānā>
+      JH: [various-collection]; the varieties; variegated; various [Skt. nānā; nānātva; citra; vicitra; vaici…
+  kyis           PARTICLE ERG/INSTR

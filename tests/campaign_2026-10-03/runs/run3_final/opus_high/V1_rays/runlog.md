@@ -1,0 +1,38 @@
+# runlog rays (opus_high V1)
+- start: 2026-10-03 20:09:57
+- model/effort: Claude Opus 5.5, effort setting not maximum (workflow says "opus_high"); proceeding autonomously outside the calibrated setting.
+- ref: Skill tool tibetan-translate (served copy) — before first unit
+- ref: ~/.claude/skills/tibetan-translate/SKILL.md (on disk, identical to served copy) — before first unit
+- ref: reference/english.md — before first unit
+- ref: reference/analysis.md — before first unit (first construal of session)
+- ref: reference/prose.md — before first unit (first prose unit)
+- ref: reference/modes.md — before first unit (once per project, seasoned practitioner column)
+- tibdict annotate U01 (20:10)
+- tibdict annotate U02 (20:10)
+- tibdict annotate U03 (20:10)
+- tibdict annotate U04 (20:10)
+- tibdict annotate U05 (20:10)
+- dm.py identify U06-U07 (first 6 padas of the citation) (20:11)
+- ref: Skill tool tibetan-verse (served copy; on-disk SKILL.md spot-checked, same) — later (before verse units U06-U09)
+- tibdict annotate U06 (20:11)
+- tibdict annotate U07 (20:11)
+- tibdict annotate U08 (20:11)
+- tibdict annotate U09 (20:11)
+- beats.py citation U06-U09 draft 1 (20:12)
+- beats.py citation U06-U09 draft 2 (after adding 4 words to lexicon.py) (20:13)
+- ref: grep of ~/.claude/skills/tibetan-citations for the Uttaratantra short title — later (U06)
+- ref: tibetan-citations/SKILL.md §4 (English short titles, lines 64-80) — later (U06)
+- tibdict annotate U10 (20:13)
+- tibdict annotate U11 (20:14)
+- tibdict annotate U12 (20:14)
+- construal + glossary written for U01-U12 (20:16)
+- draft written U01-U12; style pass applied in place (read-aloud, Sanskrit per brief) (20:17)
+- ref: reference/check.md — later (before fidelity check; no Agent tool in this context, so in-context check)
+- Agent tool not available (ToolSearch select:Agent = none); in-context check after clean break: re-read construal + draft files (20:18)
+- in-context check done: VERDICT 0 major, 10 minor (20:19)
+- beats.py citation U06-U09 revised block (20:19)
+- beats.py citation U06-U09 revised block (rerun after a sed slip in the first display) (20:19)
+- revision round applied (10 minor) (20:19)
+- dm.py translate --file rays_units.md (MITRA cross-check, all units, once, after the check) (20:20)
+- end: 2026-10-03 20:21:18
+- note: construal and glossary files were written in one pass after all twelve annotate calls (analysis held in context unit by unit), not appended to disk after each unit; final.md assembled 20:21

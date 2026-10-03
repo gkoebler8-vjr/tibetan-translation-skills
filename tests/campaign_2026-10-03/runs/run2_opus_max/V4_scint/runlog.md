@@ -1,0 +1,46 @@
+# runlog — scint (run2_opus_max / V4_scint)
+
+- START: 2026-10-03 16:20:55 +0545
+- Model/effort: Claude Opus 5.5 (claude-opus-5-5); reasoning effort as set by the harness ("max" per run name; not independently verifiable from inside the run) — autonomous run, proceeding per skill §0.
+- Skill invoked: tibetan-translate (SKILL.md loaded via Skill tool) — before first unit
+- READ 16:21:13 page file material/vikra/scint_units.md — before first unit
+- NOTE 16:21:36: the SKILL.md text delivered by the Skill tool is an OLDER version than ~/.claude/skills/tibetan-translate/SKILL.md on disk (mtime 16:20). Loaded copy lacks: 2-line dictum rule, --budget/NEG:/COMPOUND? lines, refined identify reading, the "No Agent tool" bullet and the "MITRA cross-check, after the check" step. Following the on-disk (current) version.
+- READ 16:21:36 ~/.claude/skills/tibetan-translate/SKILL.md (on disk, full) — before first unit
+- TOOLSEARCH 16:21:36 "agent spawn subagent task" — no Agent/Task spawn tool available in this context => fidelity check will be in-context (skill §6 "No Agent tool" bullet)
+- READ 16:21:41 ~/.claude/skills/tibetan-translate/reference/english.md — before first unit (skill: once per session before first draft)
+- READ 16:21:41 ~/.claude/skills/tibetan-translate/reference/analysis.md — before first unit (skill: first construal of the session)
+- READ 16:21:48 ~/.claude/skills/tibetan-translate/reference/prose.md — before first unit (skill: before first prose unit)
+- READ 16:21:48 ~/.claude/skills/tibetan-translate/reference/modes.md — before first unit (skill: once per project; column used: seasoned practitioner; register: narrative)
+- TOOL 16:22:02 tibdict annotate — U01
+- WRITE 16:25:10 construal U01 + glossary started
+- TOOL 16:25:10 tibdict annotate — U02
+- WRITE 16:26:03 construal U02 + glossary
+- TOOL 16:26:03 tibdict annotate — U03
+- WRITE 16:26:40 construal U03 + glossary
+- TOOL 16:26:40 tibdict annotate — U04
+- WRITE 16:27:40 construal U04
+- TOOL 16:27:40 tibdict annotate --budget 6000 — U05
+- WRITE 16:29:11 construal U05 + glossary
+- TOOL 16:29:11 tibdict annotate — U06
+- WRITE 16:30:19 construal U06 + glossary
+- TOOL 16:30:19 tibdict annotate --budget 6000 — U07
+- WRITE 16:31:02 construal U07 + glossary
+- TOOL 16:31:02 tibdict annotate --budget 6000 — U08
+- WRITE 16:32:00 construal U08 + glossary
+- TOOL 16:32:00 tibdict annotate — U09
+- WRITE 16:33:05 construal U09 + glossary
+- TOOL 16:33:05 tibdict annotate — U10
+- WRITE 16:33:51 construal U10 + glossary (tool slip: NEG ma x1 false positive from bla ma; de nyid sense; 'khor los split)
+- TOOL 16:33:51 tibdict annotate --budget 6000 — U11
+- WRITE 16:35:42 construal U11 + glossary (tool slips: lhan cig skyes pa first sense 'man'; de kho na nyid split)
+- PASS2+3 16:38:11 all 11 units drafted from the construal and style-passed (modes.md seasoned column; english.md gates 1–6 read through) -> scint.draft.md. Gate fixes in the style pass: U08 "And" added for U07 pa dang; U11 epithet list split into three sentences (was ~50 words), cing rendered with a participle so "always dwells" stays the main verb carrying pas; U10 avoided "So that very…" (garden path), used "himself" for de nyid. No verse units on this page (no equal-count padas, no zhes…las citation frame) => tibetan-verse not loaded; no quotations => dm.py identify not called.
+- READ 16:38:17 ~/.claude/skills/tibetan-translate/reference/check.md — later (Pass 4, in-context check protocol; no Agent tool)
+- CHECK 16:38:23 clean break: re-reading construal + draft + glossary from file for the in-context check
+- CHECK 16:40:04 in-context fidelity check done (no Agent tool => 0 checker spawns). VERDICT: 0 major, 4 minor -> scint.check.md; one revision round applied to scint.draft.md (U01, U03, U04, U11); construal U11 quantifier count corrected
+- NOTE 16:40:18: page file holds every unit twice (Unicode + Wylie, both as 'Uxx' lines); dm.py translate --file would send all 22 lines, so the 11 Unicode lines were extracted to scint.units_unicode.md for the one MITRA call
+- TOOL 16:40:18 dm.py translate --file scint.units_unicode.md --style 'literal, keep every clause and connective' — U01–U11 (MITRA cross-check, once, after the check)
+- NOTE 16:40:27: previous line's call never started (my wrapper used 'timeout', absent on macOS: 'command not found'); no request reached MITRA. Re-issued below without the wrapper — this is the single MITRA call.
+- TOOL 16:40:27 dm.py translate --file scint.units_unicode.md --style 'literal, keep every clause and connective' — U01–U11 (MITRA cross-check, the one actual call)
+- MITRA-COMPARE 16:43:58 differs at U01, U02, U03, U07, U09, U10, U11 (content word/referent/relation); U02 changed on the grammar, the rest kept and recorded as Q: (construal + draft updated)
+- WRITE 16:44:39 final.md written
+- END 2026-10-03 16:44:50 +0545 — finished (11/11 units; 0 checker spawns, in-context check; 1 MITRA call)

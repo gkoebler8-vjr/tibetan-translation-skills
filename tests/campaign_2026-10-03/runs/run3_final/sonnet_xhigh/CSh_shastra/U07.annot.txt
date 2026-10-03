@@ -1,0 +1,148 @@
+## unit 1: de bzhin du khyad par can gyi ye shes ni shes rab ste chos thams cad sems tsam nyid du shes pa 'o de rab tu bsgrub pa 'i phyir dbang bskur ba ni shes rab ye shes kyi dbang bskur ba 'o yang de ni gzhan gyi dbang dang kun brtags dang yongs su gyur pa rnam pa r shes pa gsum gyi ngo bo bsdus pa 'i gzugs can snying gi nor bu r gang bla ma 'i man ngag nyid kyis phyi rol gyi phyag rgya dang skad cig ma rnams yang dag pa r mtshon pa ni shes rab ye shes yin pa r rig pa r bya 'o dbang bskur ba des dbang bskur ba 'i dbang po rab rnams la ni sgyu ma lta bu 'i ting nge 'dzin gyis chos kyi phyag rgya nye bar bstan cing bshad pa r bya 'o
+NEG: 2 — cig ma rnams · sgyu ma lta
+COMPOUND? rab tu bsgrub pa'i phyir = for the purpose of establishing (MITRA) · rnam par shes pa gsum = three consciousnesses, three cognitions (MITRA) · shes rab ye shes = wisdom-awareness, wisdom-knowledge, knowledge-wisdom (MITRA) · yongs su gyur pa = transformation, transforming, change (MITRA) · bsdus pa'i gzugs can = "Having an abbreviated form." A grammatical term us… (RY) · snying gi nor bu = darling (MITRA) · bla ma'i man ngag = guru's instructions, teacher's instruction, master'… (MITRA) · sgyu ma lta bu = illusion-like, illusionlike, like illusions (MITRA)
+  de bzhin       OTHER 
+      MITRA: [adverb 100%] | 1. likewise; similarly; in the same way <en…
+  du             PARTICLE LA-DON
+  khyad par can  ADJ   
+      MITRA: [attributive use 98%] | 1. special, extraordinary, or outst…
+  gyi            PARTICLE GEN
+  ye shes        NOUN  
+      MITRA: [noun 100%] | 1. primordial wisdom, gnosis, or innate aware…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  shes rab       NOUN  
+      MITRA: [noun 100%] | 1. wisdom, insight, or discriminating awarene…
+  ste            PARTICLE SEMI-FINAL (… and; having …; namely; so that)
+  chos           NOUN    VERB-FORM?: 'cha' (impe)  …
+      MITRA: [noun 100%] | 1. phenomenon; any existing thing, object of …
+  thams cad      DET   
+      MITRA: [determiner 100%] | 1. all, every, whole, entire; also used…
+  sems           NOUN    VERB-FORM?: sems (pres)  …
+      MITRA: [noun 89%, verb 11%] | VERB sems (transitive, voluntary): p…
+  tsam           PARTICLE RESTR (merely, only; as soon as)
+  nyid           DET     VERB-FORM?: bdag nyid che (pres)  …
+      MITRA: [determiner, pronoun] | 1. reflexive or emphatic pronoun re…
+  du             PARTICLE LA-DON
+  shes pa        VERB  
+      MITRA: [noun 94%, verbal noun 6%] | 1. knowledge; understanding; t…
+  'o             PARTICLE FINAL (statement)
+  de             PARTICLE SEMI-FINAL (or the demonstrative 'that')
+  rab tu         NO_POS
+      MITRA: [adverb 57%, adjective 26%, noun 16%] | 1. superior, best, …
+  bsgrub pa      VERB  
+      MITRA: [verbal noun 51%, noun 48%] | 1. spiritual practice; the ac…
+  'i             PARTICLE GEN
+  phyir          PARTICLE PURPOSE / CAUSE (in order to; because)
+  dbang          NOUN    VERB-FORM?: dbang (pres)  …
+      MITRA: [noun 99%] | 1. empowerment, initiation, or consecration; a…
+  bskur ba       VERB  
+      MITRA: [verbal noun 84%, noun 10%, verb 6%] | 1. to send, dispatch…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  shes rab       (see above)
+  ye shes        (see above)
+  kyi            PARTICLE GEN
+  dbang          (see above)
+  bskur ba       (see above)
+  'o             PARTICLE FINAL (statement)
+  yang           PARTICLE CONC / also
+  de             PARTICLE SEMI-FINAL (or the demonstrative 'that')
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  gzhan          DET     VERB-FORM?: rgyud gzhan grub pa zhes bya ba'i rab tu byed pa (pres)
+      MITRA: [determiner 98%] | 1. other, another, others; also used to …
+  gyi            PARTICLE GEN
+  dbang          (see above)
+  dang           PARTICLE COMIT / COORD (and; with; after some verbs: from)
+  kun brtags     NO_POS
+      MITRA: [noun 96%, adjective 3%] | 1. The imagined or imputed natur…
+  dang           PARTICLE COMIT / COORD (and; with; after some verbs: from)
+  yongs su       NO_POS
+      MITRA: [adverb 100%] | 1. completely, fully, or perfectly
+  gyur pa        VERB  
+      MITRA: [verbal noun 88%, verb 11%] | 1. to become, be, or achieve …
+  rnam pa        NOUN  
+      MITRA: [noun 94%, adverb 6%] | 1. type, kind, variety, or category…
+  r              PARTICLE LA-DON (terminative)
+  shes pa        (see above)
+  gsum           NUM   
+      MITRA: 1. three; threefold, triple <en: three>
+  gyi            PARTICLE GEN
+  ngo bo         NOUN  
+      MITRA: [noun 100%] | 1. essence; the intrinsic nature, fundamental…
+  bsdus pa       VERB  
+      MITRA: [verbal noun 82%, noun 12%, adjective 6%] | 1. A compendium…
+  'i             PARTICLE GEN
+  gzugs can      ADJ   
+      MITRA: [attributive use 83%, noun 17%] | 1. physical, material, or…
+  snying         NOUN  
+      MITRA: [noun 92%, adverb 8%] | 1. heart; mind; the seat of emotion…
+  gi             PARTICLE GEN (of; 's; marks the preceding phrase as modifier of what follows)
+  nor bu         NOUN  
+      MITRA: [noun 100%] | 1. jewel, gem, or precious stone; also used a…
+  r              PARTICLE LA-DON (terminative)  (or fused: nor + bur — son, children, child, MITRA)
+  gang           PARTICLE which; whoever; what
+  bla ma         NOUN  
+      MITRA: [noun 97%] | 1. spiritual teacher; guru; preceptor <en: gur…
+  'i             PARTICLE GEN
+  man ngag       NOUN  
+      MITRA: [noun 100%] | 1. instructions; oral teachings; pith instruc…
+  nyid           (see above)
+  kyis           PARTICLE ERG/INSTR
+  phyi rol       NOUN  
+      MITRA: [noun 100%] | 1. the external; that which is outside the bo…
+  gyi            PARTICLE GEN
+  phyag rgya     NOUN  
+      MITRA: [noun 100%] | 1. ritual hand gesture; mudrā <en: mudrā>
+  dang           PARTICLE COMIT / COORD (and; with; after some verbs: from)
+  skad cig ma    ADJ   
+      MITRA: [noun 88%, adjective 7%, adverb 5%] | 1. a moment; an insta…
+  rnams          PARTICLE PLURAL
+  yang dag pa    ADJ   
+      MITRA: [adjective 91%, noun 5%, adverb 4%] | 1. Right, correct, or…
+  r              PARTICLE LA-DON (terminative)  (or fused: yang dag par — correctly, correct, properly, MITRA)
+  mtshon pa      VERB  
+      MITRA: [verbal noun 49%, noun 45%, verb 6%] | 1. to indicate, sign…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  shes rab       (see above)
+  ye shes        (see above)
+  yin pa         AUX   
+      MITRA: [verbal noun 60%, noun 20%, particle 20%] | 1. the state of…
+  r              PARTICLE LA-DON (terminative)
+  rig pa         VERB  
+      MITRA: [noun 94%, verbal noun 5%] | 1. primordial awareness; the n…
+  r              PARTICLE LA-DON (terminative)
+  bya            VERB    VERB-FORM?: byed (futu)  …
+      MITRA: [verb 95%, noun 5%] | VERB byed (transitive, voluntary): pr…
+  'o             PARTICLE FINAL (statement)
+  dbang          (see above)
+  bskur ba       (see above)
+  des            PARTICLE ERG of de (by that; therefore)
+  dbang          (see above)
+  bskur ba       (see above)
+  'i             PARTICLE GEN
+  dbang po       NOUN  
+      MITRA: [noun 100%] | 1. faculty; the physical or mental capacity f…
+  rab            ADV     VERB-FORM?: rab gnas (fut)
+      MITRA: [adverb 57%, adjective 26%, noun 16%] | 1. superior, best, …
+  rnams          PARTICLE PLURAL
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  sgyu ma        NOUN  
+      MITRA: [noun 98%, adverb 2%] | 1. illusion; an illusory appearance…
+  lta bu         PARTICLE SIMILE (like, such as)
+  'i             PARTICLE GEN
+  ting nge 'dzin NOUN  
+      MITRA: [noun 100%] | 1. a state of intense concentration or medita…
+  gyis           PARTICLE ERG/INSTR
+  chos           (see above)
+  kyi            PARTICLE GEN
+  phyag rgya     (see above)
+  nye bar              
+      MITRA: [adjective 91%, noun 6%] | 1. close; near; proximate <en: c…
+  bstan          VERB    VERB-FORM?: ston (past)  …
+      MITRA: [verb 90%, noun 9%] | VERB ston (transitive, voluntary): pr…
+  cing           PARTICLE COORD (and, while)
+  bshad pa       VERB  
+      MITRA: [verbal noun 77%, noun 20%, verb 3%] | 1. explanation, expo…
+  r              PARTICLE LA-DON (terminative)
+  bya            (see above)
+  'o             PARTICLE FINAL (statement)

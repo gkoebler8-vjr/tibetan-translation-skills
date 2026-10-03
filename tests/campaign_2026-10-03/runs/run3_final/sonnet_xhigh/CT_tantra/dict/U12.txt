@@ -1,0 +1,49 @@
+## unit 1: ston pa rgyal ba gcig pu nyid lnga yi tshul gyis yang dag gnas shes rab pha rol phyin nyid kyang rnam lnga 'i tshul gyis yang dag gnas
+NEG: 0 (none)
+COMPOUND? shes rab pha rol phyin = prajñāpāramitā, transcendent wisdom, perfect w… (MITRA) · gcig pu nyid = oneness, singularity (MITRA) · lnga yi tshul = five forms (MITRA) · yang dag gnas = truly abides, truly stands, perfectly abide (MITRA) · rnam lnga = five (MITRA)
+  ston pa        NOUN  
+      MITRA: [noun 68%, verbal noun 27%, verb 5%] | 1. teacher; spiritual master; mentor; guide <en: teacher, teachers, master, guide> <skt: śāstṛ, śāstu>
+      JH: [Skt. śāstṛ; darśana; darśayati; vidarśanī; saṃdarśanā; saṃdarśayati; saṃdarśana; nidarśana; upadar…
+  rgyal ba       NOUN  
+      MITRA: [noun 98%, verbal noun 2%] | 1. A Buddha; a Victor. Also used attributively. <en: victorious, victor, victors, buddhas> <skt: jina, ji>
+      JH: conqueror; victor; epithet of Buddha [Skt. jina] {victor}
+  gcig pu        ADJ   
+      MITRA: [adjective 76%, adverb 21%] | 1. alone; solitary; in solitude <en: alone, solitude, solitary> <skt: ekākin, eka>
+      JH: alone; sole; only; lone [Skt. eka]
+  nyid           DET     VERB-FORM?: bdag nyid che (pres, JH); de nyid (imp, JH)
+      MITRA: [determiner, pronoun] | 1. reflexive or emphatic pronoun referring back to the subject; himself, yourself, myself, itself <en: himself, yourself, myself, itself> <skt: svayam, ātman>
+      JH: only; itself; just; particle abstracting a noun; -ness [Skt. sva; tva; eva; svaka] {self; own; ones…
+  lnga           NUM   
+      MITRA: 1. five; also used as an ordinal (fifth), a collective (group of five), or to denote fivefold/five kinds <en: five, fifth, fivefold, ve> <skt: pañcan, pañcaka>
+      JH: five [Skt. pañca]
+  yi             PARTICLE GEN
+  tshul          NOUN  
+      MITRA: [noun 100%] | 1. way, manner, or mode of being or acting <en: way, manner, ways, mode> <skt: gati>
+      JH: mode; way; system; manner; fashion; proper way [Skt. naya; rūpa; vṛtta; vṛtti; vidhi] {principle; m…
+  gyis           PARTICLE ERG/INSTR
+  yang dag       ADJ   
+      MITRA: [adverb 72%, adjective 22%, noun 6%] | 1. correct, right, or valid; in a proper way or according to a standard <en: correct, correctly, valid, right> <skt: samyak, samyaka>
+      JH: real [e.g., objects]; authentic; correct [e.g.; consciousnesses]; reality; right [Skt. samyak; tath…
+  gnas           NOUN    VERB-FORM?: gnas (pres, MITRA); gnas (past, MITRA); gnas (futu, MITRA)  …
+      MITRA: [noun 50%, verb 50%] | VERB gnas (intransitive): present gnas; past gnas; future gnas; imperative gnas · syntax [Abs. Obl.] (Hackett 2003). | 1. to remain, stay, or continue to be in a certain state or place; also used as a noun for the act of abiding <en: remain, abides, abiding, ain> <skt: sthā, …
+      JH: abide; dwell; source; state; situation; remain; last; stay; place; abode; topic; object; retention …
+  shes rab       NOUN  
+      MITRA: [noun 100%] | 1. wisdom, insight, or discriminating awareness; also used to refer to the perfection of wisdom (prajñāpāramitā) <en: wisdom, insight, prajna, isdom> <skt: prajñā, jñāna>
+      JH: [know-highest]; wisdom [Skt. prajñā] {insight; understanding; knowledge}
+  pha rol        NOUN  
+      MITRA: [noun 100%] | 1. the other shore, the far side; metaphorically enlightenment <en: beyond, shore, side> <skt: para, pārima>
+      JH: other(s); next; the other side [Skt. para; pāra(m) (=prakarṣa-gamana); pareṇa; amutra; pāra; tīru] …
+  phyin          VERB    VERB-FORM?: phyin (pres, MITRA); phyin (past, MITRA); phyin (futu, MITRA)  …
+      MITRA: [verb 96%, noun 4%] | VERB phyin (intransitive): present phyin; past phyin; future phyin | 1. to go, travel, or move toward a place <en: went, go, gone> <skt: gam> | nominalised: phyin pa
+      JH: went [past of 'gro, 'to go'] [Skt. -ga (e.g.: pāra-ga)]
+  nyid           (see above)
+  kyang          PARTICLE CONC (although; even; also)
+  rnam           NOUN    VERB-FORM?: rnam rtog (fut, JH); rnam shes (fut, JH)
+      MITRA: [noun 83%, determiner 17%] | 1. aspect, feature, or characteristic; in epistemology, the perceived image or form of an object <en: aspects, aspect, features, images> <skt: ākāra>
+      JH: (1) [=rnam pa]: aspect; type; kind (2) intensifier [sanskrit vi-] [Skt. ākāra; prakāra; dhā] {speci…
+  lnga           (see above)
+  'i             PARTICLE GEN
+  tshul          (see above)
+  gyis           PARTICLE ERG/INSTR
+  yang dag       (see above)
+  gnas           (see above)

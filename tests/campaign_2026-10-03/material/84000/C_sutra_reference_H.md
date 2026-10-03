@@ -1,0 +1,23 @@
+# Reference English (H) for test page C_sutra — 84000 translation, verbatim (see C_sutra.md for translator and version)
+
+U01 (21) “Son of noble family, the zeal of the tathāgatas does not deteriorate. What kind of zeal is it? It is the zeal for virtuous factors. Why is that? The tathāgatas’ zeal for great love and great compassion does not deteriorate. Their zeal for teaching the Dharma and for taming and ripening beings does not deteriorate. Their zeal for solitude does not deteriorate. Their zeal for engaging sentient beings in embracing awakening does not deteriorate. Their zeal for the unbroken continuity of the lineage of the Three Jewels does not deteriorate.
+
+U02 “The tathāgatas are not driven by zeal, but, rather, their zeal is preceded by wisdom. That is why it is said that the zeal of the tathāgatas does not deteriorate. The tathāgatas teach the Dharma so that the unsurpassed zeal of all sentient beings may be perfected. This is the twenty-first tathāgata activity of the tathāgatas. About this it has been proclaimed:
+
+U03 “ ‘The zeal of the victors is a constant wish for and delight in virtuous factors. / They bestow the Dharma of love and compassion in order to liberate beings. / Their longing to mature beings and to delight in forest groves does not deteriorate. / They cause many to embrace awakening and do not disrupt the continuity of the lineage of the Three Jewels.
+
+U04 “ ‘They are not driven by attachment, aversion, fear, or delusion. / Exceptionally skilled, they realize all factors that are produced by knowledge. / Observing lazy beings who lack zeal, the victors motivate them. / With unequaled knowledge they understand the zealous actions of beings.’
+
+U05 (22) “Son of noble family, the vigor of tathāgatas does not deteriorate. The vigor of the tathāgatas is as follows: It is a vigor that does not forsake beings to be tamed or disdain those who listen to the Dharma. When the tathāgatas discover audiences receptive to the Dharma, who do not tire of listening to the Dharma even for an eon, the tathāgatas will teach the Dharma, uninterrupted by meals and without stirring, even for an eon. For the sake of just a single being to be tamed by the buddhas, the tathāgatas, in their concern for beings, will travel beyond as many buddhafields as the number of grains of sand of the river Ganges. They will not become physically, verbally, or mentally weary.
+
+U06 “The tathāgatas have made their minds pliant, roused vigor, and spoken in praise of vigor. The vigor through which sentient beings, by correctly applying themselves to it, will attain noble liberation‍—that is the vigor commended to them. This is the twenty-second tathāgata activity of the tathāgatas. About this it has been proclaimed:
+
+U07 “ ‘They continually praise that powerful vigor / Through which the lions among humans became noble beings. / That powerful vigor does not deteriorate at all. / Once an audience is found, the Dharma is taught.
+
+U08 “ ‘The vigor of the sugatas never rests. / It is without physical, verbal, or mental weariness. / Just as this spontaneous vigor is completely free of sin, / So are beings, having purified their minds, stablished in it.’
+
+U09 (23) “Son of noble family, the mindfulness of tathāgatas does not deteriorate in any respect or in any way whatsoever. Why is that? Because the tathāgatas are not forgetful. Son of noble family, as soon as tathāgatas awaken into unsurpassed, perfect awakening, they behold the mindstreams of all sentient beings of the past, present, and future. Still, they are not forgetful at all. Although they know the conduct of beings in accordance with reality, the tathāgatas do not let go of their wisdom regarding it. The mindfulness of tathāgatas does not deteriorate when they assign beings to three categories, engage with their faculties and mentalities, and behold their conduct. The tathāgatas’ teaching of the Dharma to beings happens without activating their recollection, without intention or analysis. Even while teaching, their mindfulness does not deteriorate. Why is that? Because the mindfulness of tathāgatas does not deteriorate. Just as they are mindful and without forgetfulness, they teach the Dharma to beings accordingly. This is the twenty-third tathāgata activity of the tathāgatas. About this it has been proclaimed:
+
+U10 “ ‘The mindfulness of the teachers does not deteriorate in the slightest. / The mindfulness of the victors is effortless. / When the victors awaken into awakening, / They know the minds of all beings without exception.
+
+U11 “ ‘The thoughts, faculties, and conduct of beings / Are not to be cognized consequently. / Remaining in order to act spontaneously, / The victorious lords teach beings the Dharma.’

@@ -1,0 +1,57 @@
+## unit 1: yang na mthing ga ni nam mkha 'o dkar po ni chu 'o ser po ni sa 'o dmar po ni me 'o ljang gu ni rlung ngo bcom ldan 'das ji lta ba de bzhin du bcom ldan 'das ma'o
+NEG: 0 (none)
+  yang na        NO_POS  (or split: yang | na)
+      RY: [IW] [either...]or, or else, and again / * [RY] either, or, or else; alternatively; moreover/ (once…
+      Mvy: atha vā
+  mthing ga      ADJ   
+      MITRA: [adjective 60%, noun 40%] | 1. blue, dark blue, or indigo; also used as a noun for the color <en: blue, indigo, deep-blue, dark-blue> <skt: nīla>
+      RY: [RY] deep blue, azure / * [JV] a bird of deep blue color blue / * [IW] blue TSE
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  nam mkha       NOUN  
+      MITRA: [noun 100%] | 1. space; the space element; the void <en: space> <skt: ākāśa, kha>
+  'o             PARTICLE FINAL (statement)
+  dkar po        ADJ   
+      MITRA: [adjective 92%, noun 5%, adverb 3%] | 1. white; also used as a proper name <en: white, karpo, dkar-po> <skt: śukla, avadāta>
+      JH: white [one of the four primary colors (rtsa ba'i kha dog)]; wholesome; pure [Skt. śukla; avadāta; s…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  chu            NOUN  
+      MITRA: [noun 100%] | 1. water; liquid <en: water, waters, fluid> <skt: udaka, ap>
+      JH: water [Skt. ap; udaka; daka (=udaka); uda; jala; toya; nadī; vāri; pānīya; āp] {moisture; streams o…
+  'o             PARTICLE FINAL (statement)
+  ser po         ADJ   
+      MITRA: [adjective 82%, noun 13%, adverb 5%] | 1. yellow; yellowish <en: yellow, yellowish, orange, yellowness> <skt: pīta, pā>
+      JH: yellow [Skt. pīta] {one of the four primary colors (rtsa ba'i kha dog); the others are: white (dkar…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  sa             ADP   
+      MITRA: [noun 100%] | 1. earth, ground, or the physical surface of the world <en: earth, ground> <skt: pṛthivī, bhū>
+      JH: earth; ground; level; stage; land; place; spot; degree [Skt. bhūmi; pṛthivī; bhū; dharaṇi; dharaṇī-…
+  'o             PARTICLE FINAL (statement)
+  dmar po        ADJ   
+      MITRA: [adjective 90%, noun 5%, adverb 4%] | 1. red; crimson; reddish <en: red, redness, reddish, crimson> <skt: lohita, rakta>
+      JH: red [Skt. lohita; rakta] {one of the four primary colors (rtsa ba'i kha dog); the others are: white…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  me             NOUN    VERB-FORM?: me'i phung po (fut, JH)
+      MITRA: [noun 97%, verb 2%] | 1. fire, flame; also the act of combustion <en: fire, fires, flames, flame> <skt: agni, vahni>
+      JH: fire [Skt. agni; tejas; vahni; jvalana] {mtshan nyid/ tsha zhing sreg pa/}
+  'o             PARTICLE FINAL (statement)
+  ljang gu       NO_POS
+      MITRA: [adjective 82%, noun 18%] | 1. green or dark-green; also used as a noun for the color green <en: green, dark-green, green—shine, blue-green> <skt: harita, śyāma>
+      RY: [IW] green / * [RY] green. Syn {lcang khu} / * [JV] green, light green
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  rlung          NOUN  
+      MITRA: [noun 100%] | 1. wind, air, or breeze <en: wind, winds, air, breeze> <skt: vāyu, vāta>
+      JH: wind; wind (element - vāyu); wind (vital energy - prāṇa) [Skt. vāyu; prāṇa; vāta; samīraṇa] {air}
+  ngo            PARTICLE FINAL
+  bcom ldan 'das NOUN  
+      MITRA: [noun 100%] | 1. The Blessed One; the Lord; the Buddha, translating the Sanskrit bhagavān. <en: blessed, lord, bhagavān, bhagavat> <skt: bhagavant, bhagavat>
+      JH: 'joms bcom choms [Skt. Bhagavan; Bhagavat; bhagavan; bhagavatī] {<c c="onqueror-possessing-passed b…
+  ji lta ba      ADJ   
+      MITRA: [adverb 83%, adjective 7%, noun 7%, determiner 2%] | 1. the real nature of things; reality; suchness; the way things actually are <en: exact, real, nature, precise> <skt: yathāvat, yathābhūtam>
+      JH: the mode; law; how; ultimate truth; exactly; mode [of existence] [Skt. yathā]
+  de bzhin       OTHER 
+      MITRA: [adverb 100%] | 1. likewise; similarly; in the same way <en: likewise, similarly, same, similar> <skt: tadvat, tādṛśa>
+      JH: [that-like]; like that; thus [Skt. tathā; tatha] {likewise}
+  du             PARTICLE LA-DON
+  bcom ldan 'das (see above)
+  ma'o           PART  
+      RY: [IW] ma'o tse tung

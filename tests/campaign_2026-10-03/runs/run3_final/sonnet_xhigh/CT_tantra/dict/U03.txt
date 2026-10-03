@@ -1,0 +1,71 @@
+## unit 1: de nas bcom ldan 'das mas gsol pa lha yi rnam pa r dag pa gang 'dren pa bdag ni nyan pa r 'tshal sngon du gsungs nyid dkyil 'khor rnams gtso bo bdag la rnam dag gsungs de nas bcom ldan 'das kyis bka' stsal pa
+NEG: 0 (none)
+COMPOUND? bcom ldan 'das ma = blessed, goddess, bhagavatī (MITRA) · lha yi rnam pa = divine form (MITRA) · 'dren pa bdag = guide i, leader i (MITRA) · nyan par 'tshal = please listen (MITRA) · sngon du gsungs = previously described, described above, described befo… (MITRA) · bka' stsal pa = subhūti said, subhūti continued, declared ānanda (MITRA)
+  de nas         PARTICLE then, after that
+  bcom ldan 'das NOUN  
+      MITRA: [noun 100%] | 1. The Blessed One; the Lord; the Buddha, translating the Sanskrit bhagavān. <en: blessed, lord, bhagavān, bhagavat> <skt: bhagavant, bhagavat>
+      JH: 'joms bcom choms [Skt. Bhagavan; Bhagavat; bhagavan; bhagavatī] {<c c="onqueror-possessing-passed b…
+  mas            OTHER 
+      MITRA: [noun 94%, particle 4%] | 1. mother; also used as a term for the biological or spiritual progenitor <en: mother, mothers> <skt: mātṛ, mātā>
+      RY: [RY] the lower part, downward, towards the lower parts; lower (realms) / * [JV] by the mother, the …
+  gsol pa        VERB  
+      MITRA: [verb 89%, verbal noun 11%] | 1. to say, speak, or declare (honorific); also used as a verbal noun <en: said, spoke, declared, replied> <skt: ah, vac>
+      RY: [RY] replied / * [RY] said
+  lha            NOUN    VERB-FORM?: lha (pres, Verbinator)
+      MITRA: [noun 100%] | 1. god, deity, or celestial being; also used attributively as 'divine' or 'heavenly' <en: gods, deities, divine, deity> <skt: deva, devatā>
+      JH: deity; god; divinity; goddess [Skt. deva; devatā; maru] {one of the six types of ordinary beings; f…
+  yi             PARTICLE GEN
+  rnam pa        NOUN  
+      MITRA: [noun 94%, adverb 6%] | 1. type, kind, variety, or category <en: types, kinds, kind> <skt: prakāra, vidhi>
+      JH: kind; type; aspect; form [Skt. ākāra; prakāra; ākāratā; ākṛti; bheda (=dharma-bheda); gati; vidhi; …
+  r              PARTICLE LA-DON (terminative)
+  dag pa         VERB  
+      MITRA: [adjective 71%, noun 17%, verbal noun 6%, adverb 5%] | 1. pure; stainless; free from defilements or impurities <en: pure, purified, purest, pristine> <skt: śudh, śuddha>
+      JH: lacking; free of; devoid of; pure of; clear; correct [Skt. śuddha; pariśuddha; śuddhaka; śuddhi; vi…
+  gang           PARTICLE which; whoever; what
+  'dren pa       VERB  
+      MITRA: [noun 95%, verbal noun 4%] | 1. guide, leader, or spiritual teacher; also used as a verbal noun for the act of leading or guiding <en: guide, guides, leader, leaders> <skt: nāyaka, vināyaka>
+      JH: 'dren drangs drongs/'drend [Skt. nāyaka; nāyika; nara-nāyaka] {induce; lead; draw; connect; cite; q…
+  bdag           PRON    VERB-FORM?: bdag nyid che (fut, JH); bdag (pres, Verbinator); bdag (past, Verbinator)  …
+      MITRA: 1. I, me, my, mine; we, us <en: me, my, mine, us> <skt: mad, as>
+      JH: self; I <c c="an be used to refer to oneself">; nature; entity [Skt. ātman; aham; sva; ahu; hu (=ah…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  nyan pa        VERB  
+      MITRA: [verbal noun 76%, noun 22%] | 1. the act of listening or hearing, especially to the Dharma as part of study <en: listening, listen, hear, hearing> <skt: śravaṇa, śru>
+      JH: / nyan/ nyand/ nyond/ [Skt. śṛṇoti; śravaṇa] {to hear}
+  r              PARTICLE LA-DON (terminative)
+  'tshal         VERB    VERB-FORM?: 'tshal (pres, MITRA); 'tshal (futu, MITRA); 'tshal (pres, Verbinator)  …
+      MITRA: [verb 100%] | VERB 'tshal (transitive, voluntary): present 'tshal; past btsal, 'tshal; future 'tshal, btsal; imperative 'tshol · syntax [Erg. Abs.] (Hackett 2003). | 1. to seek, search for, or look for <en: seek, sought, search, searched> <skt: parīṣ, gaveṣay> | nominalised: 'tshal ba, btsal ba, 't…
+      JH: 'tshol btsald tshold [Skt. (pra √pad): prapadyante; pratyeti] {seek; want; ask; beg; beseech; desir…
+  sngon          ADV   
+      MITRA: [noun 61%, adverb 38%] | 1. the past; former times; previously <en: past, previously, ancient, ago> <skt: pūrva, pūrvam>
+      JH: prior; previous; former [Skt. pūrva; purvaṃkara; pūrvam (=pūrvaka); paurvaka] {first; formerly; bef…
+  du             PARTICLE LA-DON
+  gsungs         VERB    VERB-FORM?: gsung (past, MITRA); gsung (past, Verbinator); gsung (imp, Verbinator)
+      MITRA: [verb 80%, noun 20%] | VERB gsung (transitive, voluntary): present gsung; past gsungs; future gsung; imperative gsung, gsungs · syntax [Erg. Obl. Abs.] (Tournadre & Dorje 2003: 210). [Erg. Abs.] (Hackett 2003). | 1. to say, state, or utter; also used as a noun for speech, voice, or the faculty of s…
+      JH: / gsung / gsung / gsungs/ [Skt. katito; ukta; prakāśayati; bhaṅati; uktaṃ bhagavatā] {said; mention…
+  nyid           DET     VERB-FORM?: bdag nyid che (pres, JH); de nyid (imp, JH)
+      MITRA: [determiner, pronoun] | 1. reflexive or emphatic pronoun referring back to the subject; himself, yourself, myself, itself <en: himself, yourself, myself, itself> <skt: svayam, ātman>
+      JH: only; itself; just; particle abstracting a noun; -ness [Skt. sva; tva; eva; svaka] {self; own; ones…
+  dkyil 'khor    NOUN  
+      MITRA: [noun 100%] | 1. mandala; a sacred diagram, cosmic representation, or consecrated ritual space <en: mandala, mandalas> <skt: maṇḍala, maṇḍalaka>
+      JH: <c c="enter-circle"> maṇḍala; circle; sphere; disk; [Skt. maṇḍala; parṣan-maṇḍala] {(circle of the)…
+  rnams          PARTICLE PLURAL
+  gtso bo        ADJ   
+      MITRA: [noun 89%, adjective 10%] | 1. Main, principal, or primary; the most important one. <en: main, principal, primary, important> <skt: pradhāna, mukhya>
+      JH: main; chief; principal [Skt. pradhāna; prādhānya; śreṣṭha; pramukha; prāmukhya; śauṭīra] {valiant; …
+  bdag           (see above)
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  rnam dag       ADJ   
+      MITRA: [adjective 71%, noun 29%] | 1. pure, stainless, or immaculate; also used as a noun for the state of purity <en: pure, purity, pristine, purities> <skt: viśudh, viśuddhi>
+      JH: very pure; complete [Skt. viśuddha; viśuddhi; viśuddhaka; śuddhi] {pure}
+  gsungs         (see above)
+  de nas         PARTICLE then, after that
+  bcom ldan 'das (see above)
+  kyis           PARTICLE ERG/INSTR
+  bka'           NOUN  
+      MITRA: [noun 100%] | 1. the words, teachings, or scriptures of a Buddha or enlightened being <en: words, teachings, word, teaching> <skt: vacana, vacas>
+      JH: word; saying; teaching; order; word [of Buddha] [Skt. vāc; ājñā; vacana; Buddhavacana]
+  stsal pa       VERB  
+      MITRA: [verb 53%, verbal noun 47%] | 1. to say, speak, or ask; also used as a verbal noun for instructing or commanding <en: asked> <skt: ah, bhāṣ>
+      RY: [RY] to bestow

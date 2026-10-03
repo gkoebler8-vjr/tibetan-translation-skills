@@ -1,0 +1,31 @@
+wf        run                                model            eff    calls new(in+cw+out)     out   cache_r
+03c2323f  translate:V3_gongchig              opus-5-5         max       60         570463    2454  11414680
+03c2323f  translate:V4_scint                 opus-5-5         max       34         243897    2225   5058572
+092bb2c2  translate:V1_rays                  opus-5-5         max       53         772642    2525   9378019
+092bb2c2  translate:V2_stages                opus-5-5         max       40         295800    3660   7006372
+412ef3c1  translate:opus_xhigh/CSh_shastra   opus-5-5         xhigh     37         243759    1161   5560413
+412ef3c1  translate:opus_xhigh/CT_tantra     opus-5-5         xhigh     34         196743    1474   4333188
+412ef3c1  translate:opus_xhigh/V1_rays       opus-5-5         xhigh     37         338580    1209   5099748
+42833fad  translate:BS_sutra                 opus-5-5         max       54         349290    1298  11097965
+42833fad  translate:BSh_shastra              opus-5-5         max       47         405108    1867  10335791
+42833fad  translate:BT_tantra                opus-5-5         max       51         357871    8143  11229504
+7c8a09f0  translate:opus_high/CS_sutra       opus-5-5         high      32         185073    1067   3824173
+7c8a09f0  translate:opus_high/CSh_shastra    opus-5-5         high      30         155120    1055   3410093
+7c8a09f0  translate:opus_high/CT_tantra      opus-5-5         high      27         133786    1097   2900771
+7c8a09f0  translate:opus_high/V1_rays        opus-5-5         high      36         141156    1160   3928248
+8216ee08  translate:S_sutra                  opus-5-5         max       36         362230   30018   6740659
+8216ee08  translate:Sh_shastra               opus-5-5         max       35         274932    7957   5522497
+8216ee08  translate:T_tantra                 opus-5-5         max       45         287230   11952   7688297
+8a47a5c8  translate:sonnet_high/CS_sutra                      high      25         190742    1841   2766883
+8a47a5c8  translate:sonnet_high/CSh_shastra                   high      30         282377     858   3960268
+8a47a5c8  translate:sonnet_high/CT_tantra                     high      25         157965     809   2911989
+8a47a5c8  translate:sonnet_high/V1_rays                       high      33         220032    1085   4852237
+8a47a5c8  translate:sonnet_medium/CSh_shastr                  medium    18         142215     660   1831910
+8a47a5c8  translate:sonnet_medium/CT_tantra                   medium    18         118174     639   1436736
+8a47a5c8  translate:sonnet_medium/V1_rays                     medium    21         126425     695   2175835
+8a47a5c8  translate:sonnet_xhigh/CSh_shastra                  xhigh     66         455039    9715  13755574
+8a47a5c8  translate:sonnet_xhigh/CT_tantra                    xhigh     41         362509     947   6679674
+8a47a5c8  translate:sonnet_xhigh/V1_rays                      xhigh     47         303086    1234   8860794
+c8714364  translate:opus_medium/CSh_shastra  opus-5-5         medium    18         135564     880   1930140
+c8714364  translate:opus_medium/CT_tantra    opus-5-5         medium    18         110255     992   1644941
+c8714364  translate:opus_medium/V1_rays      opus-5-5         medium    23          91647     932   1919406

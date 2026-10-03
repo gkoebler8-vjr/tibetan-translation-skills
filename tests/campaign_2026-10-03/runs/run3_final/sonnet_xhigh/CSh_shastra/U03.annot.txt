@@ -1,0 +1,31 @@
+## unit 1: dbang bskur ba bzhi po de nyid kyi rab tu dbye ba brjod pa 'i phyir 'di ltar yang
+NEG: 0 (none)
+COMPOUND? rab tu dbye ba = division, classifications, categories (MITRA) · dbang bskur ba = empowerment, initiation, consecration (MITRA) · brjod pa'i phyir = because of the naming or designation (MITRA)
+  dbang          NOUN    VERB-FORM?: dbang (pres, Verbinator); dbang (past, Verbinator); dbang (fut, Verbinator)  …
+      MITRA: [noun 99%] | 1. empowerment, initiation, or consecration; abhiṣeka <en: empowerment, empowerments, initiation, initiations> <skt: abhiṣeka>
+      JH: initiation; empowerment; consecration; power; force; control [Skt. abhiṣeka; vaśa; vaśitā; vaśitva;…
+  bskur ba       VERB  
+      MITRA: [verbal noun 84%, noun 10%, verb 6%] | 1. to send, dispatch, or deliver something; also used as a verbal noun for the act of sending <en: imparting, sent bimbisāra> <skt: preṣay, anupreṣay>
+      JH: {C}should be guided [Skt. netavya]
+  bzhi po        NUM   
+      JH: four; fourth [Skt. catur; catuṣṭaya]
+      RY: [IW] four[th], the four of us/ them / * [RY] the four
+  de nyid        NOUN  
+      MITRA: [noun 95%, pronoun 4%] | 1. The ultimate reality, suchness, or true nature of phenomena; often translates tathatā or tattva <en: reality, suchness, nature, thatness> <skt: tattva, tatva>
+      JH: [Skt. tattva; satattva; tathatā] {reality; suchness; principle}
+  kyi            PARTICLE GEN
+  rab tu         NO_POS
+      MITRA: [adverb 57%, adjective 26%, noun 16%] | 1. superior, best, or highest; also used as a noun for the superior one or as an adverb meaning in a supreme man… <en: best, superior, highest, higher> <skt: vara, agra>
+      JH: highest; best; as an intensifier: very; intensively [Skt. parama; pra-; citra; pragāḍha; bhṛśaṃ] {v…
+  dbye ba        VERB  
+      MITRA: [noun 98%] | 1. division, classification, category, or type; also used as a verbal noun for the act of analyzing or breaking … <en: divisions, classification, division, classifications> <skt: bheda, prabheda>
+      JH: divide; separate; open; differentiate; to divide; division [Skt. bheda (=dharma-bheda); prabheda; b…
+  brjod pa       VERB  
+      MITRA: [verbal noun 74%, noun 22%, verb 3%] | 1. expression; the act of speaking, stating, or expressing something through language, signs, or mental activity <en: expression, expressions, statement, said> <skt: vac, vacana>
+      JH: [Skt. vacana; abhilāpa; abhilapati; abhilapyate; (abhi √lap): abhilāpa; lapita; udīrayati; īrita (=…
+  'i             PARTICLE GEN
+  phyir          PARTICLE PURPOSE / CAUSE (in order to; because)
+  'di ltar       NO_POS
+      MITRA: [adverb 100%] | 1. thus; in this way; like this <en: thus, manner, way, like this> <skt: ittham, evaṁ>
+      JH: it is like this{S} [Skt. tathā hi; yatas; yatas ... tatas; yad uta; yasmāt; evaṃ pravṛtta] {so; as;…
+  yang           PARTICLE CONC / also

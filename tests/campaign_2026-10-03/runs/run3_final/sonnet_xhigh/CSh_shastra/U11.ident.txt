@@ -1,0 +1,27 @@
+query (28 syllables): rang gi rnam rtog de de rgyas/ brtags pa'i de nyid bsgoms pa yis/ rgyud la rnam rtog 'khrug 'gyur na/ de nyid rtog par ji ltar 'gyur/
+183 hits in 135 works (semantic search, Tibetan sources)
+VERBATIM MATCH: yes, canonical — 1 Kangyur/Tengyur hit(s) share 28 consecutive syllables; best: dgyes pa rdo rje'i dka' 'grel rnal 'byor rin po che'i phreng ba zhes … [Toh 1183 (Tengyur)] BO_T02_D1183:7a-15
+
+CANONICAL / SOURCE CANDIDATES
+- dgyes pa rdo rje'i dka' 'grel rnal 'byor rin po che'i phreng ba zhes …  [Toh 1183 (Tengyur)]  BO_T02_D1183:7a-15  (2 hits; verbatim run 28)
+    ong yin// 'on kyang sgra la rnam rtog gi// gzugs brnyan 'byung bar 'gyur ba yin// rang gi rnam rtog de de rgyas// brtags pa'i de nyid bsgoms
+- tshad ma rnam 'grel gyi rgyan gyi 'grel bshad shin tu yongs su dag pa…  [Toh 4226 (Tengyur)]  BO_T11_D4226-3:13a-5  (3 hits; verbatim run 4)
+    'dra ba yang mi rtogs par 'gyur la/ rtog pa gang yin pa de yang shes pa'i rnam par gyur pa kho na yin te/ des na yul gnyis su 'grub par ji l
+- rtog ge'i skad/ (tarkabhāṣā)  [Toh 4264 (Tengyur)]  BO_T11_D4264:344b-23  (2 hits; verbatim run 4)
+    rtog pa med par ji ltar 'gro bar 'gyur/ sems skad cig pa yang rtse gcig par ji ltar 'gyur/ khyad par yang ci zhig gis ci yis bya/ lus can ya
+- dpal sangs rgyas thod pa'i rgyud kyi dka' 'grel ye shes ldan pa zhes …  [Toh 1652 (Tengyur)]  BO_T02_D1652:139a-14  (1 hit; verbatim run 4)
+    na to// gang gis de yis sangs rgyas te// zhes pa ni rnam pa gang gis te de yis sangs rgyas su 'gyur zhes pa'i don to// rang gi rnam rtog dag
+- rim pa lnga pa'i bshad pa nor bu'i phreng ba zhes bya ba/ (pañcakrama…  [Toh 1840 (Tengyur)]  BO_T02_D1840:94a-27  (1 hit; verbatim run 4)
+    rgya dang lhan cig snyoms par 'jug par bya zhing / de'i stobs kyis te mthus snang ba la sogs pa'i ye shes gsum mtshon par bya'o// gal te ran
+
+QUOTED IN / COMMENTED ON BY (62 other works; first 8):
+- dbu ma :: 008UMA  BO_S02_UMA-008:3606  [Sungbum/series; run 3]
+- byang chub kyi spyod pa la 'jug pa'i rnam par bshad pa…  BO_S10_LAMD030:5792  [Sungbum/series; run 3]
+- gnas lnga rig pa'i paN+Di ta chen po zhes yongs su gra…  BO_S09_SKYA064A:1970  [Sungbum/series; run 3]
+- dbu ma 'jug pa zhes bya ba bzhugs so  BO_S10_ZTSA008:655  [Sungbum/series; run 3]
+- dbu ma rigs pa'i tshogs kyi dka' ba'i gnad bstan pa ri…  BO_S09_RONT064:1765  [Sungbum/series; run 3]
+- dpe rnying :: ZTSA012  BO_S10_ZTSA012:236  [Sungbum/series; run 3]
+- sa skya gong ma :: SKYA055B  BO_S09_SKYA055B:1486  [Sungbum/series; run 2]
+- zab mo stong pa nyid kyi de kho na nyid rab tu gsal ba…  BO_ACIP-SUNGBUM_S25000:15591  [?; run 2]
+
+Next: dm.py parallels <segmentnr> for variant readings; dm.py segment <segmentnr> --context for the surrounding text (e.g. a commentary's gloss of the line).

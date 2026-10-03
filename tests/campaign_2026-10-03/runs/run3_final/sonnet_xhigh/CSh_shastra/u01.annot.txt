@@ -1,0 +1,55 @@
+## unit 1: sdom pa 'i dbye ba la sogs pa la sdom pa ni dbang bskur ba 'o de'i rab tu dbye ba ni dbye ba ste 'chad pa r 'gyur ba 'i mtshan nyid can no de yang ji skad du
+NEG: 0 (none)
+COMPOUND? rab tu dbye ba = division, classifications, categories (MITRA) · 'chad par 'gyur ba = to speak, explain, or describe (MITRA) · dbang bskur ba = empowerment, initiation, consecration (MITRA) · mtshan nyid can = characterized, qualified (MITRA)
+  sdom pa        NOUN  
+      MITRA: [noun 99%] | 1. a vow, precept, or formal commitment to a rule of discipline <en: vows, vow, precepts, commitments> <skt: saṃvṛti, niyama>
+      JH: vow; bind; tie; fasten; obligation; bring together; collect; discipline [Skt. saṃvara; saṃvṛtti; sa…
+  'i             PARTICLE GEN
+  dbye ba        VERB  
+      MITRA: [noun 98%] | 1. division, classification, category, or type; also used as a verbal noun for the act of analyzing or breaking … <en: divisions, classification, division, classifications> <skt: bheda, prabheda>
+      JH: divide; separate; open; differentiate; to divide; division [Skt. bheda (=dharma-bheda); prabheda; b…
+  la sogs pa     PARTICLE etc.
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  sdom pa        (see above)
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  dbang          NOUN    VERB-FORM?: dbang (pres, Verbinator); dbang (past, Verbinator); dbang (fut, Verbinator)  …
+      MITRA: [noun 99%] | 1. empowerment, initiation, or consecration; abhiṣeka <en: empowerment, empowerments, initiation, initiations> <skt: abhiṣeka>
+      JH: initiation; empowerment; consecration; power; force; control [Skt. abhiṣeka; vaśa; vaśitā; vaśitva;…
+  bskur ba       VERB  
+      MITRA: [verbal noun 84%, noun 10%, verb 6%] | 1. to send, dispatch, or deliver something; also used as a verbal noun for the act of sending <en: imparting, sent bimbisāra> <skt: preṣay, anupreṣay>
+      JH: {C}should be guided [Skt. netavya]
+  'o             PARTICLE FINAL (statement)
+  de'i           PART  
+      RY: [RY] of that / * [JV] of that, even though clause connective
+      ML: of that, even though clause connective [ML]
+  rab tu         NO_POS
+      MITRA: [adverb 57%, adjective 26%, noun 16%] | 1. superior, best, or highest; also used as a noun for the superior one or as an adverb meaning in a supreme man… <en: best, superior, highest, higher> <skt: vara, agra>
+      JH: highest; best; as an intensifier: very; intensively [Skt. parama; pra-; citra; pragāḍha; bhṛśaṃ] {v…
+  dbye ba        (see above)
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  dbye ba        (see above)
+  ste            PARTICLE SEMI-FINAL (… and; having …; namely; so that)
+  'chad pa       VERB  
+      MITRA: [verbal noun 73%, noun 21%, verb 6%] | 1. to explain, expound, or interpret a text or concept; also used as a noun for the explanation or exposition it… <en: explanation, explanations, explaining, explained> <skt: deśay, vyākhyā>
+      JH: 'chad / 'chad / chad / chad [to be cut] or bshad / 'chad / bshad / shod [to explain] {T} [Skt. bhāṣ…
+  r              PARTICLE LA-DON (terminative)
+  'gyur ba       VERB  
+      MITRA: [verbal noun 37%, noun 36%, verb 27%] | 1. to become, be, or be constituted as; the act of coming into existence <en: become, becoming, becomes> <skt: bhū, as>
+      JH: 'gyur 'gyurd gyur gyurd [Skt. pariṇāma; abhyupaiti; vikāra; vikāritā; sambhava; cañcalā; vrajati (e…
+  'i             PARTICLE GEN
+  mtshan nyid    NOUN  
+      MITRA: [noun 100%] | 1. defining characteristic; essential property or mark <en: characteristics, characteristic, character, characterized> <skt: lakṣaṇa, alakṣaṇa>
+      JH: definition; character; characteristic; mark; attribute; sign; case; defining characteristics [Skt. …
+  can            PART  
+      JH: English for example six. {T}
+      RY: [RB] having/ endowed with . . . ; serving as . . . / * [RY] 1) endowed, imbued with; to have, be pr…
+  no             PART  
+      RY: [RY] completing particle; {rdzogs yig} / * [JV] SA nu bo, figure 132 / * [IW] 1) terminative after …
+      ML: [particle indicating the end of a statement] [ML] / SA nu bo, figure 132 [ML]
+  de yang        ADV     (or split: de | yang)
+      RY: [IW] furthermore, moreover, namely, that is to say, / * [RY] even so, / * [IW] furthermore, moreove…
+      ML: furthermore, that is, moreover, this also, or that too, he also, namely, to wit, in this regard, in…
+  ji skad        NO_POS
+      MITRA: [adverb 100%] | 1. as is said; as stated; as follows <en: said, says, stated, saying> <skt: yathā vac, vac>
+      RY: [RY] what, whatever / * [IW] 1) as was said/ written ['Go khrid pas ji skad bsgo ba'i tshig bzhin b…
+  du             PARTICLE LA-DON

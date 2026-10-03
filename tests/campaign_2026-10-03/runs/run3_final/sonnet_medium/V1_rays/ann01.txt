@@ -1,0 +1,57 @@
+## unit 1: rang don du chos sku 'pho 'gyur med pa khams rang bzhin gyis rnam pa r dag pa la glo bur gyi dri ma rab tu zhi zhing rgyu rkyen gyis 'dus ma byas pa spros pa dang bral ba nam mkha' ltar srid zhi mnyam pa nyid kyi ngang du bzhugs shing
+NEG: 3 — 'gyur med pa · dri ma rab · 'dus ma byas
+COMPOUND? glo bur gyi dri ma = adventitious stains, adventitious defilements, tem… (MITRA) · spros pa dang bral ba = ineffable, unelaborate, without elabo (MITRA) · srid zhi mnyam pa nyid = =ity of samsara and nirvana (RY) · 'pho 'gyur med pa = unchanging, without cessation or change, without trans… (RY) · rnam par dag pa = purity, pure, immaculate (MITRA) · khams rang bzhin = elements naturally, dhatu's nature (MITRA) · rab tu zhi = pacified, pacify, pacification (MITRA) · nam mkha' ltar = like space, space-like, sky-like (MITRA)
+  rang don       NOUN  
+      MITRA: [noun 99%] | 1. one's own benefit, welfare, or purpose <en: own benefit>
+  du             PARTICLE LA-DON
+  chos sku       NOUN  
+      MITRA: [noun 100%] | 1. the truth body of a Buddha; the ultimate nature of reality <en: dharmakāya>
+  'pho 'gyur     NOUN  
+      MITRA: [noun 73%, verb 27%] | 1. change, transformation, or transition in state, nature, or government; also used as a verb <en: change>
+  med pa         VERB  
+      MITRA: [noun 39%, attributive use 24%, verbal noun 20%, predicative use 17%] | 1. to be nonexistent; not existing; lacking substance <en: nonexistent>
+  khams          NOUN  
+      MITRA: [noun 100%] | 1. element, basic constituent, or substance; often referring to the dhātu in Buddhist cosmology and psychology <en: element>
+  rang bzhin     NOUN  
+      MITRA: [noun 100%] | 1. nature, essence, or intrinsic characteristic; also used to denote the form or manifestation of a thing <en: nature>
+  gyis           PARTICLE ERG/INSTR
+  rnam pa        NOUN  
+      MITRA: [noun 94%, adverb 6%] | 1. type, kind, variety, or category <en: types>
+  r              PARTICLE LA-DON (terminative)
+  dag pa         VERB  
+      MITRA: [adjective 71%, noun 17%, verbal noun 6%, adverb 5%] | 1. pure; stainless; free from defilements or impurities <en: pure>
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  glo bur        OTHER 
+      MITRA: [adjective 65%, noun 23%, adverb 13%] | 1. adventitious; not intrinsic, arising from external causes rather than nature <en: adventitious>
+  gyi            PARTICLE GEN
+  dri ma         NOUN  
+      MITRA: [noun 100%] | 1. stain, defilement, or impurity of the mind; a mental obscuration <en: stains>
+  rab tu         NO_POS
+      MITRA: [adverb 57%, adjective 26%, noun 16%] | 1. superior, best, or highest; also used as a noun for the superior one or as an adverb meaning in a supreme man… <en: best>
+  zhi            VERB    VERB-FORM?: zhi (pres)  …
+      MITRA: [verb 38%, noun 30%, adjective 29%, determiner 3%] | VERB zhi (intransitive, involuntary): present zhi; past zhi; future zhi · syntax [Abs. Obl.] (Hackett 2003). | 1. peace, tranquility, or serenity; also used attributively as peaceful or calm <en: peace> | nominalised: zhi ba, zhi pa
+  zhing          PARTICLE COORD
+  rgyu rkyen     OTHER 
+      MITRA: [noun 100%] | 1. cause; condition; the factors or circumstances that lead to a result <en: causes>
+  gyis           PARTICLE ERG/INSTR
+  'dus ma byas pa NO_POS
+      MITRA: [adjective 69%, noun 31%] | 1. Unconditioned, uncompounded, or noncomposite; not produced by causes and conditions. <en: unconditioned>
+  spros pa       VERB  
+      MITRA: [noun 97%, verbal noun 3%] | 1. conceptual proliferation, mental constructs, or discursive elaboration; also used as a verb for the act of pr… <en: elaborations>
+  dang           PARTICLE COMIT / COORD (and; with; after some verbs: from)
+  bral ba        VERB  
+      MITRA: [verbal noun 44%, adjective 38%, noun 10%, verb 7%] | 1. free from, devoid of, or without; also used as a noun for the state of being free from something <en: free>
+  nam mkha'      NOUN  
+      MITRA: [noun 100%] | 1. space; the void; the infinite expanse <en: space>
+  ltar           PARTICLE SIMILE / manner (like, as, according to)
+  srid zhi       NOUN  
+      MITRA: [noun 100%] | 1. the duality of existence and cessation, saṃsāra and nirvāṇa <en: nirvana>
+  mnyam pa nyid  NOUN  
+      MITRA: [noun 100%] | 1. sameness, equality, or the state of being identical; also used to denote the identity of things <en: sameness>
+  kyi            PARTICLE GEN
+  ngang          NOUN  
+      MITRA: [noun 98%, particle 2%] | 1. state, nature, or realm of being; the fundamental essence of reality <en: state>
+  du             PARTICLE LA-DON
+  bzhugs         VERB    VERB-FORM?: bzhugs (pres)  …
+      MITRA: [verb 100%] | VERB bzhugs (intransitive, voluntary): present bzhugs; past bzhugs; future bzhugs; imperative bzhugs · syntax [Abs. Obl.] (Hackett 2003). | 1. to stay, remain, reside, or dwell in a place <en: remain> | nominalised: bzhugs pa, bzhugs ba
+  shing          PARTICLE COORD

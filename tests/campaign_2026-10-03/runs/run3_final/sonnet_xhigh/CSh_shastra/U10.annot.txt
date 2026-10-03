@@ -1,0 +1,52 @@
+## unit 1: nang na gsal ba de nyid ni ngag las mngon sum thos mthong yin 'on kyang sgra la rnam rtog gi gzugs brnyan 'byung ba r 'gyur ba yin
+NEG: 0 (none)
+COMPOUND? gzugs brnyan 'byung ba = to arise as a reflection or appearance (MITRA) · 'gyur ba yin = to become (MITRA) · thos mthong = hearing seeing, seeing hearing, hear see (MITRA)
+  nang           NOUN  
+      MITRA: [noun 99%] | 1. the interior or inner part of something; also used to mean among or in the midst of a group <en: inside, within, among, inward> <skt: madhya, antar>
+      JH: in; internal; inside; interior; house [Skt. adhyātma; adhyātman; ādhyātmika; vivaraka; madhya] {inn…
+  na             PARTICLE LOC / COND (in, at; if, when)
+  gsal ba        VERB  
+      MITRA: [noun 39%, adjective 32%, verbal noun 25%, verb 3%] | 1. clear, transparent, or pure; easy to perceive visually <en: clear> <skt: prasad, accha>
+      JH: instance; manifestation; predicate [misspelling of bsal ba?]{BJ}; clarifier; clear{D1}; clearly [Sk…
+  de nyid        NOUN  
+      MITRA: [noun 95%, pronoun 4%] | 1. The ultimate reality, suchness, or true nature of phenomena; often translates tathatā or tattva <en: reality, suchness, nature, thatness> <skt: tattva, tatva>
+      JH: [Skt. tattva; satattva; tathatā] {reality; suchness; principle}
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  ngag           NOUN  
+      MITRA: [noun 100%] | 1. speech; the faculty of speaking; voice <en: speech, verbal, voice, vocal> <skt: vāc, vacas>
+      JH: speech [Skt. vāk; vāc]
+  las            PARTICLE ABL (from, out of; than; after a title: 'from the …')
+  mngon sum      NOUN  
+      MITRA: [noun 100%] | 1. direct perception; immediate cognition without conceptual elaboration, also used to mean manifest or evident <en: perception, manifest, perceptions, evident> <skt: pratyakṣa, pratyakṣatas>
+      JH: direct perceiver; direct perception; obvious object [Skt. pratyakṣa; saṃmukham; aparokṣa; saṃmukha]…
+  thos           VERB    VERB-FORM?: thos (pres, MITRA); thos (past, MITRA); thos (futu, MITRA)  …
+      MITRA: [verb 89%, noun 11%] | VERB thos (transitive, involuntary): present thos; past thos; future thos · syntax [Erg. Abs.] (Hackett 2003). | 1. to hear or listen to <en: heard, hear, hearing, hears> <skt: śru, śravaṇa> | nominalised: thos pa, thos ba
+      JH: hear; listen; hearing [Skt. śṛṇoti; śruta; śravana; śru-; vidita] {learn}
+  mthong         VERB    VERB-FORM?: mthong (pres, MITRA); mthong (past, MITRA); mthong (futu, MITRA)  …
+      MITRA: [verb 97%, noun 3%] | VERB mthong (transitive, involuntary): present mthong; past mthong; future mthong · syntax [Erg. Abs.] (Hackett 2003). | 1. to see, behold, or catch sight of <en: see, saw, seen, seeing> <skt: dṛś, paś> | nominalised: mthong ba, mthong pa
+      JH: to see; to perceive [Skt. darśana; dṛśya; darśin; darśanu (e.g.: saha darśanenaiva); paśyati; paśya…
+  yin            NO_POS  VERB-FORM?: yin (pres, MITRA); yin (futu, MITRA); yin (pres, Verbinator)  …
+      MITRA: [verb 95%, noun 5%] | VERB yin: present yin; past —; future yin · syntax [Abs. Abs.] (Hackett 2003). | 1. to be; to exist; to be the case; to be identical to <en: being, copula, identity, yes> <skt: bhū, as> | nominalised: yin pa
+      JH: is; be [Skt. bhava]
+  'on kyang      NO_POS
+      JH: however; but; yet; notwithstanding [Skt. api tu-khu; api kho pana] {but on the contrary}
+      RY: [RY] however / * [IW] in any case, but, yet, however, nevertheless / * [RY] Nevertheless, / * [JV] …
+  sgra           NOUN  
+      MITRA: [noun 100%] | 1. sound, noise, or auditory object; also used for voice or utterance <en: sound, sounds, voice> <skt: śabda, ghoṣa>
+      JH: sound; term; roar [Skt. śabda; ghoṣa; svara; ruta; āyatana] {voice; message; sense-field; occasion …
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  rnam rtog      NOUN  
+      MITRA: [noun 100%] | 1. conceptual thought; the act of forming concepts or mental fabrications, also used to denote the quality of be… <en: thoughts, thought, concepts, conceptual> <skt: vikalpa, vikalpay>
+      JH: [Skt. vitarka; vikalpa; kalpanā] {conceptuality; discursiveness; coarse conceptuality; thought; con…
+  gi             PARTICLE GEN (of; 's; marks the preceding phrase as modifier of what follows)
+  gzugs brnyan   NOUN  
+      MITRA: [noun 100%] | 1. reflection or image seen in a reflective surface <en: reflection, image, reflections, images> <skt: pratibimba, pratibimbaka>
+      JH: reflection [Skt. pratibimba; bimba; pratirūpaka; prativarṇika; pratikṛti; pratibhāsa] {a reflection…
+  'byung ba      VERB  
+      MITRA: [noun 60%, verbal noun 29%, verb 10%] | 1. element; basic constituent of matter, also used as a verbal noun <en: elements, element> <skt: bhūta, bhū>
+      JH: 'byung 'byung byung byung [Skt. bhūta; abhutī; sambhava; bhavati; prabhavata; upapadyati; utpanna; …
+  r              PARTICLE LA-DON (terminative)  (or fused: 'byung bar — 'byung 'byung byung byung, JH)
+  'gyur ba       VERB  
+      MITRA: [verbal noun 37%, noun 36%, verb 27%] | 1. to become, be, or be constituted as; the act of coming into existence <en: become, becoming, becomes> <skt: bhū, as>
+      JH: 'gyur 'gyurd gyur gyurd [Skt. pariṇāma; abhyupaiti; vikāra; vikāritā; sambhava; cañcalā; vrajati (e…
+  yin            (see above)

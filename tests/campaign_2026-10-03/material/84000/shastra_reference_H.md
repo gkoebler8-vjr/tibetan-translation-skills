@@ -1,0 +1,21 @@
+# Reference English (H) for test page shastra — 84000 translation, verbatim (see shastra.md for translator and version)
+
+U01 When the Lord … said to venerable Śāriputra… / Question: Why among all the many who have arrived does he speak to him alone? It contradicts what has been said above, namely, that they think, “The Tathāgata is seated in front of me explaining the Dharma.” All those gathered there see the Tathāgata from their own personal perspective and think, “The Tathāgata is explaining the Dharma.” If the Lord has singled out one from among them all, and specifically speaks to him, why does this not conflict with the experience of the rest of the retinue?
+
+U02 Response: Let me explain. It is true that the Tathāgata manifests and explains everything to everyone. Still, he speaks to Śāriputra, and in that instant he also speaks to all. Insofar as in that one spoken instant he makes all sorts of different statements to all, those who recite the Buddha’s words are not able to recite all the dimensions of the discourse. So, summoning a stupendously brilliant knowledge of the explanation, they have recited it, having taken one dimension of the discourse suited to all the beings.
+
+U03 Alternatively, the Tathāgata begins by teaching Śāriputra because just this way causes the good Dharma to last for a long time and therefore the Tathāgata has permitted it. So, those who recite the Buddha’s words recite based on just that permission.
+
+U04 Qualm: Even so, why, in teaching the supreme explanation of the Bodhisattva Vehicle, does he set aside bodhisattvas and set the scene by speaking to just Śāriputra?
+
+U05 Response: You should understand this as follows. The perfection of wisdom is a shared discourse. It is not a discourse for the sake of just bodhisattvas. And why? Because the perfection of wisdom exists as all-knowledge, the knowledge of path aspects, the knowledge of all aspects, and the three doors. There, if the Lord had set the scene by addressing any bodhisattva it is possible that others might have thought, “This profundity is not going to be within our range,” and been ill at ease. By setting the scene with Śāriputra, the explanation becomes one shared by all beings. The others think, “This is not too profound.” So, he sets the scene with Śāriputra. It is similar later on as well, where we find the monks and others in the retinue clearly realizing the Dharma and each reaching their own goals.
+
+U06 Qualm: There, even in that case, the venerable Śāriputra is one with his work done, so it is not right to set the scene with him for this discourse that has a great purpose.
+
+U07 Response: Still, in regard to the fact that venerable Śāriputra has thus done his work, The White Lotus of the Good Dharma says: / Again, Śāriputra, at a future time, after immeasurable, inconceivable, incalculable eons, when you have learned the good Dharma from many hundred thousand one hundred million billion tathāgatas, have showed devotion in various ways, and completed just this bodhisattva practice, you will become in the world, in the buddhafield called Viraja, a tathāgata, worthy one, perfectly complete buddha called Padmaprabha. / Thus, that venerable Śāriputra’s buddhahood was predicted.
+
+U08 Qualm: How could a monk with outflows dried up, who has cut the continuum of afflictions and karma, link up with another existence and practice this bodhisattva practice for immeasurable, inconceivable eons? It does not make any sense, because, were even worthy ones to link up with rebirths, then all the worthy ones would be reborn yet again, and the unwelcome consequence would be that they have not achieved liberation.
+
+U09 Response: This too is not certain. It would be correct to say that were worthy ones to have karma and afflictions they would through the power of karma and afflictions be reborn in suffering existence and would not achieve liberation, but not to say that worthy ones, as worthy ones, have karma and afflictions and will be reborn because of that.
+
+U10 This topic should be explained in detail in the stages found in other sūtras. In them, tathāgatas see that some beings are in a lineage that is certain and some in a lineage that is not certain.

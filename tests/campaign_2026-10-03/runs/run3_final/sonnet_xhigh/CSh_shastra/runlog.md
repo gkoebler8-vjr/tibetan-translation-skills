@@ -1,0 +1,89 @@
+# runlog (shastra)
+- start 2026-10-03 20:10:00
+- Skill tool invoked: tibetan-translate (served copy)
+- model line: Claude Sonnet 5.5 (claude-sonnet-5-5), reasoning effort setting not verifiable from inside; running autonomously OUTSIDE the calibrated setting (Opus/Fable at max); proceeding per rule 1 / skill gate.
+- ref read: ~/.claude/skills/tibetan-translate/SKILL.md - CORRECTED: before the first unit I only had the Skill tool's served copy (my 'cat' calls did not display the file; one diff compared the file with itself); the on-disk text (mtime 20:25, i.e. edited during the run) was displayed in full only after the MITRA step
+- note: page file read: material/84000/C_shastra_units.md (12 units U01-U12) - before first unit
+- ref read: reference/english.md - before first unit - 20:10:17
+- ref read: reference/prose.md - before first prose unit - 20:10:17
+- ref read: reference/modes.md - before first unit - 20:10:17
+- ref read: reference/analysis.md - before first unit (first construal of session) - 20:10:25
+- Skill tool invoked: tibetan-verse (served copy) - 20:10:34
+- ref read: tibetan-verse/SKILL.md (via Skill tool; on-disk diff not made) - before first verse unit - 20:10:34
+- ref read: tibetan-verse/reference/guidelines.md - before first verse unit - 20:10:34
+- tibdict annotate U01 start 20:10:40
+- tibdict annotate U01 done 20:10:42
+- tibdict annotate U02 start 20:11:39
+- tibdict annotate U02 done 20:11:41
+- tibdict annotate U03 start 20:11:41
+- tibdict annotate U03 done 20:11:42
+- tibdict annotate U04 start 20:11:42
+- tibdict annotate U04 done 20:11:43
+- tibdict annotate U05 start 20:12:17 (--budget 6000)
+- tibdict annotate U05 done 20:12:18
+- tibdict annotate U06 start 20:12:18 (--budget 6000)
+- tibdict annotate U06 done 20:12:20
+- tibdict annotate U07 start 20:12:20 (--budget 6000)
+- tibdict annotate U07 done 20:12:21
+- tibdict annotate U08 start 20:12:21 (--budget 6000)
+- tibdict annotate U08 done 20:12:22
+- tibdict annotate U09 start 20:12:22 (--budget 6000)
+- tibdict annotate U09 done 20:12:24
+- tibdict annotate U10 start 20:12:24 (--budget 6000)
+- tibdict annotate U10 done 20:12:25
+- tibdict annotate U11 start 20:12:25 (--budget 6000)
+- tibdict annotate U11 done 20:12:27
+- tibdict annotate U12 start 20:12:27 (--budget 6000)
+- tibdict annotate U12 done 20:12:28
+- dm.py identify U02 start 20:12:35
+- dm.py identify U02 done 20:12:40
+- dm.py identify U04 start 20:12:51
+- dm.py identify U04 done 20:12:55
+- dm.py identify U10 start 20:12:55
+- dm.py identify U10 done 20:12:58
+- dm.py identify U11 start 20:12:58
+- dm.py identify U11 done 20:13:02
+- dm.py segment BO_K12_D0418:17a-11 --context (U04 variant check) start 20:13:29
+- dm.py segment (U04) done 20:13:29
+- dm.py identify U01 (lemma 'sdom pa'i dbye ba la sogs pa') start 20:15:19
+- dm.py identify U01 done 20:15:31
+- construal U01-U04 written to shastra.construal.md 20:22:18
+- construal U05-U08 written 20:23:48
+- construal U09-U12 written 20:24:27
+- glossary written (48 rows) 20:24:40
+- beats.py U02 start 20:28:06
+- beats.py U02 done 20:28:06
+- ref re-read: reference/modes.md (harness notice: changed on disk since first read) - during drafting, before first draft complete - 20:28:12
+- tibdict lookup 'shes rab ye shes' (Sanskrit attestation check, drafting) 20:28:47
+- tibdict lookup 'las kyi phyag rgya' (Sanskrit attestation check, drafting) 20:28:47
+- tibdict lookup 'dam tshig gi phyag rgya' (Sanskrit attestation check, drafting) 20:28:47
+- tibdict lookup 'chos kyi phyag rgya' (Sanskrit attestation check, drafting) 20:28:47
+- tibdict lookup 'phyag rgya chen po' (Sanskrit attestation check, drafting) 20:28:47
+- tibdict lookup 'dngos grub' (Sanskrit attestation check, drafting) 20:28:47
+- tibdict lookup 'spros pa'i phyag rgya' (Sanskrit attestation check, drafting) 20:28:47
+- note: tibdict lookup output includes 84000 glossary lines from OTHER texts (Toh 361/384/431/543), none from Toh 1183; no 84000 page opened, no English of this passage seen 20:29:32
+- construal/glossary patched after modes.md re-read 20:29:32
+- lexicon.py extended: empowered, empowers, empowering (per tibetan-verse step 7) 20:30:01
+- beats.py U02 (variant A/B) 20:30:01
+- beats.py U02 (variant C) 20:30:23
+- beats.py U04 20:30:32
+- beats.py U10 20:30:32
+- beats.py U11 20:30:32
+- beats.py U11 variants 20:30:55
+- beats.py U11 variants 2 20:31:04
+- beats.py U11 final block 20:32:28
+- draft (Pass 2) of all units written to shastra.draft.md 20:32:42
+- Agent tool NOT available in my context (ToolSearch select:Agent: no match; tool list has no Agent/Task) -> in-context fidelity check will be run, stated as Check: in-context 20:33:55
+- style pass (Pass 3) applied -> shastra.draft.md v2 20:33:55
+- ref read: reference/check.md (to run the check protocol in-context) - later, at Pass 4 - 20:34:02
+- Pass 4 in-context check: re-read construal+draft from files 20:34:08
+- Pass 4 in-context check findings logged; revision round: beats.py U11 revised line 20:35:13
+- revision round applied (U11 rgyas restored; construal reconciled) 20:35:49
+- dm.py translate --file (MITRA cross-check, once, after fidelity check + revision) start 20:35:58
+- dm.py translate --file done 20:37:42 (exit 0)
+- beats.py U11 (reading A after MITRA flag) 20:40:03
+- MITRA comparison done; U11 changed to reading A; U08 S5 'immediately after'; decisions in construal 20:40:34
+- assembling final.md 20:42:15
+- final.md written 20:43:12; finished 20:43:12
+- ref read (late, honest correction): tibetan-translate/SKILL.md on disk, actually displayed in full only now, after the draft; earlier 'cat' calls did not display it (and one diff compared the file with itself) 20:43:24
+- final.md rewritten with audit and corrections; finished 20:44:32

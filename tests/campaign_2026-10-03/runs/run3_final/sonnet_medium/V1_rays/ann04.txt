@@ -1,0 +1,47 @@
+## unit 1: brtse ba 'i thugs rje chen po 'i sprin las mchog gi sprul sku s sems can gyi khams la phyogs ris med pa r khyab cing
+NEG: 1 — ris med par
+COMPOUND? brtse ba'i thugs rje = loving compassion, compassionate love, loving ki… (MITRA) · mchog gi sprul sku = supreme nirmanakaya, supreme emanation body, supre… (MITRA) · sems can gyi khams = beings buddha, being element, dispositions (MITRA) · phyogs ris med pa = impartially, impartial, nonsectarian (MITRA) · chen po'i sprin = great cloud, cloud's great (MITRA)
+  brtse ba       VERB  
+      MITRA: [noun 98%] | 1. love, affection, or kindness toward others; also used attributively as 'dear' or 'beloved' <en: love, affection, loving, kindness> <skt: sneha, maitra>
+      JH: / brtse/ brtses/ brtses/ [Skt. dayā; anukampā; anukampana; kṛpā; kṛpa; kṛpālu; kriḍana] {noun: merc…
+  'i             PARTICLE GEN
+  thugs rje      NOUN  
+      MITRA: [noun 100%] | 1. compassion, kindness, or mercy; also used to refer to a compassionate being <en: compassion, compassionate, kindness, mercy> <skt: karuṇā, kṛpā>
+      JH: compassion [Skt. karuṇā; mahākaruṇā; (√karuṇāya}: karuṇāyate; kṛpā] {mercy; great compassion}
+  chen po        ADJ   
+      MITRA: [adjective 100%] | 1. great; large; big; huge <en: great, large, big, huge> <skt: mahat, vipula>
+      JH: great; large; big; great one [Skt. mahā; mahat; mahattā; mahattva; mahatī; adhimātra; adhimātratā; …
+  'i             PARTICLE GEN
+  sprin          NOUN  
+      MITRA: [noun 100%] | 1. cloud <en: clouds, cloud> <skt: megha, abhra>
+      JH: cloud [Skt. megha; abhra]
+  las            PARTICLE ABL (from, out of; than; after a title: 'from the …')
+  mchog          ADJ     VERB-FORM?: mchog (pres, Verbinator); mchog (past, Verbinator); mchog (fut, Verbinator)
+      MITRA: [adjective 72%, noun 28%] | 1. supreme, highest, or paramount; the foremost of a group <en: supreme, foremost, highest, best> <skt: agra, uttama>
+      JH: supreme. best; superior [Skt. uttama; agra; agratā; vara; ukṛṣṭa (=utkṛṣṭa); utkarṣa; utkṛṣṭa(tā); …
+  gi             PARTICLE GEN (of; 's; marks the preceding phrase as modifier of what follows)
+  sprul sku      NOUN  
+      MITRA: [noun 100%] | 1. the emanation body of a Buddha, the physical manifestation appearing in the world to benefit sentient beings <en: nirmāṇakāya, emanation body, manifestation body, nirmāṇakāyas> <skt: nirmāṇa-kāya, nairmāṇika>
+      JH: 'i sku [Skt. nirmāṇa-kāya] {Emanation Body}
+  s              PART   -> gis  (or fused: sprul + skus — body, form, bodies, MITRA)
+      JH: Comment: One of five instrumental particles—gis, kyis, gyis, 'is, yis. Also used adverbially.
+      RY: [RY] (verb) + gis - though/ while. Syn {kyis} [used after final {ga} and {nga}. 2) ! [imperative] /…
+  sems can       NOUN  
+      MITRA: [noun 100%] | 1. sentient being; any living creature possessing a mind <en: beings, being, sentient, people> <skt: sattva, satva>
+      JH: [mind-having]; sentient being; animals [Skt. sattva; sattvata; loka] {relation to a being; world}
+  gyi            PARTICLE GEN
+  khams          NOUN  
+      MITRA: [noun 100%] | 1. element, basic constituent, or substance; often referring to the dhātu in Buddhist cosmology and psychology <en: element, elements, constituents, constituent> <skt: dhātu, dhātṛ>
+      JH: realm; constituent; element; basic/essential constituent; disposition; type; constitution [as in he…
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  phyogs ris     NOUN  
+      MITRA: [noun 99%] | 1. bias, partiality, or prejudice; also used to denote arbitrary distinctions <en: bias, partiality, biases, distinctions>
+      RY: [IW] 1) shog kha; 2) biased desire and dislike, sectarianism, partiality, bias, particle, preferenc…
+  med pa         VERB  
+      MITRA: [noun 39%, attributive use 24%, verbal noun 20%, predicative use 17%] | 1. to be nonexistent; not existing; lacking substance <en: nonexistent, non-existent, nothing, nonexistents> <skt: abhāva, asat>
+      JH: non-existence; non-existent{N}; does not exist; not exist; not be; without [Skt. abhāva; avidyamāna…
+  r              PARTICLE LA-DON (terminative)  (or fused: med par — non-existent; as non-existent, JH)
+  khyab          VERB    VERB-FORM?: khyab (pres, MITRA); khyab (past, MITRA); khyab (futu, MITRA)  …
+      MITRA: [verb 92%, noun 6%, adjective 2%] | VERB khyab (intransitive, involuntary): present khyab; past khyab; future khyab · syntax [Erg. Abs.] (Hackett 2003). | 1. to pervade, spread throughout, or fill a space or object; also used as a noun for the state of being all-perv… <en: pervades, pervade, spread…
+      JH: [Skt. vyāpin; vyāpana; vyāpada; (√sphur): sphurati] {entail; pervade; fill; embrace; cover over}
+  cing           PARTICLE COORD (and, while)

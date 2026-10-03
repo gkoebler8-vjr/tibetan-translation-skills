@@ -1,0 +1,142 @@
+## unit 1: ral gri shes rab la zhags pa ni thabs so yang na zhags pa se s rab la ral gri thabs so gnyis ka ro gcig tu gyur pa ni sdigs mdzub po g.yon pa 'og tu bltas pa ni sa 'og bdun skyong ba r byed pa 'o g.yas pa steng du bltas pa ni tshangs pa 'i sgo nga bdun skyong ba r byed pa 'o bus mo g.yon pa sa la btsugs pa ni sa skyong bar byed pa 'o g.yas pa 'i rkang pa s yang dag pa r bsnun pa ni bdud thams cad skrag pa r mdzad pa 'o phung po 'i bdud tshangs pa nyon mongs pa 'i bdud dbang phyug 'chi bdag gi bdud khyab 'jug lha 'i bu 'i bdud lha 'i dbang po 'o
+NEG: 0 (none)
+COMPOUND? ro gcig tu gyur = merge, become one taste, becoming identical (MITRA) · skyong bar byed pa = prabhaviSNutA (Yogacara) · tshangs pa'i sgo nga = egg-of-brahmā (MITRA) · sa la btsugs pa = nipatita (Yogacara) · nyon mongs pa'i bdud = demon, kleshamara (MITRA) · 'chi bdag gi bdud = demon (MITRA) · 'og tu bltas = facing down, facing downwards, looked beneath (MITRA) · sa 'og bdun = «The seven below the earth», i.e., the seven sub-terrestri… (Duff)
+  ral gri        NOUN  
+      MITRA: [noun 100%] | 1. sword or scimitar; also used for knives an…
+  shes rab       NOUN  
+      MITRA: [noun 100%] | 1. wisdom, insight, or discriminating awarene…
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  zhags pa       NOUN  
+      MITRA: [noun 100%] | 1. noose, lasso, or rope; often a ritual impl…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  thabs          NOUN    VERB-FORM?: thabs mkhas (fut)
+      MITRA: [noun 100%] | 1. means, method, or technique; also used for…
+  so             PARTICLE FINAL
+  yang na        NO_POS  (or split: yang | na)
+      RY: [IW] [either...]or, or else, and again / * [RY] either, or, or else; alternativ…
+  zhags pa       (see above)
+  se             NO_POS
+      MITRA: [noun 88%, particle 5%, pronoun 3%] | 1. Sera Monastery <en…
+  s              PART   -> gis  (or fused: ses — se, MITRA)
+      JH: Comment: One of five instrumental particles—gis, kyis, gyis, 'is, yis. Also use…
+  rab            ADV     VERB-FORM?: rab gnas (fut)
+      MITRA: [adverb 57%, adjective 26%, noun 16%] | 1. superior, best, …
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  ral gri        (see above)
+  thabs          (see above)
+  so             PARTICLE FINAL
+  gnyis ka       OTHER 
+      MITRA: [noun, numeral] | 1. both; either; neither; the two togethe…
+  ro             NOUN  
+      MITRA: [noun 97%, particle 3%] | 1. taste or flavor; also used as …
+  gcig           NUM   
+      MITRA: 1. one; single; only <en: single>
+  tu             PARTICLE LA-DON (to, in; adverbial -ly)
+  gyur pa        VERB  
+      MITRA: [verbal noun 88%, verb 11%] | 1. to become, be, or achieve …
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  sdigs mdzub po NOUN    (no entry; components: sdigs, mdzub, po)  (or split: sdigs mdzub | po)
+      sdigs = MITRA: [noun 96%, verb 4%] | 1. nega…
+      mdzub = MITRA: [noun 100%] | 1. finger; also…
+      po = RY: [JV] place in gesar and tibet…
+  g.yon pa       ADJ   
+      MITRA: [adjective 72%, noun 28%] | 1. left; on the left side, or i…
+  'og            NOUN  
+      MITRA: [noun 94%, particle 5%] | 1. below, under, or underneath; t…
+  tu             PARTICLE LA-DON (to, in; adverbial -ly)
+  bltas pa       VERB  
+      MITRA: [verbal noun 91%, noun 7%, verb 2%] | 1. the act of looking…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  sa 'og         OTHER 
+      MITRA: [noun 100%] | 1. the area beneath the surface of the earth;…
+  bdun           NUM   
+      MITRA: 1. seven <en: seven>
+  skyong ba      VERB  
+      MITRA: [verbal noun 62%, noun 31%, verb 7%] | 1. a protector or gu…
+  r              PARTICLE LA-DON (terminative)
+  byed pa        VERB  
+      MITRA: [verbal noun 47%, noun 41%, verb 12%] | 1. action, activity…
+  'o             PARTICLE FINAL (statement)
+  g.yas pa       VERB  
+      MITRA: [adjective 91%, noun 9%] | 1. right; on the right side <en:…
+  steng          NOUN    VERB-FORM?: steng (pres)
+      MITRA: [noun 100%] | 1. above, on top of, or the upper surface of …
+  du             PARTICLE LA-DON
+  bltas pa       (see above)
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  tshangs pa     PROPN 
+      MITRA: [noun 100%] | 1. Brahmā; a high deity or the creator god in…
+  'i             PARTICLE GEN
+  sgo nga        NOUN  
+      MITRA: [noun 100%] | 1. egg <en: egg>
+  bdun           (see above)
+  skyong ba      (see above)
+  r              PARTICLE LA-DON (terminative)
+  byed pa        (see above)
+  'o             PARTICLE FINAL (statement)
+  bus            VERB    VERB-FORM?: 'bud (past)  …
+      MITRA: [noun 49%, verb 48%] | VERB 'bud (transitive, voluntary): p…
+  mo             PARTICLE NOMINALISER / fem.
+  g.yon pa       (see above)
+  sa             ADP   
+      MITRA: [noun 100%] | 1. earth, ground, or the physical surface of …
+  la             PARTICLE LA-DON (to, for, in, at; recipient; locus; after a verb: purpose or connective 'and')
+  btsugs pa      VERB  
+      MITRA: [verbal noun 93%, verb 5%, adjective 2%] | 1. the act of es…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  sa skyong      PROPN 
+      MITRA: [noun 99%] | 1. ruler, king, or sovereign; also used as a p…
+  bar            NOUN    VERB-FORM?: nyer len (pres)
+      MITRA: [noun 92%, particle 7%] | 1. the space, position, or gap be…
+  byed pa        (see above)
+  'o             PARTICLE FINAL (statement)
+  g.yas pa       (see above)
+  'i             PARTICLE GEN
+  rkang pa       NOUN  
+      MITRA: [noun 100%] | 1. foot or leg <en: feet>
+  s              (see above)
+  yang dag pa    ADJ   
+      MITRA: [adjective 91%, noun 5%, adverb 4%] | 1. Right, correct, or…
+  r              PARTICLE LA-DON (terminative)  (or fused: yang dag par — correctly, correct, properly, MITRA)
+  bsnun pa       VERB  
+      MITRA: [verbal noun 82%, noun 12%, verb 5%] | 1. the act of striki…
+  ni             PARTICLE TOPIC (marks the topic; usually untranslated)
+  bdud           NOUN  
+      MITRA: [noun 100%] | 1. the demon māra; a personification of death…
+  thams cad      DET   
+      MITRA: [determiner 100%] | 1. all, every, whole, entire; also used…
+  skrag pa       VERB  
+      MITRA: [noun 49%, verbal noun 48%] | 1. fear, anxiety, or fright; …
+  r              PARTICLE LA-DON (terminative)
+  mdzad pa       VERB  
+      MITRA: [noun 72%, verbal noun 25%, verb 2%] | 1. deed, act, or act…
+  'o             PARTICLE FINAL (statement)
+  phung po       NOUN  
+      MITRA: [noun 100%] | 1. aggregate; one of the five components of a…
+  'i             PARTICLE GEN
+  bdud           (see above)
+  tshangs pa     (see above)
+  nyon mongs pa  NOUN  
+      MITRA: [noun 100%] | 1. Mental afflictions, disturbing emotions, o…
+  'i             PARTICLE GEN
+  bdud           (see above)
+  dbang phyug    NOUN  
+      MITRA: [noun 100%] | 1. lord, master, or sovereign <en: lord>
+  'chi bdag      NOUN  
+      MITRA: [noun 100%] | 1. death; the act or state of dying <en: deat…
+  gi             PARTICLE GEN (of; 's; marks the preceding phrase as modifier of what follows)
+  bdud           (see above)
+  khyab 'jug     OTHER 
+      MITRA: [noun 100%] | 1. The Hindu deity Viṣṇu; also used attributi…
+  lha            NOUN    VERB-FORM?: lha (pres)
+      MITRA: [noun 100%] | 1. god, deity, or celestial being; also used …
+  'i             PARTICLE GEN  (or fused: lha'i — divine; of god(s) ], JH)
+  bu             NOUN  
+      MITRA: [noun 100%] | 1. son, child <en: son>
+  'i             PARTICLE GEN
+  bdud           (see above)
+  lha            (see above)
+  'i             PARTICLE GEN  (or fused: lha'i — divine; of god(s) ], JH)
+  dbang po       NOUN  
+      MITRA: [noun 100%] | 1. faculty; the physical or mental capacity f…
+  'o             PARTICLE FINAL (statement)

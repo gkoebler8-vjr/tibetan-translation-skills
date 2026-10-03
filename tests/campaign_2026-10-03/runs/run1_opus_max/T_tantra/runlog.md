@@ -1,0 +1,52 @@
+# runlog — tantra (T_tantra, run1_opus_max)
+
+Model/effort: Claude Opus 5.5 (claude-opus-5-5), reasoning effort maximum as configured for this run (not independently verifiable from inside the session). Autonomous run; brief given in prompt.md, Pass 0 not asked.
+
+- 15:38:58 START (run dir created, page file read: material/84000/tantra_units.md)
+- 15:38:58 note: page file header points to 84000/tantra.md for metadata; NOT opened (it carries the 84000 English; rule 3)
+- read: ~/.claude/skills/tibetan-translate/SKILL.md (via Skill tool) — before first unit
+- read: ~/.claude/skills/tibetan-translate/reference/english.md — before first unit
+- read: ~/.claude/skills/tibetan-translate/reference/analysis.md — before first unit (first construal of session)
+- read: ~/.claude/skills/tibetan-translate/reference/modes.md — before first unit (seasoned-practitioner column)
+- read: ~/.claude/skills/tibetan-verse/SKILL.md (via Skill tool) — before first unit (all units verse)
+- read: ~/.claude/skills/tibetan-verse/reference/guidelines.md — before first unit (long verse job: 12 stanzas)
+- 15:42:18 tool: tibdict annotate — U01
+- 15:44:43 tool: beats.py x3 (trial shapes) — U01
+- 15:47:41 tool: tibdict annotate — U02
+- 15:47:53 tool: tibdict annotate — U03
+- 15:48:11 tool: tibdict annotate — U04
+- 15:48:33 tool: tibdict annotate — U05
+- 15:48:48 tool: tibdict annotate — U06
+- 15:49:23 tool: tibdict annotate — U07
+- 15:49:51 tool: tibdict annotate — U08
+- 15:51:35 tool: tibdict annotate — U09
+- 15:56:06 tool: tibdict annotate — U10
+- 15:56:28 tool: tibdict annotate — U11
+- 15:56:51 tool: tibdict annotate — U12
+- 15:57:13 Pass 1 complete for U01-U12 (construal file built incrementally); starting Pass 2 drafts
+- 15:59:53 tool: beats.py — U01
+- 15:59:53 tool: beats.py — U03
+- 15:59:53 tool: beats.py — U04
+- 15:59:53 tool: beats.py — U05
+- 16:00:05 tool: beats.py x2 (two versions) — U06
+- 16:00:05 tool: beats.py — U07
+- 16:00:05 tool: beats.py x2 (two versions) — U08
+- 16:01:54 note: beats.py UNKNOWN words (consciousness, pratyekabuddhas, logicians, examine, knowables...) added to a LOCAL copy of lexicon.py in run dir tools_local/ (shared skill lexicon not edited, to keep other runs' conditions constant); later beats.py calls use tools_local/beats.py
+- 16:02:22 tool: tools_local/beats.py (14 single-line trials) — U06
+- 16:04:27 tool: tools_local/beats.py — U06
+- 16:04:27 tool: tools_local/beats.py — U07
+- 16:04:27 tool: tools_local/beats.py — U08
+- 16:04:27 tool: tools_local/beats.py x2 (two versions) — U09
+- 16:04:27 tool: tools_local/beats.py — U10
+- 16:04:27 tool: tools_local/beats.py — U11
+- 16:04:27 tool: tools_local/beats.py — U12
+- 16:05:46 tool: tools_local/beats.py — U08 (revised L2)
+- 16:05:47 tool: tools_local/beats.py — U09 (final shape)
+- 16:05:47 tool: tools_local/beats.py — U11 (revised L2, L4)
+- 16:05:47 tool: tools_local/beats.py — U02
+- 16:06:07 Pass 2 draft complete (tantra.draft.md), all 12 units; starting Pass 3 style pass
+- 16:06:28 Pass 3 style pass (seasoned-practitioner column: Sanskrit anglicized/no diacritics, no apparatus, epithet 'the Blessed One', register ceiling, 'you' in instruction) + whole-page read-aloud: no surface changes needed; draft stands as the version for the checker
+- 16:06:28 read: ~/.claude/skills/tibetan-translate/reference/check.md — later (before spawning checker)
+- 16:06:40 Agent tool NOT available in this session (ToolSearch for agent/subagent/task found only TaskStop and scheduled-task tools); per prompt rule 2 and check.md section 4: fidelity check run in-context after a clean break (re-reading construal, draft, glossary from disk). Checker spawns: 0
+- 16:08:37 Pass 4 in-context check done (tantra.check.md): VERDICT 0 major, 3 minor; one targeted revision round applied (construal Q reworded U06, glossary rows added, U04 Issue note); no body text changed, no second round needed (no relation touched)
+- 16:09:57 final.md written; FINISH

@@ -1,0 +1,53 @@
+## unit 1: de yi sbyor ba s rnal 'byor pa s myur du dngos grub the tshom med yang na shes rab dang bral ba 'i shin tu mnyam gzhag bsgom pa r bya
+NEG: 1 — tshom med yang
+COMPOUND? shes rab dang bral ba = without wisdom (MITRA) · myur du dngos grub = attainments quickly, instant accomplishment (MITRA) · shin tu mnyam gzhag = well focused, complete collectedness (MITRA) · the tshom med = undoubtedly, doubtlessly, doubtless (MITRA) · bsgom par bya = cultivate, cultivated, cultivating bodhicitta (MITRA)
+  de             PARTICLE SEMI-FINAL (or the demonstrative 'that')
+  yi             PARTICLE GEN
+  sbyor ba       VERB  
+      MITRA: [noun 87%, verbal noun 11%, verb 2%] | 1. the act of applying, practicing, or engaging in a spiritual method, virtue, or discipline; also used as a nou… <en: application, practice, practices, training> <skt: prayoga, yoga>
+      JH: [Skt. prayoga; prayogatā; (√yuj): yojayanti; yojana; yoga; yojayati; samaprayoga; anuyoga; niyojana…
+  s              PART   -> gis
+      JH: Comment: One of five instrumental particles—gis, kyis, gyis, 'is, yis. Also used adverbially.
+      RY: [RY] (verb) + gis - though/ while. Syn {kyis} [used after final {ga} and {nga}. 2) ! [imperative] /…
+  rnal 'byor pa  NOUN  
+      MITRA: [noun 100%] | 1. a practitioner of yoga; a yogi <en: yogi, yogin, yogis, yogins> <skt: yogin, yoginī>
+      JH: yogin [Skt. yogin; yogu; yogin; yoga]
+  s              (see above)
+  myur           VERB    VERB-FORM?: myur (pres, Verbinator)
+      MITRA: [adverb 82%, adjective 12%, noun 4%, verb 2%] | 1. swift; quick; rapid; soon <en: swiftly, swift, quickly, quick> <skt: kṣipra, kṣipram>
+      JH: quickly [Skt. āśu; kṣipra]
+  du             PARTICLE LA-DON
+  dngos grub     NOUN  
+      MITRA: [noun 100%] | 1. spiritual accomplishment or attainment, including supernatural powers and the successful result of practice <en: siddhis, siddhi, accomplishment, attainments> <skt: siddhi, sidh>
+      JH: 'grub 'grub 'grubs/grub grubs [Skt. siddhi] {feat; accomplishment; yogic accomplishment; actual acc…
+  the tshom      NOUN  
+      MITRA: [noun 100%] | 1. doubt, uncertainty, or scepticism; also used to denote the state of being doubtful <en: doubt, doubts, doubtful, uncertainty> <skt: saṃśaya, vicikitsā>
+      JH: doubt; qualm; suspicion [Skt. vicikitsā; vicikitsatā; saṃśaya; saṃdeha; saṃdigdha; vimati] {perplex…
+  med            PARTICLE NEG existential (there is no; without)
+  yang na        NO_POS  (or split: yang | na)
+      RY: [IW] [either...]or, or else, and again / * [RY] either, or, or else; alternatively; moreover/ (once…
+      Mvy: atha vā
+  shes rab       NOUN  
+      MITRA: [noun 100%] | 1. wisdom, insight, or discriminating awareness; also used to refer to the perfection of wisdom (prajñāpāramitā) <en: wisdom, insight, prajna, isdom> <skt: prajñā, jñāna>
+      JH: [know-highest]; wisdom [Skt. prajñā] {insight; understanding; knowledge}
+  dang           PARTICLE COMIT / COORD (and; with; after some verbs: from)
+  bral ba        VERB  
+      MITRA: [verbal noun 44%, adjective 38%, noun 10%, verb 7%] | 1. free from, devoid of, or without; also used as a noun for the state of being free from something <en: free, without, devoid, freedom> <skt: rahita, vigam>
+      JH: separation; free from; lack; devoid [Skt. vigama (e.g.: smṛti-vigama); vigata; apagama; viyoga; vis…
+  'i             PARTICLE GEN
+  shin tu        NO_POS
+      MITRA: [adverb 79%, noun 20%] | 1. very; extremely; greatly <en: very, extremely, great> <skt: su, atyanta>
+      JH: an intensifier: very; exceedingly [Skt. atyanta; ātyantikī; su- (e.g.: su-duḥkhita); -tara (e.g.: b…
+  mnyam          VERB    VERB-FORM?: mnyam (pres, MITRA); mnyam (past, MITRA); mnyam (futu, MITRA)  …
+      MITRA: [adjective 53%, verb 23%, noun 19%, adverb 6%] | VERB mnyam (intransitive, involuntary): present mnyam; past mnyam; future mnyam | 1. equal, the same, identical, or equivalent; also used as a verb to be equal to or as an adverb meaning equally <en: equal, same, equally, equals> <skt: sama, tulya> |…
+      JH: similar; equal; alike; same [Skt. sama; samāna; tulya] {same as; self identical; identical; even; s…
+  gzhag          VERB    VERB-FORM?: 'jog (futu, MITRA); 'jog (fut, Verbinator)
+      MITRA: [verb 94%, noun 5%] | VERB 'jog (transitive, voluntary): present 'jog, zhogs; past bzhag, zhogs, bzhogs, 'jogs; future gzhag, bzhog, gzhog, 'jog; imperative zhogs, zhog, 'jog · syntax [Erg. Abs.] (Tournadre & Dorje 2003: 159), (Hackett 2003). | 1. to posit, designate, or define as <en: posited, pos…
+      JH: 'jog bzhag zhog [Skt. (upa √dhā): upadhāya; (vy-ava √sthā): vyavasthāpyate] {posit; establish}
+  bsgom pa       VERB  
+      MITRA: [noun 62%, verbal noun 37%] | 1. meditation; mental cultivation or the act of developing a quality through practice <en: meditation, cultivation, cultivating, meditating> <skt: bhāvanā, bhāvay>
+      JH: [Skt. bhāvanā; bhāvana] {meditate; meditatively cultivate}
+  r              PARTICLE LA-DON (terminative)
+  bya            VERB    VERB-FORM?: byed (futu, MITRA); khas blang bar bya ba (past, JH); byed (fut, Verbinator)
+      MITRA: [verb 95%, noun 5%] | VERB byed (transitive, voluntary): present byed; past byas; future bya; imperative byo, byos, byed · syntax [Erg. Abs.] (Hackett 2003) | 1. to do, perform, carry out, or execute an action <en: do, made, perform, done> <skt: kṛ, kāray> | nominalised: bya ba, byed pa, byas pa, b…
+      JH: / byed/ byas/ byos/ [Skt. (1) kārya; kriyā; karaṇe; karaṇīya; kṛtya (2) pakṣin; dvija; śakuni] {(1)…

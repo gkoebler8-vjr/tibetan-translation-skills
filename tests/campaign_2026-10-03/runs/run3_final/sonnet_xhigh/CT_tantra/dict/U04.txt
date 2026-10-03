@@ -1,0 +1,27 @@
+## unit 1: de nas kun gyi sbyong byed pa 'i rnam dag bdag gis rab bshad bya
+NEG: 0 (none)
+COMPOUND? rab bshad bya = to propound, expound, or explain (MITRA)
+  de nas         PARTICLE then, after that
+  kun            DET   
+      MITRA: [determiner 92%, adverb 7%] | 1. all; every; whole; entire <en: everyone, every, everything, entire> <skt: sarva, sakala>
+      JH: all; complete; entire; whole; total; entirety; thorough [Skt. sarva; akhila; kṛtsna; samagra; mātra…
+  gyi            PARTICLE GEN
+  sbyong byed pa OTHER 
+      MITRA: [verbal noun 67%, verb 33%] | 1. the act of purifying; a purifying agent <en: dharma purifying>
+  'i             PARTICLE GEN
+  rnam dag       ADJ   
+      MITRA: [adjective 71%, noun 29%] | 1. pure, stainless, or immaculate; also used as a noun for the state of purity <en: pure, purity, pristine, purities> <skt: viśudh, viśuddhi>
+      JH: very pure; complete [Skt. viśuddha; viśuddhi; viśuddhaka; śuddhi] {pure}
+  bdag           PRON    VERB-FORM?: bdag nyid che (fut, JH); bdag (pres, Verbinator); bdag (past, Verbinator)  …
+      MITRA: 1. I, me, my, mine; we, us <en: me, my, mine, us> <skt: mad, as>
+      JH: self; I <c c="an be used to refer to oneself">; nature; entity [Skt. ātman; aham; sva; ahu; hu (=ah…
+  gis            PARTICLE ERG/INSTR (agent; by means of; because)
+  rab            ADV     VERB-FORM?: rab gnas (fut, JH)
+      MITRA: [adverb 57%, adjective 26%, noun 16%] | 1. superior, best, or highest; also used as a noun for the superior one or as an adverb meaning in a supreme man… <en: best, superior, highest, higher> <skt: vara, agra>
+      JH: best; highest; as an intensifier: very [Skt. pra-; vara; prakarṣa] {culminating point; boon; choice…
+  bshad          VERB    VERB-FORM?: 'chad (past, Verbinator); 'chad (fut, Verbinator)
+      MITRA: [verb 94%, noun 5%] | VERB 'chad (intransitive, involuntary): present 'chad, shod; past chad, bshad; future chad, 'chad, bshad · syntax [Abs. Obl.] (Hackett 2003). | 1. to say, tell, or state; also used as a noun for the act of teaching or exposition <en: said, say, tell, told> <skt: vac, bhāṣ> | n…
+      JH: explanation; exposition; explain; set forth; explicate [Skt. upadiṣṭa; deśana (e.g.: dharmārtha- de…
+  bya            VERB    VERB-FORM?: byed (futu, MITRA); khas blang bar bya ba (past, JH); byed (fut, Verbinator)
+      MITRA: [verb 95%, noun 5%] | VERB byed (transitive, voluntary): present byed; past byas; future bya; imperative byo, byos, byed · syntax [Erg. Abs.] (Hackett 2003) | 1. to do, perform, carry out, or execute an action <en: do, made, perform, done> <skt: kṛ, kāray> | nominalised: bya ba, byed pa, byas pa, b…
+      JH: / byed/ byas/ byos/ [Skt. (1) kārya; kriyā; karaṇe; karaṇīya; kṛtya (2) pakṣin; dvija; śakuni] {(1)…

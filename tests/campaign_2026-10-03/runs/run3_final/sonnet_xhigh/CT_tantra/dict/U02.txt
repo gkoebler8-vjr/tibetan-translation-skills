@@ -1,0 +1,26 @@
+## unit 1: mi g.yo bsgom pa yongs rdzogs na byang chub rgyal srid yang dag 'thob
+NEG: 1 — mi g.yo
+COMPOUND? yang dag 'thob = thoroughly attained (MITRA) · mi g.yo = unwavering, unshakable, immutable (MITRA)
+  mi             PARTICLE NEG (present/future)
+  g.yo           VERB    VERB-FORM?: g.yo (pres, Verbinator); g.yo (fut, Verbinator); g.yo (imp, Verbinator)
+      MITRA: [verb 68%, noun 32%] | VERB g.yo (transitive, voluntary): present g.yo; past g.yos; future g.yo; imperative g.yo · syntax [Erg. Abs.] (Hackett 2003). | 1. to shake, tremble, or quake <en: shook, trembled, shake, quaked> <skt: cal, kamp> | nominalised: g.yo ba, g.yos pa
+      JH: .yo/ g.yo/ g.yos/ g.yos/ [Skt. calati; śāṭhya] {move; fluctuate; waver; remove; dissimulation; dece…
+  bsgom pa       VERB  
+      MITRA: [noun 62%, verbal noun 37%] | 1. meditation; mental cultivation or the act of developing a quality through practice <en: meditation, cultivation, cultivating, meditating> <skt: bhāvanā, bhāvay>
+      JH: [Skt. bhāvanā; bhāvana] {meditate; meditatively cultivate}
+  yongs rdzogs   OTHER 
+      MITRA: [adjective 61%, noun 17%, adverb 12%, verb 9%] | 1. complete, entire, or whole; also used adverbially and nominally <en: entire, complete, whole, entirety> <skt: paripṛ, sampṛ>
+      JH: [Skt. paripūrayati] {thoroughly complete/perfect}
+  na             PARTICLE LOC / COND (in, at; if, when)
+  byang chub     NOUN  
+      MITRA: [noun 100%] | 1. awakening, enlightenment, or the state of buddhahood <en: awakening, enlightenment, enlightenm, buddhahood> <skt: bodhi, bodha>
+      JH: [purified-realized]; enlightenment [Skt. bodhi; bodha] {mngon par byang chub pa}
+  rgyal srid     NOUN  
+      MITRA: [noun 100%] | 1. kingdom, realm, or state; also used to denote the throne or royal authority <en: kingdom, throne, kingdoms, dominion> <skt: rājya, rāṣṭra>
+      JH: government; political authority; kingdom [Skt. rājya] {kingship}
+  yang dag       ADJ   
+      MITRA: [adverb 72%, adjective 22%, noun 6%] | 1. correct, right, or valid; in a proper way or according to a standard <en: correct, correctly, valid, right> <skt: samyak, samyaka>
+      JH: real [e.g., objects]; authentic; correct [e.g.; consciousnesses]; reality; right [Skt. samyak; tath…
+  'thob          VERB    VERB-FORM?: 'thob (pres, MITRA); 'thob (pres, Verbinator)
+      MITRA: [verb 100%] | VERB 'thob (intransitive, involuntary): present 'thob; past thob; future thob, 'thob · syntax [Erg. Abs.] (Hackett 2003). | 1. to obtain, gain, or acquire a quality, power, material thing, or result <en: obtain, gain, acquire> <skt: labh, prāp> | nominalised: 'thob pa
+      JH: /'thob 'thob thob 'thobs [Skt. labhate; lābha; āgata (e.g.: sūtra-āgata); eti (=ete); avāpta; āpti;…

@@ -1,0 +1,42 @@
+## unit 1: slob dpon gsang ba shes rab dang de ltar de bzhin bzhi pa yang zhes bya ba la sogs pa s 'chad pa r 'gyur ba yin no
+NEG: 0 (none)
+COMPOUND? bya ba la sogs pas = etcetera (MITRA) · gsang ba shes rab = secret wisdom, secret knowledge (MITRA) · 'chad par 'gyur ba = to speak, explain, or describe (MITRA) · yin no = yes (RY)
+  slob dpon      NOUN  
+      MITRA: [noun 100%] | 1. spiritual master, teacher, or guru; also used for a learned preceptor of the Dharma <en: master, teacher, acarya, masters> <skt: ācārya, upādhyāya>
+      JH: [teaching-chief]; master; teacher; instructor [Skt. ācārya]
+  gsang ba       VERB  
+      MITRA: [noun 98%] | 1. a secret, mystery, or confidential matter; in a Buddhist context, an esoteric teaching or truth <en: secret, secrets, secrecy, mystery> <skt: guhya, rahasya>
+      JH: secret [Skt. guhya; vinigūhana; rahasya] {hidden}
+  shes rab       NOUN  
+      MITRA: [noun 100%] | 1. wisdom, insight, or discriminating awareness; also used to refer to the perfection of wisdom (prajñāpāramitā) <en: wisdom, insight, prajna, isdom> <skt: prajñā, jñāna>
+      JH: [know-highest]; wisdom [Skt. prajñā] {insight; understanding; knowledge}
+  dang           PARTICLE COMIT / COORD (and; with; after some verbs: from)
+  de ltar        PARTICLE thus, in that way
+  de bzhin       OTHER 
+      MITRA: [adverb 100%] | 1. likewise; similarly; in the same way <en: likewise, similarly, same, similar> <skt: tadvat, tādṛśa>
+      JH: [that-like]; like that; thus [Skt. tathā; tatha] {likewise}
+  bzhi pa        ADJ   
+      MITRA: 1. fourth; 4th <en: fourth, iv, four, fourthly> <skt: caturtha, caturthī>
+      JH: fourth; four [Skt. caturtha (e.g.: dhyāna-caturtha); caturthī]
+  yang           PARTICLE CONC / also
+  zhes           PARTICLE QUOT (thus, saying)
+  bya ba         VERB  
+      MITRA: [noun 86%, verbal noun 13%] | 1. action, activity, or act; also used as a verbal noun <en: action, activities, activity, actions> <skt: kriyā, kṛ>
+      JH: / byed/ byas/ byos/ [Skt. kriyā; kartavya; kṛtya; kartavyatā; kārya; karaṇīya; vyāpāra; vyāpāra-kar…
+  la sogs pa     PARTICLE etc.
+  s              PART   -> gis
+      JH: Comment: One of five instrumental particles—gis, kyis, gyis, 'is, yis. Also used adverbially.
+      RY: [RY] (verb) + gis - though/ while. Syn {kyis} [used after final {ga} and {nga}. 2) ! [imperative] /…
+  'chad pa       VERB  
+      MITRA: [verbal noun 73%, noun 21%, verb 6%] | 1. to explain, expound, or interpret a text or concept; also used as a noun for the explanation or exposition it… <en: explanation, explanations, explaining, explained> <skt: deśay, vyākhyā>
+      JH: 'chad / 'chad / chad / chad [to be cut] or bshad / 'chad / bshad / shod [to explain] {T} [Skt. bhāṣ…
+  r              PARTICLE LA-DON (terminative)
+  'gyur ba       VERB  
+      MITRA: [verbal noun 37%, noun 36%, verb 27%] | 1. to become, be, or be constituted as; the act of coming into existence <en: become, becoming, becomes> <skt: bhū, as>
+      JH: 'gyur 'gyurd gyur gyurd [Skt. pariṇāma; abhyupaiti; vikāra; vikāritā; sambhava; cañcalā; vrajati (e…
+  yin            NO_POS  VERB-FORM?: yin (pres, MITRA); yin (futu, MITRA); yin (pres, Verbinator)  …
+      MITRA: [verb 95%, noun 5%] | VERB yin: present yin; past —; future yin · syntax [Abs. Abs.] (Hackett 2003). | 1. to be; to exist; to be the case; to be identical to <en: being, copula, identity, yes> <skt: bhū, as> | nominalised: yin pa
+      JH: is; be [Skt. bhava]
+  no             PART  
+      RY: [RY] completing particle; {rdzogs yig} / * [JV] SA nu bo, figure 132 / * [IW] 1) terminative after …
+      ML: [particle indicating the end of a statement] [ML] / SA nu bo, figure 132 [ML]

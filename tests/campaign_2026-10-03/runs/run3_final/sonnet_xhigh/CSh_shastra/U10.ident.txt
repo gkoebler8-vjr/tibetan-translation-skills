@@ -1,0 +1,27 @@
+query (28 syllables): nang na gsal ba de nyid ni/ ngag las mngon sum thos mthong yin/ 'on kyang sgra la rnam rtog gi/ gzugs brnyan 'byung bar 'gyur ba yin/
+178 hits in 83 works (semantic search, Tibetan sources)
+VERBATIM MATCH: yes, canonical — 2 Kangyur/Tengyur hit(s) share 28 consecutive syllables; best: dgyes pa rdo rje'i dka' 'grel rnal 'byor rin po che'i phreng ba zhes … [Toh 1183 (Tengyur)] BO_T02_D1183:7a-11
+
+CANONICAL / SOURCE CANDIDATES
+- dgyes pa rdo rje'i dka' 'grel rnal 'byor rin po che'i phreng ba zhes …  [Toh 1183 (Tengyur)]  BO_T02_D1183:7a-11  (3 hits; verbatim run 28)
+    de kho na nyid ni ngag gi spyod yul ma yin pa'i phyir brjod par nus pa ma yin la/ thos pas bsgrub par yang mi nus so// de yang 'di skad du//
+- tshad ma rnam 'grel gyi rgyan gyi 'grel bshad shin tu yongs su dag pa…  [Toh 4226 (Tengyur)]  BO_T11_D4226-3:4b-29  (10 hits; verbatim run 5)
+    sogs pa'o// don 'di yin te/ mngon sum gyi don ni re zhig rang nyid shes pa la gsal bzhin pa la brjod do// gang la de ltar gsal ba de nyid ni
+- D4229  [Toh 4229 (Tengyur)]  BO_T11_D4229:122a-4  (12 hits; verbatim run 4)
+    yin te/ yid kyi rnam shes gsal bar snang ba'i rgyu yin no zhes te/ de ltar rnam par rtog pa yang gsal bar byed pa ma yin te/ sgra dang 'dres
+- tshad ma rnam 'grel gyi rgyan/ (pramāṇavārttikālaṁkāra)  [Toh 4221 (Tengyur)]  BO_T11_D4221:203a-19  (9 hits; verbatim run 4)
+    nyid las so// ji ltar 'brel pa can nyid rtogs she na/ mngon sum la yang 'byung bar 'gyur ba dang 'brel pa ji ltar rtogs/ de lta bu nyid du m
+- tshad ma rnam 'grel gyi rgyan/ (pramāṇavārttikālaṁkāra)  [Toh 4221 (Tengyur)]  BO_T11_D4221-2:105a-39  (4 hits; verbatim run 4)
+    yur pa yin pas/ rnam pa thams cad du mngon sum gyis myong bar 'gyur ba yin no// rjes su dpag pas myong ba yin na ni thug pa med do// don gyi
+
+QUOTED IN / COMMENTED ON BY (38 other works; first 8):
+- T17MW1PD95844_2571  BO_T17_MW1PD95844_2571:8  [Tengyur; run 11]
+- Geshe Yeshe Wangchuk — TSAD MA DGONGS RGYAN, LE'U GSUM…  BO_ACIP-SUNGBUM_S0023N3_T:2831  [?; run 3]
+- T17MW1PD95844_2564  BO_T17_MW1PD95844_2564:328  [Tengyur; run 3]
+- — dpal chos kyi grags pas mdzad pa'i rgyud gzhan grub …  BO_ACIP-SUNGBUM_S19108E:57  [?; run 3]
+- 'khor lo bde mchog gi bskyed pa'i rim pa'i rnal 'byor …  BO_S10_KHEN029:2729  [Sungbum/series; run 3]
+- rje tsong kha pa blo bzang grags pa — stong phrag bcu …  BO_ACIP-SUNGBUM_S5381E:969  [?; run 3]
+- mkhas grub rje dge legs dpal bzang — rgyas pa'i bstan …  BO_ACIP-SUNGBUM_S5505M3_T:873  [?; run 3]
+- sde bdun mdo dang bcas pa'i dgongs 'grel tshad ma rig …  BO_S04_TSEMA-139:1926  [Sungbum/series; run 3]
+
+Next: dm.py parallels <segmentnr> for variant readings; dm.py segment <segmentnr> --context for the surrounding text (e.g. a commentary's gloss of the line).

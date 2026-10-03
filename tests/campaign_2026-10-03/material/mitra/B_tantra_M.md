@@ -1,0 +1,12 @@
+U01: Then, all the goddesses, such as the yoginī Nairātmyā and the others—namely Locanā, Māmakī, Pāṇḍarā, Tārā, Bhr̥kuṭī, Cundā, Parṇaśavarī, and Ahomukhā—and those yoginīs as numerous as the atoms of Mount Meru, having heard these words, became supremely amazed, and...
+U02: They will faint, and they will be terrified, and they will fall to the ground, and they will tremble. Then, the Vajrapāṇi, having looked upon all those goddesses, praised them properly in order to rouse them.
+U03: O Goddess who possesses the vessels of earth, water, and wind, to you yourself, I shall emanate that which no one knows; listen.
+U04: Having heard the speech of the Blessed One, which was like a dream, all of them attained life.
+U05: The Bhagavan spoke thus: Sentient beings are themselves the Buddha; however, they are obscured by adventitious stains. If those are removed, they are the Buddha.
+U06: The goddess said: "Blessed One, it is just so; it is neither true nor is it false."
+U07: The Blessed One spoke thus:   Whoever is a worldly person who does not know, By eating potent poison, becomes unconscious; Having abandoned delusion, with the mind, By that, one fully determines that very reality.
+U08: Likewise, knowing the method of pacification, if one rests in Kye'i rdo rje (Hevajra), one does not grasp at ignorance and the like, and one is not bound by delusion and the like.
+U09: Apart from that which is realized by oneself, there is not even one sentient being who is not a Buddha. Hell-beings, hungry ghosts, animals, gods, demigods, and humans—
+U10: From the worms in excrement and so forth, up to the gods and demigods, because they do not know what happiness is, they are always possessed of a nature that is [actually] suffering.
+U11: In any world-realm whatsoever, another Buddha will not be found; the mind itself is the perfect Buddha, and no other Buddha is taught.
+U12: Outcasts, bamboo-workers, and the like, who intend the purpose of killing—if one knows those [individuals] as Vajra, there is no doubt that accomplishment will occur in this.
