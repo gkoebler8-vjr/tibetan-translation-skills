@@ -1,5 +1,6 @@
 import json, glob, os, sys, collections
-W="<session>/subagents/workflows"
+# the Claude Code session directory that holds the workflow transcripts, e.g. ~/.claude/projects/<project>/<session-id>
+W=os.path.expanduser(os.environ.get("CLAUDE_SESSION_DIR","<session>"))+"/subagents/workflows"
 def agent_usage(path):
     req={}
     model=effort=None; t0=t1=None
