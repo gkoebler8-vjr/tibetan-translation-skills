@@ -229,6 +229,37 @@ reviser who reads Tibetan. The in-page fixed costs: a spawned fidelity checker �
 checks (so it is batched per page); MITRA ≈ 0.2k per unit; the first unit of a session carries ≈ 10k
 of skill text. The full test report: `docs/Test_Report_2026-10-03.md`.
 
+## How it was tested, and how it compares
+
+Method (3 October 2026): 33 pages of 10–12 units were run through the pipeline autonomously (brief
+given, no questions), on texts with a published English translation: two Drikung commentary pages
+(*Rays of Sunlight*, *Stages of the Path*), the *Single Intention* commentary, the *Scintillation*
+biography, and 84000 pages from *King of Samādhis*, *Lotus*, *Great Compassion of the Tathāgata*,
+*Sampuṭa*, *Hevajra*, *Caṇḍamahāroṣaṇa*, the *Bṛhaṭṭīkā* and two Hevajra commentaries. The pipeline
+never saw the English. For every page a separate judge (Claude Opus in a fresh context, reading the
+Tibetan) listed the meaning errors in the pipeline's rendering, in MITRA's rendering of the same
+units, and in the published translation, classed MAJOR (polarity, agent, relation, omission,
+invention, referent) or MINOR (nuance, term), and scored the English 1–5. Tokens were read from the
+agent transcripts. Protocols, briefs, outputs and judge reports: `tests/campaign_2026-10-03/`; report:
+`docs/Test_Report_2026-10-03.md`.
+
+Error rates per page of ~12 units, same pages, same judge:
+
+| Translator | Major errors per page | Minor errors per page | English (1–5) | Pages |
+|---|---|---|---|---|
+| Pipeline, Opus max | 0.3 | 2.6 | 4.2 | 10 |
+| Pipeline, Opus xhigh | 0.3 | 2.0 | 4.0 | 3 |
+| Pipeline, Opus high / medium | 0.75 / 0.7 | 3.8 / 2.7 | 3.7 / 3.8 | 4 / 3 |
+| Pipeline, Sonnet (medium–xhigh) | 1.7–3.0 | 5–7 | 3.5 | 10 |
+| MITRA alone (`dm.py translate`, literal style) | 2.5 (Opus-max pages); 2.9 (all 30 pages) | 6.4; 6.0 | not scored | 10; 30 |
+| Published human translation | 3.9 errors per page, mostly minor (relay translations and Sanskrit-based editions count against this) | | | 10 |
+| Bare Opus, no skill ("translate this" with the same brief) | **not yet measured** | | | |
+
+The bare-model baseline is the missing row; `tests/campaign_2026-10-03/baseline/BASELINE_TODO.md`
+describes how to run it on the same pages so the figures are comparable. Caveats: one judge per
+page, from the same model family as the drafter; the pipeline's fidelity check ran in-context in
+these runs; the figures are error counts against a construal of the Tibetan, not a reader study.
+
 ## Layout
 
 ```

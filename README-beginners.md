@@ -22,6 +22,22 @@ terminal, or any AI tool. Every step is spelled out. If you already know the com
 - Hide its doubts. Every place where the Tibetan could be read another way is listed in a line that
   starts with `Q:`. Those lines are your to-do list.
 
+## How good is it?
+
+In October 2026 the pipeline was tested on 33 pages of Tibetan that already have published English
+translations (Drikung commentaries, a biography, sūtras, tantras and Indian commentaries). A separate
+judge, reading the Tibetan, counted the mistakes in three versions of each page: the pipeline's,
+Dharmamitra's machine translation (MITRA) on its own, and the published book.
+
+- The pipeline on Opus at max effort: about one meaning-changing error every three pages, and two
+  or three small ones (a nuance, a term) per page. Its English was rated 4.2 out of 5.
+- MITRA on its own: about two or three meaning-changing errors per page and six small ones.
+- The published translations: about four slips per page, mostly small.
+- Opus asked to translate with no skill at all: not yet measured.
+
+So it is a strong first draft that tells you where it was unsure, not a finished translation. The
+full report is `docs/Test_Report_2026-10-03.md`.
+
 ## What you need
 
 - A Mac or a Linux computer. (On a Mac, macOS 13 or later.)
