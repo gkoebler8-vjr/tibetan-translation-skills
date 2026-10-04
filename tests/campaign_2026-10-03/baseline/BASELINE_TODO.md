@@ -5,7 +5,8 @@
 > `docs/Test_Report_2026-10-03.md`. Deviations from the plan below: the runs received the prompt
 > as a file (`prompt.md`, one permitted Read) and wrote `final.md` with one Bash heredoc because
 > the session's auto mode routes writes through Bash; no other tool use occurred. "Silent doubts"
-> is the count of the judge's "silent doubt" lines. The Rays reference (H) was taken from the
+> is the count of the judge's "silent doubt" lines. A second independent judge scored the six bare
+> outputs and the skill's three xhigh outputs the same day (`judge2.md`). The Rays reference (H) was taken from the
 > earlier session's scratchpad copy and is still not in the repository.
 
 Purpose: measure what the tibetan-translate skill adds over simply asking the model to translate.

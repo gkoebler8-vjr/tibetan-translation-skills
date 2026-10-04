@@ -23,11 +23,13 @@ on three of them; the full numbers and caveats are in `docs/Test_Report_2026-10-
 - **Against Dharmamitra's MITRA alone.** MITRA made 2.5–2.9 meaning-changing errors a page and about
   six minor ones; the pipeline on Opus made 0.3 major and 2.6 minor. MITRA stays in the pipeline as
   a second opinion that raises flags (0.2k tokens a unit); it is not the translator.
-- **Against bare Opus given the same brief and no skill.** No measurable gain in fidelity. On three
-  pages bare Opus made two major errors at max effort and none at xhigh; the skill made one. The
-  judge's own variation is about two errors a page, so that is a tie. What the skill adds is the
-  English (4.0 against 3.6 out of 5; 4.0 against 2.9 on the academic page, where the bare output was
-  bracketed study prose), verse that scans, somewhat fewer ambiguities resolved without a note, and
+- **Against bare Opus given the same brief and no skill.** No gain in fidelity. On three pages,
+  each output scored by two independent judges, bare Opus at max effort had two major errors, bare
+  Opus at xhigh one, and the skill at xhigh four (the judges disagreed by up to two majors on the
+  same output, all on one tantra passage). So the skill is not more faithful than the bare model.
+  What it adds is the English (4.05 against 3.9 and 3.7 out of 5; about 3.95 against 3.4 and 3.15 on
+  the academic page, where the bare output was bracketed study prose), verse that scans, somewhat
+  fewer ambiguities resolved without a note, and
   the working files a bare run does not produce: a construal of every sentence, a glossary that binds
   terms across a long text, source identification with Toh numbers, and the MITRA flags. It costs
   about 1.2 times a bare run at max effort and four times one at xhigh, because the bare model at
@@ -242,14 +244,14 @@ translation). Tokens are new tokens per page (input written plus output; cache r
 | Setting | Tokens per page | Major errors per page | English quality (1–5) |
 |---|---|---|---|
 | Opus, max | ~250–400k | 0.3 | 4.2 |
-| Opus, xhigh | ~200–340k | 0.3 | 4.0 |
+| Opus, xhigh | ~200–340k | 0.3 (0.7 with a second judge) | 4.0 |
 | Opus, high | ~130–185k | 0.75 | 3.7 |
 | Opus, medium | ~90–135k | 0.7 | 3.8 |
 | Sonnet, xhigh | ~300–455k | 1.7 | 3.5 |
 | Sonnet, high | ~160–280k | 1.75 | 3.45 |
 | Sonnet, medium | ~120–140k | 3.0 | 3.6 |
-| *Bare Opus, max, no skill (3 pages)* | *~150–290k* | *0.7* | *3.9* |
-| *Bare Opus, xhigh, no skill (3 pages)* | *~50–105k* | *0* | *3.6* |
+| *Bare Opus, max, no skill (3 pages, two judges)* | *~150–290k* | *0.3* | *3.9* |
+| *Bare Opus, xhigh, no skill (3 pages, two judges)* | *~50–105k* | *0.2* | *3.7* |
 
 Opus at max is the calibrated setting (3 major errors in 10 pages, 2 of them readings changed on
 MITRA's word before that was forbidden). Opus at xhigh costs a third less for one major error in
@@ -278,19 +280,19 @@ Error rates per page of ~12 units, same pages, same judge:
 | Translator | Major errors per page | Minor errors per page | English (1–5) | Pages |
 |---|---|---|---|---|
 | Pipeline, Opus max | 0.3 | 2.6 | 4.2 | 10 |
-| Pipeline, Opus xhigh | 0.3 | 2.0 | 4.0 | 3 |
+| Pipeline, Opus xhigh | 0.3 (0.7 pooled over two judges) | 2.0 (2.2) | 4.0 (4.05) | 3 |
 | Pipeline, Opus high / medium | 0.75 / 0.7 | 3.8 / 2.7 | 3.7 / 3.8 | 4 / 3 |
 | Pipeline, Sonnet (medium–xhigh) | 1.7–3.0 | 5–7 | 3.5 | 10 |
 | MITRA alone (`dm.py translate`, literal style) | 2.5 (Opus-max pages); 2.9 (all 30 pages) | 6.4; 6.0 | not scored | 10; 30 |
 | Published human translation | 3.9 errors per page, mostly minor (relay translations and Sanskrit-based editions count against this) | | | 10 |
-| Bare Opus, no skill ("translate this" with the same brief; max / xhigh) | 0.7 / 0 | 1.0 / 2.7 | 3.9 / 3.6 | 3 / 3 |
+| Bare Opus, no skill ("translate this" with the same brief; max / xhigh; two judges) | 0.3 / 0.2 | 1.0 / 2.2 | 3.9 / 3.7 | 3 / 3 |
 
 The bare-model rows (4 October 2026, `tests/campaign_2026-10-03/baseline/`) show that on three pages
-the skill does not lower the meaning-error count beyond judge noise (the skill at xhigh made one
-major on the same pages). What it adds is the English (4.0 against 3.6 at xhigh; 4.0 against 2.9 on
-the academic page), metred verse, fewer silently resolved forks, and the construal, glossary and
-source identification, for about four times the tokens of a bare xhigh run (260k against 69k) and
-1.2 times a bare max run (210k, mostly thinking). Caveats: one judge per
+the skill does not lower the meaning-error count: with two judges per output the skill at xhigh had
+four majors on these pages, bare Opus two and one. What it adds is the English (4.05 against 3.9 and
+3.7; about 3.95 against 3.4 and 3.15 on the academic page), metred verse, fewer silently resolved
+forks, and the construal, glossary and source identification, for about four times the tokens of a
+bare xhigh run (260k against 69k) and 1.2 times a bare max run (210k, mostly thinking). Caveats: one judge per
 page, from the same model family as the drafter; the pipeline's fidelity check ran in-context in
 these runs; the figures are error counts against a construal of the Tibetan, not a reader study.
 

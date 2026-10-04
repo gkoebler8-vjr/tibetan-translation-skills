@@ -33,11 +33,12 @@ Dharmamitra's machine translation (MITRA) on its own, and the published book.
   or three small ones (a nuance, a term) per page. Its English was rated 4.2 out of 5.
 - MITRA on its own: about two or three meaning-changing errors per page and six small ones.
 - The published translations: about four slips per page, mostly small.
-- Claude Opus asked to translate with no skill at all, from the same brief (three pages): two
-  meaning-changing errors at maximum effort and none at the setting below it, against the pipeline's
-  one on the same pages. That is a tie; the judge's own variation is about that size. Its English was
-  rated 3.9 and 3.6, and 2.9 on the academic page (bracket-laden study prose), against the
-  pipeline's 4.0.
+- Claude Opus asked to translate with no skill at all, from the same brief (three pages, each
+  version scored by two judges): two meaning-changing errors at maximum effort and one at the
+  setting below it, against the pipeline's four on the same pages. The two judges disagreed with
+  each other by up to two errors on one tantra passage, so the fair reading is that the pipeline is
+  not more faithful than Claude alone. Its English was rated 3.9 and 3.7, and about 3.2 on the
+  academic page (bracket-laden study prose), against the pipeline's 4.05.
 
 So it is a strong first draft that tells you where it was unsure, not a finished translation. What
 the skill adds over simply asking Claude is not fewer meaning errors. It is English in your house

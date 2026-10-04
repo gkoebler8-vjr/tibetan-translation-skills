@@ -11,7 +11,9 @@ Data behind `docs/Test_Report_2026-10-03.md`. Layout:
   where an external checker ran.
 - `baseline/` — the bare-model baseline (4 October 2026): Opus at max and xhigh on the three
   final-matrix pages with the same brief and no skill or tools; per run `prompt.md`, `final.md`,
-  `judge_prompt.md`, `judge.md`; `results.tsv` (with silent-doubt and token columns),
+  `judge_prompt.md`, `judge.md`, and `judge2.md` from an independent second judge (also beside the
+  skill's `runs/run3_final/opus_xhigh/*/judge.md`); `results.tsv` (with silent-doubt and token columns;
+  the `*-judge2` rows are the second round),
   `tokens_baseline.txt`; `BASELINE_TODO.md` is the original instruction.
 - `results.tsv` — one row per judged page; `tokens_per_run.txt` / `tokens_final.json` — new tokens per
   run from the agent transcripts (`wf_tokens.py`); `fixlist_iter1.md` — the running error → source →
