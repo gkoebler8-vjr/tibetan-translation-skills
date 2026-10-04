@@ -8,9 +8,11 @@ This is a working note, not legal advice. Check each item before publishing.
   `lexicon.py`, `register.py`, `install.sh`, the docs. Pick a licence: MIT or Apache-2.0 for the
   code, CC BY 4.0 for the prose. The `lexicon.py` stress table was hand-built over the Lam Zab
   edition and is yours.
-- `docs/lz_verse_practice_analysis.md` quotes your own translations: yours to publish.
-- The research briefs in `docs/research/` cite public sources; fine to publish with the note that
-  they were AI-assisted.
+- `skills/tibetan-verse/reference/lz-practice.md` quotes your own translations: yours to publish.
+- `docs/research/research_dharmamitra_api.md` cites public sources and is published as an
+  AI-assisted brief. The other research briefs, the Lam Zab working files (`test-LZ/`,
+  `tests/test_prose/`, `tests/test_verse/`), the handover notes and the email draft are gitignored:
+  on disk, not published.
 
 ## Shareable with attribution and share-alike
 
@@ -46,7 +48,9 @@ This is a working note, not legal advice. Check each item before publishing.
   ships the *tool* and indexes whatever the user legally has; `install.sh --golden <dir>`.
 - The Lam Zab calibration corpus (`tests/lz_verses.json`): your translations plus the Tibetan of
   the 2004 Delhi edition; your call, but it is gitignored by default.
-- The test work files under `tests/` contain only your own text and tool output; fine.
+- `tests/campaign_2026-10-03/` holds the Tibetan, 84000 excerpts (CC BY-NC-ND 4.0, attributed), MITRA
+  output, the pipeline's and the bare model's outputs and the judge reports; the Vikra reference
+  translations are gitignored and not redistributed.
 
 ## Dharmamitra API use
 

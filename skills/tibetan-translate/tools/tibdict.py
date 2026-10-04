@@ -36,7 +36,7 @@ The public files remain the copyright of their respective authors (see LICENSE-N
 import argparse, gzip, html, json, os, re, sqlite3, struct, sys, time, glob
 
 DB_DEFAULT = os.path.expanduser("~/.tibdict/tibdict.sqlite")
-GOLDEN_DEFAULT = os.environ.get("TIBDICT_GOLDEN", "")  # a GoldenDict/StarDict folder; optional
+GOLDEN_DEFAULT = os.environ.get("TIBDICT_GOLDEN", "")  # a GoldenDict/StarDict folder of your own dictionaries; optional (--golden DIR or $TIBDICT_GOLDEN)
 MITRA_DEFAULT = os.path.expanduser("~/.tibdict")  # searched recursively for the MITRA lexicon .ifo
 VENV_PY = os.path.expanduser("~/.venvs/tib/bin/python")
 
@@ -518,8 +518,10 @@ def build(args):
     else:
         print("MITRA lexicon not found under", args.mitra, "(skipping)")
 
-    # ---- GoldenDict sources
-    for name, rel, kind, prio, script, cleaner in GOLDEN_SOURCES:
+    # ---- GoldenDict sources (optional; skipped when no folder is given)
+    if not (args.golden and os.path.isdir(args.golden)):
+        print("GoldenDict folder not given or not found (skipping; pass --golden DIR or set TIBDICT_GOLDEN)")
+    for name, rel, kind, prio, script, cleaner in (GOLDEN_SOURCES if args.golden and os.path.isdir(args.golden) else []):
         if prio >= 30 and not args.tib:
             continue
         if kind == 'stardict-glob':

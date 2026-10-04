@@ -1,0 +1,68 @@
+[
+ {
+  "wf": "373c510f",
+  "run": "bare:opus_xhigh/V1_rays",
+  "model": "claude-opus-5-5",
+  "effort": "xhigh",
+  "in": 6,
+  "cc": 77165,
+  "cr": 97568,
+  "out": 26373,
+  "calls": 3
+ },
+ {
+  "wf": "373c510f",
+  "run": "bare:opus_xhigh/CSh_shastra",
+  "model": "claude-opus-5-5",
+  "effort": "xhigh",
+  "in": 6,
+  "cc": 47615,
+  "cr": 135024,
+  "out": 245,
+  "calls": 3
+ },
+ {
+  "wf": "373c510f",
+  "run": "bare:opus_max/V1_rays",
+  "model": "claude-opus-5-5",
+  "effort": "max",
+  "in": 6,
+  "cc": 190141,
+  "cr": 46693,
+  "out": 288,
+  "calls": 3
+ },
+ {
+  "wf": "373c510f",
+  "run": "bare:opus_xhigh/CT_tantra",
+  "model": "claude-opus-5-5",
+  "effort": "xhigh",
+  "in": 6,
+  "cc": 36267,
+  "cr": 133879,
+  "out": 19060,
+  "calls": 3
+ },
+ {
+  "wf": "373c510f",
+  "run": "bare:opus_max/CSh_shastra",
+  "model": "claude-opus-5-5",
+  "effort": "max",
+  "in": 6,
+  "cc": 163143,
+  "cr": 116589,
+  "out": 126375,
+  "calls": 3
+ },
+ {
+  "wf": "373c510f",
+  "run": "bare:opus_max/CT_tantra",
+  "model": "claude-opus-5-5",
+  "effort": "max",
+  "in": 6,
+  "cc": 145385,
+  "cr": 116588,
+  "out": 255,
+  "calls": 3
+ }
+]

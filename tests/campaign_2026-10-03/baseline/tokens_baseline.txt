@@ -1,0 +1,7 @@
+wf        run                                model            eff    calls new(in+cw+out)     out   cache_r
+373c510f  bare:opus_max/CSh_shastra          opus-5-5         max        3         289524  126375    116589
+373c510f  bare:opus_max/CT_tantra            opus-5-5         max        3         145646     255    116588
+373c510f  bare:opus_max/V1_rays              opus-5-5         max        3         190435     288     46693
+373c510f  bare:opus_xhigh/CSh_shastra        opus-5-5         xhigh      3          47866     245    135024
+373c510f  bare:opus_xhigh/CT_tantra          opus-5-5         xhigh      3          55333   19060    133879
+373c510f  bare:opus_xhigh/V1_rays            opus-5-5         xhigh      3         103544   26373     97568

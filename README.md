@@ -15,6 +15,34 @@ differences are flagged, never voted on. Built and calibrated on a practitioner 
 
 Author: Gabriel Kobler. Built with Claude (Opus and Fable), 2026-09 to 2026-10.
 
+## What it adds, and what it does not
+
+Measured in October 2026 on 33 pages that have published translations, then against the bare model
+on three of them; the full numbers and caveats are in `docs/Test_Report_2026-10-03.md`.
+
+- **Against Dharmamitra's MITRA alone.** MITRA made 2.5–2.9 meaning-changing errors a page and about
+  six minor ones; the pipeline on Opus made 0.3 major and 2.6 minor. MITRA stays in the pipeline as
+  a second opinion that raises flags (0.2k tokens a unit); it is not the translator.
+- **Against bare Opus given the same brief and no skill.** No measurable gain in fidelity. On three
+  pages bare Opus made two major errors at max effort and none at xhigh; the skill made one. The
+  judge's own variation is about two errors a page, so that is a tie. What the skill adds is the
+  English (4.0 against 3.6 out of 5; 4.0 against 2.9 on the academic page, where the bare output was
+  bracketed study prose), verse that scans, somewhat fewer ambiguities resolved without a note, and
+  the working files a bare run does not produce: a construal of every sentence, a glossary that binds
+  terms across a long text, source identification with Toh numbers, and the MITRA flags. It costs
+  about 1.2 times a bare run at max effort and four times one at xhigh, because the bare model at
+  those settings spends most of its tokens thinking.
+- **Against the published translations.** The judge found about four slips a page in them. The
+  pipeline's `Q:` lines are a cheap second reading for a revised edition, not a replacement for the
+  translator.
+- **Not shown.** That any of this holds beyond three pages or with a judge from another model
+  family; that the dictionary pass and the fidelity check catch errors the bare model would make (on
+  these pages the bare model did not make them).
+
+Use it when you want publication-style English in a fixed house style, consistent across a long
+text, with a record of every reading. For a quick faithful gist of a passage, the bare model at max
+effort is as good and cheaper.
+
 ## Requirements
 
 - macOS or Linux, Python 3.9+ (3.11 recommended) (`python3.11` via Homebrew on the Mac this was built on), `git`, `curl`.
@@ -220,6 +248,8 @@ translation). Tokens are new tokens per page (input written plus output; cache r
 | Sonnet, xhigh | ~300–455k | 1.7 | 3.5 |
 | Sonnet, high | ~160–280k | 1.75 | 3.45 |
 | Sonnet, medium | ~120–140k | 3.0 | 3.6 |
+| *Bare Opus, max, no skill (3 pages)* | *~150–290k* | *0.7* | *3.9* |
+| *Bare Opus, xhigh, no skill (3 pages)* | *~50–105k* | *0* | *3.6* |
 
 Opus at max is the calibrated setting (3 major errors in 10 pages, 2 of them readings changed on
 MITRA's word before that was forbidden). Opus at xhigh costs a third less for one major error in
@@ -253,10 +283,14 @@ Error rates per page of ~12 units, same pages, same judge:
 | Pipeline, Sonnet (medium–xhigh) | 1.7–3.0 | 5–7 | 3.5 | 10 |
 | MITRA alone (`dm.py translate`, literal style) | 2.5 (Opus-max pages); 2.9 (all 30 pages) | 6.4; 6.0 | not scored | 10; 30 |
 | Published human translation | 3.9 errors per page, mostly minor (relay translations and Sanskrit-based editions count against this) | | | 10 |
-| Bare Opus, no skill ("translate this" with the same brief) | **not yet measured** | | | |
+| Bare Opus, no skill ("translate this" with the same brief; max / xhigh) | 0.7 / 0 | 1.0 / 2.7 | 3.9 / 3.6 | 3 / 3 |
 
-The bare-model baseline is the missing row; `tests/campaign_2026-10-03/baseline/BASELINE_TODO.md`
-describes how to run it on the same pages so the figures are comparable. Caveats: one judge per
+The bare-model rows (4 October 2026, `tests/campaign_2026-10-03/baseline/`) show that on three pages
+the skill does not lower the meaning-error count beyond judge noise (the skill at xhigh made one
+major on the same pages). What it adds is the English (4.0 against 3.6 at xhigh; 4.0 against 2.9 on
+the academic page), metred verse, fewer silently resolved forks, and the construal, glossary and
+source identification, for about four times the tokens of a bare xhigh run (260k against 69k) and
+1.2 times a bare max run (210k, mostly thinking). Caveats: one judge per
 page, from the same model family as the drafter; the pipeline's fidelity check ran in-context in
 these runs; the figures are error counts against a construal of the Tibetan, not a reader study.
 
@@ -268,11 +302,11 @@ skills/                 the four skills (source of truth; install.sh copies them
   tibetan-verse/        SKILL.md + reference/ (guidelines, lz-practice, failures) + tools/ (beats.py, lexicon.py)
   tibetan-citations/    SKILL.md + tools/register.py
   tibetan-dharmamitra/  SKILL.md + reference/ (compare, compare-log) + tools/ (mitra.py, setup_mitra.sh: optional local model)
-docs/                   Test_Report_2026-10-03.md, the overhaul report, own-dictionaries.md, the Lam Zab verse analysis, research/
-tests/                  campaign_2026-10-03/ (33 judged page runs: material, outputs, checks, judge reports, token table) and the first two unit tests
+docs/                   Test_Report_2026-10-03.md, the overhaul report, own-dictionaries.md, research/ (Dharmamitra API notes)
+tests/                  campaign_2026-10-03/ (33 judged page runs and the bare-model baseline: material, outputs, checks, judge reports, token tables)
 resources/              downloaded dictionary data (gitignored)
 install.sh  export.sh   setup; copy edited live skills back into the repo
-HANDOVER.md  LICENSE  LICENSE-NOTES.md
+LICENSE  LICENSE-NOTES.md
 ```
 
 ## Editing the skills
@@ -294,7 +328,7 @@ committing:
 
 ## Licences
 
-Code (`skills/*/tools/`, `install.sh`, `export.sh`, `tests/*.py`): MIT. Text (SKILL.md and
+Code (`skills/*/tools/`, `install.sh`, `export.sh`, `tests/**/*.py`): MIT. Text (SKILL.md and
 reference files, docs, READMEs, test reports): CC BY 4.0, attribution "Tibetan Translation Skills by
 Gabriel Kobler, built with Claude (Anthropic)". Third-party data is not bundled. The installer
 downloads the MITRA Tibetan Lexicon (Dharmamitra, CC BY-SA 4.0) and, on request, open dictionaries
@@ -314,6 +348,8 @@ private working data; do not redistribute it. Details in `LICENSE` and `LICENSE-
 
 ## More
 
-`docs/`: the overhaul report, `own-dictionaries.md`, `lz_verse_practice_analysis.md`, and
-`research/` (AI-assisted briefs on translation practice, dictionaries and NLP, the Dharmamitra
-API). New to Claude Code or the command line: `README-beginners.md`.
+`docs/`: the test report, the overhaul report (design and rationale), `own-dictionaries.md`, and
+`research/research_dharmamitra_api.md` (an AI-assisted brief on the Dharmamitra endpoints and their
+terms). The analysis of finished verse practice that the verse rules were derived from is
+`skills/tibetan-verse/reference/lz-practice.md`. New to Claude Code or the command line:
+`README-beginners.md`.

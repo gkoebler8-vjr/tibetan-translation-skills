@@ -1,0 +1,7 @@
+run	page	model	effort	units	C_major	C_minor	English	M_major	M_minor	M_reveals	both_wrong	H_errors	silent_doubts	new_tokens
+bare	V1_rays	opus	max	12	0	0	4.1	3	3	0	0	1	0	190435
+bare	CT_tantra	opus	max	12	2	1	4.3	3	7	1	2	1	2	145646
+bare	CSh_shastra	opus	max	12	0	2	3.4	4	9	0	1	5	1	289524
+bare	V1_rays	opus	xhigh	12	0	1	3.9	2	2	1	0	1	0	103544
+bare	CT_tantra	opus	xhigh	12	0	3	4.1	0	5	3	0	1	3	55333
+bare	CSh_shastra	opus	xhigh	12	0	4	2.9	4	8	2	1	3	1	47866

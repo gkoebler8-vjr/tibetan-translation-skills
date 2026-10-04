@@ -8,3 +8,16 @@ __pycache__/
 tests/lz_verses.json
 # test campaign: the Vikra reference translations are not redistributed
 tests/campaign_2026-10-03/material/vikra/*_reference_H.md
+# private working material and internal notes: kept on disk, not published
+test-LZ/
+translations/
+tests/test_prose/
+tests/test_verse/
+tests/dm_probe.py
+tests/extract_verses.py
+HANDOVER.md
+docs/dharmamitra-email-draft.md
+docs/lz_verse_practice_analysis.md
+docs/research/research_dictionaries_nlp.md
+docs/research/research_translation_practice.md
+.claude/

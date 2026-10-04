@@ -1,5 +1,13 @@
 # Baseline test to run: bare Opus, no skill (handover for a new chat)
 
+> **Done 4 October 2026.** Six runs and six judge reports are in `opus_max/` and `opus_xhigh/`;
+> totals in `results.tsv` here; the report section is "Baseline: the bare model, no skill" in
+> `docs/Test_Report_2026-10-03.md`. Deviations from the plan below: the runs received the prompt
+> as a file (`prompt.md`, one permitted Read) and wrote `final.md` with one Bash heredoc because
+> the session's auto mode routes writes through Bash; no other tool use occurred. "Silent doubts"
+> is the count of the judge's "silent doubt" lines. The Rays reference (H) was taken from the
+> earlier session's scratchpad copy and is still not in the repository.
+
 Purpose: measure what the tibetan-translate skill adds over simply asking the model to translate.
 Same pages, same judge, same scoring as the campaign, so the numbers slot into the report.
 
