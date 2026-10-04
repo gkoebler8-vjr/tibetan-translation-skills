@@ -1,0 +1,23 @@
+query (28 syllables): thugs rje chen pos 'jig rten mkhyen/ 'jig rten kun la gzigs nas ni/ chos kyi sku las ma g.yos par/ sprul pa'i rang bzhin sna tshogs kyis/
+162 hits in 74 works (semantic search, Tibetan sources)
+VERBATIM MATCH: yes, canonical — 2 Kangyur/Tengyur hit(s) share 28 consecutive syllables; best: theg pa chen po'i rgyud bla ma'i bstan bcos kyi rnam par bshad pa/ (m… [Toh 4025 (Tengyur)] BO_T06_D4025:118b-31
+
+CANONICAL / SOURCE CANDIDATES
+- theg pa chen po'i rgyud bla ma'i bstan bcos kyi rnam par bshad pa/ (m…  [Toh 4025 (Tengyur)]  BO_T06_D4025:118b-31  (3 hits; verbatim run 28)
+    ra tshon ni sna tshogs kyis// nor bu de dngos mi snang ltar// de bzhin 'gro rkyen sna tshogs pas// khyab bdag de dngos min par snang // thug
+- theg pa chen po rgyud bla ma'i bstan bcos/ (mahāyānottaratantraśāstra)  [Toh 4024 (Tengyur)]  BO_T06_D4024:64b-12  (2 hits; verbatim run 28)
+    de dngos min snang ltar// de bzhin 'gro rkyen sna tshogs pas// khyab bdag de dngos min par snang // thugs rje chen pos 'jig rten mkhyen// 'j
+- sangs rgyas phal po che zhes bya ba shin tu rgyas pa chen po'i mdo/ (…  [Toh 44 (Kangyur)]  BO_K09_D0044-2:383a-19  (1 hit; verbatim run 2)
+    snying rje chen po shin tu yangs// de ltar sprul pa rnams phye shes pa ni// de dag byin gyi rlabs 'phrul snang byed pa'o// de dag 'jig rten 
+
+QUOTED IN / COMMENTED ON BY (71 other works; first 8):
+- rgyad bla ma'i rnam bshad phyir mi ldog pa seng ge'i n…  BO_TSD_BO_DC_RDI-SS-32:3678  [Tsadra series; run 28]
+- theg pa chen po rgyud bla ma'i bstan bcos kyi rnam par…  BO_S10_KHEZ010:7248  [Sungbum/series; run 28]
+- sdom gsum rnam par nges pa'i bstan bcos kyi 'brul 'gre…  BO_NK120_(e)001:913  [Nyingma Kama; run 28]
+- rgyud bla ma'i 'grel pa phyir mi ldog pa seng ge'i nga…  BO_TSD_BO_DC_RDI-KK-07:3669  [Tsadra series; run 28]
+- 'dul ba :: 061DULWA  BO_S01_DULWA-061:243  [Sungbum/series; run 28]
+- theg pa chen po rgyud bla ma'i bstan bcos kyi rnam par…  BO_S03_PARCHIN-094:7547  [Sungbum/series; run 28]
+- sngags kyi spyi don nor bu'i 'od zer/  BO_TSD_BO_DC_RDI-KK-15:330  [Tsadra series; run 28]
+- bka' ma theg rim dgu'i phrin chog mtha' dag phyogs gci…  BO_NK133_(po)002:202  [Nyingma Kama; run 28]
+
+Next: dm.py parallels <segmentnr> for variant readings; dm.py segment <segmentnr> --context for the surrounding text (e.g. a commentary's gloss of the line).

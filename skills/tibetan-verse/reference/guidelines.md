@@ -36,7 +36,7 @@ Correspondence against anything above → correspondence yields, declared.
 | | Chant mode | Citation mode |
 |---|---|---|
 | Material | sādhana, liturgy, prayer, anything recited aloud in unison or to a melody | verse quoted inside prose, verse in a treatise or commentary, dohā cited as evidence, verse in a translated book |
-| Line length | isometric: every line the same count | a band of two adjacent counts n / n+1; a spread of three (n..n+2) is tolerated when the padas are long; a spread of four is flagged; wider fails |
+| Line length | isometric: every line the same count | a band of two adjacent counts n / n+1; a spread of three (n..n+2) is tolerated when the padas are long, and when one **thin pada** (two or three content words, nothing to add without invention) falls one count under the block's band (§5: a thin pada stays short; `beats.py` accepts 2–4 for 7-syllable padas); a spread of four is flagged; wider fails |
 | Kind | one, declared | one, declared |
 | Ceiling | 7 beats | 7 beats |
 

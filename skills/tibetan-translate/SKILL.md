@@ -40,6 +40,12 @@ the first grounding call: `grounding.md`. Before the first prose unit: `prose.md
 only when a construal is contested or you reach for the dictionary tool; `check.md` holds the check
 protocol. Do not cat every reference file at the start.
 
+**Resuming after an interruption or a context reset.** The run's state is on disk: the construal
+sketch, the glossary, the draft and style-pass files, the runlog, and the saved tool outputs
+(`dm_<command>_<unit>.txt`, see §4). Re-read this file, `english.md`, `notes.md` and the brief, then
+the state files, and continue from the last line of the runlog; do not repeat a tool call whose
+output is saved.
+
 ## 2. Pass 0 — the brief (ask once, then hold)
 
 | Field | Values | Default if the user says "you choose" |
@@ -57,7 +63,8 @@ the verse form. In an autonomous run take the defaults and print them as assumpt
 
 A project glossary binds. Keep a running glossary for the piece (`<work>.glossary.tsv`: wylie,
 English, note) and append every term decision; later units reuse it. Fixed English short titles of
-quoted works are `TITLE` rows in the same file (tibetan-citations §4).
+quoted works are `TITLE` rows in the same file, in `register.py`'s column order:
+`TITLE <tab> english_short_title <tab> wylie_title <tab> iast_title <tab> locator` (tibetan-citations §4).
 
 ## 3. Pass 1 — your reading, and the faithful draft
 
@@ -109,16 +116,24 @@ examples: `reference/grounding.md`. The shape, per page:
    Read the **VERBATIM MATCH** line first; a Kangyur/Tengyur hit carrying the words is the source,
    a commentary carrying them is a witness. tibetan-citations fixes the English short title and
    writes the register row. Never state a Toh number you have not seen in a hit.
-2. **Commentaries on the passage.** For each doctrinally loaded, formulaic or ambiguous unit, and at
-   least once for the page's central passage:
+2. **Commentaries on the passage.** What gets queried: (a) every citation and every root-text line
+   (the tradition glosses these); (b) in the author's own prose, a technical term, formula or
+   enumeration the tradition glosses (`nges pa lnga`, `bdud bzhi`, `rtag chad kyi mtha'`): query the
+   **term or formula**, not the sentence; (c) a unit whose reading forks on a doctrinal point. Plain
+   prose of the author's own is **not queried**: nothing in the canon glosses it, and the header says
+   `grounding: not queried`.
    ```bash
-   python3 ~/.claude/skills/tibetan-translate/tools/dm.py explore "<the key clause or line, Wylie>"
+   python3 ~/.claude/skills/tibetan-translate/tools/dm.py explore "<the key clause, line or formula, Wylie>"
    ```
    It returns the works that quote or gloss those words (commentaries, treatises, sungbum) with the
    Tibetan of each passage, a machine rendering, and a segment id. **Read the Tibetan of the gloss,
    not the machine English.** Where a gloss is cut short, `dm.py segment <id> --context --window 8`;
    for a canonical line, `dm.py parallels <id>` gives the variant readings. Budget: two to four
-   `explore` calls a page (10–20 s and ~3–5k tokens each).
+   `explore` calls a page (10–20 s and ~3–5k tokens each). **Ignore any hit that is an English
+   translation** (segment ids beginning `EN_`, or a hit in the text you are translating with its
+   published English beside it): do not read it, do not cite it, log the exposure in the runlog.
+   Save every `dm.py` output to the run directory as `dm_<command>_<unit>.txt` so a resumed run
+   need not repeat the call.
 3. **Decide, and record.** Where a commentary glosses the very words you are translating
    (`… zhes pa ni …`, `… zhes bya ba ni …`), **translate according to the commentary's reading** when
    the grammar permits it, and say so in the sketch's `GROUNDING` line (work, Toh or segment id, what
@@ -136,7 +151,8 @@ examples: `reference/grounding.md`. The shape, per page:
    Tibetan; keep your reading if the grammar holds and record a `Q:`; change only when the grammar
    says MITRA is right, and write the grammatical reason into the sketch first. **A change made on
    MITRA's word alone is a defect.** MITRA has no register, no glossary, and flattens relations.
-   One `MITRA:` line in the notes.
+   A `MITRA:` line in the notes of each unit where it differs on content, kept or changed with the
+   reason; nothing where it merely rephrases.
 
 ## 5. Pass 3 — audience, style, glossary
 
@@ -177,7 +193,11 @@ Two streams, never mixed, rules in `reference/notes.md`.
 
 1. **Header**, one line: unit id · form (prose / verse: mode, kind, measure, padas, lines) ·
    register · audience mode · source (`Toh 381, Sampuṭa, D 158a; quoted in …` · `source not
-   located` · `not a citation`) · grounding (`Toh 4025 gloss followed` · `none found`).
+   located` · `not a citation`) · grounding (`<work> gloss followed` · `none found` · `not queried`
+   · `service unavailable`). When one verse sentence runs across several units, the first unit's
+   header carries the block's mode, kind, measure and line order and names the span (`block
+   U06–U09`); the later units say `verse: cont. of block U06–U09`; each unit's footnotes and notes
+   stay with the unit whose words they concern.
 2. **One finished rendering.** A second version only for a genuine fork (two defensible
    construals; term vs idiom; chant vs citation), each finished, one line on the choice.
 3. **FOOTNOTES:** per §7, or `none`.

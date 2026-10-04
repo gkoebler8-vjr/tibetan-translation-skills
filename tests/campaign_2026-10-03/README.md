@@ -5,6 +5,9 @@ Data behind `docs/Test_Report_2026-10-03.md`. Layout:
 - `material/` — the test pages: `*_units.md` (Tibetan, one unit per line), 84000 reference English
   (`84000/*_reference_H.md`, CC BY-NC-ND 4.0, attributed in `84000/*.md`), MITRA renderings
   (`mitra/*_M.md`). The Vikramashila reference translations are not redistributed.
+- `runs/run5_v2_smoke/` — the one smoke run of pipeline v2 (Rays of Sunlight, Opus max, 4 October
+  2026): final.md with FOOTNOTES and NOTES blocks, the construal sketch, the saved dm.py outputs, the
+  runlog with the list of skill-text problems the run reported (fixed the same day). Not judged.
 - `runs/run4_opus_max/` — the skill at Opus max on the three baseline pages (4 October 2026), two
   judges each (`judge.md`, `judge2.md`), `tokens_run4.txt`; these runs were interrupted once and
   resumed from their saved construal files (see the runlogs).

@@ -38,6 +38,18 @@ footnote.
 
 `dm.py search` (raw semantic search) is noisier than `explore` and is not needed in this pass.
 
+**Hits to ignore.** `explore` has no exclude option. It can return the text you are translating
+(harmless: your own passage) and, for works indexed with an aligned translation, that passage's
+**published English** (segment ids beginning `EN_`). Never read or cite such a hit: it is not
+grounding, and reading it compromises the translation's independence. Note the exposure in the
+runlog and move on. `identify --exclude` takes a Toh number only; a sungbum text has none, so its
+own copy will appear among the quotations: recognize it by the title and skip it.
+
+**What is queried, and what is not.** Citations and root-text lines, always. In the author's own
+prose, a technical term, formula or enumeration (`nges pa lnga`, `bdud bzhi`, `rtag chad kyi
+mtha'`): query the term, not the sentence. The author's plain prose is **not queried**; its header
+says `grounding: not queried`. Save each output as `dm_<command>_<unit>.txt` in the run directory.
+
 ## 2. What counts as a gloss, and what you do with it
 
 A **gloss** is a passage in another work that takes up the words you are translating and explains
@@ -64,32 +76,32 @@ Never let a gloss add content to the body that the Tibetan you translate does no
 gloss settles **which** reading of these words, it does not license an explanatory expansion. The
 explanation goes into the footnote.
 
-## 3. Examples
+## 3. Patterns (schematic; the test pages are deliberately not used as examples)
 
-- *Rays of Sunlight*, the Uttaratantra citation `thugs rje chen pos 'jig rten mkhyen / 'jig rten kun
-  la gzigs nas ni / chos kyi sku las ma g.yos par`. `explore` on `'jig rten mkhyen pa thugs rje chen
-  po dang ldan pas 'jig rten kun la gzigs nas` returns the root (Toh 4024), Asaṅga's commentary (Toh
-  4025) and later Tibetan commentaries (the *Lamp of Precious Definitive Meaning*, the *Lion's Roar of
-  the Irreversible*, as the hits title them) whose glosses read
-  `'jig rten mkhyen` as the knowledge of the world in its extent (*ji snyed pa mkhyen pa*) and
-  `chos kyi sku las ma g.yos par` as unwavering equipoise in the dharmakaya (*ji lta ba mkhyen pa*).
-  So "knows the world" is not a loose epithet: it is the extent-knowledge, paired with the
-  nature-knowledge of the next line. A seasoned-practitioner footnote says so in one sentence; an
-  academic one adds the commentaries and folios.
-- *Caṇḍamahāroṣaṇa* ch. 15, `de yang bur skye bar byed` and `bu mo rnams kyang … 'dod par byed`.
-  `explore` on the clause returns the root (Toh 431) and quotations in later works; the tantra's Tengyur
-  commentary (the Padmāvatī), when it appears among the hits, is the gloss to read with `segment
-  --context`. If it names the
-  agent, follow it; if it does not, the plain grammatical reading stands and both forks stay `Q:`.
-- A commentary text itself (the Jewel Garland of Yoga, Toh 1183): `identify --exclude 1183` on its
-  quotations finds their sources; `explore` on its own glosses finds the parallel commentaries on
-  the same Hevajra root words, which is where a disputed sense of `rab tu bsgrub pa`
-  is settled or shown to be disputed.
+- **A root-text citation in a commentary.** `identify` on the quoted words gives the root (Kangyur
+  or Tengyur, with Toh) and the works that quote it. `explore` on the padas in doubt usually returns
+  quotations only; the gloss is in the root's own commentaries, which appear among the quoting works:
+  `segment <id> --context --window 8–12` on one of them reaches the `… zhes pa ni …` passage. Where
+  an epithet-like phrase (`'jig rten mkhyen`) is glossed as a technical knowledge or activity, the
+  body follows the gloss and a seasoned-practitioner footnote says so in one sentence; an academic
+  footnote adds the commentary and folio.
+- **A tantra's prose with an elided agent.** `explore` on the clause returns the root and later
+  quotations; the tantra's Tengyur commentary, if indexed, is the gloss to read with `segment
+  --context`. If it names the agent, follow it; if it does not, the plain grammatical reading stands
+  and the fork stays a `Q:`.
+- **A commentary that is itself the text.** `identify --exclude <its Toh>` on its quotations finds
+  their sources; `explore` on its own glosses finds the parallel commentaries on the same root
+  words, which is where a disputed sense of a term is settled or shown to be disputed. Its own
+  copy, and any aligned English, will appear among the hits: skip them.
+- **The author's own prose.** A formula or enumeration in it (`bdud bzhi`, `nges pa lnga`) is
+  queried as a term; the sentence itself is not. `grounding: not queried`.
 
 ## 4. Honesty rules
 
 - A Toh number, folio or attribution appears in a note only if you have seen it in a hit and read
   the title. `source not located` and `GROUNDING: none found` are honest; an inferred locator is not.
 - The explore summary's attributions are checked against the hit list before use.
+- An English translation among the hits (`EN_…`, or the published English of your own text) is
+  never read or cited; the exposure is logged.
 - Dharmamitra is a public research service used one request at a time; when it is slow or down,
   skip the pass, say `GROUNDING: service unavailable`, and translate from the grammar.

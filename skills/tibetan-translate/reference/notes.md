@@ -41,8 +41,11 @@ The notes policy of the brief overrides this table.
 Rules that hold in every mode:
 
 1. A footnote is **anchored to a word or phrase of the rendering**; write it as `FN(<anchor>): …`.
-2. It is written **from the Tibetan of the commentary or source you read**, not from the machine
-   rendering beside the hit and not from memory.
+2. A footnote that reports a **commentary's reading or a variant** is written from the Tibetan of
+   the hit you read, never from the machine rendering beside it and never from memory. A footnote
+   that supplies a **standard enumeration or identification** (the four maras listed, the five
+   certainties, who an epithet names) may come from standard reference knowledge when no grounding
+   call covers it; mark it `[standard]` in the editor's `Issue:` line so the reviser can check it.
 3. It explains **this passage**, not the topic: a footnote on *dharmakaya* in a homage is not a
    lecture on the three bodies.
 4. A footnote never carries a doubt the body silently resolved: if the reader would read the
@@ -61,16 +64,19 @@ voice and kept, witness variants and secondary literature are cut and reported i
 
 ## 4. Output shape
 
+Schematic; locators are placeholders, never to be copied:
+
 ```
-### U06
-HEADER: U06 · verse citation, 7×4, metred 4-beat · homage · seasoned · Toh 4024 (Uttaratantra), quoted in Toh 4025 · grounding: Toh 4025 followed
+### U0n
+HEADER: U0n · verse citation, 7×4, metred 4-beat, block U0n–U0n+2 · homage · seasoned · Toh <root> (<English short title>), quoted in Toh <comm.> · grounding: <commentary> gloss followed
 TEXT:
 <rendering>
 FOOTNOTES:
-FN(knows the world): The commentaries read this as the Buddha's knowledge of the world in its full extent, paired in the next line with his knowledge of its nature, from which he never stirs.
+FN(<anchor phrase>): <one to three sentences in the body voice, from the Tibetan of the gloss you read>
 NOTES:
-Source: Toh 4024, verbatim (64b-12); quoted also in Toh 4025, 118b, and in the Single Intention (EGS_0004:3495).
-Comm: Toh 4025 and KHEZ009:4568 gloss 'jig rten mkhyen as ji snyed pa mkhyen pa; followed.
-Q: nas ni sequence kept ("having beheld … he acts"); alt. simultaneous.
-Check: in-context, 0 fixed.
+Source: Toh <root>, verbatim (<segment>); quoted also in <work> (<segment>).
+Comm: <work> (<segment>) glosses <wylie> as <reading>; followed. <other work> same / differs: <reading>.
+Q: <fork>; <branch taken>; resolved by <work> / open.
+MITRA: differs at clause <n> (<what>); kept (<grammatical reason>).
+Check: in-context, <n> fixed.
 ```

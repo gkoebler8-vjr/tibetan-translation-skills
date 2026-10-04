@@ -1,4 +1,4 @@
-# Prose rendering rules (Pass 2, prose units)
+# Prose rendering rules (the draft in Pass 1 and the style pass in Pass 3, prose units)
 
 The English standard (`english.md`) applies in full. Prose relaxes the metrical rules and adds these.
 
@@ -52,8 +52,9 @@ they go to the sources register.
 
 ## 4. The loop
 
-1. Construal object (analysis.md) for the unit.
-2. Draft from the construal, not from the Tibetan word order.
+1. Your reading of the unit, recorded as the construal sketch (SKILL.md §3; the full object of
+   analysis.md only for a contested unit).
+2. Draft from that reading, not from the Tibetan word order.
 3. Split and connect: break the long periods; make every connective explicit at the seam.
 4. Gates (english.md §1).
 5. Carry consistency forward: a phrasing chosen for a recurring Tibetan expression binds for the

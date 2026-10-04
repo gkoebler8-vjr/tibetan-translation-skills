@@ -70,7 +70,9 @@ Say mode, kind and measure in one line of the output.
    ```
    It performs the flat read and reports each line's beat interval, SAG/SLACK/CLASH/WEAK-END/OVER,
    the band verdict and a KIND? advisory. It is an aid; Gate 1 outranks it. `UNKNOWN:<word>` →
-   add the word to `tools/lexicon.py` as `"word": (syllables, [primary], [secondary])`.
+   count the word by hand for this run and note it; add it to `tools/lexicon.py` as
+   `"word": (syllables, [primary], [secondary])` afterwards, never during a measured run (the tool
+   under test must not change mid-run).
 
 ## 4. The gates
 

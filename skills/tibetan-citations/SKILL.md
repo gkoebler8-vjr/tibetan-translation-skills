@@ -66,8 +66,10 @@ footnote may contain for each audience, and how it is written, is in tibetan-tra
 ## 4. English short titles
 
 - Every work gets **one fixed English short title**, decided on first use and binding thereafter.
-- It is recorded as a `TITLE` row in the project glossary, with the Wylie title, the Sanskrit title
-  where there is one, and the locator.
+- It is recorded as a `TITLE` row in the project glossary, in `register.py`'s column order:
+  `TITLE <tab> english_short_title <tab> wylie_title <tab> iast_title <tab> locator` (the Sanskrit
+  title where there is one; the locator as verified). The English form is the second column; a
+  Wylie title in that column is read by `--titles` as the English title.
 - In the body: **English short title only, in italics.** Never a Sanskrit or Wylie title, never a
   Toh number.
 - Collections and genres stay roman: Vinaya, Kangyur, Tengyur, Tripitaka, sutra, tantra,
