@@ -19,11 +19,14 @@ ones per page, with English rated 4.2 out of 5; the published translations of th
 about four judge-confirmed errors a page, MITRA two and a half majors and six minors a page.** Weaker
 settings degrade quickly: Opus at high effort makes a major error every page or two; Sonnet two to
 three a page. A bare-model baseline run afterwards (Opus with the same brief and no skill, three
-pages, each output scored by two independent judges) made no more meaning errors than the skill:
-pooled over both judges, bare Opus at max had two majors, bare Opus at xhigh one, the skill at xhigh
-four. On these pages the skill's measured gain is in the English (4.05 against 3.9 and 3.7), the
-verse, the recorded doubts and the audit trail, not in the count of meaning errors. The output is a
-strong draft with its doubts listed, not a finished translation.
+pages, each output scored by two independent judges, the skill re-run at max on the same pages) made
+no more meaning errors than the skill and read about as well: pooled over both judges, bare Opus at
+max had two majors and English 3.9, the skill at max five majors and 4.0, the skill at xhigh four and
+4.05, bare Opus at xhigh one and 3.7. On these pages the skill's measurable gain over the bare model is
+confined to the English at the xhigh setting and to what the bare run does not produce at all (the
+construal, glossary, source identification, metred verse and MITRA flags); it does not make the
+translation more faithful. The output is a strong draft with its doubts listed, not a finished
+translation.
 
 ## What was tested
 
@@ -91,46 +94,53 @@ still reads well (3.8), but it slips on construal forks. We did not need to test
 Same three pages, same briefs, same judge protocol. The model received only the brief and the
 Tibetan and was told to translate from its own knowledge: no skill, dictionary, Dharmamitra, checker
 or reference files, one finished rendering per unit and a short note where a reading is uncertain.
-Six runs (Opus at max and at xhigh). Each bare output, and the skill's xhigh output for the same
-page, was then scored by two independent fresh-context Opus judges (the second round added the same
-day, with the first judge's report withheld). Figures are major / minor / English; the first judge
-is before the semicolon, the second after.
+Six bare runs (Opus at max and at xhigh), and, for a like-for-like comparison at the calibrated
+setting, the skill re-run at Opus max on the same three pages (run 4, same day). Every output in this
+table was scored by two independent fresh-context Opus judges, the second with the first's report
+withheld. Figures are major / minor / English; the first judge is before the semicolon, the second
+after.
 
-| Page | Skill, Opus xhigh | Bare Opus max | Bare Opus xhigh |
-|---|---|---|---|
-| Rays of Sunlight | 0 / 3 / 4.2; 0 / 3 / 4.3 | 0 / 0 / 4.1; 0 / 1 / 4.1 | 0 / 1 / 3.9; 0 / 2 / 3.9 |
-| Caṇḍamahāroṣaṇa ch. 15 | 1 / 2 / 3.9; 3 / 1 / 4.0 | 2 / 1 / 4.3; 0 / 1 / 4.3 | 0 / 3 / 4.1; 1 / 1 / 3.9 |
-| Jewel Garland of Yoga | 0 / 1 / 4.0; 0 / 3 / 3.9 | 0 / 2 / 3.4; 0 / 1 / 3.4 | 0 / 4 / 2.9; 0 / 2 / 3.4 |
-| **Three pages, first judge** | **1 / 6 / 4.0** | **2 / 3 / 3.9** | **0 / 8 / 3.6** |
-| **Three pages, second judge** | **3 / 7 / 4.1** | **0 / 3 / 3.9** | **1 / 5 / 3.7** |
-| **Pooled, both judges** | **4 / 13 / 4.05** | **2 / 6 / 3.9** | **1 / 13 / 3.7** |
-| Silent doubts (forks resolved without a note; first; second judge) | 2; 2 | 3; 3 | 4; 4 |
-| New tokens per page | 260k | 210k (146–290k) | 69k (48–104k) |
-| Minutes per page | ~24 | 13–19 | 3–5 |
+| Page | Skill, Opus max | Skill, Opus xhigh | Bare Opus max | Bare Opus xhigh |
+|---|---|---|---|---|
+| Rays of Sunlight | 0 / 1 / 4.2; 0 / 1 / 4.1 | 0 / 3 / 4.2; 0 / 3 / 4.3 | 0 / 0 / 4.1; 0 / 1 / 4.1 | 0 / 1 / 3.9; 0 / 2 / 3.9 |
+| Caṇḍamahāroṣaṇa ch. 15 | 1 / 1 / 4.1; 1 / 4 / 4.1 | 1 / 2 / 3.9; 3 / 1 / 4.0 | 2 / 1 / 4.3; 0 / 1 / 4.3 | 0 / 3 / 4.1; 1 / 1 / 3.9 |
+| Jewel Garland of Yoga | 2 / 2 / 3.8; 1 / 2 / 3.6 | 0 / 1 / 4.0; 0 / 3 / 3.9 | 0 / 2 / 3.4; 0 / 1 / 3.4 | 0 / 4 / 2.9; 0 / 2 / 3.4 |
+| **Pooled, both judges (72 unit-judgments)** | **5 / 11 / 3.98** | **4 / 13 / 4.05** | **2 / 6 / 3.93** | **1 / 13 / 3.68** |
+| Silent doubts (forks resolved without a note, both judges) | 4 | 4 | 6 | 8 |
+| New tokens per page | ~410k (310–540k) | 260k | 210k (146–290k) | 69k (48–104k) |
+| Minutes per page | ~35 | ~24 | 13–19 | 3–5 |
 
-The skill's Opus-max run on Rays of Sunlight (run 1) was 0 / 1 / 4.3 against the bare runs' 0 / 0 /
-4.1 and 0 / 1 / 3.9 on the same page.
+(The skill's run-1 Opus-max result on Rays of Sunlight, 0 / 1 / 4.3 with one judge, is consistent
+with the run-4 figures above; the run-4 skill runs were interrupted once by a usage limit and resumed
+from their saved construal files, which added some re-done dictionary calls to their token count.)
 
 What the skill buys, on this evidence. On meaning errors, nothing: the bare model is at least as
-faithful. The second judging round was run to test whether the first round's tie was judge noise, and
-it held. The English scores were stable between judges (within 0.1 on eight of nine outputs), but the
-error counts on the same output moved by up to two majors, all of it on the tantra page's units 6 and
-7 (who kills whom, who desires whom), which all three runs read the same way and which the judges
-scored anywhere from "defensible, silent doubt" to two majors. Pooled over both judges the skill at
-xhigh carried four majors on the three pages, the bare model at max two and at xhigh one. The bare
-runs also wrote more notes than expected (13–24 `Q:` lines a page), so the "silent doubt" gap is small
-(3–4 against 2 with either judge). The gains that do show are in the English: 0.15 of a point over
-bare max and 0.35 over bare xhigh across three pages, and over half a point on the academic page,
-where the bare output was bracket-laden study-translation prose with Sanskrit in parentheses after
-every term; the bare runs' verse was unmetred, and the homage period came out as one 150-word
-sentence. And the skill leaves what the bare run cannot: a construal file that records how each
-sentence was read, a glossary, source identification with Toh numbers, and the MITRA flag. The cost
-is not the twentyfold we expected: at max and xhigh the bare model spends most of its tokens
-thinking (one bare max run spent 126k output tokens on a page), so the skill at xhigh costs about
-four times a bare xhigh run and about 1.2 times a bare max run, in about six and 1.5 times the
-wall-clock. The honest summary: the bare model at max effort is already a fidelity-grade drafter,
-and the dictionary pass, the construal and the fidelity check did not make it more faithful on these
-pages; the skill is what turns the draft into house-style English with an audit trail.
+faithful at either setting, and at max the pooled count runs the other way (two majors bare, five
+with the skill). The second judging round was run to test whether the first round's tie was judge
+noise, and it held. English scores were stable between judges (within 0.1 on most outputs); error
+counts on the same output moved by up to two majors, almost all on the tantra page's units 6 and 7
+(who kills whom, who desires whom), which every run read the same way and which the judges scored
+anywhere from "defensible, silent doubt" to two majors. Two of the skill's majors are instructive:
+on the tantra page both judges faulted the skill at max for `de yang bur skye bar byed`, where it
+recorded the fork and then took the weaker branch (the father reborn as the son's son) while both
+bare runs took the plain one (he in turn begets sons); and on the same page the skill's dictionary
+tool offered a compound `mthar thug pa sangs rgyas` "ultimate buddhahood" that the first draft
+followed and only the MITRA cross-check caught. The analysis apparatus can mislead as well as help.
+The bare runs also wrote more notes than expected (13–24 `Q:` lines a page), so the "silent doubt"
+gap is small (6–8 against 4 over two judges). On English the skill at max (3.98) is level with bare
+max (3.93); the one clear gain is at xhigh (4.05 against 3.68), and on the academic page at either
+setting (3.7–3.95 against 3.15–3.4), where the bare output was bracket-laden study-translation
+prose with Sanskrit in parentheses after every term; the bare runs' verse was unmetred, and the
+homage period came out as one 150-word sentence. What the skill leaves that the bare run cannot: a
+construal file that records how each sentence was read, a glossary, source identification with Toh
+numbers (it found the Uttaratantra citation and, on the Jewel Garland page, the Sahajasiddhi source
+of a quotation with a meaning-flipping variant), and the MITRA flag. The cost is not the twentyfold we
+expected: at max and xhigh the bare model spends most of its tokens thinking (one bare max run spent
+126k output tokens on a page), so the skill costs about twice a bare run at max and four times one at
+xhigh. The honest summary: on single pages the bare model at max effort already translates as
+faithfully and reads as well; the skill's measurable value is the house-style English at lower
+effort, the verse, and the audit trail. Its main design claim, consistency of bound terms and
+citations across a long text, is not something a one-page test can measure and remains untested.
 
 ## What went well
 
@@ -187,6 +197,10 @@ pages; the skill is what turns the draft into house-style English with an audit 
   The MITRA flag covers part of that gap; your own reading covers the rest.
 - **The dictionary is only as good as its segmenter.** The new hint lines surface the known slips;
   they do not remove them. Sanskrit transliterations and rare names still need the reader's eye.
+- **It is not more faithful than the bare model.** On the three baseline pages, scored by two
+  judges each, bare Opus made fewer meaning errors than the skill at either effort and read as well
+  at max. The dictionary pass, construal and fidelity check are an audit trail, not a safety net;
+  twice they led a run toward a worse reading than the bare model chose.
 - **Cost.** 250–400k tokens for a page on Opus max is roughly a tenth of a Max-5x five-hour window
   (and about half of a Pro window). The method is for careful work, not bulk.
 - **Dharmamitra is a public research service.** One request at a time; it can be slow or down; the
@@ -215,9 +229,10 @@ run. Token figures are new tokens per run computed from the agent transcripts (`
 bare-model baseline (4 October) used the judge template without the checker-recall section, with the
 construal line replaced by "none (bare run); judge from the Tibetan"; its prompts, outputs and judge
 reports are in `tests/campaign_2026-10-03/baseline/`. The second judging round (`judge2.md` beside
-each `judge.md`, nine outputs) used the same template with the first report withheld; with two
-judges per output the judge-to-judge spread on one page was up to two major errors, which is the
-resolution of every per-page figure in this report.
+each `judge.md`) used the same template with the first report withheld; the skill's Opus-max re-run
+on the three pages is `runs/run4_opus_max/` with two judges each. With two judges per output the
+judge-to-judge spread on one page was up to two major errors, which is the resolution of every
+per-page figure in this report.
 Caveats: one judge per page (no inter-judge agreement measured); the judge and the drafter are the
 same model family; briefs for the 84000 pages were written quickly and were wrong in small ways
 (pada counts) that the runs noticed and flagged; the final matrix ran on the skill as of the run-2

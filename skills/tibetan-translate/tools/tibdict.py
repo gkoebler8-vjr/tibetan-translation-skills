@@ -776,7 +776,8 @@ COPULA_VERBS = {"lags", "yin", "min", "'dug", "red", "mchis", "gda'", "yod", "me
 # lexical -ma / -mi words that are never re-split, even before a copula (bla ma yin, dbu ma yin ...)
 NEG_PROTECT = {"bla ma", "a ma", "ma ma", "slob ma", "srung ma", "dbu ma", "sgrol ma", "nyi ma", "mkha' 'gro ma",
                "rnal 'byor ma", "dge slong ma", "dge tshul ma", "dge bsnyen ma", "'phags ma", "rig ma", "yum ma",
-               "phyi ma", "snga ma", "gong ma", "'og ma", "tha ma", "sngon ma", "gzhon nu ma", "lha mi", "rje ma", "cig ma", "dri ma", "sgyu ma"}
+               "phyi ma", "snga ma", "gong ma", "'og ma", "tha ma", "sngon ma", "gzhon nu ma", "lha mi", "rje ma", "cig ma", "dri ma", "sgyu ma",
+               "mgur ma", "lu ma"}
 NEG_STRONG_NOUN = 200      # a -ma/-mi word with this many MITRA attestations is a real word: leave it alone
 AFFIXES = ("r", "s", "'i", "'am", "'ang", "'o")
 # case markers and clause connectives: a dictionary window may not start or end on one of these
@@ -1046,7 +1047,7 @@ def neg_count_line(unit, D=None):
 
 # -ma/-mi initial words that are names or nouns, not a negation + verb (checked as `ma <next>`)
 NEG_NAME_HEADS = {"ma dros", "ma gcig", "ma skyes", "ma bskyod", "ma ma", "mi pham", "mi 'gyur", "mi la", "ma hA", "ma ha", "mi bskyod",
-                  "ma mo", "mi rje", "mi rigs", "mi lus", "mi yul", "mi dbang", "mi chen"}
+                  "ma mo", "mi rje", "mi rigs", "mi lus", "mi tshe", "mi yul", "mi dbang", "mi chen", "ma ni"}
 
 def repair_segmentation(toks, D):
     """Apply the slip rules above. Returns (tokens, notes, inline, compound_line)."""

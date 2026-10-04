@@ -35,17 +35,19 @@ Dharmamitra's machine translation (MITRA) on its own, and the published book.
 - The published translations: about four slips per page, mostly small.
 - Claude Opus asked to translate with no skill at all, from the same brief (three pages, each
   version scored by two judges): two meaning-changing errors at maximum effort and one at the
-  setting below it, against the pipeline's four on the same pages. The two judges disagreed with
-  each other by up to two errors on one tantra passage, so the fair reading is that the pipeline is
-  not more faithful than Claude alone. Its English was rated 3.9 and 3.7, and about 3.2 on the
-  academic page (bracket-laden study prose), against the pipeline's 4.05.
+  setting below it, against the pipeline's five and four on the same pages. The two judges disagreed
+  with each other by up to two errors on one tantra passage, so the fair reading is that the pipeline
+  is not more faithful than Claude alone. Its English was rated 3.9 and 3.7, against the pipeline's
+  4.0 and 4.05; only on the academic page (bracket-laden study prose from the bare model, about 3.2)
+  was the pipeline clearly better.
 
 So it is a strong first draft that tells you where it was unsure, not a finished translation. What
-the skill adds over simply asking Claude is not fewer meaning errors. It is English in your house
-style, verse that scans, the `Q:` lines, a record of how each sentence was read, a glossary that
-keeps terms consistent across a long text, and the source of each quotation. If you only want a
-quick faithful gist of a passage, ask Claude directly at maximum effort: it is as good and cheaper.
-If you are preparing a text for readers, use the skill. The full report is
+the skill adds over simply asking Claude is not fewer meaning errors, and at maximum effort not
+better English either. It is English in your house style at lower effort, verse that scans, the `Q:`
+lines, a record of how each sentence was read, a glossary that keeps terms consistent across a long
+text, and the source of each quotation. If you want a faithful translation of a passage, ask Claude
+directly at maximum effort: it is as good and costs half. If you are preparing a long text for
+readers in a fixed style, with a glossary and references, use the skill. The full report is
 `docs/Test_Report_2026-10-03.md`.
 
 ## What you need

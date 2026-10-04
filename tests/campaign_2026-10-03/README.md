@@ -5,6 +5,9 @@ Data behind `docs/Test_Report_2026-10-03.md`. Layout:
 - `material/` — the test pages: `*_units.md` (Tibetan, one unit per line), 84000 reference English
   (`84000/*_reference_H.md`, CC BY-NC-ND 4.0, attributed in `84000/*.md`), MITRA renderings
   (`mitra/*_M.md`). The Vikramashila reference translations are not redistributed.
+- `runs/run4_opus_max/` — the skill at Opus max on the three baseline pages (4 October 2026), two
+  judges each (`judge.md`, `judge2.md`), `tokens_run4.txt`; these runs were interrupted once and
+  resumed from their saved construal files (see the runlogs).
 - `runs/run1_opus_max/`, `runs/run2_opus_max/`, `runs/run3_final/<model>_<effort>/` — one folder per
   judged page: `prompt.md` (the brief and rules), `final.md` (the pipeline's output), the construal and
   glossary files, `runlog.md`, `judge.md` (the fresh-context judge's report), `check_external.md`

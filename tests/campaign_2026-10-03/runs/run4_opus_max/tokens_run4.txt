@@ -1,0 +1,12 @@
+wf        run                                model            eff    calls new(in+cw+out)     out   cache_r
+08dd5677  translate:opus_max/CSh_shastra     opus-5-5         max       26         197193   13248   2595434
+08dd5677  translate:opus_max/CT_tantra       opus-5-5         max       21         187066     295   2090386
+08dd5677  translate:opus_max/V1_rays         opus-5-5         max       26         233129   52800   2622762
+873f4735  translate:opus_max/CSh_shastra (re opus-5-5         max       46         543286    1490   8262564
+873f4735  translate:opus_max/CT_tantra (resu opus-5-5         max       42         309707   11551   7730149
+873f4735  translate:opus_max/V1_rays (resume opus-5-5         max       37         389681   14293   6871755
+
+Note: workflow 08dd5677 was stopped ~10 min in (usage limit) and 873f4735 resumed each page from the
+saved construal/glossary/runlog; the resumed agents re-ran the dictionary calls whose output had not
+reached the construal. New tokens per page, resumed run alone: Rays 390k, Caṇḍamahāroṣaṇa 310k,
+Jewel Garland 543k (mean 414k); both workflows together: 623k / 497k / 740k.

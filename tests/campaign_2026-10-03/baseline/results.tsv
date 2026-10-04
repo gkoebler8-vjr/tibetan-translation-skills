@@ -17,3 +17,9 @@ final-judge1	CT_tantra	opus	xhigh	12	1	2	3.9	3	9	0	3	0	1	see ../tokens_per_run.t
 final-judge2	CT_tantra	opus	xhigh	12	3	1	4.0	5	6	0	4	0	1	see ../tokens_per_run.txt
 final-judge1	CSh_shastra	opus	xhigh	12	0	1	4.0	3	5	1	0	4	0	see ../tokens_per_run.txt
 final-judge2	CSh_shastra	opus	xhigh	12	0	3	3.9	3	9	2	1	4	1	see ../tokens_per_run.txt
+skill-max-judge1	V1_rays	opus	max	12	0	1	4.2	3	3	0	1	2	0	389681
+skill-max-judge2	V1_rays	opus	max	12	0	1	4.1	3	4	0	1	1	1	389681
+skill-max-judge1	CT_tantra	opus	max	12	1	1	4.1	2	8	1	1	4	0	309707
+skill-max-judge2	CT_tantra	opus	max	12	1	4	4.1	2	11	1	4	0	2	309707
+skill-max-judge1	CSh_shastra	opus	max	12	2	2	3.8	4	10	1	4	3	1	543286
+skill-max-judge2	CSh_shastra	opus	max	12	1	2	3.6	2	9	1	3	4	0	543286

@@ -29,3 +29,9 @@ final	CSh_shastra	opus	xhigh	12	0	1	4.0	3	5	1	0	4	VERDICT: 0 major, 4 minor (in-
 run2	BS_sutra	opus	max	11	0	2	3.9	3	4	2	0	2	0 major 9 minor (in-context); ext 0 major 1 minor; ext recall 1/2
 run2	BT_tantra	opus	max	12	2	5	4.2	7	7	3	3	0	0 major 10 minor (in-context); ext 0 major 4 minor; ext recall 1.5/7
 run2	BSh_shastra	opus	max	12	0	4	4.0	3	9	2	1	3	0 major 4 minor (in-context); ext 0 major 1 minor; ext recall 0/4
+run4-judge1	V1_rays	opus	max	12	0	1	4.2	3	3	0	1	2	0 major (in-context); resumed run
+run4-judge2	V1_rays	opus	max	12	0	1	4.1	3	4	0	1	1	0 major (in-context); resumed run
+run4-judge1	CT_tantra	opus	max	12	1	1	4.1	2	8	1	1	4	0 major (in-context); resumed run
+run4-judge2	CT_tantra	opus	max	12	1	4	4.1	2	11	1	4	0	0 major (in-context); resumed run
+run4-judge1	CSh_shastra	opus	max	12	2	2	3.8	4	10	1	4	3	0 major (in-context); resumed run
+run4-judge2	CSh_shastra	opus	max	12	1	2	3.6	2	9	1	3	4	0 major (in-context); resumed run
