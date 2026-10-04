@@ -34,7 +34,9 @@ Every note in an academic source falls into one of three classes.
   the dropped originals in the run log, never in the edition.
 
 A mixed note is routed by its dominant function; if the split matters, leave a one-line issue note.
-A "source not located" note is dropped, its marker removed, and the fact reported.
+A "source not located" note is dropped, its marker removed, and the fact reported. What a *new*
+footnote may contain for each audience, and how it is written, is in tibetan-translate's
+`reference/notes.md`.
 
 ## 3. Identifying a quotation
 
@@ -111,8 +113,9 @@ roman is a defect that survives every read-through.
 
 Order of operations for a passage that contains a quotation:
 
-1. `tibetan-translate`'s analysis pass builds the construal object, whose `CITATION` and
-   `VARIANTS` fields name the quoted work, the opening words, and the `dm.py identify` result.
+1. `tibetan-translate`'s grounding pass (Pass 2) runs `dm.py identify` on the quoted words and
+   records the result in the construal sketch's `CITATION` and `VAR` lines (quoted work, opening
+   words, Toh, segment id, variants).
 2. **This skill** identifies and verifies the source, fixes or reuses the English short title, and
    writes the register row.
 3. `tibetan-translate` renders the framing sentence with the citation formula of its prose rules

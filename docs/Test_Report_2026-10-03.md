@@ -3,6 +3,13 @@
 *For translators, especially the Vikramashila group. Short version first; the data and every judged
 page are in `tests/campaign_2026-10-03/`.*
 
+*Postscript, 4 October 2026: everything measured below is pipeline **v1**. Its findings (the bare
+model at max effort is as faithful as the model with a dictionary pass, a full construal and a
+spawned checker) led to pipeline **v2** the same day: the model reads and drafts first; a grounding
+pass then finds the canon's commentaries on the passage through Dharmamitra and follows them where
+they settle a reading; notes for the editor and footnotes for the reader are written per audience.
+v2 has had one smoke run, not a campaign; see the README's "What it adds, and what it does not".*
+
 ## In one paragraph
 
 We ran the `tibetan-translate` pipeline on 33 pages (10–12 sentences or stanzas each) of texts that

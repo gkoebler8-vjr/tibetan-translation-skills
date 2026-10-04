@@ -4,14 +4,17 @@ Four Claude Code skills for translating Classical Tibetan (Wylie or Tibetan scri
 prose or verse, any genre. `tibetan-translate` is the entry point; `tibetan-verse` (verse rules v4
 and a beat counter), `tibetan-citations` (short titles, sources register, footnote triage) and
 `tibetan-dharmamitra` (Dharmamitra API reference and the Claude-versus-MITRA comparison protocol)
-are its companions. A translation runs through one pipeline: a **brief** (audience, purpose, house
-style); an **analysis** pass that segments and looks up every word with `tibdict.py` (a local
-dictionary index) and identifies quotations with `dm.py` (Dharmamitra), and writes a structured
-construal; a **faithful draft** from the construal; one **audience/style pass**; a **fidelity
-check** in a fresh context that returns error spans only; and a **MITRA cross-check** whose
-differences are flagged, never voted on. Built and calibrated on a practitioner edition of a
-17th-century Drikung Kagyü guru-yoga treatise (the *Lam Zab*); see
-`docs/Tibetan_Skills_Overhaul_2026-10-03.md` for the design and the test runs.
+are its companions. A translation runs through one pipeline (v2, 4 October 2026): a **brief**
+(audience, purpose, house style, notes policy); the model's **own reading and faithful draft** at
+maximum effort, with a short construal sketch and the dictionary tool only on demand; a
+**grounding pass** that identifies quotations and finds the canon's commentaries on the passage
+through Dharmamitra (`dm.py explore`, `segment`, `parallels`), follows their reading where the
+grammar permits, and runs the MITRA cross-check as a flag; one **audience/style pass** with
+glossary binding and verse rules; a short in-context **check**; and **two streams of notes**: working
+notes for the editing translator and footnotes for the reader in the audience's style. Built and
+calibrated on a practitioner edition of a 17th-century Drikung Kagyü guru-yoga treatise (the *Lam
+Zab*); the design history is in `docs/Tibetan_Skills_Overhaul_2026-10-03.md`, the measurements that
+led to v2 in `docs/Test_Report_2026-10-03.md`.
 
 Author: Gabriel Kobler. Built with Claude (Opus and Fable), 2026-09 to 2026-10.
 
@@ -43,9 +46,15 @@ on three of them; the full numbers and caveats are in `docs/Test_Report_2026-10-
   these pages they did not); and the skill's main design claim, that bound terms and citations stay
   consistent across a long text, which a one-page test cannot measure.
 
+Those measurements are of pipeline v1 (dictionary pass on every unit, 40-line construal, spawned
+checker). **Pipeline v2** (4 October 2026) drops what bought nothing and adds what the bare model
+cannot do: the model reads and drafts first, at maximum effort; then the grounding pass finds the
+commentaries that gloss the passage (Dharmamitra Explore), follows them where they settle a reading,
+and writes the disagreements up for the editor and, per audience, for the reader as footnotes.
 Use it when you want a fixed house style, metred verse, a glossary and source references across a
-long text, with a record of every reading. For the translation of a page, the bare model at max
-effort is as faithful, reads as well, and costs half.
+long text, a reading grounded in the commentaries, and notes for editor and reader. For a bare
+translation of a page, the model at max effort is as faithful and costs less; v2 has not been
+measured against it yet beyond one smoke run.
 
 ## Requirements
 
@@ -120,10 +129,12 @@ In Claude Code, invoke the skill:
 or just ask to translate, re-translate or check a Tibetan passage; the skill's description matches
 those requests. Paste the Tibetan (Wylie or script).
 
-**Pass 0, the brief.** Before drafting, the skill needs four things: *audience* (academic, new
+**Pass 0, the brief.** Before drafting, the skill needs five things: *audience* (academic, new
 practitioner, seasoned practitioner, hybrid, other), *purpose* (publication, study aid,
 practice/recitation, working crib), *house style* (glossary file, diacritics, Sanskrit kept or
-translated, capitalization, verse form, notes policy, contractions and dashes) and *source context*.
+translated, capitalization, verse form, contractions and dashes), *notes policy* (which footnotes
+the reader gets; defaults per audience in `skills/tibetan-translate/reference/notes.md`) and
+*source context* (including known commentaries on the text).
 If they are not already fixed it asks once, in a single question. "You choose" gives seasoned
 practitioner, study aid, and the defaults in `skills/tibetan-translate/reference/modes.md`. In an
 autonomous run it takes the defaults and prints them as assumptions at the top.
@@ -138,42 +149,53 @@ mahamudra); metred verse in chant mode for liturgy; no apparatus in the body; gl
 glossary.tsv and it binds.
 ```
 
+**The passes.** The model reads the Tibetan itself and drafts (a construal sketch of 8–15 lines
+per unit goes to `<work>.construal.md`; `tibdict.py` is called only for a word it cannot settle).
+Then the grounding pass: `dm.py identify` for every quotation, `dm.py explore` on the clauses that
+carry a doubt or a doctrine, which returns the commentaries that gloss those words with their
+Tibetan; the skill reads the gloss, follows it where the grammar permits, and records what it did.
+MITRA is run once per page as a flag; a change made on MITRA's word alone is treated as a defect.
+Then the style pass for the audience, glossary binding, verse per tibetan-verse, and a short
+in-context check against the sketch.
+
 **Output.** A one-line header (unit id, form, register, audience mode, source: `Toh ...`, `source
-not located`, or `not a citation`); one finished rendering (two only for a genuine fork); then one-line
-notes only where there is something to say:
+not located`, or `not a citation`; grounding: which commentary was followed, or `none found`); one
+finished rendering (two only for a genuine fork); a `FOOTNOTES:` block for the reader where the
+audience's notes policy allows one (anchored `FN(word): …`, written from the Tibetan of the
+commentary); and a `NOTES:` block for the editing translator, one line each, only where there is
+something to say:
 
-- `Q:` a doubt and the alternative construal (the editor's list)
+- `Q:` a doubt and the alternative construal, and whether a commentary resolved it
 - `Alt:` a hard word or line
+- `Comm:` what a commentary says where it differs from the body or from another commentary, with its source
+- `Var:` a variant reading that changes the sense
+- `Source:` the identification
+- `MITRA:` where MITRA differs on a content word, referent, agent or relation, kept or changed
 - `Issue:` a term swap, an unpacking, an image let go, a register shift
-- `Source:` identification and variants that affect the reading
-- `Check:` what the fidelity check found and changed
-- `MITRA:` where MITRA differs on a content word, referent, agent or relation, and whether you kept or changed
+- `Check:` what the in-context check found and changed
 
-Academic and hybrid modes add an apparatus block. The skill keeps two work files beside your text and appends to them: `<work>.construal.md` (the analysis; the checker and
-later units read it) and `<work>.glossary.tsv` (wylie, English, note; every term decision, and a
-project glossary binds). The construal is not printed in the reply unless you ask.
-
-The fidelity check runs a page (5-12 units) at a time in one spawned subagent. A single unit is
-checked in-context after a clean break (`Check: in-context`) unless you ask for the independent check;
-so is a page when the running context has no Agent tool (workflow subagents, some headless runs). The
-MITRA cross-check then runs once per page; a change made on MITRA's word alone is treated as a defect.
+The skill keeps two work files beside your text and appends to them: `<work>.construal.md` (the
+sketches, grounding and variants) and `<work>.glossary.tsv` (wylie, English, note; every term
+decision and every fixed short title; a project glossary binds). Neither is printed unless you
+ask. A spawned fresh-context checker runs only if you ask for an independent check.
 
 ## The tools from the command line
 
 All four are plain Python and print compact text meant for a model's context.
 
 ```bash
-python3 ~/.claude/skills/tibetan-translate/tools/tibdict.py annotate "<unit>" --budget 6000
-```
-
-Per-unit report: segmentation, labelled particles, MITRA sense plus one classical dictionary per
-word, verb paradigms, a `NEG:` count, a `COMPOUND?` line. Also `--file F`, `--brief`, `--examples`.
-
-```bash
 python3 ~/.claude/skills/tibetan-translate/tools/tibdict.py lookup "ye shes" --full --examples
 ```
 
-Everything the index has on one word.
+Everything the index has on one word: the pipeline's on-demand call.
+
+```bash
+python3 ~/.claude/skills/tibetan-translate/tools/tibdict.py annotate "<unit>" --budget 6000
+```
+
+Whole-unit report: segmentation, labelled particles, MITRA sense plus one classical dictionary per
+word, verb paradigms, a `NEG:` count, a `COMPOUND?` line. Also `--file F`, `--brief`, `--examples`.
+No longer run on every unit (it did not reduce errors in testing); useful when a unit will not parse.
 
 ```bash
 python3 ~/.claude/skills/tibetan-translate/tools/tibdict.py verb "<stem>"
@@ -189,11 +211,18 @@ Find a quotation in the canon (Toh number, who quotes it). Read the `VERBATIM MA
 `NO` means the hits are only semantic neighbours.
 
 ```bash
+python3 ~/.claude/skills/tibetan-translate/tools/dm.py explore "<clause, Wylie>"
+```
+
+The grounding call: the commentaries and treatises that quote or gloss those words, each with its
+Tibetan and a segment id (10–20 seconds).
+
+```bash
 python3 ~/.claude/skills/tibetan-translate/tools/dm.py parallels <segmentnr>
 ```
 
-Variant readings. `dm.py segment <segmentnr> --context` fetches a segment with its neighbours (a
-commentary's gloss).
+Variant readings. `dm.py segment <segmentnr> --context --window 8` fetches a segment with its
+neighbours (the rest of a commentary's gloss).
 
 ```bash
 python3 ~/.claude/skills/tibetan-translate/tools/dm.py translate --file page_units.md --style "literal, keep every clause and connective"

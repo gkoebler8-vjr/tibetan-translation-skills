@@ -1,0 +1,76 @@
+# Pass 5 — notes for the editing translator, footnotes for the reader
+
+Two streams with different readers. Editor notes are working material: every doubt, alternative,
+commentary and tool flag the revising translator needs, terse, in the `NOTES:` block of each unit.
+Footnotes are part of the edition: written for the reader, in the body's voice, only where the
+audience's notes policy allows, in the `FOOTNOTES:` block. Nothing from the editor stream leaks
+into a footnote unrewritten; nothing a reader needs is left only in the editor stream.
+
+## 1. Editor notes (`NOTES:`), every unit
+
+One line each, only where there is something to say, otherwise `none`:
+
+| Tag | What it carries | Example |
+|---|---|---|
+| `Q:` | a construal that could go another way, with the alternative, and whether grounding resolved it | `Q: de yang = he too (subject) or him too (object); plain reading taken; Padmāvatī silent.` |
+| `Alt:` | a hard word or line with the rendering not taken | `Alt: 'jig rten mkhyen "knows the world" / "knows beings".` |
+| `Comm:` | what a commentary says where it differs from the body or from another commentary, with work and locator | `Comm: Toh 4025, 118b: 'jig rten mkhyen = ji snyed pa mkhyen pa; followed. KHEZ009:4568 (rin po che'i sgron me) same.` |
+| `Var:` | a variant reading that changes the sense, from `parallels` | `Var: Sahajasiddhi (MW1PD95844:2571) reads min for yin in line 2, flipping the sense; the commentary's yin translated.` |
+| `Source:` | the identification result | `Source: Toh 4024, Uttaratantra I.?; verbatim; quoted also in Toh 4025.` · `Source: not located.` |
+| `MITRA:` | the flag, kept or changed with the reason | `MITRA: differs at clause 3 (reads rigs par as object); kept, adverbial by position.` |
+| `Issue:` | a term swap, an unpack, an image let go, a register shift, a speech-act conversion | `Issue: enumeration rendered as "you" imperatives (instruction register).` |
+| `Check:` | what the in-context check found and changed | `Check: in-context, 1 fixed (pas → because).` |
+
+Editor notes carry Wylie, segment ids and Toh numbers freely. They are never shipped to the reader.
+
+## 2. Footnotes (`FOOTNOTES:`), by audience
+
+The notes policy of the brief overrides this table.
+
+| | Academic | Hybrid | Seasoned practitioner | New practitioner | Working crib / recitation |
+|---|---|---|---|---|---|
+| **Locators** (Toh, folio, witness) | in the footnote | in an endnote | never in a footnote: the sources register, keyed by opening words | never | none |
+| **Commentary readings** | the gloss quoted or paraphrased, with the commentary's title, Toh and folio; disagreements between commentaries stated | the reading followed, with the work named; disagreements in an endnote | the explanation in plain English where it unlocks the passage or matters to practice; the commentary named by its English short title only if the reader would know it; no folios | only when the passage is otherwise unreadable; one sentence, no titles | none |
+| **Variants** | stated, with witnesses | endnote | only when the variant changes what the practitioner would do | never | none |
+| **Sanskrit / Wylie** | IAST, Wylie of the term glossed | IAST in the note only | none, unless the term itself is the point | none | none |
+| **Enumerations, names, images** | footnote | footnote | footnote: the four maras listed, who a name is, one opaque image unpacked | footnote, one sentence | none |
+| **Translation choices** | a note where a bound term departs from the common rendering | endnote | never (editor stream) | never | none |
+| **Length** | as needed | ≤ 3 sentences | ≤ 3 sentences | 1 sentence | — |
+| **Voice** | neutral-scholarly | body voice | body voice: warm, direct; no hedging, no "lit." | body voice | — |
+
+Rules that hold in every mode:
+
+1. A footnote is **anchored to a word or phrase of the rendering**; write it as `FN(<anchor>): …`.
+2. It is written **from the Tibetan of the commentary or source you read**, not from the machine
+   rendering beside the hit and not from memory.
+3. It explains **this passage**, not the topic: a footnote on *dharmakaya* in a homage is not a
+   lecture on the three bodies.
+4. A footnote never carries a doubt the body silently resolved: if the reader would read the
+   passage differently with the alternative, the alternative is in the footnote (academic, hybrid,
+   seasoned where it matters to practice) or the body keeps the plain reading and the `Q:` goes to
+   the editor.
+5. Nothing in a footnote that the text you translate does not occasion; nothing in the body that
+   belongs in a footnote (no explanatory expansion of the rendering).
+6. Numbering is the editor's; the pipeline gives the anchor.
+
+## 3. Triage of an existing apparatus
+
+When the task is to re-edit an academic translation for a reader edition, tibetan-citations §2
+applies: source locators go to the register, reader-relevant explanations are rewritten in the body
+voice and kept, witness variants and secondary literature are cut and reported in the run log.
+
+## 4. Output shape
+
+```
+### U06
+HEADER: U06 · verse citation, 7×4, metred 4-beat · homage · seasoned · Toh 4024 (Uttaratantra), quoted in Toh 4025 · grounding: Toh 4025 followed
+TEXT:
+<rendering>
+FOOTNOTES:
+FN(knows the world): The commentaries read this as the Buddha's knowledge of the world in its full extent, paired in the next line with his knowledge of its nature, from which he never stirs.
+NOTES:
+Source: Toh 4024, verbatim (64b-12); quoted also in Toh 4025, 118b, and in the Single Intention (EGS_0004:3495).
+Comm: Toh 4025 and KHEZ009:4568 gloss 'jig rten mkhyen as ji snyed pa mkhyen pa; followed.
+Q: nas ni sequence kept ("having beheld … he acts"); alt. simultaneous.
+Check: in-context, 0 fixed.
+```

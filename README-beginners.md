@@ -8,12 +8,16 @@ terminal, or any AI tool. Every step is spelled out. If you already know the com
 
 **It does:**
 
-- Take a Tibetan passage (Wylie or Tibetan script) and write a draft English translation.
-- Look up every word in a dictionary stored on your computer, and work out the grammar first.
+- Take a Tibetan passage (Wylie or Tibetan script) and write a draft English translation, reading
+  the grammar itself; a dictionary on your computer is there for the words it cannot settle.
+- Look for the canon's own commentaries on the passage (through Dharmamitra), read what they say
+  the words mean, and follow them where the grammar allows.
 - Try to find where a quotation comes from (the work and its Toh number).
-- Check its own draft in a second, separate pass, and compare it with a machine translation from
-  Dharmamitra (called MITRA).
+- Compare its draft with a machine translation from Dharmamitra (called MITRA) as a second opinion.
 - Fit the style to your readers: academic, new practitioner, seasoned practitioner, or a mix.
+- Write two kinds of notes: footnotes for your readers in the style your audience expects, and
+  working notes for you, the editing translator, listing every doubt and every place a commentary
+  reads the passage differently.
 
 **It does not:**
 
@@ -47,7 +51,10 @@ better English either. It is English in your house style at lower effort, verse 
 lines, a record of how each sentence was read, a glossary that keeps terms consistent across a long
 text, and the source of each quotation. If you want a faithful translation of a passage, ask Claude
 directly at maximum effort: it is as good and costs half. If you are preparing a long text for
-readers in a fixed style, with a glossary and references, use the skill. The full report is
+readers in a fixed style, with a glossary and references, use the skill. Those tests were of the
+first version of the pipeline. The version you install (4 October 2026) was reshaped by them: it
+lets Claude read and draft first, then looks up the canon's commentaries on the passage and writes
+footnotes and editor notes from them. That version has had one trial run, not a full test. The full report is
 `docs/Test_Report_2026-10-03.md`.
 
 ## What you need
@@ -205,13 +212,21 @@ ready. If not, see "Common problems".
 
 ### What the notes mean
 
-- `Q:` a doubt. The Tibetan could be read another way; it gives the other reading. Decide yourself.
+Two blocks follow each passage. **FOOTNOTES** are for your readers, written in the voice of the
+text and anchored to a word of the translation (`FN(knows the world): …`); which notes your
+audience gets is set by the brief (scholars get sources and variants, practitioners only what
+unlocks the passage). **NOTES** are for you:
+
+- `Q:` a doubt. The Tibetan could be read another way; it gives the other reading, and says
+  whether a commentary settled it. Decide yourself.
 - `Alt:` another possible rendering of a hard word or line.
+- `Comm:` what a commentary says where it reads the passage differently, and which commentary.
+- `Var:` a different wording of the line in another edition that changes the meaning.
+- `Source:` where a quotation comes from, or that it could not find the source.
+- `MITRA:` where Dharmamitra's machine translation disagrees on something that matters.
 - `Issue:` a choice it made, such as swapping a term, unpacking a compressed phrase, or letting an
   image go.
-- `Source:` where a quotation comes from, or that it could not find the source.
-- `Check:` what the second, independent check found and fixed.
-- `MITRA:` where Dharmamitra's machine translation disagrees on something that matters.
+- `Check:` what its own check against its reading found and fixed.
 
 ## Working on a longer text
 
@@ -228,11 +243,13 @@ ready. If not, see "Common problems".
   House style: no diacritics; keep dharmakaya and mahamudra; metred verse for liturgy.
   ```
 
-- **Feed it a page at a time**, 5 to 12 sentences or stanzas: the independent check runs once per
-  page, so this is cheaper than one at a time.
-- **Ask for a check any time**: "Please check the passage above against the Tibetan."
-- **`Check:`** means a second pass looked for errors (wrong negation, wrong agent, a dropped
-  connective, an invented word) and fixed those it confirmed. It is a safety net, not a guarantee.
+- **Feed it a page at a time**, 5 to 12 sentences or stanzas: the commentary lookup, the MITRA
+  comparison and the check run once per page, so this is cheaper than one at a time.
+- **Ask for an independent check any time**: "Please check the passage above against the Tibetan
+  in a fresh context." By default the check is a short second look in the same session.
+- **`Check:`** means it re-read its own translation against its notes on the grammar (wrong
+  negation, wrong agent, a dropped connective, an invented word) and fixed what it found. It is
+  not a guarantee.
 - **`MITRA:`** means Dharmamitra's model translated the same passage, and the two differ on a
   meaning. It is a flag to look again at the Tibetan. It is not a vote: the machine translation is
   often wrong and has no sense of your style.

@@ -17,6 +17,7 @@ is normal; one mode per edition is normal.
 | Verse | free verse line-for-line, numbered; or metred if the edition is for recitation | metred or free, line-for-line, per house style; readable aloud | metred (tibetan-verse), chant mode for liturgy | as seasoned |
 | Person | the Tibetan's | "you" where the text instructs | "you" where the text instructs | as seasoned |
 | Doubts | in the notes, with alternatives | silent in the body; reported to the editor | as new practitioner, plus a `Q:` for the editor | in the endnotes |
+| Footnotes and editor notes | `notes.md` §2: scholarly footnotes (locators, variants, commentary readings) | `notes.md`: rare, one plain sentence | `notes.md`: reader footnotes only where a commentary unlocks the passage, an enumeration, a name; locators to the register | `notes.md`: endnotes |
 
 Models for each: academic = Hopkins/UMA, Wallace's Śāntideva; new practitioner = 84000 Reading
 Room prose; seasoned = Padmakara, Library of Tibetan Classics; hybrid = Brunnhölzl.

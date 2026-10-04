@@ -1,32 +1,38 @@
-# Pass 1 — the construal object and how to fill it
+# The construal: sketch by default, full object when contested
 
-Structured data, not prose. It is working material: it lives in `<work>.construal.md` (or one compact
-block for a single short passage), is read by the draft, the style pass and the checker, and is never
-shipped.
+Pipeline v2 (SKILL.md §3) asks for a **construal sketch** of 8–15 lines per unit: `SPINE`,
+`RELATIONS`, `NEG/QUANT`, `TERMS`, `DOUBTS`, plus `GROUNDING` and `VAR` after Pass 2. The full
+object below is for a **contested unit**: a head-noun fork, an elided agent in a loaded passage, a
+period whose syntax you cannot settle, or a unit the user asks you to construe in full. It is
+working material in `<work>.construal.md`, read by the check and the grounding pass, never shipped.
+Measured 2026-10-03/04: a 40-line construal for every unit did not make the translation more
+faithful than the model's own reading; the sketch records the same decisions at a tenth of the
+length.
 
-## 1. Schema
+## 1. Schema (full object; the sketch uses the starred fields)
 
 ```
-UNIT        <id>                e.g. 1.3/12, or "stanza 4", or a file + line range
+UNIT      * <id>                e.g. 1.3/12, or "stanza 4", or a file + line range
 FORM        verse | prose | mixed      verse: padas × syllables (7×4, 9×4 …); citation? (zhes/ces … las frame)
 GENRE       pith instruction | exposition | debate | liturgy | song/dohā | narrative | colophon | framing
 REGISTER    <one line>          who speaks to whom, at what temperature (modes.md §2)
 SOURCE      <padas or sentences, Wylie, numbered>
 WORDS       <from tibdict annotate: the senses you are taking; only the non-obvious ones>
+SPINE     * <who does what to whom, finite verb by finite verb; what is elided and filled from where>
 CLAUSES     <n>  verb=<stem> class=<tr/intr, vol/invol> frame=<ERG agent / ABS object / LA-DON role>
             tense/mood=<…> hon=<plain/hon>  elided=<what, filled from where>
-RELATIONS   <n>  <particle> = <relation>     las=source · pas=cause · pa'i=modification · gis=agent/means
+RELATIONS * <n>  <particle> = <relation>     las=source · pas=cause · pa'i=modification · gis=agent/means
                                              na=condition · phyir=purpose/cause · kyang=concession
                                              nas/te=sequence · dang=coordination · la=goal/locus/purpose
-NEG/QUANT   <negations with scope; restrictives (only, merely); quantifiers (all, without exception)>
+NEG/QUANT * <negations with scope; restrictives (only, merely); quantifiers (all, without exception)>
 VERSE-NOTES <filler particles (ni, yang, dag, rnams, extra pa/ba for the count); elided case markers;
              devices to keep in position (anaphora, enumeration, simile, climactic close)>
-SPINE       <how many sentences; where each finite verb sits; what is elided where>
 CONSTRUAL   <plain English prose, relations spelled out in full, no elevation, no compression>
-TERMS       <wylie> = <bound English>     from the glossary; decided here, with stress shape if verse
+TERMS     * <wylie> = <bound English>     from the glossary; decided here, with stress shape if verse
 CITATION    <quoted work, opening words; dm.py identify result: Toh, segmentnr, src_link>
-VARIANTS    <readings from dm.py parallels that change the sense; commentary gloss from segment --context>
-DOUBTS      Q: <one line per construal that could go another way, with the alternative>
+GROUNDING * <commentary glosses found by dm.py explore / segment: work, Toh or segment id, what it says, followed or not; or "none found">
+VAR       * <readings from dm.py parallels that change the sense>
+DOUBTS    * Q: <one line per construal that could go another way, with the alternative; resolved by grammar / by <commentary> / open>
 ```
 
 ## 2. Procedure
@@ -34,9 +40,9 @@ DOUBTS      Q: <one line per construal that could go another way, with the alter
 1. **Segment and count.** Shad `།` ends a pada; double shad a stanza; in many editions the shad
    after a syllable ending in `ག` is dropped, so count syllables, not marks. 7/9/11/15 are the
    normal verse measures; an unequal count is prose or a dohā-type free line.
-2. **Run `tibdict.py annotate`** on the unit. Read the particle labels and the senses. Where botok
-   has split or joined wrongly (it over-merges phrase headwords and splits affixes), correct by eye;
-   the dictionary is an aid, the grammar decides.
+2. **The dictionary tool is on demand** (`tibdict.py lookup <word> --full --examples` for a word you
+   cannot settle; `annotate` on the whole unit only when you cannot parse it). If you use it, read
+   §2a first and correct the segmenter by eye; the dictionary is an aid, the grammar decides.
 3. **Find the verb first.** Tibetan is verb-final; one sentence often runs across two, three or four
    padas with the finite verb only at the end. Read the padas of a stanza backwards the first time:
    final verb, then its agent, object, modifiers. Common finite endings: `yin/red` (is), `yod/med`,
@@ -83,7 +89,7 @@ DOUBTS      Q: <one line per construal that could go another way, with the alter
     = makes desire / desires, with the object in the absolutive): read the case frame, not the
     nearest English auxiliary.
 
-## 2a. Tool slips seen in testing (read every annotate row critically)
+## 2a. Tool slips seen in testing (read every tibdict row critically; this is why the tool is on demand)
 
 - botok absorbs a negation into a preceding token: `la ma gus pa` → "la ma" (lāmā) + "gus pa",
   which flips the polarity. The tool now splits `la ma`; watch for the same with `ma`/`mi` after
@@ -111,12 +117,12 @@ DOUBTS      Q: <one line per construal that could go another way, with the alter
 ## 3. The construal is not the translation
 
 It exists to be rendered, and the draft is written from it, not from the Tibetan word order. The
-relation and negation fields are checked verbatim by the fidelity pass; fill them from the Tibetan,
-never from a machine translation (MITRA output, when used, is a cross-check that flattens relations).
+relation and negation fields are what the check tests; fill them from the Tibetan, never from a
+machine translation (MITRA output is a cross-check that flattens relations), and let a commentary
+gloss (Pass 2) settle a fork only through the grammar it implies.
 
 ## 4. Sizing
 
-A 4-pada stanza's construal is 25–40 lines. A five-sentence prose unit about the same. If it is
-much longer, you are writing an essay; if much shorter, you have skipped the relation or doubt
-fields. The dictionary report is not copied into it: only the senses you took and why, where that
-is not obvious.
+A sketch is 8–15 lines; a full object for a contested unit 25–40. If a sketch runs longer, you are
+writing an essay; if it has no `DOUBTS` line on a loaded passage, you have smoothed a fork over. The
+dictionary report, when there is one, is not copied in: only the senses you took and why.

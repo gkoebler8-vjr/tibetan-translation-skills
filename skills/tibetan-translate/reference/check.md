@@ -1,18 +1,17 @@
-# Pass 4 — the fidelity check (fresh context)
+# Pass 4 — the fidelity check
 
-The drafter does not grade its own draft: self-preference bias and failed self-correction are the
-documented failure (research brief §9). The check runs in a new context, ideally on a different
-model, with the construal as the reference. It returns error spans, not a rewrite.
+The check tests the page against the construal sketch, clause by clause, and returns error spans,
+not a rewrite. In pipeline v2 it runs **in-context after a clean break**: re-read the sketch from
+the file, then apply the protocol of §2 to each unit, fix what fails, one round, and write
+`Check: in-context, <n> fixed`.
 
-## 0. When to spawn, and what it costs
+A **spawned fresh-context checker** is no longer the default. Measured 2026-10-03/04: on the pages
+where one ran it caught none of the errors the independent judges later found, raised one or two
+false findings a page, and cost 55–85k tokens whatever it checked; the in-context check found the
+same minors. Spawn one only when the user asks for an independent check, with the inputs of §1 and
+the protocol of §2, one call per page.
 
-A spawned checker costs **~50–60k tokens** whatever it checks, because the subagent carries the
-harness's own system context; the check itself is 2–5k. So the checker is spawned **once per page**
-(5–12 units, all construals and drafts in two files), not per unit. A single unit gets an
-in-context check after a clean break (re-read the construal file, then run the protocol), marked
-`Check: in-context`, unless the user asks for the independent check.
-
-## 1. What the checker receives
+## 1. What a spawned checker receives (when asked for)
 
 1. The construal file (its SOURCE field holds the Tibetan; the Tibetan need not be repeated).
 2. The draft file (after the style pass), one block per unit, ids matching the construal.
@@ -67,12 +66,8 @@ separate line beginning CONSTRUAL?: and give the alternative reading.
 - In the output, one `Check:` line: what was found and what changed ("Check: 1 major (pas rendered
   as 'and', restored as 'because'); 2 minor").
 
-## 4. Spawning it
+## 4. Spawning it (only when the user asks)
 
-Agent tool, `subagent_type: general-purpose`, model Sonnet for a page of routine units, Opus for a
-page with hard construals, fresh context, `run_in_background: false` because the revision depends
-on it. The prompt is the four items of §1 (paths + protocol) and nothing else. Expected cost:
-~50–60k tokens per spawn, nearly all overhead, which is why it is batched.
-
-If the Agent tool is not available, do the protocol in-context after re-reading the construal
-from the file, and say "Check: in-context" in the output.
+Agent tool, `subagent_type: general-purpose`, model Opus, fresh context, `run_in_background: false`
+because the revision depends on it. The prompt is the four items of §1 (paths + protocol) and
+nothing else. One call per page; expected cost ~50–60k tokens, nearly all harness overhead.

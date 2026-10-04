@@ -30,8 +30,14 @@ python3 $DM segment <segmentnr> --context [--window 3]   # the segment with its 
 python3 $DM search "<query>" [--lang bo|sa|zh|pa|all] [--type regular|semantic|semantic_only]
 python3 $DM translate "<tibetan>" [--style "..."] [--context "..."]   # MITRA cat-translate
 python3 $DM meta <filename>                              # titles, Toh/Peking, translators, BDRC link
-python3 $DM explore "<query>"                            # Explore's Gemini summary (slow; last resort)
+python3 $DM explore "<query>"                            # the works that quote or gloss the words, Tibetan + segment id (10–20 s); the grounding tool
 ```
+
+`explore` is the tool of tibetan-translate's grounding pass (`reference/grounding.md` there): given
+10–25 syllables of Wylie it lists the commentaries, treatises and sungbum texts that take up those
+words, each with its Tibetan, a machine rendering and a segment id, then a Gemini summary. Read the
+Tibetan of the hits; treat the renderings and the summary as a map. Follow a cut-off gloss with
+`segment <id> --context --window 8`.
 
 Segment ids are stable keys: `BO_K12_D0381:158a-16` = Kangyur, Derge 381 (Toh 381), folio 158a.
 `BO_T02_D1490` = Tengyur, Toh 1490. `BO_TSD_…`, `BO_S10_…`, `BO_LH_…` are sungbum and series texts.
@@ -52,6 +58,18 @@ Segment ids are stable keys: `BO_K12_D0381:158a-16` = Kangyur, Derge 381 (Toh 38
    (`zhes pa ni …`) is the traditional reading of the line.
 5. Record: work, Toh, segmentnr, src_link. **Never state a Toh number you have not seen in a hit.**
    `source not located` is an honest register entry; an invented locator is not.
+
+## 3b. Grounding a reading in the commentaries (for tibetan-translate Pass 2)
+
+1. `explore` on the clause that carries the doubt (agent, relation, term), not on the whole stanza.
+2. Sort the hits: a **gloss** (`… zhes pa ni … ste`, a paraphrase filling the elided arguments, an
+   enumeration of a term) is grounding; a bare **quotation** is a witness for the wording; a
+   semantic neighbour is neither.
+3. Read the gloss in Tibetan (`segment --context` if it is cut short). Follow it where the grammar
+   permits; where glosses disagree, the text's own tradition and its own commentary outrank others.
+4. Record work, Toh or segment id, what it says and what you did in the construal's `GROUNDING`
+   line; the editor gets a `Comm:` note, the reader a footnote per the audience (`notes.md`).
+5. Nothing found: `GROUNDING: none found`. Service down: say so and translate from the grammar.
 
 ## 4. Second opinion: Claude vs MITRA
 
