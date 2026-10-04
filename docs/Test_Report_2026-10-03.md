@@ -196,9 +196,9 @@ turns the draft into house-style English with an audit trail.
 
 ## Method notes
 
-Reference material: the Vikramashila sentence alignments (Rays of Sunlight, tr. Gabriele Staron;
-Stages of the Path, tr. Mark Riege; Single Intention, tr. Solvej Hyveled Nielsen; Scintillation, tr.
-Ani Jinpa Lhamo via Christine Sommerschuh's German; all Edition Garchen Stiftung) and 84000's
+Reference material: the Vikramashila sentence alignments of four Edition Garchen Stiftung
+translations (Rays of Sunlight, Stages of the Path, Single Intention, Scintillation; the last a relay
+translation via German; the translators are credited in the published books) and 84000's
 translations (CC BY-NC-ND 4.0; Toh 127, 113, 147, 381, 417, 431, 3808, 1189, 1183; Tibetan and
 English pulled from 84000's own alignment data). The pipeline never saw the reference English. Judges
 were Claude Opus agents in a fresh context with the Tibetan, the construal, C, H and M, using the
