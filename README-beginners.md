@@ -73,12 +73,12 @@ On Linux, press `Ctrl + Alt + T` on most systems, or search for "Terminal".
 You need a copy of this project on your computer. Easiest, if you have `git`:
 
 ```bash
-git clone <the address of this repository> ~/Documents/Tibetan-Translation-Skills
+git clone https://github.com/gkoebler8-vjr/tibetan-translation-skills.git ~/Documents/Tibetan-Translation-Skills
 ```
 
-Replace `<the address of this repository>` with the address you were given. If you do not have
-`git`, or the command offers to install developer tools, accept and wait; or download the project
-as a zip file instead, double-click it to unpack, and move the folder to your Documents folder.
+If you do not have `git`, or the command offers to install developer tools, accept and wait; or
+download the project as a zip file from https://github.com/gkoebler8-vjr/tibetan-translation-skills (the green "Code" button, then
+"Download ZIP"), double-click it to unpack, and move the folder to your Documents folder.
 
 Now tell the terminal to work inside that folder. Type `cd ` (with a space), drag the folder from
 Finder into the Terminal window, and press Enter. Or type:
@@ -287,7 +287,7 @@ Claude Code. If still missing, run `./install.sh --skills-only` again.
 - Installing or signing in to Claude Code: https://code.claude.com/docs/en/setup and the beginner
   guide https://code.claude.com/docs/en/terminal-guide
 - Problems with these skills, or questions about translation choices: contact the author, Gabriel
-  Kobler, or open an issue on the project's GitHub page once it is published.
+  Kobler, or open an issue at https://github.com/gkoebler8-vjr/tibetan-translation-skills/issues.
 - Disagreements about a reading of the Tibetan: ask the translators you already trust. The `Q:`
   lines are what to bring.
 

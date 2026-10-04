@@ -29,6 +29,14 @@ Author: Gabriel Kobler. Built with Claude (Opus and Fable), 2026-09 to 2026-10.
 ## Quick start
 
 ```bash
+git clone https://github.com/gkoebler8-vjr/tibetan-translation-skills.git
+```
+
+```bash
+cd tibetan-translation-skills
+```
+
+```bash
 ./install.sh
 ```
 
