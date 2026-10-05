@@ -32,6 +32,8 @@ monosyllable English promotes and demotes by context)   . an off-beat   ? an unk
 FLAGS:
     SAG:n          four or more off-beats in a row ending at syllable n -- the line has lost
                    its pulse; replace a function-word chain with a content word, or re-break
+    PULSE:n        n slips in one line (a clash of two beats, or three-plus off-beats between beats);
+                   one slip is speech, two means the pulse is lost: the line is rewritten (hard rule)
     SLACK:n        a second run of three off-beats; one such run per line is ordinary English,
                    two make the line go slack
     CLASH:n        more than one pair of adjacent beats; one is fine and useful, two is a stumble
@@ -204,6 +206,21 @@ def line_beats(line):
     tail = len(pat) - (max(pat.rfind('/'), pat.rfind('x')) + 1) if ('/' in pat or 'x' in pat) else 0
     if last_word in FUNCTION or tail > 2:
         flags.append("WEAK-END")
+    # pulse (guidelines v4.1): the ground rhythm must be audible. Between two certain beats the
+    # English norm is one or two off-beats; a gap of none (clash) or of three or more (slack) is a
+    # slip. One slip per line is ordinary speech; two or more means the pulse is lost and the line
+    # is rewritten. A long run before the first beat counts too (a three-syllable anacrusis is one slip).
+    beats_pos = [i for i, c in enumerate(pat) if c == '/']
+    slips = 0
+    if beats_pos:
+        if beats_pos[0] >= 3:
+            slips += 1
+        for a, b in zip(beats_pos, beats_pos[1:]):
+            gap = b - a - 1
+            if gap == 0 or gap >= 3:
+                slips += 1
+    if slips >= 2:
+        flags.append("PULSE:%d" % slips)
     return low, high, pat, flags
 
 
@@ -255,11 +272,16 @@ def stanza(lines, mode="citation", padas=None):
         n2 = spread_fit(1)
         n3 = spread_fit(2)
         n4 = spread_fit(3)
+        def outliers(n, width):
+            return sum(1 for iv in ivals if not fits(iv, n, n + width))
         if n2 is not None:
             verdict = "citation mode OK: core band %d-%d fits every line" % (n2, n2 + 1)
-        elif n3 is not None:
-            verdict = ("citation mode OK: lines sit within %d-%d (a spread of three; the band "
+        elif n3 is not None and min(outliers(n, 1) for n in (n3, n3 + 1)) <= 1:
+            verdict = ("citation mode OK: lines sit within %d-%d with one outlier line (the band "
                        "of two is the target)" % (n3, n3 + 2))
+        elif n3 is not None:
+            verdict = ("citation mode WIDE: lines spread over %d-%d with more than one line outside "
+                       "a two-count band. Tighten the outliers to the band." % (n3, n3 + 2))
         elif n4 is not None:
             verdict = ("citation mode WIDE: lines spread over %d-%d. The block still reads as one "
                        "piece only if the pulse is the same throughout; tighten the outliers if "
@@ -280,11 +302,16 @@ def stanza(lines, mode="citation", padas=None):
             continue
         starts.append('F' if p[0] == '/' else 'R' if p[0] in '._' else 'x')
     nf, nr = starts.count('F'), starts.count('R')
-    if nf and nr and min(nf, nr) >= max(3, len(starts) // 3):
+    if nf and nr and min(nf, nr) >= max(2, len(starts) // 4):
         verdict += ("\n  KIND?: %d line(s) open on a beat (falling) and %d on an off-beat (rising). "
                     "One rhythmic kind per block; initial inversions are fine, a block that "
                     "alternates kinds is not." % (nf, nr))
 
+    pulse_bad = [i + 1 for i, (_, _, _, _, fl) in enumerate(rows) if any(f.startswith("PULSE") for f in fl)]
+    if pulse_bad:
+        ok = False
+        verdict += ("\n  pulse FAILS on line(s) %s: two or more slips (a clash or a run of three-plus off-beats) "
+                    "in one line; the ground rhythm is lost there. Rewrite those lines." % ", ".join(map(str, pulse_bad)))
     if any(lo > 7 for lo, _ in ivals):
         ok = False
         verdict += "\n  ceiling FAILS: a line is over 7 beats. Unpack it into two lines."

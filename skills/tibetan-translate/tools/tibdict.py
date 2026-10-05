@@ -1022,7 +1022,7 @@ def neg_count_line(unit, D=None):
     a protected name/noun (ma dros pa = Anavatapta) is listed as `(noun)` rather than counted."""
     wy = to_wylie(unit) if is_tibetan(unit) else unit
     syls = [x for x in re.split(r"[\s/|_]+|[།༎]+", wy.lower()) if x]
-    items, n_real = [], 0
+    items, n_real, n_amb = [], 0, 0
     for i, syl in enumerate(syls):
         if syl not in NEG_COUNT_SYLS:
             continue
@@ -1031,22 +1031,51 @@ def neg_count_line(unit, D=None):
         ctx = f"{prev} {syl} {nxt}".strip()
         pair_before = f"{prev} {syl}".strip()
         pair_after = f"{syl} {nxt}".strip()
-        noun = False
+        noun = False; ambiguous = False
+        verbal_next = _syl_is_verbal(D, nxt)
         if syl in ('ma', 'mi') and (pair_before in NEG_PROTECT or pair_after in NEG_NAME_HEADS):
             noun = True
+        elif syl == 'ma' and prev in NEG_CLAUSE_EDGE:
+            noun = False         # bya ba ma yin, ltar ma yin, par ma gyur: a negation after a nominalizer or particle, whatever headword the pair happens to form
         elif syl == 'ma' and prev and headword(D, pair_before) is not None and mitra_attestations(D, pair_before) >= 40:
-            noun = True          # dri ma, sgyu ma, skad cig ma, nyi ma …: the -ma noun, not a negation
+            if verbal_next:
+                ambiguous = True # gzhi ma grub, rgyu ma tshang, sems ma g.yengs: the -ma noun, or noun + NEG + verb; the grammar decides
+            else:
+                noun = True      # dri ma, sgyu ma, skad cig ma, nyi ma …: the -ma noun, not a negation
         elif syl == 'mi' and nxt in ('yi', "'i", 'yis', 'rnams', 'dag', 'lus', 'yul', 'la', 'las', 'dang', 'dbang', 'rje', 'chen', 'rnams'):
             noun = True          # mi = human being
         if noun:
             items.append(f"{ctx} (noun)")
             continue
+        if ambiguous:
+            n_amb += 1
+            items.append(f"{ctx} (noun {pair_before}? or {prev} + {syl} NEG {nxt})")
+            continue
         n_real += 1
         items.append(ctx)
-    return f"NEG: {n_real}" + (' — ' + ' · '.join(items) if items else ' (none)')
+    head = f"NEG: {n_real}" + (f" (+{n_amb} ambiguous)" if n_amb else "")
+    return head + (' — ' + ' · '.join(items) if items else ' (none)')
+
+# syllables before a `ma` after which it is a negation and never the second half of a -ma noun
+NEG_CLAUSE_EDGE = {"ba", "pa", "bar", "par", "ltar", "du", "tu", "ru", "su", "la", "las", "na", "nas", "te", "ste", "de",
+                   "kyang", "yang", "'ang", "ni", "dang", "gi", "kyi", "gyi", "yi", "'i", "gis", "kyis", "gyis", "yis",
+                   "zhing", "cing", "shing", "ste", "zhes", "ces", "shes", "bas", "pas", "cig", "zhig", "shig", "yin", "min"}
+
+def _syl_is_verbal(D, syl):
+    """True when SYL is a copula/auxiliary or a verb form the index knows (so `<noun> ma <syl>` may be noun + NEG + verb)."""
+    if not syl:
+        return False
+    if syl in COPULA_VERBS:
+        return True
+    if D is None:
+        return False
+    try:
+        return D.db.execute("SELECT 1 FROM verbs WHERE form=? LIMIT 1", (syl,)).fetchone() is not None
+    except Exception:
+        return False
 
 # -ma/-mi initial words that are names or nouns, not a negation + verb (checked as `ma <next>`)
-NEG_NAME_HEADS = {"ma dros", "ma gcig", "ma skyes", "ma bskyod", "ma ma", "mi pham", "mi 'gyur", "mi la", "ma hA", "ma ha", "mi bskyod",
+NEG_NAME_HEADS = {"ma dros", "ma gcig", "ma skyes", "ma bskyod", "ma ma", "mi pham", "mi la", "ma hA", "ma ha", "mi bskyod",
                   "ma mo", "mi rje", "mi rigs", "mi lus", "mi tshe", "mi yul", "mi dbang", "mi chen", "ma ni"}
 
 def repair_segmentation(toks, D):

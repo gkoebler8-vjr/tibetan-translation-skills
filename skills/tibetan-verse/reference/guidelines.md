@@ -20,8 +20,10 @@ rhythmic kind per block" the one hard metrical rule, and lets the translator's h
    the reader can state back.
 2. **Content and its logic.** Everything the Tibetan says is in the English, nothing else is, and
    the grammatical relations survive intact.
-3. **One rhythmic kind and a stable measure.** The block is rising or falling throughout; its
-   lines sit in a band. **This is the rule that gives** when 1 or 2 need a syllable.
+3. **One rhythmic kind, an audible pulse, a stable measure.** The block is rising or falling
+   throughout; every line keeps the pulse (one or two off-beats between beats, one slip per line
+   at most, v4.1); its lines sit in a band. **This is the rule that gives** when 1 or 2 need a
+   syllable, but it gives by rewriting the line, never by letting the pulse go.
 4. **Line correspondence.** One English line per pada, in the Tibetan's order.
 5. **Sound.** Alliteration, assonance, rhyme — only if free.
 
@@ -49,8 +51,11 @@ the ear resets every line. `beats.py` prints a KIND? advisory when a block looks
 **Why the band is what it is.** The finished Lam Zab verse, flat-read, has lines of 3 to 6 beats
 inside one block while reading as one piece, because the pulse is constant and the outliers are
 single lines spent on a dense pada or a bound term. A strict single count was tried (pass B) and
-abandoned in half the lines by the translator's own hand. The target remains two counts; three
-passes; four is a warning; more is a different poem.
+abandoned in half the lines by the translator's own hand. The target is two counts, and **when the
+padas are of equal length the aim is one count** (the band is a tolerance for a dense or thin
+pada, not a licence to vary); a spread of three passes only with a single outlier line (v4.1);
+otherwise `beats.py` reports WIDE and the outliers are tightened; four is a warning; more is a
+different poem.
 
 **Measure.** Take the densest pada, write it as one natural English line, count its beats on the
 flat read. That is the top of the band. 7-syllable padas land at 3–5 beats, 9 at 4–6, 11 at 5–7.
@@ -80,9 +85,16 @@ lexical stress does not move (*RE-alize*, *PRI-mor-dial*); compounds keep initia
 **The flat read is the diagnostic**, and `beats.py` performs it mechanically: a claimed count above
 the tool's low count, with the difference on function words, is coerced.
 
-**Rhythm hygiene.** One or two unstressed syllables between beats is the norm; three is ordinary
-once in a line; twice in one line is slack; four in a row is a sag. Two adjacent beats once per line
-is useful emphasis. End on a beat or a falling ending, never on a preposition, auxiliary or article.
+**The pulse (v4.1, hard rule).** One or two unstressed syllables between beats is the norm, and
+that alternation is what makes the line verse rather than cadenced prose. A **slip** is a clash
+(two beats touching) or a run of three or more off-beats between beats, or three before the first
+beat. One slip in a line is ordinary speech; **two slips in one line lose the pulse, and the line
+is rewritten.** `beats.py` flags it as `PULSE` and fails the block. Four off-beats in a row is a
+sag; a second run of three is slack; one spondee per line is useful emphasis. Test it by tapping
+the kind's pulse while you read: every beat must land on a tap. End on a beat or a falling ending,
+never on a preposition, auxiliary or article. Measured before this rule: the ground rhythm was
+absent in more lines than not; the rule exists because the translator asked for verse that sounds
+like verse.
 
 **Substitutions that are simply English**, and that the finished Lam Zab lines use freely: an
 initial inversion; an anapest mid-line ("to be FREE of FAULT"); a feminine ending (every Sanskrit

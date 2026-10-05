@@ -21,3 +21,5 @@ docs/lz_verse_practice_analysis.md
 docs/research/research_dictionaries_nlp.md
 docs/research/research_translation_practice.md
 .claude/
+# Vikra alignment rows (reference English): not redistributed
+tests/campaign_2026-10-03/material/vikra/*_rows.txt

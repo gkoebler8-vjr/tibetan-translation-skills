@@ -1,9 +1,9 @@
 ---
 name: tibetan-verse
-description: Render Tibetan verse into English verse — sādhana, liturgy, prayer, aspiration, homage, dohā and song, and verse citations quoted inside prose — and check, fix, or re-metre an existing English rendering of Tibetan verse. Called by tibetan-translate for every verse unit (the analysis pass detects verse); usable alone when the construal is already in hand. Carries versification guidelines v4: one finished version taken through six gates; metred English in counted beats with one rhythmic kind per block and a two-count band per block (chant mode isometric); natural stress never coerced; natural word order, idiom and collocation first; lines never fewer than content padas; free line order inside a sentence; bound terms held even at metrical cost. Derived from the finished Lam Zab verses. Not for Tibetan prose.
+description: Render Tibetan verse into English verse — sādhana, liturgy, prayer, aspiration, homage, dohā and song, and verse citations quoted inside prose — and check, fix, or re-metre an existing English rendering of Tibetan verse. Called by tibetan-translate for every verse unit (the analysis pass detects verse); usable alone when the construal is already in hand. Carries versification guidelines v4.1: one finished version taken through six gates; metred English in counted beats with one rhythmic kind per block, an audible pulse in every line (at most one slip per line, checked by beats.py) and a two-count band per block (chant mode isometric; one count aimed for when the padas are equal); natural stress never coerced; natural word order, idiom and collocation first; lines never fewer than content padas; free line order inside a sentence; bound terms held even at metrical cost. Derived from the finished Lam Zab verses. Not for Tibetan prose.
 ---
 
-# Tibetan verse into English verse (guidelines v4)
+# Tibetan verse into English verse (guidelines v4.1)
 
 ## 0. Gate
 
@@ -28,11 +28,15 @@ and a stable measure > line correspondence > sound. **The beat count is the rule
 
 - **Mode.** *Chant* (to be recited: sādhana, liturgy, prayer): every line the same count. *Citation*
   (verse quoted in prose, dohā cited as evidence, verse in a translated book): a band of two
-  adjacent counts, n / n+1, with a spread of three tolerated when the padas are long. Ceiling 7.
+  adjacent counts, n / n+1; aim for one count when the padas are equal; a spread of three only
+  with a single outlier line. Ceiling 7.
 - **Kind.** Rising (iambic base; the English default, and what the Lam Zab verse is throughout) or
   falling (trochaic base; for incantatory 7-syllable material when it genuinely reads better). **One
   kind per block, never mixed.** An initial inversion, a feminine ending, an anapest mid-line are
-  not a change of kind; a block that reads iambic, then trochaic, then iambic is a failure.
+  not a change of kind; a block that reads iambic, then trochaic, then iambic is a failure. **The
+  pulse must be audible in every line**: one or two off-beats between beats; a clash or a run of
+  three-plus off-beats is a slip, one per line at most, or the line is rewritten (`beats.py`
+  `PULSE`). A line that reads as cadenced prose is not finished, however natural it is.
 - **Measure.** Write the densest pada as one natural English line and count its beats on the flat
   read; that is the top of the band. 7-syllable padas usually land at 3–5 beats, 9 at 4–6, 11 at
   5–7. If an 11-syllable pada will not sit under 7, unpack it, or (house rule) set the block as long
@@ -68,8 +72,10 @@ Say mode, kind and measure in one line of the output.
    ```bash
    python3 ~/.claude/skills/tibetan-verse/tools/beats.py citation "line one," "line two,"
    ```
-   It performs the flat read and reports each line's beat interval, SAG/SLACK/CLASH/WEAK-END/OVER,
-   the band verdict and a KIND? advisory. It is an aid; Gate 1 outranks it. `UNKNOWN:<word>` →
+   It performs the flat read and reports each line's beat interval, PULSE/SAG/SLACK/CLASH/WEAK-END/OVER,
+   the band verdict and a KIND? advisory. `PULSE` and WIDE fail the block: rewrite before printing.
+   Gate 1 outranks the count, never the pulse: a line that cannot keep the pulse in natural English
+   is re-worded until it does, and only when no natural wording exists does the count give. `UNKNOWN:<word>` →
    count the word by hand for this run and note it; add it to `tools/lexicon.py` as
    `"word": (syllables, [primary], [secondary])` afterwards, never during a measured run (the tool
    under test must not change mid-run).
@@ -85,8 +91,10 @@ Say mode, kind and measure in one line of the output.
 6. **Measure**: the **flat read** first (say each line in a plain voice; where the stress fell is
    the count; *BLESS me*, never *bless ME*; *RE-alize*, never *re-a-LIZE*; prepositions, articles,
    auxiliaries and object pronouns carry no beat; the line end promotes nothing); then the mode's
-   band, one kind, the ceiling, rhythm hygiene (a run of four unstressed syllables is a sag; two
-   runs of three in one line is slack; one spondee per line is fine).
+   band, one kind, the ceiling, and the **pulse**: tap the kind's rhythm while reading; every beat
+   lands on a tap; at most one slip (a clash, or three-plus off-beats between beats) per line.
+   Two slips: rewrite the line, keeping the words that carry the sense and moving the rest. A
+   run of four unstressed syllables is a sag; one spondee per line is fine.
 
 **No inversion, ever.** If the count then breaks, the count is what changes.
 

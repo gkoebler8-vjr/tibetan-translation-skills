@@ -7,7 +7,7 @@ Public, keyless JSON endpoints on https://dharmamitra.org (documented at /api-se
 personal research at a polite rate; do not build them into a hosted product (their ToS).
 
 COMMANDS
-  dm.py identify "<passage>" [--exclude TOH]     find the passage in the canon: groups the hits by
+  dm.py identify "<passage>" [--exclude TOH|PREFIX]  find the passage in the canon: groups the hits by
                                                   work, gives Derge/Toh numbers, variant readings
                                                   and the commentaries that quote it   (~1500 chars)
   dm.py search   "<query>" [--lang bo] [--n 15]   raw semantic search, one line per hit
@@ -16,7 +16,8 @@ COMMANDS
   dm.py parallels <segmentnr> [...]               precomputed parallels of a segment (variants)
   dm.py translate "<tibetan>" [--style ...] [--context ...]   MITRA cat-translate (second opinion)
   dm.py translate --file <units.md> [--style ...]        the same for every `Uxx` line of a page file
-  dm.py explore  "<query>"                        the Explore page's Gemini summary (slow, 10-20 s)
+  dm.py explore  "<query>" [--exclude-file PREFIX]  the works that quote or gloss the words, with their Tibetan and
+                                                  segment ids (10-20 s); EN_ hits (English translations) dropped unless --include-en
   dm.py meta     <filename>                       a work's metadata (titles, Toh, translators)
 
 All commands print compact text meant for a model's context. Add --json for the raw response.
@@ -100,10 +101,12 @@ def collection_of(segmentnr):
 def cmd_identify(a):
     hits = search_raw(a.query, lang="bo", n=a.n)
     if getattr(a, 'exclude', None):
-        ex = {x.strip().lstrip('Toh').strip() for x in a.exclude.split(',')}
+        raw = [x.strip() for x in a.exclude.split(',') if x.strip()]
+        ex = {x.lstrip('Toh').strip() for x in raw if x.lstrip('Toh').strip().isdigit()}
+        pre = [x for x in raw if not x.lstrip('Toh').strip().isdigit()]      # segment-id prefixes, for texts without a Toh number
         before = len(hits)
-        hits = [h for h in hits if str(toh_of(h['segmentnr'])[0]) not in ex]
-        print(f"(excluded {before - len(hits)} hit(s) from Toh {', '.join(sorted(ex))}: the text being translated)")
+        hits = [h for h in hits if str(toh_of(h['segmentnr'])[0]) not in ex and not any(h['segmentnr'].startswith(p) for p in pre)]
+        print(f"(excluded {before - len(hits)} hit(s) from {', '.join(['Toh ' + t for t in sorted(ex)] + pre)}: the text being translated)")
     if a.json:
         print(json.dumps(hits, ensure_ascii=False, indent=1)); return
     if not hits:
@@ -282,7 +285,18 @@ def cmd_explore(a):
                 text.append(j.get('delta', ''))
     out = ''.join(text)
     out = re.sub(r'\[View segment\]\([^)]*\)', '', out)
-    print(out.strip())
+    # Drop hits that must not be read: English translations (EN_ segment ids; the published English of
+    # the very text being translated can appear here) and the text itself (--exclude-file prefixes).
+    ex = [x.strip() for x in (a.exclude_file or '').split(',') if x.strip()]
+    blocks = re.split(r'\n-{3,}\n', out)
+    kept, dropped = [], []
+    for b in blocks:
+        ids = re.findall(r'\b([A-Z]{2}_[A-Za-z0-9_.-]+:[A-Za-z0-9-]+)', b)
+        bad = [i for i in ids if (i.startswith('EN_') and not a.include_en) or any(i.startswith(e) for e in ex)]
+        (dropped if bad else kept).append(b if not bad else ', '.join(bad))
+    if dropped:
+        print(f"(dropped {len(dropped)} hit(s) not to be read: {'; '.join(dropped)})\n")
+    print('\n---\n'.join(kept).strip())
 
 def cmd_meta(a):
     r = get(f"/api-db/utils/raw-metadata/?filename={urllib.parse.quote(a.filename)}")
@@ -301,7 +315,7 @@ def main():
     p = sub.add_parser('segment'); p.add_argument('segmentnr'); p.add_argument('--context', action='store_true'); p.add_argument('--window', type=int, default=None, help='segments of context each side with --context (default 6); use --window 10-15 to reach a quotation inside a commentary passage')
     p = sub.add_parser('parallels'); p.add_argument('segmentnrs', nargs='+'); p.add_argument('--n', type=int, default=15); p.add_argument('--snippet', type=int, default=200)
     p = sub.add_parser('translate'); p.add_argument('text', nargs='?', default=''); p.add_argument('--file', default='', help='a page file: translate every line starting with Uxx'); p.add_argument('--style', default='balanced'); p.add_argument('--context', default=''); p.add_argument('--lang', default='english')
-    p = sub.add_parser('explore'); p.add_argument('query')
+    p = sub.add_parser('explore'); p.add_argument('query'); p.add_argument('--exclude-file', default='', help='segment-id prefix(es) of the text being translated, e.g. BO_EGS_0002, so its own passage is not shown'); p.add_argument('--include-en', action='store_true', help='keep EN_ hits (English translations); off by default')
     p = sub.add_parser('meta'); p.add_argument('filename')
     a = ap.parse_args()
     global WYLIE

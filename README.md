@@ -120,6 +120,17 @@ and the works containing the passage. A running session picks up new skills with
 
 ## How to translate
 
+**Where to run it.** The skills install to `~/.claude/skills/` and call their tools by absolute path,
+so they work from any folder in a local Claude Code session (desktop app, Code tab, Local; or the
+terminal). For a passage, start a chat anywhere, paste the Tibetan and say "translate this with the
+skill". For a long text, open the text's folder each time: the brief in a `CLAUDE.md` there and the
+glossary and construal files the skill keeps beside the text are what make terms and titles
+consistent from page to page. To get a Word file with real footnotes:
+
+```bash
+python3 ~/.claude/skills/tibetan-translate/tools/export_docx.py final.md --notes
+```
+
 In Claude Code, invoke the skill:
 
 ```text

@@ -171,6 +171,12 @@ ready. If not, see "Common problems".
 
 ## Your first translation
 
+**Two ways to work.** For a single passage you can start a chat anywhere, paste the Tibetan and say
+"translate this with the skill"; it asks who the translation is for and writes its working files
+into whatever folder the chat is in. For a longer text, give it a folder of its own and open that
+folder each time (the steps below): the glossary it keeps there is what makes it translate a term
+the same way on page forty as on page one.
+
 1. Make a folder for your project, for example `Documents/My-Translation`, in Finder.
 2. Open Claude Code in that folder. In the desktop app: **Code** tab, **Local**, **Select folder**, and
    choose it. In the terminal:
@@ -245,6 +251,9 @@ unlocks the passage). **NOTES** are for you:
 
 - **Feed it a page at a time**, 5 to 12 sentences or stanzas: the commentary lookup, the MITRA
   comparison and the check run once per page, so this is cheaper than one at a time.
+- **Get a Word document.** Ask: "Export this as a Word file with footnotes." It runs a small tool
+  that turns the translation into a .docx with the footnotes as real Word footnotes; add "with the
+  editor notes" to get your notes as a section at the end.
 - **Ask for an independent check any time**: "Please check the passage above against the Tibetan
   in a fresh context." By default the check is a short second look in the same session.
 - **`Check:`** means it re-read its own translation against its notes on the grammar (wrong

@@ -46,6 +46,22 @@ sketch, the glossary, the draft and style-pass files, the runlog, and the saved 
 the state files, and continue from the last line of the runlog; do not repeat a tool call whose
 output is saved.
 
+## 1b. Where it runs, and what it needs from the folder
+
+The skills live in `~/.claude/skills/` and every tool is called by its absolute path, so the
+pipeline runs from **any folder** in a local Claude Code session (not Cowork, not cloud sessions).
+Pasted Tibetan is enough: write it to `<work>.units.md` (one `Uxx` line per unit) in the current
+folder, since the MITRA call and the runlog need a file, and keep the work files beside it.
+
+- **A passage, once:** start a chat anywhere, paste the Tibetan, say "translate this with the
+  skill". The skill asks the brief, writes its files into the current folder, and the glossary it
+  starts binds for this chat only.
+- **A long text:** open the text's folder each time. The brief in a `CLAUDE.md` there, the glossary
+  `<work>.glossary.tsv` and the construal file persist across chats; that is what keeps terms and
+  short titles consistent from page to page.
+- **Output as a document:** `tools/export_docx.py final.md` writes a Word file with the footnotes
+  as real footnotes (`--notes` appends the editor notes as a final section).
+
 ## 2. Pass 0 — the brief (ask once, then hold)
 
 | Field | Values | Default if the user says "you choose" |
@@ -203,6 +219,9 @@ Two streams, never mixed, rules in `reference/notes.md`.
 3. **FOOTNOTES:** per §7, or `none`.
 4. **NOTES:** per §7, or `none`.
 5. The glossary file updated; a register row for every identified quotation (tibetan-citations).
+6. When the user wants a document: `python3 ~/.claude/skills/tibetan-translate/tools/export_docx.py
+   <final.md> [--notes]`, a .docx with the body text, verse lines kept, and every `FN(anchor):` as a
+   Word footnote anchored after its phrase.
 
 Never print the construal sketch, dictionary rows, scansion or gate working unless asked.
 
