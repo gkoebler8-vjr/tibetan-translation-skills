@@ -97,7 +97,14 @@ class Footnotes:
             fp = OxmlElement("w:footnotePr")
             for i in ("-1", "0"):
                 fn = OxmlElement("w:footnote"); fn.set(qn("w:id"), i); fp.append(fn)
-            settings.insert(0, fp)
+            later = ("endnotePr compat docVars rsids mathPr attachedSchema themeFontLang clrSchemeMapping doNotIncludeSubdocsInStats "
+                     "doNotAutoCompressPictures forceUpgrade captions readModeInkLockDown smartTagType schemaLibrary shapeDefaults "
+                     "doNotEmbedSmartTags decimalSymbol listSeparator").split()
+            for child in list(settings):
+                if child.tag.split('}')[-1] in later:
+                    child.addprevious(fp); break
+            else:
+                settings.append(fp)
 
     def add(self, text):
         fid = self.next_id; self.next_id += 1
@@ -126,13 +133,26 @@ def confidence_of(header):
 
 SHADE = {"low": "FFD8A8", "very low": "F4A6A6"}   # orange, red
 
+PPR_AFTER_SHD = ("tabs suppressAutoHyphens kinsoku wordWrap overflowPunct topLinePunct autoSpaceDE autoSpaceDN bidi "
+                 "adjustRightInd snapToGrid spacing ind contextualSpacing mirrorIndents suppressOverlap jc textDirection "
+                 "textAlignment textboxTightWrap outlineLvl divId cnfStyle rPr sectPr pPrChange").split()
+
+def insert_in_order(parent, el, later_tags):
+    """Insert EL before the first child whose local tag is in LATER_TAGS (schema order), else append."""
+    for child in list(parent):
+        if child.tag.split('}')[-1] in later_tags:
+            child.addprevious(el); return
+    parent.append(el)
+
+def shade_ppr(ppr, fill):
+    shd = OxmlElement("w:shd"); shd.set(qn("w:val"), "clear"); shd.set(qn("w:color"), "auto"); shd.set(qn("w:fill"), fill)
+    insert_in_order(ppr, shd, PPR_AFTER_SHD)
+
 def shade(paragraph, grade):
     fill = SHADE.get(grade)
     if not fill:
         return
-    ppr = paragraph._p.get_or_add_pPr()
-    shd = OxmlElement("w:shd"); shd.set(qn("w:val"), "clear"); shd.set(qn("w:color"), "auto"); shd.set(qn("w:fill"), fill)
-    ppr.append(shd)
+    shade_ppr(paragraph._p.get_or_add_pPr(), fill)
 
 def add_text_with_breaks(paragraph, lines):
     for i, l in enumerate(lines):

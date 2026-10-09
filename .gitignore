@@ -26,3 +26,5 @@ tests/campaign_2026-10-03/material/vikra/*_rows.txt
 # run-6 prompts hold absolute paths until the run is done and scrubbed
 tests/campaign_2026-10-03/runs/run6_consistency/*/prompt.md
 tests/campaign_2026-10-03/runs/run6_consistency/*/judge*_prompt.md
+# showcase document quotes a copyrighted reference translation: not published
+Showcase_*.docx
