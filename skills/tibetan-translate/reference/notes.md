@@ -59,6 +59,9 @@ The notes policy of the brief overrides this table.
 Rules that hold in every mode:
 
 1. A footnote is **anchored to a word or phrase of the rendering**; write it as `FN(<anchor>): …`.
+   A footnote on the whole unit (a source note on a quotation, a remark on the period as a whole)
+   has an empty anchor, `FN(): …` or `FN(*): …`; the export puts its mark after the final
+   punctuation of the unit's last paragraph. The CAT app writes its edited `final.md` the same way.
 2. A footnote that reports a **commentary's reading or a variant** is written from the Tibetan of
    the hit you read, never from the machine rendering beside it and never from memory. A footnote
    that supplies a **standard enumeration or identification** (the four maras listed, the five
@@ -91,6 +94,7 @@ TEXT:
 <rendering>
 FOOTNOTES:
 FN(<anchor phrase>): <one to three sentences in the body voice, from the Tibetan of the gloss you read>
+FN(): <a footnote on the whole unit; its mark goes after the unit's final punctuation (FN(*): is the same)>
 NOTES:
 Source: Toh <root>, verbatim (<segment>); quoted also in <work> (<segment>).
 Comm: <work> (<segment>) glosses <wylie> as <reading>; followed. <other work> same / differs: <reading>.

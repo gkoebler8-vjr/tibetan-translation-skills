@@ -8,7 +8,9 @@ Reads the per-unit blocks (### Uxx / HEADER: / TEXT: / FOOTNOTES: / NOTES:). The
 becomes body paragraphs (verse lines as line breaks inside one paragraph; a blank line starts a new
 paragraph). Each `FN(<anchor>): <text>` line becomes a Word footnote whose reference mark is placed
 right after the first occurrence of <anchor> in that unit's text (at the end of the unit if the anchor
-is not found, with a warning). The editor NOTES are left out unless --notes, which appends them as an
+is not found, with a warning). `FN(): <text>` and `FN(*): <text>` are footnotes on the whole unit: the mark
+goes after the last character of the unit's last paragraph (after the final punctuation), no warning. The CAT
+app writes its edited final.md in this format. The editor NOTES are left out unless --notes, which appends them as an
 "Editor's notes" section at the end, one paragraph per unit. A unit whose HEADER carries
 `confidence: low` is shaded orange, `confidence: very low` red, with the Conf: reason in the header
 line, so the reviser sees where to look first. Needs python-docx (pip install python-docx).
@@ -183,10 +185,12 @@ def build(units, out, notes=False, title=None, headers=True):
                 buf.append(l)
             elif buf:
                 paras.append(buf); buf = []
-        pending = list(u["FOOTNOTES"])
+        unit_end = [fn for fn in u["FOOTNOTES"] if fn[0] in ("", "*")]       # FN(): / FN(*): belong to the whole unit
+        pending = [fn for fn in u["FOOTNOTES"] if fn[0] not in ("", "*")]
+        last_p = None
         for lines in paras:
             text = " ".join(lines) if len(lines) == 1 else None
-            p = document.add_paragraph(); shade(p, grade)
+            p = document.add_paragraph(); shade(p, grade); last_p = p
             if text is not None:
                 # place footnote references after their anchors
                 pos_fns = []
@@ -211,7 +215,11 @@ def build(units, out, notes=False, title=None, headers=True):
                     p.add_run(l[last:])
         for anchor, body in pending:
             warnings.append(f"{u['id']}: anchor not found: {anchor!r}; footnote placed at the unit's end")
-            p = document.paragraphs[-1]; fns.reference(p, fns.add(body))
+            p = last_p or document.paragraphs[-1]; fns.reference(p, fns.add(body))
+        for anchor, body in unit_end:
+            if last_p is None:
+                last_p = document.add_paragraph(); shade(last_p, grade)
+            fns.reference(last_p, fns.add(body))
     if notes and any(u["NOTES"] for u in units):
         document.add_page_break(); document.add_heading("Editor's notes", level=1)
         for u in units:

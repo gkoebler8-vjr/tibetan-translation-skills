@@ -30,7 +30,7 @@ VERSE-NOTES <filler particles (ni, yang, dag, rnams, extra pa/ba for the count);
 CONSTRUAL   <plain English prose, relations spelled out in full, no elevation, no compression>
 TERMS     * <wylie> = <bound English>     from the glossary; decided here, with stress shape if verse
 CITATION    <quoted work, opening words; dm.py identify result: Toh, segmentnr, src_link>
-GROUNDING * <commentary glosses found by dm.py explore / segment: work, Toh or segment id, what it says, followed or not; or "none found">
+GROUNDING * <commentary glosses found by dm.py gloss / segment: work, Toh or segment id, what it says, followed or not; or "none found">
 VAR       * <readings from dm.py parallels that change the sense>
 DOUBTS    * Q: <one line per construal that could go another way, with the alternative; resolved by grammar / by <commentary> / open>
 ```
@@ -39,7 +39,13 @@ DOUBTS    * Q: <one line per construal that could go another way, with the alter
 
 1. **Segment and count.** Shad `།` ends a pada; double shad a stanza; in many editions the shad
    after a syllable ending in `ག` is dropped, so count syllables, not marks. 7/9/11/15 are the
-   normal verse measures; an unequal count is prose or a dohā-type free line.
+   normal verse measures; an unequal count is prose or a dohā-type free line. A prose period
+   longer than about **70 syllables or 8 clauses** is split into sub-units `U10a`, `U10b` … at a
+   major clause boundary (after `dang /`, `ste/`, `nas/`, `te/`, `zhing/`, `cing/`, `la/`, `na/`,
+   `phyir/`; never inside a `zhes … las` citation frame, never between a verb and its arguments).
+   The sketch and the `Q:` lines go under the first sub-unit with a `block U10a–U10c` header; the
+   English of the whole period is drafted once and then distributed so that each sub-unit's TEXT
+   renders its own Tibetan (SKILL.md §3).
 2. **The dictionary tool is on demand** (`tibdict.py lookup <word> --full --examples` for a word you
    cannot settle; `annotate` on the whole unit only when you cannot parse it). If you use it, read
    §2a first and correct the segmenter by eye; the dictionary is an aid, the grammar decides.

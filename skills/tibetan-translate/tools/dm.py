@@ -16,8 +16,14 @@ COMMANDS
   dm.py parallels <segmentnr> [...]               precomputed parallels of a segment (variants)
   dm.py translate "<tibetan>" [--style ...] [--context ...]   MITRA cat-translate (second opinion)
   dm.py translate --file <units.md> [--style ...]        the same for every `Uxx` line of a page file
-  dm.py explore  "<query>" [--exclude-file PREFIX]  the works that quote or gloss the words, with their Tibetan and
-                                                  segment ids (10-20 s); EN_ hits (English translations) dropped unless --include-en
+  dm.py gloss    "<10-25 syllables, Wylie>" [--n 50] [--context N] [--exclude-file PREFIX] [--no-en]
+                                                  the grounding tool: DharmaMitra primary search (semantic, no re-ranking,
+                                                  no summary), hits grouped by work and labelled GLOSS | QUOTE | NEAR;
+                                                  --context N reads on after the quotation in the commentaries on the root work
+                                                  until the gloss, through the DharmaNexus text view (~1.5k tokens; ~4k with context)
+  dm.py explore  --summary "<query>" [--exclude-file PREFIX]   Dharmamitra's Explore: re-ranked hits plus a Gemini summary.
+                                                  Heavy on Dharmamitra's side (the summary and the re-ranking are what
+                                                  drive their compute, S. Nehrdich, 5 Oct 2026): only when the user asks for it.
   dm.py meta     <filename> [--overview]          a work's catalogue metadata (titles, Toh, translators, Derge/Peking, BDRC;
                                                   a modern translation's translator, publisher, year, ISBN)
   dm.py cite     <segmentnr|file>                 citation lines built from that metadata: ACADEMIC (with folio), READER,
@@ -95,10 +101,130 @@ def search_raw(query, lang="bo", n=30, search_type="semantic", filters=None):
     return post("/api-search/primary/", body).get("results", [])
 
 def collection_of(segmentnr):
-    m = re.match(r'BO_([A-Z]+)\d*_', segmentnr)
+    m = re.match(r'(?:BO|EN)_([A-Z]+(?:-[A-Z]+)?)\d*_', segmentnr)
     c = m.group(1) if m else '?'
     return {'K': 'Kangyur', 'T': 'Tengyur', 'S': 'Sungbum/series', 'TSD': 'Tsadra series', 'LH': 'Lotsawa House',
-            'NG': 'Nyingma', 'NK': 'Nyingma Kama', 'ACIP': 'ACIP sungbum', 'MONLAM': 'Monlam'}.get(c, c)
+            'NG': 'Nyingma', 'NK': 'Nyingma Kama', 'ACIP': 'ACIP sungbum', 'ACIP-SUNGBUM': 'ACIP sungbum',
+            'MONLAM': 'Monlam', 'EGS': 'Edition Garchen Stiftung'}.get(c, c)
+
+def _syls(t):
+    """Wylie syllables of t (Tibetan script converted first); shad, tsheg and bracket marks dropped."""
+    t = wy(t) if re.search(r'[\u0F00-\u0FFF]', t or '') else (t or '')
+    t = re.sub(r'[()\[\]]', ' ', t.lower().replace('_', ' '))
+    return [x for x in re.split(r"[\s/|*]+", t) if x and x not in ('/', '//')]
+
+def _best_run(q, hs):
+    """Longest run of query syllables q found verbatim in hs: (length, start in hs)."""
+    best, at = 0, -1
+    for i in range(len(q)):
+        for j in range(len(hs)):
+            k = 0
+            while i + k < len(q) and j + k < len(hs) and q[i + k] == hs[j + k]:
+                k += 1
+            if k > best:
+                best, at = k, j
+    return best, at
+
+def _run_ending_at(q, hs, end):
+    """Longest k such that hs[end-k+1 .. end] is a verbatim run of q."""
+    best = 0
+    for i in range(len(q)):
+        if q[i] != hs[end]:
+            continue
+        k = 1
+        while i - k >= 0 and end - k >= 0 and q[i - k] == hs[end - k]:
+            k += 1
+        best = max(best, k)
+    return best
+
+def _lcs(q, hs):
+    """How many query syllables hs carries in the query's order (longest common subsequence)."""
+    prev = [0] * (len(hs) + 1)
+    for i in range(len(q)):
+        cur = [0] * (len(hs) + 1)
+        for j in range(len(hs)):
+            cur[j + 1] = prev[j] + 1 if q[i] == hs[j] else max(prev[j + 1], cur[j])
+        prev = cur
+    return prev[-1]
+
+GLOSS_MARKERS = [m.split() for m in ("zhes pa ni", "zhes bya ba ni", "ces pa ni", "ces bya ba ni", "shes pa ni",
+                                     "shes bya ba ni", "zhes pa'i don", "ces pa'i don", "la bya")]
+
+def _explicit_marker(q, hs, start=0, min_run=3):
+    """Index in hs of gloss scaffolding on the query's words: a run of >= min_run query syllables followed
+    (within two syllables) by `zhes pa ni`, `zhes bya ba ni`, `ces pa ni`, `zhes pa'i don`, `la bya`, or by
+    `ni` (min_run + 1) with a `ste` in the next 40 syllables. The marker may not itself continue the quoted
+    run (the query's own `ni` or `la` is not scaffolding). None if there is none."""
+    for j in range(start, len(hs)):
+        hit, need = None, min_run
+        for m in GLOSS_MARKERS:
+            if hs[j:j + len(m)] == m:
+                hit = ' '.join(m); break
+        if hit is None and hs[j] == 'ni' and 'ste' in hs[j + 1:j + 41]:
+            hit, need = 'ni … ste', min_run + 1
+        if hit is None or _run_ending_at(q, hs, j) >= 2:
+            continue
+        for end in (j - 1, j - 2, j - 3):
+            if end >= 0 and _run_ending_at(q, hs, end) >= need:
+                return j, hit
+    return None
+
+PARTICLES = set("ni la nas kyi gyi gi dang pa ba pa'i ba'i su du tu ru kyis gyis gis yang kyang te ste de ces zhes shes par bar "
+                "las na pas bas rnams dag gang po bo".split())
+
+def _content(q):
+    """The query's content syllables (particles dropped), the words a paraphrase gloss must carry."""
+    return [x for x in q if x not in PARTICLES]
+
+def _paraphrase(qc, hs, share):
+    """True when hs restates the query's content words in order, interleaved with explanation (a paraphrase
+    gloss such as `'jig rten gyi khams ji snyed pa mkhyen pa'i ye shes kyis … 'jig rten ma lus pa kun la legs par
+    gzigs nas`): at least `share` of them in order, in two or more separate runs, inside a stretch at least
+    twice as long. A verbatim quotation (one long run) is not a paraphrase."""
+    n = _lcs(qc, hs)
+    run = _best_run(qc, hs)[0]
+    return n >= share and n - run >= 2 and len(hs) >= 2 * n
+
+TITLE_STOP = set("theg pa chen po po'i bstan bcos 'phags zhes ces bya ba ba'i mdo kyi gyi gi dang rgya cher 'grel bshad rnam par "
+                 "las le'u bzhugs so sde snying zab mo rgyal yongs su rin chen zhe".split())
+COMMENTARY_TITLE = re.compile(r"'grel|rnam bshad|rnam par bshad|bshad pa|bshad sbyar|TIk|Tik|gsal byed|rab gsal|rnam par 'byed|'byed pa|zin bris|mchan|'grel ba|rgya cher|bsdus don|spyi don|rnam gzhag|dka' 'grel|ti ka|TI ka|'jug pa", re.I)
+
+def _title_words(title):
+    t = re.split(r'[(\[]', wy(title or ''), 1)[0]      # before a bracketed Sanskrit title
+    return [re.sub(r"'i$|s$", '', x) for x in _syls(t) if x not in TITLE_STOP]
+
+def _names_root(title, root_words):
+    """Does this title share two consecutive content syllables with the root work's title?"""
+    w = _title_words(title)
+    for i in range(len(root_words) - 1):
+        pair = root_words[i:i + 2]
+        if any(w[j:j + 2] == pair for j in range(len(w) - 1)):
+            return True
+    return False
+
+def _text_view(segmentnr):
+    """The DharmaNexus text-view page (100 segments) holding a segment: (filename, items, index of the segment, raw)."""
+    fn = segmentnr.split(':')[0]
+    r = post("/api-db/text-view/text-parallels/", {"filename": fn, "folio": "", "active_segment": segmentnr,
+                                                   "include_matches": False, "page": 0, "page_size": 100, "filters": FILTERS})
+    items = r.get('items', [])
+    idx = next((i for i, it in enumerate(items) if it.get('segnr') == segmentnr), None)
+    return fn, items, idx, r
+
+def _next_segnr(segnr):
+    """The id that follows a segment id, for fetching the next text-view page (sungbum `:3700` -> `:3701`;
+    canonical `:118b-31` -> `:118b-32`); None when the form is unknown."""
+    fn, _, loc = segnr.partition(':')
+    m = re.match(r'^(\d+)$', loc)
+    if m:
+        return f"{fn}:{int(m.group(1)) + 1}"
+    m = re.match(r'^(\d+[ab])-(\d+)$', loc)
+    if m:
+        return f"{fn}:{m.group(1)}-{int(m.group(2)) + 1}"
+    return None
+
+def _seg_text(it):
+    return clean_text(' '.join(s.get('text', '') for s in it.get('segtext', [])))
 
 # --------------------------------------------------------------------------- commands
 def cmd_identify(a):
@@ -124,22 +250,9 @@ def cmd_identify(a):
         toh, kt = toh_of(hs[0]['segmentnr'])
         return (-max(h.get('_run', 0) for h in hs), 0 if kt == 'K' else 1 if kt == 'T' else 2, -len(hs))
     # exact-match test: longest run of query syllables found verbatim in a hit (in Wylie)
-    def syls(t):
-        t = wy(t) if re.search(r'[\u0F00-\u0FFF]', t) else t
-        return [x for x in re.split(r"[\s/|]+", t.lower().replace('_', ' ')) if x and x not in ('/', '//')]
-    q = syls(a.query)
-    def run_len(h):
-        hs = syls(h.get('text', ''))
-        best = 0
-        for i in range(len(q)):
-            for j in range(len(hs)):
-                k = 0
-                while i + k < len(q) and j + k < len(hs) and q[i + k] == hs[j + k]:
-                    k += 1
-                best = max(best, k)
-        return best
+    q = _syls(a.query)
     for h in hits:
-        h['_run'] = run_len(h)
+        h['_run'] = _best_run(q, _syls(h.get('text', '')))[0]
     longest = max((h['_run'] for h in hits), default=0)
     thresh = max(4, len(q) // 2)
     # verbatim verdict is computed separately for canonical (Kangyur BO_K / Tengyur BO_T) and other hits,
@@ -205,13 +318,9 @@ FILTERS = {"par_length": 30, "score": 0, "languages": ["all"], "include_files": 
 
 def cmd_segment(a):
     """Print a segment with its neighbours from the reading-room text view (api-db)."""
-    fn = a.segmentnr.split(':')[0]
-    r = post("/api-db/text-view/text-parallels/", {"filename": fn, "folio": "", "active_segment": a.segmentnr,
-                                                   "include_matches": False, "page": 0, "page_size": 100, "filters": FILTERS})
-    items = r.get('items', [])
+    fn, items, idx, r = _text_view(a.segmentnr)
     if a.json:
         print(json.dumps(r, ensure_ascii=False, indent=1)); return
-    idx = next((i for i, it in enumerate(items) if it.get('segnr') == a.segmentnr), None)
     if idx is None:
         print(f"segment {a.segmentnr} not found in {fn} (page {r.get('page')} of {r.get('total_pages')})"); return
     w = a.window if (a.context or a.window_given) else 0
@@ -219,7 +328,7 @@ def cmd_segment(a):
     print(f"{fn}  {toh_of(a.segmentnr)[0] or ''}  https://dharmamitra.org/db/bo/{fn}/text?active_segment={a.segmentnr}")
     for it in items[lo:hi]:
         mark = '>>' if it['segnr'] == a.segmentnr else '  '
-        print(f"{mark} {it['segnr'].split(':')[1]}: {clean_text(' '.join(s.get('text', '') for s in it.get('segtext', [])))}")
+        print(f"{mark} {it['segnr'].split(':')[1]}: {_seg_text(it)}")
 
 def cmd_parallels(a):
     r = post("/api-db/matches/", {"segment_nrs": a.segmentnrs})
@@ -270,7 +379,180 @@ def cmd_translate(a):
         return
     print(_translate_one(a.text, a))
 
+def _collection_rank(segmentnr):
+    kt = toh_of(segmentnr)[1]
+    return 0 if kt == 'T' else 2 if kt == 'K' else 1          # Tengyur, then sungbum/series, then Kangyur and the rest
+
+LABEL_RANK = {'GLOSS': 0, 'QUOTE': 1, 'NEAR': 2}
+
+def _find_gloss(q, items, idx, quoting, share, max_after=60):
+    """Scan the segments after a hit for the first gloss on the query's words: explicit scaffolding or, in a
+    work that quotes the line, a paraphrase of its content words. Returns (segment index, kind) or None."""
+    qc = _content(q)
+    segs = [_syls(_seg_text(it)) for it in items]
+    flat, owner = [], []
+    for i in range(idx, min(len(items), idx + max_after + 1)):
+        flat += segs[i]; owner += [i] * len(segs[i])
+    best = None
+    mk = _explicit_marker(q, flat, min_run=3 if quoting else 5)
+    if mk:
+        best = (owner[mk[0]], mk[1])
+    for i in range(idx + 1, min(len(items), idx + max_after + 1)):
+        if best and i >= best[0]:
+            break
+        if _best_run(q, segs[i])[0] >= min(12, len(q)) or not quoting:
+            continue                                   # the quotation itself; a paraphrase counts only after a quotation
+        if _paraphrase(qc, segs[i], share):
+            best = (i, 'paraphrase'); break
+    return best
+
+def cmd_gloss(a):
+    """Grounding without Explore: the DharmaMitra primary semantic search (no re-ranking, no summary), the hits
+    grouped by work and labelled GLOSS (the work takes the query's words up with gloss scaffolding or a
+    paraphrase), QUOTE (a verbatim run of >= 12 syllables, or the whole of a shorter query) or NEAR (a
+    semantic neighbour). --context N reads on after the quotation in the commentaries on the root work through
+    the DharmaNexus text view until the gloss, so one call reads it. No machine rendering: the model reads
+    the Tibetan."""
+    hits = search_raw(a.query, lang="bo", n=a.n)
+    ex = [x.strip() for x in (a.exclude_file or '').split(',') if x.strip()]
+    dropped = [h['segmentnr'] for h in hits if any(h['segmentnr'].startswith(e) for e in ex)]
+    hits = [h for h in hits if not any(h['segmentnr'].startswith(e) for e in ex)]
+    en = [h for h in hits if h['segmentnr'].startswith('EN_')]
+    if a.no_en:
+        dropped += [h['segmentnr'] for h in en]; hits = [h for h in hits if not h['segmentnr'].startswith('EN_')]; en = []
+    if a.json:
+        print(json.dumps(hits, ensure_ascii=False, indent=1)); return
+    q = _syls(a.query); qc = _content(q)
+    thresh = min(12, len(q))
+    share_q, share_n = max(4, -(-50 * len(qc) // 100)), max(5, -(-60 * len(qc) // 100))   # of the content syllables: 50 % after a quotation, else 60 %
+    groups = {}
+    for h in hits:
+        groups.setdefault(h['source'], []).append(h)
+    # the root work: the Kangyur/Tengyur hit with the longest verbatim run whose title is not a commentary's
+    for h in hits:
+        h['_run'] = _best_run(q, _syls(clean_text(h.get('text', ''))))[0]
+    canon = [h for h in hits if toh_of(h['segmentnr'])[1] in ('K', 'T') and h['_run'] >= thresh]
+    root = min(canon, key=lambda h: (1 if COMMENTARY_TITLE.search(wy(h['title'] or '')) else 0, -h['_run']), default=None)
+    root_words = _title_words(root['title']) if root else []
+    def on_root(h):
+        t = wy(h['title'] or '')
+        return bool(root_words and COMMENTARY_TITLE.search(t) and _names_root(t, root_words))
+    for src, hs in groups.items():
+        quoting = False
+        for h in hs:
+            tn = h.get('text_new') or {}
+            h['_main'] = clean_text(h.get('text', ''))
+            h['_ms'] = _syls(h['_main'])
+            h['_before'] = _syls(clean_text(tn.get('text_before') or ''))
+            h['_after'] = _syls(clean_text(tn.get('text_after') or ''))
+            h['_run'] = _best_run(q, h['_ms'])[0]
+            quoting = quoting or h['_run'] >= thresh
+        for h in hs:
+            full = h['_before'] + h['_ms'] + h['_after']
+            mk = _explicit_marker(q, full, min_run=3 if quoting else 5)
+            kind = mk[1] if mk else None
+            if not kind and on_root(h):
+                # a commentary on the root work may gloss by paraphrase, with the root words woven into its prose
+                for chunk in (h['_before'], h['_after']) + (() if quoting else (h['_ms'],)):
+                    if _paraphrase(qc, chunk, share_n):
+                        kind = 'paraphrase'; break
+            h['_label'] = 'GLOSS' if kind else 'QUOTE' if h['_run'] >= thresh else 'NEAR'
+            h['_kind'] = kind
+            h['_gloss_at'] = None
+            if mk and not (len(h['_before']) <= mk[0] < len(h['_before']) + len(h['_ms'])):
+                j = mk[0]; h['_gloss_at'] = ' '.join(full[max(0, j - 12):j + 14])
+            h['_ctx_lines'] = None
+        for h in hs:
+            h['_quoting'] = quoting
+    def best(src):
+        return min(groups[src], key=lambda h: (LABEL_RANK[h['_label']], -h['_run']))
+    def rank(src):
+        h = best(src)
+        return (LABEL_RANK[h['_label']], _collection_rank(h['segmentnr']), -h['_run'], -len(groups[src]))
+    print(f"DharmaMitra primary search · semantic · no re-ranking · {len(hits)} hits in {len(groups)} works")
+    print(f"query ({len(q)} syllables): {wy(a.query)}")
+    if root:
+        print(f"root work (Kangyur/Tengyur hit with the verbatim line): {short_title(root['title'])} [{toh_of(root['segmentnr'])[0]}]")
+    if dropped:
+        print(f"(dropped {len(dropped)} hit(s) by --exclude-file/--no-en: {', '.join(dropped[:8])}{' …' if len(dropped) > 8 else ''})")
+    if en:
+        print(f"(existing English translations among the hits, labelled below: {', '.join(h['segmentnr'] for h in en)})")
+    if a.context:
+        # read on in the works most likely to gloss the line, one DharmaNexus text-view request each (a second
+        # one when the hit sits near the end of its 100-segment page): GLOSS hits first, then QUOTE hits in
+        # commentaries whose title names the root work (Tengyur first), then other commentary-titled QUOTE hits
+        def cand_rank(src):
+            h = best(src); comm = bool(COMMENTARY_TITLE.search(wy(h['title'] or '')))
+            return (0 if h['_label'] == 'GLOSS' else 1 if on_root(h) else 2 if comm else 3, _collection_rank(h['segmentnr']), -h['_run'], -len(groups[src]))
+        cands = [s for s in sorted(groups, key=cand_rank) if best(s)['_label'] == 'GLOSS' or on_root(best(s))
+                 or (best(s)['_label'] == 'QUOTE' and COMMENTARY_TITLE.search(wy(best(s)['title'] or '')))]
+        fetched, found_in = 0, []
+        for src in cands[:a.context_hits]:
+            h = max(groups[src], key=lambda x: (x['_run'], LABEL_RANK[x['_label']] * -1))   # the quotation: the gloss follows it
+            fn, items, idx, _ = _text_view(h['segmentnr'])
+            fetched += 1
+            if idx is None:
+                continue
+            if len(items) - idx < 60:
+                nxt = _next_segnr(items[-1]['segnr'])
+                if nxt:
+                    _, more, _, _ = _text_view(nxt)
+                    fetched += 1
+                    if more and more[0]['segnr'] != items[0]['segnr']:
+                        items = items + more
+            g = _find_gloss(q, items, idx, h['_quoting'], share_q if h['_quoting'] else share_n)
+            n = a.context
+            if g:
+                found, kind = g
+                h['_label'], h['_kind'] = 'GLOSS', kind
+                found_in.append(src)
+                keep = set(range(max(0, idx - 1), idx + 2)) | set(range(max(0, found - 2), min(len(items), found + n + 1)))
+            else:
+                found = None
+                keep = set(range(max(0, idx - n), min(len(items), idx + n + 1)))
+            lines, prev = [], None
+            for i in sorted(keep):
+                if prev is not None and i > prev + 1:
+                    lines.append(f"   … ({i - prev - 1} segments)")
+                mark = '>>' if i == idx else 'GL' if i == found else '  '
+                lines.append(f"{mark} {items[i]['segnr'].split(':')[1]}: {_seg_text(items[i])}")
+                prev = i
+            if found is None:
+                lines.append(f"   (no gloss on the query's words in the {min(len(items) - idx - 1, 60)} segments after the hit; "
+                             f"dm.py segment {items[min(len(items) - 1, idx + 60)]['segnr']} --context --window {n} reads on)")
+            h['_ctx_lines'] = lines
+        print(f"(context: DharmaNexus text view, {fetched} request(s) for {min(len(cands), a.context_hits)} work(s)"
+              f"{': ' + ', '.join(short_title(best(s)['title'], 40) for s in cands[:a.context_hits]) if cands else ''}; "
+              f"gloss found in {len(found_in)})")
+    shown = 0
+    print()
+    for src in sorted(groups, key=rank):
+        if shown >= a.n_works:
+            break
+        hs = groups[src]; h = best(src)
+        toh, kt = toh_of(h['segmentnr'])
+        coll = (f"{'Tengyur' if kt == 'T' else 'Kangyur'}, {toh}") if toh else collection_of(h['segmentnr'])
+        more = f" (+{len(hs) - 1} more hit{'s' if len(hs) > 2 else ''}: {', '.join(x['segmentnr'].split(':')[1] for x in hs if x is not h)})" if len(hs) > 1 else ''
+        kind = f" ({h['_kind']} gloss)" if h['_label'] == 'GLOSS' and h['_kind'] else ''
+        print(f"=== {short_title(h['title'])} · {coll} · {h['segmentnr']} · {h['_label']}{kind}{more}")
+        if h['segmentnr'].startswith('EN_'):
+            print("[EXISTING ENGLISH TRANSLATION, not a commentary: use it only as the brief's prior-translation policy allows, "
+                  "and cite it (dm.py cite <id>); see reference/existing-translations.md]")
+        print(h['_main'])
+        if h['_gloss_at'] and not h['_ctx_lines']:
+            print(f"    scaffolding in a neighbouring segment: … {h['_gloss_at']} …")
+        if h['_ctx_lines']:
+            print('\n'.join(h['_ctx_lines']))
+        print()
+        shown += 1
+    if len(groups) > shown:
+        print(f"({len(groups) - shown} further works not shown; --n-works raises the cap)")
+
 def cmd_explore(a):
+    if not a.summary:
+        sys.exit("dm.py explore: Explore's summary and re-ranking are the heavy operations on Dharmamitra's side and are "
+                 "not part of the pipeline. The grounding tool is `dm.py gloss \"<clause>\" --context 8` (primary search, "
+                 "no re-ranking, no summary). Add --summary only when the user has asked for Explore's summary explicitly.")
     body = {"search_input": a.query, "input_encoding": "auto", "target_lang": "english", "search_type": "semantic",
             "filter_source_language": "bo", "filter_target_language": "auto",
             "source_filters": {"include_collections": None, "include_categories": None, "include_files": None},
@@ -394,7 +676,17 @@ def main():
     p = sub.add_parser('segment'); p.add_argument('segmentnr'); p.add_argument('--context', action='store_true'); p.add_argument('--window', type=int, default=None, help='segments of context each side with --context (default 6); use --window 10-15 to reach a quotation inside a commentary passage')
     p = sub.add_parser('parallels'); p.add_argument('segmentnrs', nargs='+'); p.add_argument('--n', type=int, default=15); p.add_argument('--snippet', type=int, default=200)
     p = sub.add_parser('translate'); p.add_argument('text', nargs='?', default=''); p.add_argument('--file', default='', help='a page file: translate every line starting with Uxx'); p.add_argument('--style', default='balanced'); p.add_argument('--context', default=''); p.add_argument('--lang', default='english')
-    p = sub.add_parser('explore'); p.add_argument('query'); p.add_argument('--exclude-file', default='', help='segment-id prefix(es) of the text being translated, e.g. BO_EGS_0002, so its own passage is not shown'); p.add_argument('--no-en', action='store_true', help='hide EN_ hits (existing English translations), e.g. for a blind test run; by default they are shown and labelled')
+    p = sub.add_parser('gloss', help='grounding: primary search, no re-ranking, no summary; works labelled GLOSS | QUOTE | NEAR')
+    p.add_argument('query', help='10-25 syllables of Wylie: the clause whose agent, relation or term is in doubt')
+    p.add_argument('--n', type=int, default=50, help='search depth (max_depth) of the primary search')
+    p.add_argument('--n-works', type=int, default=12, help='works printed (default 12)')
+    p.add_argument('--context', type=int, default=0, metavar='N', help='read on after the hit in the commentaries on the root work (GLOSS hits, then QUOTE hits whose title names the root, then other commentary-titled hits) through the DharmaNexus text view until the gloss, printing N segments after it')
+    p.add_argument('--context-hits', type=int, default=5, help='how many works get a text-view request with --context (default 5; one request each, two when the hit sits near the end of its page)')
+    p.add_argument('--exclude-file', default='', help='segment-id prefix(es) of the text being translated, e.g. BO_EGS_0002, so its own passage is not shown')
+    p.add_argument('--no-en', action='store_true', help='hide EN_ hits (existing English translations), e.g. for a blind test run; by default they are shown and labelled')
+    p = sub.add_parser('explore', help="Dharmamitra's Explore (re-ranked hits + Gemini summary): the heavy operation on their side; needs --summary")
+    p.add_argument('query'); p.add_argument('--summary', action='store_true', help="required: run Explore's summary and re-ranking. These are the heavy operations on Dharmamitra's side (S. Nehrdich, 5 Oct 2026); the pipeline grounds through `gloss` instead. Use only when the user asks for Explore's summary explicitly")
+    p.add_argument('--exclude-file', default='', help='segment-id prefix(es) of the text being translated, e.g. BO_EGS_0002, so its own passage is not shown'); p.add_argument('--no-en', action='store_true', help='hide EN_ hits (existing English translations), e.g. for a blind test run; by default they are shown and labelled')
     p = sub.add_parser('meta'); p.add_argument('filename'); p.add_argument('--overview', action='store_true', help='also print the AI-generated overview (unverified; off by default)')
     p = sub.add_parser('cite'); p.add_argument('segmentnr', help='a segment id (folio included in the citation) or a file id')
     a = ap.parse_args()
@@ -405,7 +697,7 @@ def main():
         if a.window is None:
             a.window = 6
     {'identify': cmd_identify, 'search': cmd_search, 'segment': cmd_segment, 'parallels': cmd_parallels,
-     'translate': cmd_translate, 'explore': cmd_explore, 'meta': cmd_meta, 'cite': cmd_cite}[a.cmd](a)
+     'translate': cmd_translate, 'gloss': cmd_gloss, 'explore': cmd_explore, 'meta': cmd_meta, 'cite': cmd_cite}[a.cmd](a)
 
 if __name__ == '__main__':
     main()

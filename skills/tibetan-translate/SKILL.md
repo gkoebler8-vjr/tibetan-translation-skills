@@ -1,6 +1,6 @@
 ---
 name: tibetan-translate
-description: Translate Classical Tibetan (Wylie or Tibetan script) into English — prose or verse, any genre: treatises, commentaries, pith instructions, sādhana and liturgy, dohā and songs, biographies, colophons, and the verse citations inside a prose text. Use for every request to translate, re-translate, check, or de-academize a Tibetan passage, and for building a construal or gloss of one. Pipeline v2 (4 October 2026): brief → the model's own reading and faithful draft → grounding in the canon's commentaries through Dharmamitra (explore, identify, parallels) → audience/style pass with glossary binding and verse rules → short fidelity check → notes for the editing translator and footnotes for the reader in the audience's style. Detects verse and applies the tibetan-verse skill for it; asks for the audience and house style when they are not known. The one entry point for Tibetan translation; tibetan-verse, tibetan-citations and tibetan-dharmamitra are its companions.
+description: Translate Classical Tibetan (Wylie or Tibetan script) into English — prose or verse, any genre: treatises, commentaries, pith instructions, sādhana and liturgy, dohā and songs, biographies, colophons, and the verse citations inside a prose text. Use for every request to translate, re-translate, check, or de-academize a Tibetan passage, and for building a construal or gloss of one. Pipeline v2 (4 October 2026): brief → the model's own reading and faithful draft → grounding in the canon's commentaries through Dharmamitra (gloss, identify, parallels: the primary search and the DharmaNexus text view, no Explore summaries) → audience/style pass with glossary binding and verse rules → short fidelity check → notes for the editing translator and footnotes for the reader in the audience's style. Detects verse and applies the tibetan-verse skill for it; asks for the audience and house style when they are not known. The one entry point for Tibetan translation; tibetan-verse, tibetan-citations and tibetan-dharmamitra are its companions.
 ---
 
 # Tibetan → English: the pipeline (v2)
@@ -52,6 +52,9 @@ The skills live in `~/.claude/skills/` and every tool is called by its absolute 
 pipeline runs from **any folder** in a local Claude Code session (not Cowork, not cloud sessions).
 Pasted Tibetan is enough: write it to `<work>.units.md` (one `Uxx` line per unit) in the current
 folder, since the MITRA call and the runlog need a file, and keep the work files beside it.
+A period longer than about 70 syllables or 8 clauses goes in as sub-units `U10a`, `U10b` …, one
+line each, split at a major clause boundary (§3): a unit that long cannot be lined up with its
+English in a CAT editor or an aligned export.
 
 - **A passage, once:** start a chat anywhere, paste the Tibetan, say "translate this with the
   skill". The skill asks the brief, writes its files into the current folder, and the glossary it
@@ -88,6 +91,17 @@ quoted works are `TITLE` rows in the same file, in `register.py`'s column order:
 **Unit:** one stanza, or one Tibetan period of up to ~8 clauses (a list of nominalized items joined
 by `dang` is one period). Work a **page** (5–12 units) at a time: grounding, the MITRA flag and the
 check are per page.
+
+**Sub-units.** A period with one finite verb can run to 100+ syllables (Rays of Sunlight U10 has 11
+clauses). A period longer than about **70 syllables or 8 clauses** is split into sub-units `U10a`,
+`U10b` … at a major clause boundary: after `dang /`, `ste/`, `nas/`, `te/`, `zhing/`, `cing/`,
+`la/`, `na/`, `phyir/`; never inside a `zhes … las` citation frame, never between a verb and its
+arguments. The construal sketch and the `Q:` lines live under the first sub-unit with a `block
+U10a–U10c` header, as verse blocks do (§8.1). The English of the whole period is drafted **once**,
+as one period, and then distributed so that each sub-unit's `TEXT:` carries the English that renders
+its own Tibetan; a connective that straddles the seam (`dang`, `nas`) stays with the sub-unit whose
+clause it closes, and its English stays at the seam. `export_docx.py` needs no change: a sub-unit is
+a unit to it. Rule also in `analysis.md` §2.1.
 
 1. **Read the Tibetan yourself**, verb first. Find each finite verb, its agent and object from the
    case frame, every relation particle and what it relates (`las` source · `pas` cause · `pa'i`
@@ -140,17 +154,24 @@ examples: `reference/grounding.md`. The shape, per page:
    prose of the author's own is **not queried**: nothing in the canon glosses it, and the header says
    `grounding: not queried`.
    ```bash
-   python3 ~/.claude/skills/tibetan-translate/tools/dm.py explore "<the key clause, line or formula, Wylie>"
+   python3 ~/.claude/skills/tibetan-translate/tools/dm.py gloss "<the key clause, line or formula, Wylie>" --context 8
    ```
-   It returns the works that quote or gloss those words (commentaries, treatises, sungbum) with the
-   Tibetan of each passage, a machine rendering, and a segment id. **Read the Tibetan of the gloss,
-   not the machine English.** Where a gloss is cut short, `dm.py segment <id> --context --window 8`;
-   for a canonical line, `dm.py parallels <id>` gives the variant readings. Budget: two to four
-   `explore` calls a page (10–20 s and ~3–5k tokens each). **Ignore any hit that is an English
-   translation** (segment ids beginning `EN_`, or a hit in the text you are translating with its
-   published English beside it): do not read it, do not cite it, log the exposure in the runlog.
-   Save every `dm.py` output to the run directory as `dm_<command>_<unit>.txt` so a resumed run
-   need not repeat the call.
+   DharmaMitra's primary semantic search, no re-ranking, no summary (Dharmamitra's terms,
+   tibetan-dharmamitra §1): the works that carry those words, grouped by work and labelled
+   **GLOSS** (the work takes the words up with scaffolding, `… zhes pa ni …`, or, in a commentary
+   on the root work, with a paraphrase that weaves the root words into its prose), **QUOTE**
+   (verbatim) or **NEAR** (a semantic neighbour, not grounding). With `--context 8` it reads on
+   after the quotation in the commentaries on the root work, through the DharmaNexus text view,
+   and prints the gloss segment (`GL`) with eight segments after it, so one call reads the gloss.
+   No machine rendering is printed: **you read the Tibetan.** Where the gloss runs on, `dm.py
+   segment <id> --context --window 8`; for a canonical line, `dm.py parallels <id>` gives the
+   variant readings. Budget: two to four `gloss` calls a page (2–3k tokens each, ~4k with
+   `--context 8`). **Ignore any hit that is an English translation** (segment ids beginning `EN_`,
+   or a hit in the text you are translating with its published English beside it): do not read it,
+   do not cite it, log the exposure in the runlog. Save every `dm.py` output to the run directory
+   as `dm_<command>_<unit>.txt` (`dm_gloss_<unit>.txt`) so a resumed run need not repeat the call.
+   `dm.py explore --summary` (Explore's re-ranked hits and Gemini summary) is not part of the
+   pipeline: only when the user asks for it by name.
 3. **Decide, and record.** Where a commentary glosses the very words you are translating
    (`… zhes pa ni …`, `… zhes bya ba ni …`), **translate according to the commentary's reading** when
    the grammar permits it, and say so in the sketch's `GROUNDING` line (work, Toh or segment id, what
@@ -158,13 +179,14 @@ examples: `reference/grounding.md`. The shape, per page:
    reading, keep the grammatical reading in the body unless the commentary resolves a recorded
    fork; write a `Comm:` note for the editor with the alternative and its source, and a footnote
    for the reader where `notes.md` says this audience gets one. Where nothing is found, write
-   `GROUNDING: none found` once for the unit and move on. The explore summary is machine-made:
-   use it as a map; cite only what you have read in Tibetan in a hit.
-4. **Existing English translations.** `explore` labels any published translation among its hits
+   `GROUNDING: none found` once for the unit and move on. The GLOSS/QUOTE/NEAR labels are a
+   sorting aid computed from the wording; cite only what you have read in Tibetan in a hit or
+   its context.
+4. **Existing English translations.** `gloss` labels any published translation among its hits
    (`EN_` ids). Handle them by the brief's prior-translations policy (`existing-translations.md`):
    never before drafting; under *consult only* compare after drafting and record a `Prior:` note;
    under *adapt* take wording where the licence or permission allows, say so in the header and cite
-   it with `dm.py cite EN_<file>:<n>`; under *ignore* (tests) do not read them (`explore --no-en`).
+   it with `dm.py cite EN_<file>:<n>`; under *ignore* (tests) do not read them (`gloss --no-en`).
    A published translator's reading that differs from yours is a flag like MITRA's, with a name:
    go back to the grammar and the commentaries before deciding.
 5. **MITRA flag**, once per page, after drafting:
@@ -218,12 +240,14 @@ Two streams, never mixed, rules in `reference/notes.md`.
 1. **Header**, one line: unit id · form (prose / verse: mode, kind, measure, padas, lines) ·
    register · audience mode · source (`Toh 381, Sampuṭa, D 158a; quoted in …` · `source not
    located` · `not a citation`) · grounding (`<work> gloss followed` · `none found` · `not queried`
-   · `service unavailable`) · prior (`none` · `consulted (<translator year>)` · `adapted
+   · `service unavailable`; the field names the Dharmamitra resource used: `DM primary search`
+   by default, `DM Explore summary` only when the user asked for it) · prior (`none` · `consulted (<translator year>)` · `adapted
    (<translator year>)`) · confidence (`high` · `medium` · `low` · `very low`, graded per
    `notes.md` §1b, reason in the `Conf:` note). When one verse sentence runs across several units, the first unit's
    header carries the block's mode, kind, measure and line order and names the span (`block
    U06–U09`); the later units say `verse: cont. of block U06–U09`; each unit's footnotes and notes
-   stay with the unit whose words they concern.
+   stay with the unit whose words they concern. A split prose period is the same: `block U10a–U10c`
+   on the first sub-unit, `prose: cont. of block U10a–U10c` on the later ones.
 2. **One finished rendering.** A second version only for a genuine fork (two defensible
    construals; term vs idiom; chant vs citation), each finished, one line on the choice.
 3. **FOOTNOTES:** per §7, or `none`.
@@ -231,7 +255,9 @@ Two streams, never mixed, rules in `reference/notes.md`.
 5. The glossary file updated; a register row for every identified quotation (tibetan-citations).
 6. When the user wants a document: `python3 ~/.claude/skills/tibetan-translate/tools/export_docx.py
    <final.md> [--notes]`, a .docx with the body text, verse lines kept, and every `FN(anchor):` as a
-   Word footnote anchored after its phrase.
+   Word footnote anchored after its phrase. `FN(): …` or `FN(*): …` (empty anchor) is a footnote on
+   the **whole unit**: its mark goes after the last character of the unit's last paragraph, after the
+   final punctuation, with no anchor warning. The CAT app writes its edited `final.md` in this format.
 
 Never print the construal sketch, dictionary rows, scansion or gate working unless asked.
 
@@ -239,7 +265,7 @@ Never print the construal sketch, dictionary rows, scansion or gate working unle
 
 Quality outranks cost; waste is not quality. The bare model at max effort spends 150–290k new
 tokens on a 12-unit page, nearly all of it thinking; that is the floor. This pipeline should land
-within about 300k at max: two to four `explore` calls (3–5k each), `identify` per quotation (~1k),
+within about 300k at max: two to four `gloss` calls (2–3k each, ~4k with `--context 8`), `identify` per quotation (~1k),
 `tibdict lookup` for a few words (~1k each), one MITRA call (0.2k a unit), the sketch and the notes.
 Measured on the v1 pipeline, which this replaces: a whole-unit dictionary report (2–12k a unit) and
 a spawned checker (55–85k a page) bought no measurable fidelity. Opus at max is the calibrated
@@ -250,8 +276,9 @@ reads Tibetan.
 
 - **tibetan-verse** — verse rendering rules and `beats.py`; called for every verse unit.
 - **tibetan-citations** — short titles, the sources register, footnote triage, `register.py`.
-- **tibetan-dharmamitra** — the API reference for `dm.py` (identify, explore, segment, parallels,
-  translate, meta, cite), the grounding procedure's tool notes, the optional local model.
+- **tibetan-dharmamitra** — the API reference for `dm.py` (identify, gloss, segment, parallels,
+  translate, meta, cite; explore only with `--summary`), Dharmamitra's terms of use, the grounding
+  procedure's tool notes, the optional local model.
 
 Project bindings override defaults. For the Lam Zab practitioner edition the pipeline files in
 `02_Prompts/` and `08_Master_Edition/` still govern that workflow; this skill is the general

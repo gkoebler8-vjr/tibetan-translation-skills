@@ -1,7 +1,7 @@
 # Existing English translations: when to use them, how to attribute them
 
 Dharmamitra's index holds aligned English translations of many texts (segment ids beginning `EN_`:
-84000, Edition Garchen Stiftung, Lotsawa House and others), and `dm.py explore` returns them beside
+84000, Edition Garchen Stiftung, Lotsawa House and others), and `dm.py gloss` returns them beside
 the commentaries, labelled. Using them well saves work and improves the result; using them without
 regard to their terms is a legal and an ethical problem that attribution alone does not cure. The
 brief decides; this file gives the rules and the mechanics.
@@ -25,19 +25,19 @@ Prior translations: adapt <sources> (permission/licence: …) · consult only ·
 ```
 
 Default when the brief says nothing: **consult only**. In a measured test run: **ignore** (and
-`dm.py explore --no-en`), so the test stays blind.
+`dm.py gloss --no-en`), so the test stays blind.
 
 ## 2. The procedure
 
 1. **Draft first.** Your own reading and draft (Pass 1) come before any existing translation is
    opened. A translation read before drafting shapes the construal; one read after is a witness.
-2. **Collect.** The `EN_` hits of `explore`, or `dm.py segment EN_<file>:<n> --context` for the
+2. **Collect.** The `EN_` hits of `gloss`, or `dm.py segment EN_<file>:<n> --context` for the
    aligned passage. Note which published translation it is: `dm.py cite EN_<file>:<n>` gives the
    translator, title, publisher, year, ISBN and the aligned segment (no page numbers are in the
    index; supply them from the printed edition when you cite).
 3. **Compare, clause by clause**, as with MITRA: where the published translation differs on a
    content word, a referent, an agent or a relation, go back to the Tibetan and the grammar. A
-   published translator may have read a commentary you have not: check with `explore` on the
+   published translator may have read a commentary you have not: check with `gloss` on the
    clause before deciding. Record the outcome as a `Prior:` editor note: what the prior reads,
    whether you followed it, and why.
 4. **Adapt only under the policy.** When the brief allows adaptation of this source, you may take

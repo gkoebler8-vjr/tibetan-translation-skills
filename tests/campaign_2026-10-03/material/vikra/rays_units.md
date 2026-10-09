@@ -2,6 +2,7 @@
 
 Work: theg chen bstan pa'i snying po'i 'grel ba nyi ma'i 'od zer, Ayang Thubten Rinpoche (1899–1966), commentary on Zhedang Dorje's theg chen bstan pa'i snying po.
 Source: Vikra sentence-alignment sheet Rays-of-Sunlight_TTN-Commentary.xlsx rows 42–62 (Tibetan from the clean Wylie txt). Note: the verse is Uttaratantra II.53–56 (rgyud bla ma); the Tibetan as given in the Vikra source omits the pada `bzo yi gnas la mkhas pa dang` that the canonical text has.
+Note (9 October 2026): U10, one period of 11 clauses and well over 100 syllables, came pre-segmented as a single unit from the Vikramashila alignment sheet and is kept so here; under the sub-unit rule added to tibetan-translate SKILL.md §3 the same day (a period over ~70 syllables or 8 clauses is split at a major clause boundary into U10a, U10b …) a fresh run would split it.
 
 ## Units (Tibetan)
 

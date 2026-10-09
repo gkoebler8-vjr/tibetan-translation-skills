@@ -1,6 +1,6 @@
 ---
 name: tibetan-dharmamitra
-description: Use Dharmamitra's public research APIs (DharmaMitra search, DharmaNexus parallels, MITRA translation) from this machine for Tibetan, Sanskrit, Pali and Buddhist Chinese — find where a passage occurs in the canon with its Toh number, pull variant readings and the commentaries that gloss it, fetch a canonical segment with context, and get a MITRA machine translation as a second opinion to compare against a Claude rendering. Use when the user mentions Dharmamitra, MITRA, DharmaNexus, BuddhaNexus, "explore", source identification, parallels, variants, or wants a translation cross-checked; tibetan-translate calls it through tools/dm.py in its analysis pass. Also documents the optional local MITRA model.
+description: Use Dharmamitra's public research APIs (DharmaMitra search, DharmaNexus parallels, MITRA translation) from this machine for Tibetan, Sanskrit, Pali and Buddhist Chinese — find where a passage occurs in the canon with its Toh number, pull variant readings and the commentaries that gloss it (dm.py gloss: the primary search without Explore's summaries or re-ranking, on Dharmamitra's terms), fetch a canonical segment with context, and get a MITRA machine translation as a second opinion to compare against a Claude rendering. Use when the user mentions Dharmamitra, MITRA, DharmaNexus, BuddhaNexus, "explore", source identification, parallels, variants, or wants a translation cross-checked; tibetan-translate calls it through tools/dm.py in its grounding pass. Also documents Dharmamitra's terms of use and the optional local MITRA model.
 ---
 
 # Dharmamitra from the command line
@@ -16,7 +16,18 @@ compact text (Tibetan in Wylie: three times cheaper in tokens than script; `--sc
 Terms: personal research use at a polite rate (one request at a time, cache results). Their ToS
 forbids using the APIs to populate third-party applications; this pipeline is a personal research
 tool, not a product. The Explore page's AI summary and Deep Research are Gemini-backed; the search,
-parallels and MITRA translation are self-hosted. Tested 2026-10-03: Kangyur (1,158 files), Tengyur
+parallels and MITRA translation are self-hosted.
+
+**Terms (Sebastian Nehrdich, Dharmamitra, 5 October 2026).** Asked whether these skills may use
+the public endpoints, he agreed, on two conditions. On load: "it[']s especially the text-based
+replies of explore and the re-ordering of the results that drives up the compute a lot, so th[ese]
+are heavy operations, while the semantic search alone is quite light". On transparency: "as long
+as it[']s transparent and visible which Dharmamitra resources w[ere] used at what stage … I really
+have no objections". So the pipeline grounds through the primary search with `do_ranking: false`
+and no summary (`dm.py gloss`); `dm.py explore --summary` exists for a user who asks for Explore's
+summary by name; every `gloss` output names its resource in its first line, the `--context`
+line names the DharmaNexus text view, and the unit header's `grounding:` field names the resource
+used (`DM primary search` · `DM Explore summary` · `not queried`). Tested 2026-10-03: Kangyur (1,158 files), Tengyur
 (3,855), Nyingma Kama and Terma, Sakya, ACIP sungbums, the Tsadra series (Drikung, Gampopa,
 Phagmodrupa, Götsangpa, Mikyö Dorje …), Lotsawa House, Edition Garchen Stiftung are all indexed.
 
@@ -31,19 +42,27 @@ python3 $DM search "<query>" [--lang bo|sa|zh|pa|all] [--type regular|semantic|s
 python3 $DM translate "<tibetan>" [--style "..."] [--context "..."]   # MITRA cat-translate
 python3 $DM meta <filename> [--overview]                 # catalogue fields: titles, Toh/Peking/Derge locator, translators, BDRC; a modern translation's translator, publisher, year, ISBN (the AI overview omitted unless asked)
 python3 $DM cite <segmentnr|file>                         # citation lines from those fields: ACADEMIC (folio), READER, REGISTER; ATTRIBUTION for a modern translation
-python3 $DM explore "<query>"                            # the works that quote or gloss the words, Tibetan + segment id (10–20 s); the grounding tool
+python3 $DM gloss "<clause, 10–25 syllables>" --context 8   # the grounding tool: primary search, no re-ranking, no summary; works labelled GLOSS | QUOTE | NEAR, the gloss read in context (~2–3k tokens, ~4k with --context)
+python3 $DM explore --summary "<query>"                  # Dharmamitra's Explore: re-ranked hits + Gemini summary. The heavy operation on their side; only when the user asks for it
 ```
 
 `cite` builds citations only from the catalogue fields; the index has folios for canonical texts
 and no page numbers for modern translations (it says so; the page comes from the printed book).
-Existing English translations among `explore`'s hits are labelled; whether they may be consulted or
+Existing English translations among `gloss`'s hits are labelled; whether they may be consulted or
 adapted is the brief's prior-translations policy (tibetan-translate `reference/existing-translations.md`).
 
-`explore` is the tool of tibetan-translate's grounding pass (`reference/grounding.md` there): given
-10–25 syllables of Wylie it lists the commentaries, treatises and sungbum texts that take up those
-words, each with its Tibetan, a machine rendering and a segment id, then a Gemini summary. Read the
-Tibetan of the hits; treat the renderings and the summary as a map. Follow a cut-off gloss with
-`segment <id> --context --window 8`.
+`gloss` is the tool of tibetan-translate's grounding pass (`reference/grounding.md` there): given
+10–25 syllables of Wylie it posts to `/api-search/primary/` exactly as `search` does (semantic,
+Tibetan sources, `do_ranking: false`, no parallels expansion), groups the hits by work and labels
+each work from its wording: **GLOSS** when the hit or its neighbours take the query's words up with
+gloss scaffolding (`zhes pa ni`, `zhes bya ba ni`, `ces pa ni`, `zhes pa'i don`, `… ni … ste`, `… la
+bya`) or, in a commentary on the root work, with a paraphrase that weaves the root words into its
+prose; **QUOTE** when it shares a verbatim run of 12 or more syllables with the query; **NEAR**
+otherwise. Order: GLOSS, then Tengyur, then sungbum and series, then the rest; 12 works. With
+`--context N` it fetches the text-view page of the five works most likely to gloss the line (GLOSS
+hits, then commentaries whose title names the root work), scans forward from the quotation for the
+gloss and prints it (`GL`) with N segments after it. No machine rendering is printed; read the
+Tibetan. A gloss that runs on: `segment <id> --context --window 8`.
 
 Segment ids are stable keys: `BO_K12_D0381:158a-16` = Kangyur, Derge 381 (Toh 381), folio 158a.
 `BO_T02_D1490` = Tengyur, Toh 1490. `BO_TSD_…`, `BO_S10_…`, `BO_LH_…` are sungbum and series texts.
@@ -67,10 +86,11 @@ Segment ids are stable keys: `BO_K12_D0381:158a-16` = Kangyur, Derge 381 (Toh 38
 
 ## 3b. Grounding a reading in the commentaries (for tibetan-translate Pass 2)
 
-1. `explore` on the clause that carries the doubt (agent, relation, term), not on the whole stanza.
-2. Sort the hits: a **gloss** (`… zhes pa ni … ste`, a paraphrase filling the elided arguments, an
-   enumeration of a term) is grounding; a bare **quotation** is a witness for the wording; a
-   semantic neighbour is neither.
+1. `gloss "<clause>" --context 8` on the clause that carries the doubt (agent, relation, term), not
+   on the whole stanza. Save the output as `dm_gloss_<unit>.txt`.
+2. Read the labels as a sorting aid, then the Tibetan: a **gloss** (`… zhes pa ni … ste`, a
+   paraphrase filling the elided arguments, an enumeration of a term) is grounding; a bare
+   **quotation** is a witness for the wording; a semantic neighbour is neither.
 3. Read the gloss in Tibetan (`segment --context` if it is cut short). Follow it where the grammar
    permits; where glosses disagree, the text's own tradition and its own commentary outrank others.
 4. Record work, Toh or segment id, what it says and what you did in the construal's `GROUNDING`

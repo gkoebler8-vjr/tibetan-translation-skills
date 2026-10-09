@@ -8,7 +8,7 @@ are its companions. A translation runs through one pipeline (v2, 4 October 2026)
 (audience, purpose, house style, notes policy); the model's **own reading and faithful draft** at
 maximum effort, with a short construal sketch and the dictionary tool only on demand; a
 **grounding pass** that identifies quotations and finds the canon's commentaries on the passage
-through Dharmamitra (`dm.py explore`, `segment`, `parallels`), follows their reading where the
+through Dharmamitra (`dm.py gloss`, `segment`, `parallels`), follows their reading where the
 grammar permits, and runs the MITRA cross-check as a flag; one **audience/style pass** with
 glossary binding and verse rules; a short in-context **check**; and **two streams of notes**: working
 notes for the editing translator and footnotes for the reader in the audience's style. Built and
@@ -49,7 +49,8 @@ on three of them; the full numbers and caveats are in `docs/Test_Report_2026-10-
 Those measurements are of pipeline v1 (dictionary pass on every unit, 40-line construal, spawned
 checker). **Pipeline v2** (4 October 2026) drops what bought nothing and adds what the bare model
 cannot do: the model reads and drafts first, at maximum effort; then the grounding pass finds the
-commentaries that gloss the passage (Dharmamitra Explore), follows them where they settle a reading,
+commentaries that gloss the passage (Dharmamitra's primary search, read in Tibetan; since 9 October
+2026 without Explore's summaries and re-ranking, on Dharmamitra's terms, Explore only on request), follows them where they settle a reading,
 and writes the disagreements up for the editor and, per audience, for the reader as footnotes.
 Use it when you want a fixed house style, metred verse, a glossary and source references across a
 long text, a reading grounded in the commentaries, and notes for editor and reader. For a bare
@@ -162,9 +163,9 @@ glossary.tsv and it binds.
 
 **The passes.** The model reads the Tibetan itself and drafts (a construal sketch of 8–15 lines
 per unit goes to `<work>.construal.md`; `tibdict.py` is called only for a word it cannot settle).
-Then the grounding pass: `dm.py identify` for every quotation, `dm.py explore` on the clauses that
+Then the grounding pass: `dm.py identify` for every quotation, `dm.py gloss` on the clauses that
 carry a doubt or a doctrine, which returns the commentaries that gloss those words with their
-Tibetan; the skill reads the gloss, follows it where the grammar permits, and records what it did.
+Tibetan (the primary search, no summary); the skill reads the gloss, follows it where the grammar permits, and records what it did.
 MITRA is run once per page as a flag; a change made on MITRA's word alone is treated as a defect.
 Then the style pass for the audience, glossary binding, verse per tibetan-verse, and a short
 in-context check against the sketch.
@@ -227,11 +228,13 @@ Find a quotation in the canon (Toh number, who quotes it). Read the `VERBATIM MA
 `NO` means the hits are only semantic neighbours.
 
 ```bash
-python3 ~/.claude/skills/tibetan-translate/tools/dm.py explore "<clause, Wylie>"
+python3 ~/.claude/skills/tibetan-translate/tools/dm.py gloss "<clause, Wylie>" --context 8
 ```
 
-The grounding call: the commentaries and treatises that quote or gloss those words, each with its
-Tibetan and a segment id (10–20 seconds).
+The grounding call: Dharmamitra's primary search without re-ranking or summary, the works grouped
+and labelled GLOSS / QUOTE / NEAR, and the gloss of the commentaries on the root work read in
+context. `dm.py explore --summary` runs Dharmamitra's Explore (the heavy operation on their side)
+only when you ask for it.
 
 ```bash
 python3 ~/.claude/skills/tibetan-translate/tools/dm.py cite <segmentnr>
@@ -253,7 +256,8 @@ python3 ~/.claude/skills/tibetan-translate/tools/dm.py translate --file page_uni
 ```
 
 MITRA translation of every `Uxx` line of a page file (or pass the Tibetan as an argument for one
-unit). Also `dm.py search`, `meta`, `explore`. Dharmamitra: one request at a time, cache results.
+unit). Also `dm.py search`, `meta`. Dharmamitra: one request at a time, cache results, no Explore
+summaries unless asked (their terms, 5 October 2026: `skills/tibetan-dharmamitra/SKILL.md` §1).
 
 ```bash
 python3 ~/.claude/skills/tibetan-verse/tools/beats.py citation "line one," "line two,"
