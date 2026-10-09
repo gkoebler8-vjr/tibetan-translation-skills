@@ -230,6 +230,11 @@ unlocks the passage). **NOTES** are for you:
 - `Var:` a different wording of the line in another edition that changes the meaning.
 - `Source:` where a quotation comes from, or that it could not find the source.
 - `MITRA:` where Dharmamitra's machine translation disagrees on something that matters.
+- `Prior:` what a published translation of the same passage says where it differs. By default it
+  only compares; it adapts a published translation's wording only if you say so in the brief and the
+  translation's licence or publisher allows it, and then it cites the translation properly.
+- `Conf:` how sure it is of this passage: high, medium, low or very low, with the reason. In the
+  Word export, low passages are shaded orange and very low ones red, so you know where to look first.
 - `Issue:` a choice it made, such as swapping a term, unpacking a compressed phrase, or letting an
   image go.
 - `Check:` what its own check against its reading found and fixed.

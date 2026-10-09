@@ -18,7 +18,10 @@ COMMANDS
   dm.py translate --file <units.md> [--style ...]        the same for every `Uxx` line of a page file
   dm.py explore  "<query>" [--exclude-file PREFIX]  the works that quote or gloss the words, with their Tibetan and
                                                   segment ids (10-20 s); EN_ hits (English translations) dropped unless --include-en
-  dm.py meta     <filename>                       a work's metadata (titles, Toh, translators)
+  dm.py meta     <filename> [--overview]          a work's catalogue metadata (titles, Toh, translators, Derge/Peking, BDRC;
+                                                  a modern translation's translator, publisher, year, ISBN)
+  dm.py cite     <segmentnr|file>                 citation lines built from that metadata: ACADEMIC (with folio), READER,
+                                                  REGISTER; for a modern translation also an ATTRIBUTION line
 
 All commands print compact text meant for a model's context. Add --json for the raw response.
 Network required. Timeouts are generous; the cat-translate upstream caps at 100 s.
@@ -289,17 +292,93 @@ def cmd_explore(a):
     # the very text being translated can appear here) and the text itself (--exclude-file prefixes).
     ex = [x.strip() for x in (a.exclude_file or '').split(',') if x.strip()]
     blocks = re.split(r'\n-{3,}\n', out)
-    kept, dropped = [], []
+    kept, dropped, en = [], [], []
     for b in blocks:
         ids = re.findall(r'\b([A-Z]{2}_[A-Za-z0-9_.-]+:[A-Za-z0-9-]+)', b)
-        bad = [i for i in ids if (i.startswith('EN_') and not a.include_en) or any(i.startswith(e) for e in ex)]
-        (dropped if bad else kept).append(b if not bad else ', '.join(bad))
+        if any(i.startswith(e) for e in ex):
+            dropped.append(', '.join(i for i in ids if any(i.startswith(e) for e in ex))); continue
+        if any(i.startswith('EN_') for i in ids):
+            if a.no_en:
+                dropped.append(', '.join(i for i in ids if i.startswith('EN_'))); continue
+            en.append(', '.join(i for i in ids if i.startswith('EN_')))
+            b = ("[EXISTING ENGLISH TRANSLATION, not a commentary: use it only as the brief's prior-translation policy allows, "
+                 "and cite it (dm.py cite <id>); see reference/existing-translations.md]\n" + b)
+        kept.append(b)
     if dropped:
-        print(f"(dropped {len(dropped)} hit(s) not to be read: {'; '.join(dropped)})\n")
+        print(f"(dropped {len(dropped)} hit(s): {'; '.join(dropped)})\n")
+    if en:
+        print(f"(existing English translations among the hits: {'; '.join(en)})\n")
     print('\n---\n'.join(kept).strip())
+
+def _meta_fields(filename):
+    """The catalogue fields of a file as a dict (the AI-generated overview stripped), plus the raw text."""
+    r = get(f"/api-db/utils/raw-metadata/?filename={urllib.parse.quote(filename)}")
+    raw = (r or {}).get('raw_metadata') or ''
+    head = re.split(r'\n## AI-generated', raw, 1)[0]
+    f = {}
+    for m in re.finditer(r'\*\*(.+?):\*\*\s*(.*)', head):
+        f[m.group(1).strip()] = m.group(2).strip()
+    t = re.match(r'#\s*(.+)', head)
+    f['_heading'] = t.group(1).strip() if t else ''
+    return f, head
+
+def _folio_of(segmentnr):
+    m = re.search(r':(\d+[ab])-?(\d*)$', segmentnr)
+    return (m.group(1), m.group(2)) if m else (None, None)
+
+def cmd_cite(a):
+    """Citation lines for a segment or file, built only from the catalogue fields (never from the AI overview)."""
+    fn = a.segmentnr.split(':')[0]
+    f, head = _meta_fields(fn)
+    if not f or not head.strip():
+        print(f"no catalogue metadata for {fn}"); return
+    folio, seg = _folio_of(a.segmentnr)
+    title_en = f.get('Title (English, from literature)') or f.get('Title') or ''
+    skt = f.get('Title (Sanskrit)') or f.get('Title (Sanskrit, as in the text)') or ''
+    wy = f.get('Title (Wylie)') or f.get('Title (Wylie, catalog)') or ''
+    toh = None
+    m = re.match(r'D(\d+)', f.get('ID', '')); toh = int(m.group(1)) if m else None
+    derge = f.get('Derge', ''); peking = f.get('Peking', ''); bdrc = f.get('BDRC', '')
+    author = f.get('Author(s)') or f.get('Author (catalog)') or ''
+    trans = f.get('Translator(s)') or ''
+    publisher = f.get('Publisher', ''); isbn = f.get('ISBN', '')
+    if fn.startswith('EN_') or publisher:
+        # a modern translation: no page numbers in the index; cite the edition and say where the passage sits
+        loc = f"the passage aligned to segment {a.segmentnr}" if ':' in a.segmentnr else ''
+        pub = publisher.strip()
+        acad = f"{trans + ', trans., ' if trans else ''}*{title_en}*" + (f", by {author}" if author else '') + (f", {pub}" if pub else '') + (f", ISBN {isbn.split(';')[0].strip()}" if isbn else '') + (f"; {loc}; page number not in the index: supply it from the printed edition" if loc else '') + '.'
+        reader = f"{title_en}" + (f", translated by {trans}" if trans else '') + (f", {pub}" if pub else '') + '.'
+        print("ACADEMIC: " + acad); print("READER:   " + reader)
+        print("ATTRIBUTION (for an adapted passage): " + f"adapted from {trans + ', ' if trans else ''}*{title_en}*{(', ' + pub) if pub else ''}, under the permission or licence recorded in the brief.")
+        return
+    coll = f.get('Collection', '')
+    canon = 'Degé Kangyur' if "bKa'" in coll else 'Degé Tengyur' if 'bStan' in coll else ''
+    if not toh:
+        # a non-canonical text (sungbum, series, Edition Garchen Stiftung …): title in Wylie, collection, segment
+        tib_title = f.get('Title (Tibetan, catalog)') or f.get('Title (Tibetan)') or f['_heading']
+        where = f", segment {a.segmentnr.split(':')[1]}" if ':' in a.segmentnr else ''
+        acad = f"*{wy.rstrip('/').strip() or tib_title}*" + (f", by {author}" if author else '') + (f", in {coll}" if coll else '') + f" (Dharmamitra file {fn}{where})" + (f"; BDRC {bdrc}" if bdrc else '') + '.'
+        reader = f"*{wy.rstrip('/').strip() or tib_title}*" + (f" by {author.split(',')[0].split('(')[0].strip()}" if author else '') + '.'
+        reg = f"{wy.rstrip('/').strip() or tib_title}; {coll}; {fn}{where}" + (f"; BDRC {bdrc}" if bdrc else '')
+        print("ACADEMIC: " + acad); print("READER:   " + reader); print("REGISTER: " + reg)
+        if author: print("CREDITS:  author " + author)
+        return
+    # a canonical text
+    dm = re.search(r'\[D\. No\.\]\s*0*(\d+),\s*([^,]+),\s*(\S+)\s+([0-9ab]+)-([^.]+)', derge)
+    section, vol, frange = (dm.group(2), dm.group(3), f"{dm.group(4)}–{dm.group(5)}") if dm else ('', '', '')
+    where = (f", f. {folio}" + (f" (segment {seg})" if seg else '')) if folio else ''
+    acad = f"*{skt or title_en}*" + (f" ({wy.rstrip('/').strip()})" if wy else '') + (f", Toh {toh}" if toh else '') + (f", {canon}, {section}, vol. {vol}" if section else '') + (where if where else (f", ff. {frange}" if frange else '')) + (f"; Peking {peking.split(',')[0].replace('[P. No.]','').strip()}" if peking else '') + '.'
+    reader = f"*{title_en or skt}*" + (f" (Toh {toh})" if toh else '') + (f", f. {folio}" if folio else '') + '.'
+    reg = f"{title_en or skt}; Toh {toh}" + (f", {section} {vol}" if section else '') + (f", f. {folio}" if folio else '') + (f"; BDRC {bdrc}" if bdrc else '')
+    print("ACADEMIC: " + acad); print("READER:   " + reader); print("REGISTER: " + reg)
+    if author or trans:
+        print("CREDITS:  " + (f"author {author}; " if author else '') + (f"Tibetan translators {trans}" if trans else ''))
+    print("NOTE:     the segment number locates the passage inside the folio in Dharmamitra's alignment; it is not the Derge line number.")
 
 def cmd_meta(a):
     r = get(f"/api-db/utils/raw-metadata/?filename={urllib.parse.quote(a.filename)}")
+    if not a.overview and isinstance(r, dict) and r.get('raw_metadata'):
+        r = dict(r); r['raw_metadata'] = re.split(r'\n## AI-generated', r['raw_metadata'], 1)[0].rstrip() + "\n(AI-generated overview omitted; --overview shows it)"
     if a.json:
         print(json.dumps(r, ensure_ascii=False, indent=1)); return
     s = json.dumps(r, ensure_ascii=False)
@@ -315,8 +394,9 @@ def main():
     p = sub.add_parser('segment'); p.add_argument('segmentnr'); p.add_argument('--context', action='store_true'); p.add_argument('--window', type=int, default=None, help='segments of context each side with --context (default 6); use --window 10-15 to reach a quotation inside a commentary passage')
     p = sub.add_parser('parallels'); p.add_argument('segmentnrs', nargs='+'); p.add_argument('--n', type=int, default=15); p.add_argument('--snippet', type=int, default=200)
     p = sub.add_parser('translate'); p.add_argument('text', nargs='?', default=''); p.add_argument('--file', default='', help='a page file: translate every line starting with Uxx'); p.add_argument('--style', default='balanced'); p.add_argument('--context', default=''); p.add_argument('--lang', default='english')
-    p = sub.add_parser('explore'); p.add_argument('query'); p.add_argument('--exclude-file', default='', help='segment-id prefix(es) of the text being translated, e.g. BO_EGS_0002, so its own passage is not shown'); p.add_argument('--include-en', action='store_true', help='keep EN_ hits (English translations); off by default')
-    p = sub.add_parser('meta'); p.add_argument('filename')
+    p = sub.add_parser('explore'); p.add_argument('query'); p.add_argument('--exclude-file', default='', help='segment-id prefix(es) of the text being translated, e.g. BO_EGS_0002, so its own passage is not shown'); p.add_argument('--no-en', action='store_true', help='hide EN_ hits (existing English translations), e.g. for a blind test run; by default they are shown and labelled')
+    p = sub.add_parser('meta'); p.add_argument('filename'); p.add_argument('--overview', action='store_true', help='also print the AI-generated overview (unverified; off by default)')
+    p = sub.add_parser('cite'); p.add_argument('segmentnr', help='a segment id (folio included in the citation) or a file id')
     a = ap.parse_args()
     global WYLIE
     WYLIE = not a.script
@@ -325,7 +405,7 @@ def main():
         if a.window is None:
             a.window = 6
     {'identify': cmd_identify, 'search': cmd_search, 'segment': cmd_segment, 'parallels': cmd_parallels,
-     'translate': cmd_translate, 'explore': cmd_explore, 'meta': cmd_meta}[a.cmd](a)
+     'translate': cmd_translate, 'explore': cmd_explore, 'meta': cmd_meta, 'cite': cmd_cite}[a.cmd](a)
 
 if __name__ == '__main__':
     main()

@@ -70,6 +70,7 @@ folder, since the MITRA call and the runlog need a file, and keep the work files
 | **Purpose** | publication · study aid · practice/recitation · working crib | study aid |
 | **House style** | glossary/terminology file; diacritics (IAST / none); Sanskrit kept or translated; capitalization; verse form (metred / free line-for-line / prose); contractions, dashes | per `reference/modes.md` for the audience |
 | **Notes policy** | footnotes: scholarly · reader · minimal · none; endnotes or footnotes; sources in a register or in notes | per `reference/notes.md` for the audience |
+| **Prior translations** | adapt <sources> (permission or licence stated) · consult only · ignore (`reference/existing-translations.md`) | consult only |
 | **Source context** | work, author, genre, where the passage sits, who speaks to whom; known commentaries on it | inferred from the text, stated as an assumption |
 
 If a project file (CLAUDE.md, a workflow file, a glossary, a memory note) already fixes these, use it
@@ -159,7 +160,14 @@ examples: `reference/grounding.md`. The shape, per page:
    for the reader where `notes.md` says this audience gets one. Where nothing is found, write
    `GROUNDING: none found` once for the unit and move on. The explore summary is machine-made:
    use it as a map; cite only what you have read in Tibetan in a hit.
-4. **MITRA flag**, once per page, after drafting:
+4. **Existing English translations.** `explore` labels any published translation among its hits
+   (`EN_` ids). Handle them by the brief's prior-translations policy (`existing-translations.md`):
+   never before drafting; under *consult only* compare after drafting and record a `Prior:` note;
+   under *adapt* take wording where the licence or permission allows, say so in the header and cite
+   it with `dm.py cite EN_<file>:<n>`; under *ignore* (tests) do not read them (`explore --no-en`).
+   A published translator's reading that differs from yours is a flag like MITRA's, with a name:
+   go back to the grammar and the commentaries before deciding.
+5. **MITRA flag**, once per page, after drafting:
    ```bash
    python3 ~/.claude/skills/tibetan-translate/tools/dm.py translate --file <page_units.md> --style "literal, keep every clause and connective"
    ```
@@ -210,7 +218,9 @@ Two streams, never mixed, rules in `reference/notes.md`.
 1. **Header**, one line: unit id · form (prose / verse: mode, kind, measure, padas, lines) ·
    register · audience mode · source (`Toh 381, Sampuṭa, D 158a; quoted in …` · `source not
    located` · `not a citation`) · grounding (`<work> gloss followed` · `none found` · `not queried`
-   · `service unavailable`). When one verse sentence runs across several units, the first unit's
+   · `service unavailable`) · prior (`none` · `consulted (<translator year>)` · `adapted
+   (<translator year>)`) · confidence (`high` · `medium` · `low` · `very low`, graded per
+   `notes.md` §1b, reason in the `Conf:` note). When one verse sentence runs across several units, the first unit's
    header carries the block's mode, kind, measure and line order and names the span (`block
    U06–U09`); the later units say `verse: cont. of block U06–U09`; each unit's footnotes and notes
    stay with the unit whose words they concern.
@@ -241,7 +251,7 @@ reads Tibetan.
 - **tibetan-verse** — verse rendering rules and `beats.py`; called for every verse unit.
 - **tibetan-citations** — short titles, the sources register, footnote triage, `register.py`.
 - **tibetan-dharmamitra** — the API reference for `dm.py` (identify, explore, segment, parallels,
-  translate), the grounding procedure's tool notes, the optional local model.
+  translate, meta, cite), the grounding procedure's tool notes, the optional local model.
 
 Project bindings override defaults. For the Lam Zab practitioner edition the pipeline files in
 `02_Prompts/` and `08_Master_Edition/` still govern that workflow; this skill is the general

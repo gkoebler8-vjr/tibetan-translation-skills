@@ -38,12 +38,13 @@ footnote.
 
 `dm.py search` (raw semantic search) is noisier than `explore` and is not needed in this pass.
 
-**Hits to ignore.** `explore` has no exclude option. It can return the text you are translating
-(harmless: your own passage) and, for works indexed with an aligned translation, that passage's
-**published English** (segment ids beginning `EN_`). Never read or cite such a hit: it is not
-grounding, and reading it compromises the translation's independence. Note the exposure in the
-runlog and move on. `identify --exclude` takes a Toh number only; a sungbum text has none, so its
-own copy will appear among the quotations: recognize it by the title and skip it.
+**Existing English translations among the hits** (`EN_` segment ids; `explore` labels them). They
+are not grounding (a translation is not a gloss), and they are handled by the brief's
+prior-translations policy and `reference/existing-translations.md`: consulted after drafting as a
+witness, adapted only where the licence or a permission allows, always cited (`dm.py cite
+EN_<file>:<n>`), never read before Pass 1. In a blind test run use `explore --no-en`. The text you
+are translating can also appear among the hits (`--exclude-file <its prefix>` hides it;
+`identify --exclude` takes a Toh number or a segment prefix).
 
 **What is queried, and what is not.** Citations and root-text lines, always. In the author's own
 prose, a technical term, formula or enumeration (`nges pa lnga`, `bdud bzhi`, `rtag chad kyi
@@ -101,7 +102,7 @@ explanation goes into the footnote.
 - A Toh number, folio or attribution appears in a note only if you have seen it in a hit and read
   the title. `source not located` and `GROUNDING: none found` are honest; an inferred locator is not.
 - The explore summary's attributions are checked against the hit list before use.
-- An English translation among the hits (`EN_…`, or the published English of your own text) is
-  never read or cited; the exposure is logged.
+- An English translation among the hits (`EN_…`) is used only as the prior-translations policy
+  allows, and always cited; in a blind test it is neither read nor cited and the exposure is logged.
 - Dharmamitra is a public research service used one request at a time; when it is slow or down,
   skip the pass, say `GROUNDING: service unavailable`, and translate from the grammar.

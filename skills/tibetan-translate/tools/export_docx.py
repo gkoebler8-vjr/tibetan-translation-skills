@@ -9,7 +9,9 @@ becomes body paragraphs (verse lines as line breaks inside one paragraph; a blan
 paragraph). Each `FN(<anchor>): <text>` line becomes a Word footnote whose reference mark is placed
 right after the first occurrence of <anchor> in that unit's text (at the end of the unit if the anchor
 is not found, with a warning). The editor NOTES are left out unless --notes, which appends them as an
-"Editor's notes" section at the end, one paragraph per unit. Needs python-docx (pip install python-docx).
+"Editor's notes" section at the end, one paragraph per unit. A unit whose HEADER carries
+`confidence: low` is shaded orange, `confidence: very low` red, with the Conf: reason in the header
+line, so the reviser sees where to look first. Needs python-docx (pip install python-docx).
 """
 import argparse, re, sys, copy
 try:
@@ -118,6 +120,20 @@ class Footnotes:
         from lxml import etree
         self.part._blob = etree.tostring(self.root, xml_declaration=True, encoding="UTF-8", standalone=True)
 
+def confidence_of(header):
+    m = re.search(r"confidence:\s*(very low|low|medium|high)", header, re.I)
+    return m.group(1).lower() if m else None
+
+SHADE = {"low": "FFD8A8", "very low": "F4A6A6"}   # orange, red
+
+def shade(paragraph, grade):
+    fill = SHADE.get(grade)
+    if not fill:
+        return
+    ppr = paragraph._p.get_or_add_pPr()
+    shd = OxmlElement("w:shd"); shd.set(qn("w:val"), "clear"); shd.set(qn("w:color"), "auto"); shd.set(qn("w:fill"), fill)
+    ppr.append(shd)
+
 def add_text_with_breaks(paragraph, lines):
     for i, l in enumerate(lines):
         if i:
@@ -130,9 +146,16 @@ def build(units, out, notes=False, title=None, headers=True):
     if title:
         document.add_heading(title, level=1)
     warnings = []
-    for u in units:
+    grades = [confidence_of(u["HEADER"]) for u in units]
+    if any(g in ("low", "very low") for g in grades):
+        lg = document.add_paragraph(); r = lg.add_run("Confidence: units shaded orange are graded low, red very low (reason in the unit's header line); unshaded units are medium or high."); r.italic = True; r.font.size = docx.shared.Pt(8)
+    for u, grade in zip(units, grades):
         if headers and u["HEADER"]:
             h = document.add_paragraph(); r = h.add_run(u["id"] + " · " + u["HEADER"]); r.italic = True; r.font.size = docx.shared.Pt(8)
+            conf = [n for n in u["NOTES"] if n.strip().startswith("Conf:")]
+            if grade in ("low", "very low") and conf:
+                r2 = h.add_run("  [" + conf[0].strip() + "]"); r2.italic = True; r2.font.size = docx.shared.Pt(8)
+            shade(h, grade)
         # paragraphs: split TEXT on blank lines; a verse block (several short lines) becomes one paragraph with line breaks
         paras, buf = [], []
         for l in u["TEXT"] + [""]:
@@ -143,7 +166,7 @@ def build(units, out, notes=False, title=None, headers=True):
         pending = list(u["FOOTNOTES"])
         for lines in paras:
             text = " ".join(lines) if len(lines) == 1 else None
-            p = document.add_paragraph()
+            p = document.add_paragraph(); shade(p, grade)
             if text is not None:
                 # place footnote references after their anchors
                 pos_fns = []

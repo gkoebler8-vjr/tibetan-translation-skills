@@ -19,9 +19,27 @@ One line each, only where there is something to say, otherwise `none`:
 | `Source:` | the identification result | `Source: Toh 4024, Uttaratantra I.?; verbatim; quoted also in Toh 4025.` · `Source: not located.` |
 | `MITRA:` | the flag, kept or changed with the reason | `MITRA: differs at clause 3 (reads rigs par as object); kept, adverbial by position.` |
 | `Issue:` | a term swap, an unpack, an image let go, a register shift, a speech-act conversion | `Issue: enumeration rendered as "you" imperatives (instruction register).` |
+| `Prior:` | what an existing published translation reads where it differs, whether it was followed or adapted, under which policy (`existing-translations.md`) | `Prior: Staron 2015 reads the sons as the slain; kept mine (plain reading); consult-only brief.` |
+| `Conf:` | the unit's confidence grade and its reason (§1b) | `Conf: low — agent of 'dod par byed open after grounding; MITRA differs.` |
 | `Check:` | what the in-context check found and changed | `Check: in-context, 1 fixed (pas → because).` |
 
 Editor notes carry Wylie, segment ids and Toh numbers freely. They are never shipped to the reader.
+
+## 1b. Confidence grade, per unit
+
+So the reviser knows where to look first, every unit's header carries `confidence: high | medium |
+low | very low` and the `Conf:` note gives the reason. Grade from the facts of the unit, not from
+how the English feels:
+
+| Grade | When |
+|---|---|
+| **high** | no open `Q:` on a content word, agent, relation or referent; grounding found or not needed; MITRA agrees or differs only in phrasing; check found nothing or only register |
+| **medium** | one open `Q:` on a term or nuance, or MITRA differs on a content word and the grammar settled it, or a commentary differs and the plain reading was kept |
+| **low** | a fork on an agent, relation, head noun or referent is still open after grounding; or the check changed a relation; or a bound term has no attested sense here |
+| **very low** | two or more such open forks; or a suspected corruption or a variant that flips the sense; or the unit could not be parsed with confidence and was rendered on the most plausible reading |
+
+The document export shades low units orange and very-low units red and prints the reason in the
+header line, so a reviser can go straight to them.
 
 ## 2. Footnotes (`FOOTNOTES:`), by audience
 

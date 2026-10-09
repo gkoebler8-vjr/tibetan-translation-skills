@@ -29,9 +29,15 @@ python3 $DM parallels <segmentnr>                        # precomputed parallels
 python3 $DM segment <segmentnr> --context [--window 3]   # the segment with its neighbours (a commentary's gloss)
 python3 $DM search "<query>" [--lang bo|sa|zh|pa|all] [--type regular|semantic|semantic_only]
 python3 $DM translate "<tibetan>" [--style "..."] [--context "..."]   # MITRA cat-translate
-python3 $DM meta <filename>                              # titles, Toh/Peking, translators, BDRC link
+python3 $DM meta <filename> [--overview]                 # catalogue fields: titles, Toh/Peking/Derge locator, translators, BDRC; a modern translation's translator, publisher, year, ISBN (the AI overview omitted unless asked)
+python3 $DM cite <segmentnr|file>                         # citation lines from those fields: ACADEMIC (folio), READER, REGISTER; ATTRIBUTION for a modern translation
 python3 $DM explore "<query>"                            # the works that quote or gloss the words, Tibetan + segment id (10–20 s); the grounding tool
 ```
+
+`cite` builds citations only from the catalogue fields; the index has folios for canonical texts
+and no page numbers for modern translations (it says so; the page comes from the printed book).
+Existing English translations among `explore`'s hits are labelled; whether they may be consulted or
+adapted is the brief's prior-translations policy (tibetan-translate `reference/existing-translations.md`).
 
 `explore` is the tool of tibetan-translate's grounding pass (`reference/grounding.md` there): given
 10–25 syllables of Wylie it lists the commentaries, treatises and sungbum texts that take up those

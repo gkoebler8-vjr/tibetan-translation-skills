@@ -182,6 +182,11 @@ something to say:
 - `Var:` a variant reading that changes the sense
 - `Source:` the identification
 - `MITRA:` where MITRA differs on a content word, referent, agent or relation, kept or changed
+- `Prior:` what an existing published translation reads where it differs, and whether it was followed
+  or adapted under the brief's prior-translations policy (consult only by default; adaptation only
+  where the licence or a permission allows, always cited: `skills/tibetan-translate/reference/existing-translations.md`)
+- `Conf:` the unit's confidence grade (high / medium / low / very low) with its reason; the Word export
+  shades low units orange and very-low units red so a reviser sees where to look first
 - `Issue:` a term swap, an unpacking, an image let go, a register shift
 - `Check:` what the in-context check found and changed
 
@@ -227,6 +232,14 @@ python3 ~/.claude/skills/tibetan-translate/tools/dm.py explore "<clause, Wylie>"
 
 The grounding call: the commentaries and treatises that quote or gloss those words, each with its
 Tibetan and a segment id (10–20 seconds).
+
+```bash
+python3 ~/.claude/skills/tibetan-translate/tools/dm.py cite <segmentnr>
+```
+
+Citation lines (academic with folio, reader, register; for a published translation the translator,
+publisher, year, ISBN and an attribution line) from Dharmamitra's catalogue fields; the AI-generated
+overview is never used.
 
 ```bash
 python3 ~/.claude/skills/tibetan-translate/tools/dm.py parallels <segmentnr>
