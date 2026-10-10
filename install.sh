@@ -9,7 +9,12 @@
 #                                Valby, Ives/Waldo, 84000 glossary ...) and index them (~38 MB download)
 #   ./install.sh --cat           also set up Tiger CAT, the local app in cat/: a venv at ~/.venvs/vcat
 #                                (python-docx, pyewts) and the double-clickable cat/Tiger CAT.app.
-#                                Without this flag the app is not touched.
+#                                Without this flag the app is not touched. --skills-only --cat gives
+#                                skills and app without the dictionary.
+#   ./install.sh --help          print this list
+#
+# New to Claude Code or the terminal? docs/getting-started.md. The skills in full: docs/skills.md.
+# The app: cat/README.md.
 #
 # Idempotent: safe to re-run. Nothing here is uploaded anywhere.
 set -euo pipefail
@@ -27,6 +32,7 @@ while [[ $# -gt 0 ]]; do
     --golden) GOLDEN="$2"; shift 2 ;;
     --public) PUBLIC=1; shift ;;
     --cat) CAT=1; shift ;;
+    -h|--help) awk 'NR>1 && !/^#/ {exit} NR>1 {sub(/^# ?/,""); print}' "$0"; exit 0 ;;
     *) echo "unknown arg: $1" >&2; exit 2 ;;
   esac
 done

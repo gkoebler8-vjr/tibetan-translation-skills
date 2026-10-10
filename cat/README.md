@@ -11,9 +11,11 @@ you run in your own Claude Code is fine), and it keeps the skill as the single s
 
 ## Start
 
-Tiger CAT lives in `cat/` of the Tibetan Translation Skills repository and needs the skills installed
-(`./install.sh --skills-only` from the repository root, or the full `./install.sh`); `./install.sh --cat`
-also creates `~/.venvs/vcat` (python-docx, pyewts) and builds the .app.
+Tiger CAT lives in `cat/` of the Tibetan Translation Skills repository and needs the skills installed.
+From the repository root, `./install.sh --cat` installs the skills and the dictionary, creates
+`~/.venvs/vcat` (python-docx, pyewts) and builds the .app (`./install.sh --skills-only --cat` skips the
+dictionary). New to Claude Code or the terminal? Follow [../docs/getting-started.md](../docs/getting-started.md),
+which includes a short tour of the app.
 
 Double-click **Tiger CAT.app** in this folder (built by `tools/make_app.sh`; it starts the server and
 opens the app in your browser), or from a terminal, from the repository root:
@@ -25,6 +27,9 @@ python3 cat/tools/serve.py --port 8765
 The paths in this file are relative to `cat/`; from inside it the command is `python3 tools/serve.py --port 8765`.
 Then open http://127.0.0.1:8765 . The first start of the .app creates `~/.venvs/vcat` if `install.sh --cat`
 has not. At start the server says if the installed skill is older than the repository's `skills/`.
+On macOS the first double-click asks for access to the folder the repository is in (Desktop, Documents);
+allow it. If the app was refused silently, `tccutil reset SystemPolicyDesktopFolder org.tigercat.app` makes
+macOS ask again; the launcher's log is `~/Library/Logs/TigerCAT.log`.
 
 **One-time sign-in.** Runs use the Claude Code binary that ships with the desktop app (or the `claude`
 command if installed) with your own account. The first time, choose *Sign in to Claude Code* in the

@@ -1,8 +1,16 @@
-# Tibetan Translation Skills: a guide for translators new to Claude Code
+# Getting started: a guide for translators new to Claude Code
 
 This guide is for you if you translate Classical Tibetan and you have never used Claude Code, a
-terminal, or any AI tool. Every step is spelled out. If you already know the command line, read
-`README.md` instead.
+terminal, or any AI tool. Every step is spelled out. If you already know the command line, read the
+front page ([README.md](../README.md)) and [skills.md](skills.md) instead.
+
+**Two ways to use this.** After the setup below you can translate **in a chat** with Claude Code
+(paste a passage, answer one question, read the result) or **in Tiger CAT**, a small app on your
+computer for a whole text: it splits the text into segments, runs the translation page by page,
+shows each segment beside its Tibetan with the notes, lets you revise, and exports a Word file
+with footnotes. Both use the same skill and your own Claude account; the app is the comfortable
+way for a long text, the chat is enough for a passage. Steps 1 to 5 are needed for both; step 6
+adds the app.
 
 ## What this does, and what it does not
 
@@ -137,6 +145,13 @@ It prints a numbered line for each step (1/4, 2/4 ...) and a download progress b
 minutes. It ends with a status listing and the word "done". Nothing is uploaded anywhere, and it is
 safe to run again if interrupted.
 
+If you want Tiger CAT, the app, run this instead (it does everything above and adds the app; you
+can also run it later):
+
+```bash
+./install.sh --cat
+```
+
 It needs Python 3 and `curl`. Macs normally have `curl`. If Python is missing, the Mac may offer to
 install developer tools: accept, wait, then run `./install.sh` again.
 
@@ -168,6 +183,17 @@ python3 ~/.claude/skills/tibetan-translate/tools/dm.py identify "rnam rtog ma ri
 
 You should see a line starting `VERBATIM MATCH` and a list of works. If both print something, you are
 ready. If not, see "Common problems".
+
+### 6. Optional: set up Tiger CAT, the app
+
+If you did not use `--cat` in step 4, run it now, in the terminal, inside the project folder:
+
+```bash
+./install.sh --cat
+```
+
+It prepares a second small Python environment and builds **Tiger CAT.app** inside the `cat` folder
+of the project. See "Using Tiger CAT" below.
 
 ## Your first translation
 
@@ -268,6 +294,37 @@ unlocks the passage). **NOTES** are for you:
   meaning. It is a flag to look again at the Tibetan. It is not a vote: the machine translation is
   often wrong and has no sense of your style.
 
+## Using Tiger CAT, the app
+
+Tiger CAT is for a whole text. You do not need the terminal once it is set up. Everything the app
+does is described in [../cat/README.md](../cat/README.md); this is the short version.
+
+1. **Start it.** In Finder, open the project folder, then the `cat` folder, and double-click
+   **Tiger CAT.app**. It starts a small server on your computer and opens the app in your browser
+   at http://127.0.0.1:8765. On a Mac, the first start asks whether Tiger CAT may access the folder
+   the project is in (Desktop or Documents): click **Allow**. If the browser does not open, open
+   that address yourself.
+2. **Sign in once.** Open the **Translate ▾** menu and choose *Sign in to Claude Code*. A Terminal
+   window and your browser open; sign in with your Claude account; the app notices. The app runs
+   the translation through your own Claude Code, so it uses your own plan's allowance.
+3. **Make a project.** **＋ New project**: paste the Tibetan (script or Wylie) or choose a text
+   file; choose the audience, purpose, house style and notes policy (the same questions the chat
+   asks); choose the model (Opus) and effort (max); keep the default segment length. The text is
+   split into segments: headings, stanzas and sentences. Check the split; **⚙ Settings** lets you
+   correct it.
+4. **Translate.** **Translate ▾ → next page** translates a page of segments; **all remaining pages**
+   goes on until the end, waiting out your plan's usage limit if it hits it. A status chip shows
+   the stage. A page of about ten segments takes ten to twenty minutes.
+5. **Review.** Each segment shows the Tibetan, the English and tags for its confidence and sources.
+   Edit the English in place; add a footnote; tick **reviewed**. The right pane has the notes for
+   you (the `Q:` doubts first), the commentaries that were found, the MITRA opinion, and the terms.
+   The left pane has the outline, the glossary (you can import your own) and the sources register.
+6. **Export.** **Export ▾**: English only, or Tibetan and English side by side, as a Word file with
+   real footnotes; optionally with your editor notes as an appendix.
+
+To stop the app, close the browser tab; the server keeps running quietly until you log out or
+restart. Starting the .app again reuses it.
+
 ## Choosing the model and effort
 
 Claude comes in different "models" (like different translators with different skill). "Effort" is how
@@ -337,6 +394,23 @@ a lower effort. Set `/model opus` and `/effort max`, as above, or tell it to pro
 translation still works: source identification and the MITRA comparison are skipped, and it will say
 so. Try again later.
 
+**Tiger CAT.app does not start, or a notification says it could not start the server.** On a Mac,
+check System Settings → Privacy & Security → Files and Folders: Tiger CAT needs access to the folder
+the project is in (Desktop or Documents). If no prompt ever appeared, open Terminal and run
+`tccutil reset SystemPolicyDesktopFolder org.tigercat.app` (or `...DocumentsFolder...`), then
+double-click the app again and click **Allow**. The app's own log is `~/Library/Logs/TigerCAT.log`.
+As a fallback, start it from the terminal inside the project folder:
+
+```bash
+python3 cat/tools/serve.py --port 8765
+```
+
+and open http://127.0.0.1:8765 in your browser.
+
+**Tiger CAT says Claude Code is not signed in, or a run stops at once.** Use *Translate ▾ → Sign in
+to Claude Code* once; if the Terminal window it opens shows an error, run `claude` in Terminal and
+sign in there, then try again.
+
 **The skill does not appear when you type `/`.** In the desktop app, make sure you are in the **Code**
 tab with **Local** selected, not Cowork or a cloud session. Then type `/reload-skills`, or restart
 Claude Code. If still missing, run `./install.sh --skills-only` again.
@@ -354,6 +428,8 @@ Claude Code. If still missing, run `./install.sh --skills-only` again.
 
 - **Skill**: a set of instructions Claude Code loads on request. Here there are four; you mainly use
   `tibetan-translate`.
+- **Tiger CAT**: the app in the `cat` folder; a CAT tool (computer-assisted translation) around the
+  skill, for whole texts.
 - **Model**: the AI that does the thinking (Opus, Fable, Sonnet ...).
 - **Effort**: how long the model thinks before answering. `max` is the most.
 - **Token**: a small piece of text. Usage and plan limits are counted in tokens.
