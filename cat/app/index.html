@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tiger CAT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="top">
+  <div class="brand"><span class="logo">སྟག</span><span class="name">Tiger CAT</span></div>
+  <div class="proj">
+    <select id="proj-select" data-tip="Switch project"></select>
+    <button id="btn-new" class="ghost" data-tip="New project: paste a Tibetan text, set the brief and the model">＋</button>
+    <button id="btn-settings" class="ghost" data-tip="Project settings: brief, model, effort, segments">⚙</button>
+    <span id="proj-brief" class="chips"></span>
+  </div>
+
+  <div class="search"><input id="search" type="search" placeholder="Search segments  /" data-tip-title="Search  ·  /" data-tip="Find a word in the Tibetan, the Wylie, the English, the footnotes or the notes. Enter jumps to the first match; Esc clears."><span id="search-count" class="muted"></span></div>
+  <div class="progress" data-tip="Segments you have marked as reviewed"><div class="bar"><div id="progress-fill"></div></div><span id="progress-text"></span><span id="grades" class="grades"></span></div>
+  <div class="actions">
+    <button id="btn-script" class="toggle on" data-tip-title="Script / Wylie  ·  s" data-tip="Show the Tibetan in script or in Wylie transliteration.">Script</button>
+    <button id="btn-review" class="toggle" data-tip-title="Needs review  ·  n" data-tip="Show only the segments you have not marked reviewed yet. Reviewed stretches collapse into a gap you can open. Every machine translation needs a look, whatever its grade.">Needs review</button>
+    <div class="menu">
+      <button id="btn-translate" class="primary" data-tip-title="Translate  ·  t runs the next page" data-tip="Run the skill on the next page, on all remaining pages, or copy a prompt for Claude Code.">Translate ▾</button>
+      <div class="dropdown" id="translate-menu">
+        <button data-run="next">Translate the next page</button>
+        <button data-run="all">Translate all remaining pages</button>
+        <button data-run="stop">Stop the run</button>
+        <button data-run="log">Show the run log</button>
+        <button data-run="prompt">Copy the prompt for Claude Code instead</button>
+        <div class="sep"></div>
+        <div id="claude-status" class="muted" style="padding:2px 4px">Claude Code: checking…</div>
+        <button data-run="login" id="btn-login">Sign in to Claude Code (one time)</button>
+      </div>
+    </div>
+    <div class="menu">
+      <button id="btn-export" data-tip-title="Export  ·  e" data-tip="Word files with real footnotes, or the skill's own final.md.">Export ▾</button>
+      <div class="dropdown" id="export-menu">
+        <label><input type="checkbox" id="exp-notes"> include the editor's notes as an appendix</label>
+        <label><input type="checkbox" id="exp-headers"> segment ids and grades (low and very low shaded)</label>
+        <button data-mode="en">English only (.docx, real footnotes)</button>
+        <button data-mode="aligned">Aligned Tibetan – English (.docx)</button>
+        <button data-mode="md">final.md (the skill's own format)</button>
+      </div>
+    </div>
+    <button id="btn-tips" class="toggle on" data-tip-title="Tips  ·  i" data-tip="Turn these hover explanations on or off.">Tips</button>
+    <button id="btn-help" class="ghost" data-tip-title="Help  ·  ?" data-tip="How to use Tiger CAT, and every keyboard shortcut.">?</button>
+    <button id="btn-about" class="ghost" data-tip="About this app, and what it uses">ⓘ</button>
+  </div>
+</header>
+<div id="jobbar" class="hidden"><span class="dot"></span><span id="job-text"></span><span id="job-progress" class="hidden"></span><span class="spacer"></span><button id="job-log" class="ghost">Log</button><button id="job-stop" class="ghost">Stop</button></div>
+
+<aside id="left">
+  <div class="pane-head"><h3>Outline <small>sa bcad</small></h3><button class="collapse" id="collapse-left" data-tip-title="Hide this pane  ·  [" data-tip="">‹</button></div>
+  <div id="outline"></div>
+  <section>
+    <h3>Project</h3>
+    <button class="rail" data-panel="glossary">Glossary <span class="count" id="c-glossary"></span></button>
+    <button class="rail" data-panel="sources">Sources register <span class="count" id="c-sources"></span></button>
+    <button class="rail" data-panel="works">Works &amp; people <span class="count" id="c-works"></span></button>
+    <button class="rail" data-panel="activity">Run log</button>
+  </section>
+  <section id="usage">
+    <h3>Usage <small>this app</small></h3>
+    <div id="usage-body" class="muted">available after the next start of the server</div>
+  </section>
+</aside>
+<div class="resizer" id="rz-left"></div>
+<main id="units"></main>
+<div class="resizer" id="rz-right"></div>
+<aside id="right">
+  <div class="tabs" id="tabs">
+    <button data-tab="notes" data-tip-title="Notes  ·  1" class="on" data-tip="The editor's notes on this segment: open questions, alternatives, what the commentaries say">Notes</button>
+    <button data-tab="grounding" data-tip-title="Grounding  ·  2" data-tip="Where the quotation comes from and what the tradition's commentaries say about these words">Grounding</button>
+    <button data-tab="mitra" data-tip-title="Mitra  ·  3" data-tip="Dharmamitra's MITRA machine translation beside this one, as a second opinion">MITRA</button>
+    <button data-tab="reading" data-tip-title="Reading  ·  4" data-tip="How the sentence was read: who does what, how the clauses connect, what could be read otherwise">Reading</button>
+    <button data-tab="terms" data-tip-title="Terms  ·  5" data-tip="Glossary terms bound in this segment">Terms</button>
+    <button class="collapse" id="collapse-right" data-tip-title="Hide this pane  ·  ]" data-tip="">›</button>
+  </div>
+  <div id="inspector"></div>
+</aside>
+<button id="expand-left" class="edge left hidden" data-tip="Show the outline pane">›</button>
+<button id="expand-right" class="edge right hidden" data-tip="Show the notes pane">‹</button>
+
+<div id="tip" class="hidden"><div class="tip-title"></div><div class="tip-body"></div></div>
+<div id="modal" class="hidden"><div class="sheet"><div class="sheet-head"><h2 id="modal-title"></h2><button id="modal-close">×</button></div><div id="modal-body"></div></div></div>
+<div id="toast" class="hidden"></div>
+<script src="app.js"></script>
+</body>
+</html>

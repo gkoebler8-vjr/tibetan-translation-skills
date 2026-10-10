@@ -1,6 +1,6 @@
 Tibetan Translation Skills — licence
 
-Code (everything under skills/*/tools/, install.sh, export.sh, tests/*.py): MIT License
+Code (everything under skills/*/tools/, cat/app/, cat/tools/, install.sh, export.sh, tests/*.py): MIT License
 
 Copyright (c) 2026 Gabriel Kobler
 

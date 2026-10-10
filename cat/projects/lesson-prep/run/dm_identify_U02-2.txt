@@ -1,0 +1,27 @@
+query (14 syllables): las las 'jig rten sna tshogs skyes/ de ni sems pa dang des byas/
+154 hits in 95 works (semantic search, Tibetan sources)
+VERBATIM MATCH: yes, canonical — 15 Kangyur/Tengyur hit(s) share 14 consecutive syllables; best: chos mngon pa'i mdzod kyi tshid le'ur byas pa/ (abhidharmakośakārikā) [Toh 4089 (Tengyur)] BO_T07_D4089:10b-43
+
+CANONICAL / SOURCE CANDIDATES
+- byang chub kyi spyod pa la 'jug pa'i dka' 'grel/ (bodhicaryāvatārapañ…  [Toh 3872 (Tengyur)]  BO_T04_D3872:88b-25  (6 hits; verbatim run 14)
+    cad ni las kyi sprul pa yin la/ de yang sems las gzhan na med pa'i phyir ro// de ni/ las las 'jig rten sna tshogs skyes// de ni sems pa dang
+- chos mngon pa'i mdzod kyi tshid le'ur byas pa/ (abhidharmakośakārikā)  [Toh 4089 (Tengyur)]  BO_T07_D4089:10b-43  (3 hits; verbatim run 14)
+    / las las 'jig rten sna tshogs skyes// de ni sems pa dang des byas// sems pa yid kyi las yin no// des bskyed lus dang ngag gi las// de dag r
+- tshad ma rnam 'grel gyi rgyan/ (pramāṇavārttikālaṁkāra)  [Toh 4221 (Tengyur)]  BO_T11_D4221:31a-20  (2 hits; verbatim run 14)
+    rub pa phyogs yin pa'i phyir ro// gang la rtsod pa yod pa de sgrub pa'i phyir sgrub par byed pa nye bar dgod par rigs pa yin na/ thams cad l
+- bde bar gshegs pa'i gzhung rnam par 'byed pa'i bshad pa/ (sugatamatav…  [Toh 3900 (Tengyur)]  BO_T04_D3900:36b-8  (3 hits; verbatim run 12)
+    gas pa sprul pa'i phyir te/ las las 'jig rten sna tshogs skyes// de ni sems pa dang nges byas// sems pa yid kyi las yin no// des skyed lus d
+- kun tu bzang po'i sgrub pa'i thabs kyi 'grel pa/ (samanabhadrasādhana…  [Toh 1867 (Tengyur)]  BO_T02_D1867:183a-13  (2 hits; verbatim run 10)
+    yid kyi las rnams gang yin pa de thams cad ni nyon mongs pa can gyi sems kyi 'jug pa yin gyi/ de kho na nyid mthong ba rnams kyi ni ma yin n
+
+QUOTED IN / COMMENTED ON BY (69 other works; first 8):
+- mngon pa :: 110NGONPA  BO_S05_NGONPA-110:929  [Sungbum/series; run 14]
+- dpe rnying :: ZTSA005  BO_S10_ZTSA005:907  [Sungbum/series; run 14]
+- dam pa'i chos mngon pa kun las btus pa'i 'grel ba shes…  BO_S05_NGONPA-108:15497  [Sungbum/series; run 14]
+- kun gzigs ma hA paN+Ti ta rje bla ma gzhan phan chos k…  BO_TSD_BO_DC_SHE-SEN-01:42  [Tsadra series; run 14]
+- sdom pa gsum gyi rab tu dbye ba'i rnam bshad legs par …  BO_S06_DOMSUM-162:1770  [Sungbum/series; run 14]
+- rgyud kyi mngon par rtogs pa'i gsal byed legs par bsha…  BO_S11_GYTU305:1305  [Sungbum/series; run 14]
+- rgyud kyi mngon par rtogs pa'i gsal byed legs par bsha…  BO_S08_LAMD212:1305  [Sungbum/series; run 14]
+- rgyu pha rol tu phyin pa'i theg pa'i grub mtha' bzhi'i…  BO_S10_AMAI038:589  [Sungbum/series; run 14]
+
+Next: dm.py parallels <segmentnr> for variant readings; dm.py segment <segmentnr> --context for the surrounding text (e.g. a commentary's gloss of the line).

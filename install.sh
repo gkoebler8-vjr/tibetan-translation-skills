@@ -7,6 +7,9 @@
 #   ./install.sh --public        also fetch the freely redistributable Tibetan-English dictionaries of
 #                                Christian Steinert's open-source project (Hopkins, Rangjung Yeshe, Berzin,
 #                                Valby, Ives/Waldo, 84000 glossary ...) and index them (~38 MB download)
+#   ./install.sh --cat           also set up Tiger CAT, the local app in cat/: a venv at ~/.venvs/vcat
+#                                (python-docx, pyewts) and the double-clickable cat/Tiger CAT.app.
+#                                Without this flag the app is not touched.
 #
 # Idempotent: safe to re-run. Nothing here is uploaded anywhere.
 set -euo pipefail
@@ -17,11 +20,13 @@ DATA="$HOME/.tibdict"
 GOLDEN=""
 SKILLS_ONLY=0
 PUBLIC=0
+CAT=0
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --skills-only) SKILLS_ONLY=1; shift ;;
     --golden) GOLDEN="$2"; shift 2 ;;
     --public) PUBLIC=1; shift ;;
+    --cat) CAT=1; shift ;;
     *) echo "unknown arg: $1" >&2; exit 2 ;;
   esac
 done
@@ -32,7 +37,17 @@ for s in tibetan-translate tibetan-verse tibetan-citations tibetan-dharmamitra; 
   rm -rf "$HOME/.claude/skills/$s"
   cp -R "$HERE/skills/$s" "$HOME/.claude/skills/$s"
 done
-[[ $SKILLS_ONLY -eq 1 ]] && { echo "done (skills only)"; exit 0; }
+install_cat() {
+  local CVENV="$HOME/.venvs/vcat"
+  echo "cat: Tiger CAT venv at $CVENV (python-docx, pyewts)"
+  if [[ ! -x "$CVENV/bin/python3" ]]; then "$PY" -m venv "$CVENV"; fi
+  "$CVENV/bin/pip" install -q --upgrade pip
+  "$CVENV/bin/pip" install -q python-docx pyewts
+  echo "cat: building cat/Tiger CAT.app"
+  bash "$HERE/cat/tools/make_app.sh"
+  echo "cat: done. Double-click \"$HERE/cat/Tiger CAT.app\" or run: $CVENV/bin/python3 cat/tools/serve.py --port 8765"
+}
+[[ $SKILLS_ONLY -eq 1 ]] && { [[ $CAT -eq 1 ]] && install_cat; echo "done (skills only)"; exit 0; }
 
 echo "2/4 python venv at $VENV (botok, pyewts)"
 if [[ ! -x "$VENV/bin/python" ]]; then "$PY" -m venv "$VENV"; fi
@@ -62,4 +77,5 @@ if [[ $PUBLIC -eq 1 && -d "$DATA/public" ]]; then ARGS+=(--public "$DATA/public"
 if [[ -n "$GOLDEN" ]]; then ARGS+=(--golden "$GOLDEN"); else ARGS+=(--golden "${TIBDICT_GOLDEN:-/nonexistent}"); fi
 "$VENV/bin/python" "$TIBDICT" "${ARGS[@]}"
 "$VENV/bin/python" "$TIBDICT" status
+[[ $CAT -eq 1 ]] && install_cat
 echo "done. Try: python3 ~/.claude/skills/tibetan-translate/tools/tibdict.py annotate \"བླ་མའི་བྱིན་རླབས།\""

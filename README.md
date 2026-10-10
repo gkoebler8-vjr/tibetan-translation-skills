@@ -57,6 +57,22 @@ long text, a reading grounded in the commentaries, and notes for editor and read
 translation of a page, the model at max effort is as faithful and costs less; v2 has not been
 measured against it yet beyond one smoke run.
 
+## Tiger CAT, the app
+
+`cat/` holds Tiger CAT, a local app around the skill for translating a whole text: paste the Tibetan,
+set the brief, run the skill page by page, review every segment beside its Tibetan with the notes,
+the commentaries and the MITRA opinion, revise, and export a Word file with real footnotes. The app
+itself never calls a model or Dharmamitra: each page is a headless session of **your own Claude
+Code** with the installed skill, under your own login, in the project's run folder. Set it up with
+
+```bash
+./install.sh --cat
+```
+
+then double-click `cat/Tiger CAT.app` (or run `python3 cat/tools/serve.py --port 8765` and open
+http://127.0.0.1:8765). The skill works without the app; the app needs the installed skill. Details,
+use and limits: [cat/README.md](cat/README.md).
+
 ## Requirements
 
 - macOS or Linux, Python 3.9+ (3.11 recommended) (`python3.11` via Homebrew on the Mac this was built on), `git`, `curl`.
@@ -365,8 +381,9 @@ skills/                 the four skills (source of truth; install.sh copies them
   tibetan-dharmamitra/  SKILL.md + reference/ (compare, compare-log) + tools/ (mitra.py, setup_mitra.sh: optional local model)
 docs/                   Test_Report_2026-10-03.md, the overhaul report, own-dictionaries.md, research/ (Dharmamitra API notes)
 tests/                  campaign_2026-10-03/ (33 judged page runs and the bare-model baseline: material, outputs, checks, judge reports, token tables)
+cat/                    Tiger CAT, the local app (app/ UI, tools/serve.py, projects/, Tiger CAT.app; see cat/README.md)
 resources/              downloaded dictionary data (gitignored)
-install.sh  export.sh   setup; copy edited live skills back into the repo
+install.sh  export.sh   setup (--cat adds the app); copy edited live skills back into the repo
 LICENSE  LICENSE-NOTES.md
 ```
 
@@ -389,7 +406,7 @@ committing:
 
 ## Licences
 
-Code (`skills/*/tools/`, `install.sh`, `export.sh`, `tests/**/*.py`): MIT. Text (SKILL.md and
+Code (`skills/*/tools/`, `cat/app/`, `cat/tools/`, `install.sh`, `export.sh`, `tests/**/*.py`): MIT. Text (SKILL.md and
 reference files, docs, READMEs, test reports): CC BY 4.0, attribution "Tibetan Translation Skills by
 Gabriel Kobler, built with Claude (Anthropic)". Third-party data is not bundled. The installer
 downloads the MITRA Tibetan Lexicon (Dharmamitra, CC BY-SA 4.0) and, on request, open dictionaries

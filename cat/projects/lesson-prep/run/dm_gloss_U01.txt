@@ -1,0 +1,59 @@
+DharmaMitra primary search · semantic · no re-ranking · 158 hits in 94 works
+query (16 syllables): mi rtag pa la rags pa'i mi rtag pa dang phra ba'i mi rtag pa gnyis
+(context: DharmaNexus text view, 2 request(s) for 1 work(s): rgyal tshab dar ma rin chen — bzhi brgy…; gloss found in 0)
+
+=== rgyal tshab dar ma rin chen — bzhi brgya pa'i rnam bshad legs bshad s… · ACIP sungbum · BO_ACIP-SUNGBUM_S5428I_T:457 · QUOTE (+1 more hit: 210)
+na dge ba'i bshes gnyen po to ba gsung pa ltar 'chi ba mi rtag pa blo la ma skyes par du rtogs pa skye ba'i lam 'gags pa yin pas rags pa'i mi rtag pa dang/ phra ba'i mi rtag pa gnyis ka rgyun ldan du bsgom par bya'o/ rnyed bkur srid pa'i 'ching ba gcod byad cing/ dben par bsgrub la brtson pa'i bskul ma mchog /
+   449: bdag dang bdag gi ba la chags pas 'jigs nas 'gro mi nus so zhe na/
+   450: 'chi ba mi rtag pa bsgom pa la brtson par byas na bdag dang bdag gi ba la yang chags pa dang bral bar 'gyur te/
+   451: 'di ltar bdag ni nam 'chi nges pa med cing myur du 'chi'o snyam du sems pa gang la myur du 'chi bar thag chod pa'i nges pa yod par gyur pa de ni/
+   452: 'du 'dzi thams cad spangs nas bdag la yang srid pa'i chags pa yongs su btang ba'i phyir 'chi bdag la yang ga la 'jigs 'jigs pa spangs nas thar pa thob par 'gyur bas na nags su 'gro ba dang bu dang bral ba la 'jigs @014b par mi 'gyur ro/
+   453: dper na kha zas dug med par bya ba'i phyir sor gdub 'jugs dang/
+   454: kha zas dug can 'dor ba bzhin no/
+   455: dpe kha cig las 'byung ba ltar nges par yod ces kyang bshad pa la 'gal ba med do/
+   456: de ltar sngar bshad pa ltar 'chi bdag gi gzhan dbang du gyur nas 'chi nges pa dang nam 'chi nges pa med pa yang dang yang du bsams par bya ste/
+>> 457: 'di la khrid legs par tshud na lam gong ma rnams kyang 'bad pa med par skye la gzhan du na dge ba'i bshes gnyen po to ba gsung pa ltar 'chi ba mi rtag pa blo la ma skyes par du rtogs pa skye ba'i lam 'gags pa yin pas rags pa'i mi rtag pa dang/
+   458: phra ba'i mi rtag pa gnyis ka rgyun ldan du bsgom par bya'o/
+   459: rnyed bkur srid pa'i 'ching ba gcod byad cing/
+   460: dben par bsgrub la brtson pa'i bskul ma mchog /
+   461: gsung rab kun gyi gsang ba'i dam pa ni/
+   462: thog mar 'chi ba rjes su dran pa'o/
+   463: zhes pa bsdu ba'i tshigs su bcad pa'o/
+   464: gnyis pa le'u'i mtshan bstan pa ni/
+   465: byang chub sems dpa'i rnal 'byor spyod pa bzhi brgya pa'i rnam bshad legs par bshad pa'i snying po zhes bya ba las rtag par 'dzin pa spangs pa'i thabs bstan pa ste rab tu byed pa dang po'i 'grel pa'o//
+   (no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_ACIP-SUNGBUM_S5428I_T:517 --context --window 8 reads on)
+
+=== dpe rnying :: MANG029 · Sungbum/series · BO_S10_MANG029:337 · QUOTE
+sa/ zhes pa de'o/ gnyis pa shes 'dod chos can ni/ snang sel so sor ma phye ba'i sgra tsam yin la/ sgrub chos ni/ rags pa'i mi rtag pa dang / phra ba'i mi rtag pa gnyis las 'dir phyi ma'o/ rtags kyi don la/ 'dir gang yod de 'jig bum pa bzhin/ zhes pa'i rtags sgra ji bzhin du khas len nam ji ltar byed ce na/
+
+=== mdo kun las btus pa'i bshad pa rin po che snang ba'i rgyan ces bya ba… · Tengyur, Toh 3935 · BO_T04_D3935:262a-21 · NEAR (+1 more hit: 261b-12)
+i rtag par lta ba'o// de la nang gi mi rtag pa ni skad cig pa dang / rgyun mi rtag pa dang / glo bur gyis mi rtag pa'o// phyi'i mi rtag pa ni dus kyis mi rtag pa ste/ rnam par bam pa la sogs pa'o// de dag kyang yang dang yang du goms par bya ba dang / gnas skabs rnam pa dgur rang gi lus dang mgo bsgre bas log par sgrub pa spang bar 'gyur te/
+
+=== rnal 'byor spyod pa'i sa las gzhi bsdu ba/ ([yogācārabhūmau vastusaṁg… · Tengyur, Toh 4039 · BO_T06_D4039:140a-26 · NEAR (+1 more hit: 252a-3)
+es pa dgu dang brjed mi ngas// khyad par dag tu 'gro ba dang // bdag tu lta ba'i bye brag dang // 'du byed mtshan nyid rnam pa gsum// chos kyi mdo la sogs pa yi// sde tshan rgya chen tha ma yin// lnga po 'di dag ni 'du byed rnams la mi rtag pa'i 'du shes sgom pa'i rnam pa ste/ 'di lta ste/ mi rtag pa dang / mi brtan pa dang / ther zug ma yin pa dang / yid brtan du mi rung ba dang //
+
+=== rnam par bshad pa'i rigs pa'i bshad pa/ (vyākhyāyuktiṭīkā) · Tengyur, Toh 4069 · BO_T06_D4069:178a-8 · NEAR
+a nas rnam par shes pa'i bar mi rtag pa 'dis so// gnyis kyis ni ste mi brtan pa/ yid brtan du mi rung ba zhes bya ba 'di gnyis kyis te bzhin du rigs mthun pa la brten nas yun ring du mi gnas pa nyid kyi phyir dang / dus ma yin par 'chi ba srid pa'i phyir na mi brtan pa/ yid brtan du mi rung ba gnyis kyi rgyun 'jig pa'i mi rtag pa nyid ston par byed do//
+
+=== 'phags pa lang kar gshegs pa zhes bya ba theg pa chen po'i mdo'i 'gre… · Tengyur, Toh 4019 · BO_T05_D4019:148b-19 · NEAR
+a sogs pa'i don ni byis pa rnams kyis bdag rtag pa la sogs pa dngos por zhen pa dam du bzung ba rnams/ ji ltar shing la sogs pa'i gzer chen po gzer phra mos 'byin par byed pa ltar// de 'dra ba'i phyin ci log rags pa rnams kyang mi rtag pa la sogs pa dngos por bstan pas rim gyis brid de rnam par rtog pa phra mos rags pa rnams zlog par byed pa'o//
+
+=== rnam par bshad pa'i rigs pa/ (vyākhyāyukti) · Tengyur, Toh 4061 · BO_T06_D4061:51b-9 · NEAR
+na ring po nas 'jig pa'o// gsum pas ni dus nges par 'jig pa'o// bzhi pas ni 'gyur ba med par 'jig pa'o// gzhan yang gcig gis ni skad cig mar 'jig pa'i mi rtag pa nyid ston par byed la/ gnyis kyis ni rgyun gyi 'jig pa'i mi rtag pa nyid de ris mthun pa las yun ring du mi gnas pa nyid kyi phyir dang / dus ma yin par 'chi srid pa'i phyir ro//
+
+=== 'phags pa dgongs pa nges par 'grel pa'i mdo'i rnam par bshad pa/ (āry… · Tengyur, Toh 4358 · BO_T16_D4358-2:147a-13 · NEAR
+skad cig ma nyid ces bya ba bsgrub par bya ba'i chos 'di rjes su dpag par bya'o// de la dpag pa'i mi rtag par rags pa nyid mngon sum du dmigs pa gang yin pa zhes bya ba la/ de la zhes bya ba ni rjes su dpag par bya ba'i chos can 'du byed kyi dngos po de la'o// gnas pa'i mi rtag pa rags pa nyid ces bya ba ni/
+
+=== 'phags pa dgongs pa zab mo nges par 'grel pa'i mdo'i rgya cher 'grel … · Tengyur, Toh 4016 · BO_T05_D4016-3:139b-35 · NEAR (+3 more hits: 141b-25, 141a-18, 139b-32)
+yir mngon sum gyi tshad ma zhes bya ste/ 'di ltar mi rtag pa rags pa 'di la brten nas mi rtag pa phra mo la sogs pa rjes su dpag pa'i phyir mngon sum gyi tshad ma la gnas nas dmigs pa'i mtshan nyid ces bya ba'o zhes bstan par 'gyur ro// dngos po de yang ji lta bu zhe na/ de la re zhig tshe gcig gi mi rtag pa'i don rags pa la brten nas mi rtag pa nyid du mngon sum mthong ba ni mi rtag pa'i mngon sum gyi tshad ma zhes bya'o//
+
+=== D3880 · Tengyur, Toh 3880 · BO_T04_D3880:278b-1 · NEAR (+1 more hit: 278a-33)
+zhin kho na phra zhing mi gsal bar ga la 'gyur/ rtag pa'i phyir ro// gcig la tshul du mi rigs so// rags pa gsal ba'i dngos po dor nas phra ba mi gsal ba'i tshul du gyur na/ 'o na rags pa dang phra ba mi rtag pa'i tshul du 'gyur/ skye ba dang 'gags pas so// mi rtag pas ci ste zhe na/ smras pa/ de tsam nyi shu lnga thams cad rags pa dang / phra ba bzhin du mi rtag par ci ste mi 'dod/
+
+=== byang chub sems dpa'i spyod pa la 'jug pa'i rtogs par dka' ba'i gnas … · Tengyur, Toh 3875 · BO_T04_D3875A:155a-19 · NEAR (+1 more hit: 155a-15)
+ir ro// gal te rim gyis rags pa spangs nas phyis phra bar 'gyur gyi cig car du ni ma yin no snyam pa la/ rags pa zhes smos te/
+
+=== de kho na nyid bsdus pa'i dka' 'grel/ (tattvasaṁgrahapañjikā) · Tengyur, Toh 4267 · BO_T11_D4267:276a-17 · NEAR
+po nyid do// mi rtag pa ni rdul phra rab gsum pa la sogs pa'i rdzas rnams la'o// de bzhin du rdul phra rab kyang rnam pa gnyis te/ rtag pa dang / mi rtag pa'o// rtag pa ni rdul phra rab dang / yid la zlum pa'i mtshan nyid can no// mi rtag pa ni rdul phra rab gnyis pa nyid do// ut+pa la dang / skyu ru ra dang / bil ba la sogs pa chen po la yang /
+
+(82 further works not shown; --n-works raises the cap)

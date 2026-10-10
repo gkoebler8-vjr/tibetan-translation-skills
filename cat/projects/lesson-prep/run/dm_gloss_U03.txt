@@ -1,0 +1,121 @@
+DharmaMitra primary search · semantic · no re-ranking · 167 hits in 114 works
+query (16 syllables): sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal/
+(context: DharmaNexus text view, 8 request(s) for 5 work(s): rten cing 'brel par 'byung ba dang po d…, chos mngon pa'i mdzod kyi bshad pa'i rg…, zhal gdams lam rim ye shes snying po'i …, tshar chen chos kyi rgyal pos mdzad pa'…, legs par bshad pa lung rigs kyi rgya mt…; gloss found in 3)
+
+=== rten cing 'brel par 'byung ba dang po dang rnam par 'byed pa bstan pa… · Tengyur, Toh 3996 · BO_T05_D3996:165a-21 · GLOSS (la bya gloss) (+1 more hit: 165a-17)
+sdug bsngal ni sdug bsngal ba'i sdug bsngal nyid yin no// bde ba ni 'gyur ba'i sdug bsngal nyid yin no// sdug bsngal yang ma yin/ bde ba yang ma yin pa ni 'du byed kyi sdug bsngal nyid yin no// de khyab pa yin pa'i phyir ro zhes bya ba ni 'du byed kyi sdug bsngal la bya ste/ de ni tshor ba thams cad la khyab pas so//
+   165a-18: bcom ldan 'das kyis ni sdug bsngal rnam pa gsum bstan pa yin la zhes bya ba ni sdug bsngal gyi sdug bsngal nyid dang / 'gyur ba'i sdug bsngal nyid dang / 'du byed kyi sdug bsngal nyid do/ /
+>> 165a-21: de la sdug bsngal ni sdug bsngal ba'i sdug bsngal nyid yin no/ /
+   165a-22: bde ba ni 'gyur ba'i sdug bsngal nyid yin no/ /
+   165a-23: sdug bsngal yang ma yin/
+   165a-24: bde ba yang ma yin pa ni 'du byed kyi sdug bsngal nyid yin no/ /
+GL 165a-25: de khyab pa yin pa'i phyir ro zhes bya ba ni 'du byed kyi sdug bsngal la bya ste/
+   165a-26: de ni tshor ba thams cad la khyab pas so/ /
+   165a-27: mi 'gyur te nye bar len pa'i phung po lnga la dgongs te gsungs pa'i phyir ro zhes bya ba ni de ltar lam la thal bar 'gyur ba nyid ma yin te/
+   165a-28: 'di ltar nye bar len pa'i phung po lnga la dgongs nas gang mi rtag pa de sdug bsngal ba'o zhes de skad gsungs so/ /
+   165a-29: ci'i phyir zhe na zhes bya ba ni gang mi rtag pa de sdug bsngal ba yin par bstan na go/ /
+   165a-30: lam yang mi rtag pa yin na 'dir ci'i phyir nye bar len pa'i phung po gang yin pa de kho na mi rtag pa yin pa'i phyir sdug bsngal ba yin gyi/
+   165a-31: lam ma yin zhe na zhes bya ba yin no/ /
+   165a-32: de'i phyir 'dun pa dang 'dod chags kyi dngos po gang yin pa de nyid la zhes rgyas par smras te/
+   165a-33: 'dun pa dang 'dod chags kyi dmigs pa ni 'dun pa
+
+=== chos mngon pa'i mdzod kyi bshad pa'i rgya cher 'grel pa don gyi de kh… · Tengyur, Toh 4421 · BO_T16_D4421-2:194a-20 · GLOSS (zhes bya ba ni gloss)
+as sdug bsngal zhes bya ba'i tha tshig go// 'gyur bas sdug bsngal ba nyid ni 'gyur ba'i sdug bsngal nyid do// rang gi ngo bos ma yin zhes bya ba'i don to// 'du byed kyis sdug bsngal ba nyid ni 'du byed kyi sdug bsngal nyid de skye bas zhes bya ba'i tha tshig go// de la yid du 'ong ba rnams ni/ 'gyur ba'i sdug bsngal gyis zhes bya ba ni de dang bral bas 'dod chags dang bral ba ma yin pa rnams nges par mya ngan la sogs pa skye bas 'gyur ba'i sdug bsngal nyid kyis sdug bsngal ba nyid do//
+   194a-19: sdug bsngal kho na sdug bsngal nyid yin pa ni sdug bsngal gyi sdug bsngal nyid de/
+>> 194a-20: rang gi ngo bo kho nas sdug bsngal zhes bya ba'i tha tshig go/ /
+   194a-21: 'gyur bas sdug bsngal ba nyid ni 'gyur ba'i sdug bsngal nyid
+   … (3 segments)
+   194b-3: de la yid du 'ong ba rnams ni/
+   194b-4: 'gyur ba'i sdug bsngal gyis zhes bya ba ni de dang bral bas 'dod chags dang bral ba ma yin pa rnams nges par mya ngan la sogs pa skye bas 'gyur ba'i sdug bsngal nyid kyis sdug bsngal ba nyid do/ /
+GL 194b-5: yid du mi 'ong ba rnams ni sdug bsngal gyi sdug bsngal gyis zhes bya ba ni de rnams ni sdug bsngal gyi rang bzhin dang sdug bsngal dang mthun pa nyid kyis sdug bsngal ba nyid do/ /
+   194b-6: mngon sum du gyur pas lus dang sems dag la gnod par 'byung ba'i phyir ro/ /
+   194b-7: de dag las gzhan pa rnams ni zhes bya ba ni yid du 'ong ba dang yid du mi 'ong ba dag las gzhan pa ste/
+   194b-8: de dag ni rgyu dang rkyen gyis mngon par 'du byas pa nyid kyi sdug bsngal lo/ /
+   194b-9: tshor ba rnams kho na phan pa dang gnod pa dang de gnyis ka dang bral ba'i bdag nyid yin pa'i phyir yid du 'ong ba la sogs pa nyid du grub na gzugs la sogs pa rnams ji ltar yin zhes 'dri ba ni/
+   194b-10: yid du 'ong ba ni gang dag yin zhes bya ba rgyas par 'byung ba'o/ /
+   194b-11: de'i dbang gis zhes bya ba ni bden pa la sogs pa'i tshor ba'i dbang gis so/ /
+   194b-12: ci ltar bde ba'i tshogs su gyur pa yid du 'ong ba 'dis yid du mi 'ong ba dang de las gzhan pa yang bshad ce na/
+   194b-13: 'di skad bstan par 'gyur te/
+
+=== zhal gdams lam rim ye shes snying po'i rnam 'grel rab gsal nyin byed … · Tsadra series · BO_TSD_BO_DC_KN-LYN-02:1477 · GLOSS (ni … ste gloss)
+ug bsngal gyi sdug bsngal ni mtshan gzhi'i gtso bor dmyal ba tsha grang / yi dwags bkres skom/ dud 'gro glen lkugs rnams yin la/ sdug bsngal chen po mngon par mdze thog tu phol mig byung ba lta bu'o/ 'gyur ba'i sdug bsngal ni 'khor ba'i bde 'byor thams cad mi rtag g.yo ba'i chos can yin pas bde bar sdod la nad dam dgras glo bur du bcom pa lta bu ste/
+   1476: de la 'khor ba'i sdug bsngal mdor bsdu na gsum ste/_
+>> 1477: sdug bsngal gyi sdug bsngal ni mtshan gzhi'i gtso bor dmyal ba tsha grang /_
+   1478: yi dwags bkres skom/_
+   … (2 segments)
+   1481: 'gyur ba'i sdug bsngal ni 'khor ba'i bde 'byor thams cad mi rtag g.yo ba'i chos can yin pas bde bar sdod la nad dam dgras glo bur du bcom pa lta bu ste/_
+   1482: lha mi rnams ltar snang bde ba ltar gnas kyang don du mi rtag par 'gyur nas 'gro bas so/_
+GL 1483: khyab pa 'du byed kyi sdug bsngal ni phung lngas bsdus pa'i 'khor ba'i chos thams cad skad cig gis skye 'gags byed pa so skyes mi rtogs kyang 'phags pa rnams kyi gzigs ngor rtag tu g.yo ba'i 'du byed can yin pas sdug bsngal ba ste/_
+   1484: mdzod TIka las/
+   1485: byis pa lag mthil 'dra ba yis/_
+   1486: 'du byed sdug bsngal spu mi rtogs/_
+   1487: 'phags pa mig dang 'dra ba yis/_
+   1488: 'du byed la ni sdug bsngal gzigs/_
+   1489: zhes so/_
+   1490: des na 'khor ba'i gnas gang du skyes kyang sdug bsngal gsum gyi rang bzhin las ma 'das pas de dag las myur du thar bar 'dod pa'i blo shugs drag po 'phral rkyen gyis bskul ba'i bcos ma ma yin pa snying khung rus pa'i gting nas yang dang yang du bskyed par bya ste/_
+   1491: 'dul ba lung las/
+
+=== Unknown — BYANG CHUB LAM GYI RIM PA'I 'KHRID KYI SA BCAD · ACIP sungbum · BO_ACIP-SUNGBUM_SD5394E_T:372 · QUOTE (+2 more hits: 379, 367)
+nges pa med pa/ ngoms mi shes pa/ lus yang dang yang du 'dor ba/ yang dang yang du nying mtshams sbyor ba/ yang dang yang du mtho dman du 'gyur ba/ grogs med pa'i nyes pa bsam pa'o/ gsum pa la gsum/ sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal lo/ gnyis pa so so'i sdug bsngal bsam pa la drug /
+
+=== bdud rtsi'i zegs ma/ · Tsadra series · BO_TSD_BO_DC_BOK-001:697 · QUOTE (+2 more hits: 699, 693)
+so so so la sdug bsngal mi 'dra ba zhe drag mang po yod pa red/ yin na yang rigs drug spyi khyab la sdug bsngal gsum gyi rang bzhin yin pa sdug bsngal gsum de tshang ma la yod par bstan pa red/ sdug bsngal gsum ni sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal lo/
+
+=== thun mong gi sngon 'gro'i chos bshad rin chen them skas zhes bya ba b… · Tsadra series · BO_TSD_BO_DC_MIN-TC-02:662 · QUOTE (+2 more hits: 656, 651)
+de yang mdor bsdu na rnam pa gsum ste/ sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal dang gsum mo/ dang po ni/ dper na rma khar dug btab pa bzhin tsha grang bkres skom sogs tshor ba sdug bsngal thams cad yin te/ gtso bor ngan song gsum na'o/ gnyis pa ni/
+
+=== lam rim dang blo sbyong nyams len gces btus/ · Tsadra series · BO_TSD_BO_DC_RDI-SS-05:3414 · QUOTE (+2 more hits: 2394, 2395)
+'pho ba dang gnas pa la rang dbang med pas gnas ngan len gyis ni sdug bsngal lo/ mdor na khams gsum gnas ris mtho dman gang du skyes kyang sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal gsum gyi rgya mtshor rtag tu g.yeng ba'i tshul la bsam ste 'khor ba las blo ldog go /
+
+=== tshar chen chos kyi rgyal pos mdzad pa'i gsung ngag lam rim smon lam … · Sungbum/series · BO_S08_LAMD175:183 · QUOTE (+1 more hit: 190)
+da/ 'on kyang glo bur dri mas bsgribs/ ces dang*/ bstan bcos las/ sems can la nyon mongs la ma dag pa'i snang ba zhes pas bstan/ de la gsum/ 'khor ba'i sdug bsngal bsam pa/ dal 'byor rnyed dka' bsam pa/ las 'bras bsam pa'o/ dang po la gsum/ sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal lo/
+   175: tha mar dge ba bsngo smon gyis rgyas gdab pa rnams su yod pa las/
+   176: 'dir skyabs 'gro dngos su bstan nas/
+   177: sems bskyed dang bsngo smon gyi don shugs las bstan cing skyabs su 'gro ba mthar phyin pa'i phyir bslu med skyabs mgon sogs tshigs su bcad pa gcig gsungs pa'i don ni go sla'o/
+   178: gnyis pa dngos gzhi snang ba gsum gyi dang po ma dag pa'i snang ba la/
+   179: spyi gzhung gnyis/
+   180: dang po la/
+   181: lung ni/
+   182: brtag pa gnyis pa las/
+>> 183: sems can rnams ni sangs rgyas nyid/
+   184: 'on kyang glo bur dri mas bsgribs/
+   185: ces dang*/
+   186: bstan bcos las/
+   187: sems can la nyon mongs la ma dag pa'i snang ba zhes pas bstan/
+   188: de la gsum/
+   189: 'khor ba'i sdug bsngal bsam pa/
+   190: dal 'byor rnyed dka' bsam pa/
+   191: las 'bras bsam pa'o/
+   (no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_S08_LAMD175:243 --context --window 8 reads on)
+
+=== legs par bshad pa lung rigs kyi rgya mtsho bzhugs so · Sungbum/series · BO_S03_PARCHIN-080:7047 · QUOTE (+1 more hit: 7043)
+go / zhes so/ mtshan gzhi'i sgo nas dbye na/ sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal lo/ dang po ni/ tshor ba sdug bsngal rgyu dang bcas pa lta bu/ gnyis pa ni/ zag bcas kyi tshor ba bde ba rgyu dang bcas pa lta bu/ gsum pa ni/ zag bcas kyi tshor ba btang snyoms rgyu dang bcas pa dang*/
+   7039: 'og min la sogs pa'i snod kyi 'jig rten sdug bsngal gyi bden pa ma yin te/
+   7040: las nyon gyi dbang gis byung ba ma yin pa'i phyir/
+   7041: sangs rgyas kyi zhing phun sum tshogs pa 'grub pa'i smon lam dang dge ba'i rtsa ba'i dbang gi byung ba'i phyir te/
+   7042: kun btus las/
+   7043: yongs su dag pa'i 'jig rten gyi khams de dag ni sdug bsngal gyi bden pa ma yin pa blta ste/
+   7044: de dag las dang nyon mongs pas skyed pa ma yin/
+   7045: las dang nyon mongs pa'i dbang gis byung ba ma yin gyi/
+   7046: smon lam dang dge
+>> 7047: ba'i rtsa ba'i dbang gis byung ba dag go_/
+   7048: zhes so/
+   7049: mtshan gzhi'i sgo nas dbye na/
+   7050: sdug bsngal gyi sdug bsngal/
+   7051: 'gyur ba'i sdug bsngal/
+   7052: khyab pa 'du byed kyi sdug bsngal lo/
+   7053: dang po ni/
+   7054: tshor ba sdug bsngal rgyu dang bcas pa lta bu/
+   7055: gnyis pa ni/
+   (no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_S03_PARCHIN-080:7107 --context --window 8 reads on)
+
+=== Unknown — BYANG CHUB LAM RIM CHEN MO'I SA BCAD · ACIP sungbum · BO_ACIP-SUNGBUM_S5394L_T:386 · QUOTE (+1 more hit: 375)
+sa pa bsam pa'o/ gsum pa sdug bsngal gsum bsam pa la gsum/ sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal lo/ gnyis pa so so'i sdug bsngal bsam pa la drug / dmyal ba/ yi dwags/ dud 'gro/ mi/ lha ma yin/ lha'i sdug bsngal bsam pa'o/ 'di la gnyis/ 'dod lha'i sdug bsngal dang/
+
+=== — rdo rje 'chang pha bong kha pa dpal bzang pos lam gtso'i zab khrid … · ACIP sungbum · BO_ACIP-SUNGBUM_S0034N_T:985 · QUOTE (+1 more hit: 877)
+zhung du khyer ba lta bu'i ma rig pa'i mun pa'i smag chen gyis kun nas gtibs shing/ mtha' med mu med kyi srid pa'i rgya mtshor skye zhing skye ba la sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal gsum gyis rgyun chad med par dus rtag tu mnar nas sdug bsngal bzod par dka' ba'i gnas skabs 'di 'drar gyur kyang; ma rang gi ngos nas ni bya thabs med la/
+
+=== chos kyi gter mdzod chen po kun 'dus rig pa'i sgron me/ · Nyingma Kama · BO_NK117_(she)001:14092 · QUOTE (+1 more hit: 13843)
+'a thub 'dus // rnam pa brgyad kyi sdug bsngal rtul phod pas // mi yi skye ba'i 'khri shing rtag tu gtser // zhes pa ni sdug bsngal nyid gsum ni sdug bsngal gyi sdug bsngal / 'gyur ba'i sdug bsngal / khyab pa 'du byed kyi sdug bsngal gsum ni 'brog dgon pa srog la ya nga ba'i gnas lta bur skye rga na 'chi'i sdug bsngal gyi tshor ba rnam par 'khyams pa ni de'i ngang du lus pa'o //
+
+(102 further works not shown; --n-works raises the cap)

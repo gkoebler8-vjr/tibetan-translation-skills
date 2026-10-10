@@ -1,0 +1,3915 @@
+{
+ "title": "Lesson Prep",
+ "work": "",
+ "work_name": "lesson-prep",
+ "brief": "",
+ "intro": "# Lesson Prep",
+ "build": {
+  "python": "/Users/gabrielkobler/.venvs/vcat/bin/python3",
+  "run_dir": "/Users/gabrielkobler/Desktop/Tibetan Translation Skills/cat/projects/lesson-prep/run",
+  "units": "/Users/gabrielkobler/Desktop/Tibetan Translation Skills/cat/projects/lesson-prep/run/lesson-prep.units.md",
+  "work": "lesson-prep",
+  "title": "",
+  "brief": "",
+  "out": "/Users/gabrielkobler/Desktop/Tibetan Translation Skills/cat/projects/lesson-prep/data.json",
+  "final_mtime": 1791527981.1653273
+ },
+ "page_source": "",
+ "run_dir": "/Users/gabrielkobler/Desktop/Tibetan Translation Skills/cat/projects/lesson-prep/run",
+ "units_file": "/Users/gabrielkobler/Desktop/Tibetan Translation Skills/cat/projects/lesson-prep/run/lesson-prep.units.md",
+ "units": [
+  {
+   "id": "U01",
+   "hint": "prose",
+   "tib": "འདི་རིང་གི་བརྗོད་བྱ། ༡ འཆི་བ་མི་རྟག་པ་བསམ་པ། མི་རྟག་པ་ལ་རགས་པའི་མི་རྟག་པ་དང་དང་ཕྲ་བའི་མི་རྟག་པ་གཉིས། གཉིས་པ་ཕྲ་བའི་མི་རྟག་པ་ནི། དངོས་པོ་རྣམས་སྐད་ཅིག་སྐད་ཅིག་གི་འགྱུར་འགྲོ་བ། རང་ཉིད་འཆི་བ་མི་རྟག་སྒོམ་ཚུལ། སྒོམ་པའི་ཐབས་གསུམ། བདག་ངེས་པར་འཆི་བ་སྒོམ་པ།",
+   "wylie": "'di ring gi brjod bya/ 1 'chi ba mi rtag pa bsam pa/ mi rtag pa la rags pa'i mi rtag pa dang dang phra ba'i mi rtag pa gnyis/ gnyis pa phra ba'i mi rtag pa ni/ dngos po rnams skad cig skad cig gi 'gyur 'gro ba/ rang nyid 'chi ba mi rtag sgom tshul/ sgom pa'i thabs gsum/ bdag nges par 'chi ba sgom pa/",
+   "tags": [
+    {
+     "kind": "form",
+     "label": "Prose",
+     "detail": "prose (lesson outline: four headings, two definitions, the first of three list items)"
+    },
+    {
+     "kind": "register",
+     "label": "Exposition",
+     "detail": "exposition"
+    }
+   ],
+   "open_q": 2,
+   "header": "U01 · prose (lesson outline: four headings, two definitions, the first of three list items) · exposition · new practitioner · not a citation · grounding: none found (DM primary search: the formula only quoted, in Gyaltsab's Four Hundred commentary; the three ways match the lamrim's three roots) · prior: none · confidence: high",
+   "fields": {
+    "raw": "U01 · prose (lesson outline: four headings, two definitions, the first of three list items) · exposition · new practitioner · not a citation · grounding: none found (DM primary search: the formula only quoted, in Gyaltsab's Four Hundred commentary; the three ways match the lamrim's three roots) · prior: none · confidence: high",
+    "form": "prose (lesson outline: four headings, two definitions, the first of three list items)",
+    "audience": "new practitioner",
+    "source": "not a citation",
+    "grounding": "none found (DM primary search: the formula only quoted, in Gyaltsab's Four Hundred commentary; the three ways match the lamrim's three roots)",
+    "prior": "none",
+    "confidence": "high",
+    "register": "exposition"
+   },
+   "confidence": "high",
+   "confidence_reason": "high — no open fork on content: rang nyid settled by the case frame, the first person is the Tibetan's own; MITRA differs only in phrasing.",
+   "confidence_provisional": false,
+   "text": [
+    "Today's topics",
+    "",
+    "1. Contemplating death and impermanence",
+    "",
+    "There are two kinds of impermanence, gross and subtle. The second, subtle impermanence, is the way things change from moment to moment.",
+    "",
+    "How to meditate on your own death and impermanence",
+    "",
+    "Three ways to meditate:",
+    "Meditating that I will certainly die."
+   ],
+   "footnotes": [],
+   "notes": [
+    {
+     "tag": "Issue",
+     "text": "source context assumed (no work or author named): a teacher's preparation notes for one class, in modern Tibetan with colloquial forms ('di ring, 'gyur 'gro, gsungs kyis yod); headings set as headings, definitions as sentences; only the first topic is numbered (༡), as in the source."
+    },
+    {
+     "tag": "Issue",
+     "text": "dang dang (dittography) read once; the notes define only the second kind (subtle); gross impermanence is named, never defined, and nothing is supplied."
+    },
+    {
+     "tag": "Q",
+     "text": "rang nyid 'chi ba mi rtag sgom tshul: rang nyid = whose death (\"your own death and impermanence\"), taken from the case frame (no ergative; item 1's bdag confirms); alt. \"how you yourself meditate on death and impermanence\".",
+     "resolved": false
+    },
+    {
+     "tag": "Q",
+     "text": "bdag in item 1 kept as \"I\" (the meditator's own thought; Gyaltsab's Four Hundred commentary phrases the meditation the same way: bdag ni nam 'chi nges pa med cing myur du 'chi'o snyam du sems pa, ACIP S5428I_T:451); alt. \"you\" / \"one's own death\".",
+     "resolved": false
+    },
+    {
+     "tag": "Comm",
+     "text": "no gloss of rags pa'i / phra ba'i mi rtag pa found (dm_gloss_U01.txt): Gyaltsab Darma Rinchen's Four Hundred commentary (ACIP S5428I_T:457–458) quotes the pair (meditate continually on both, after Potowa); NEAR only: Toh 4061, 51b-9 (momentary vs continuum impermanence), Toh 4016, 139b-35 (gross impermanence of a life seen directly, subtle inferred), consistent with the body. The three ways = the lamrim's three roots (rtsa ba gsum: Changkya, ACIP S0130M_T:761; TSD RDI-TOK-07:2403)."
+    },
+    {
+     "tag": "Alt",
+     "text": "rags pa'i mi rtag pa \"coarse impermanence\" (MITRA); brjod bya \"Today's subject\"."
+    },
+    {
+     "tag": "MITRA",
+     "text": "agrees on content; renders item 1 \"the certainty of one's own death\" (generic person); kept \"I\", the Tibetan's bdag."
+    },
+    {
+     "tag": "Prior",
+     "text": "no published English translation found (no EN_ hits in any call)."
+    },
+    {
+     "tag": "Conf",
+     "text": "high — no open fork on content: rang nyid settled by the case frame, the first person is the Tibetan's own; MITRA differs only in phrasing."
+    },
+    {
+     "tag": "Check",
+     "text": "in-context, nothing found."
+    }
+   ],
+   "flags": [
+    {
+     "phrase": "your own death and impermanence",
+     "note": 2,
+     "tag": "Q",
+     "tib": "རང་ཉིད་འཆི་བ་མི་རྟག་སྒོམ་ཚུལ"
+    },
+    {
+     "phrase": "you",
+     "note": 3,
+     "tag": "Q",
+     "tib": ""
+    }
+   ],
+   "construal": [
+    {
+     "key": "FORM",
+     "text": "prose outline, 8 shad-pieces: 4 headings (brjod bya; 1 … bsam pa; … sgom tshul; sgom pa'i thabs gsum), 2 definitional statements, 1 list item (first of three; items 2–3 open U02). Register: exposition (outline), plain."
+    },
+    {
+     "key": "SPINE",
+     "text": "no finite verb. Verbless predications: [mi rtag pa la] … gnyis (\"impermanence has two kinds\"); [phra ba'i mi rtag pa ni] [dngos po rnams … 'gyur 'gro ba] (\"subtle impermanence = things' changing moment by moment\"). Verbal nouns: bsam pa (contemplating), sgom tshul (how to meditate), sgom pa (meditating that …)."
+    },
+    {
+     "key": "RELATIONS",
+     "text": "gi (brjod bya) = genitive \"today's\"; la (mi rtag pa la) = locus of division (\"within impermanence: two\"); rags pa'i / phra ba'i = modification; dang = coordination of the two kinds; gnyis pa … ni = topic, \"the second, X, is …\"; skad cig skad cig gi = distributive adverbial bound to the verbal noun (\"from moment to moment\"); rang nyid 'chi ba = self as subject of dying (\"one's own death\"); sgom pa'i thabs = genitive \"ways of meditating\"; bdag nges par 'chi ba = content of sgom pa (\"that I will certainly die\")."
+    },
+    {
+     "key": "NEG/QUANT",
+     "text": "gnyis (two kinds); gnyis pa (the second); gsum (three ways); rnams = plural \"things\"; nges par = certainly (modal, keep). No negation."
+    },
+    {
+     "key": "TERMS",
+     "text": "'chi ba mi rtag pa = death and impermanence; mi rtag pa = impermanence; rags pa'i / phra ba'i mi rtag pa = gross / subtle impermanence; dngos po = things; 'gyur 'gro = change; bsam pa (heading) = contemplating; sgom pa = meditate; brjod bya = topics."
+    },
+    {
+     "key": "Q",
+     "text": "dang dang = dittography; read once (not a fork; Issue)."
+    },
+    {
+     "key": "Q",
+     "text": "rang nyid 'chi ba mi rtag sgom tshul: rang nyid = whose death (\"your own death and impermanence\"), taken: no ergative/genitive, rang nyid is the subject of the verbal noun 'chi ba, and item 1 (bdag nges par 'chi ba) confirms the focus on one's own death; alt. rang nyid = the meditator (\"how you yourself meditate on death and impermanence\")."
+    },
+    {
+     "key": "Q",
+     "text": "person: bdag (I) in item 1 = the meditator's own thought, kept as \"I\"; alt. generic \"you\"/\"one's own\" (MITRA: \"the certainty of one's own death\"). Heading rang nyid = \"your own\" (instruction); the switch your → I is the Tibetan's (rang nyid → bdag). Gyaltsab's first-person phrasing supports \"I\"."
+    },
+    {
+     "key": "Q",
+     "text": "'chi ba mi rtag pa = coordinate set phrase \"death and impermanence\", taken; alt. \"the impermanence that is death\"."
+    },
+    {
+     "key": "Issue",
+     "text": "gnyis pa (the second) defined, the first (gross) never defined in the notes; kept as given, nothing supplied."
+    },
+    {
+     "key": "GROUNDING",
+     "text": "DM primary search (dm_gloss_U01.txt): no gloss of the formula rags pa'i / phra ba'i mi rtag pa. QUOTE: Gyaltsab Darma Rinchen, Four Hundred commentary (ACIP S5428I_T:457–458): after Potowa, meditate continually on both gross and subtle impermanence, in the context of 'chi ba mi rtag pa; the same work phrases the meditation in the first person (S5428I_T:451: bdag ni nam 'chi nges pa med cing myur du 'chi'o snyam du sems pa) → supports keeping \"I\" in item 1. NEAR only (not cited as gloss): Toh 4061, 51b-9 (skad cig mar 'jig pa'i mi rtag pa vs rgyun gyi 'jig pa'i mi rtag pa); Toh 4016, 139b-35 (gross impermanence of one life seen directly, subtle inferred): consistent with the notes' definition of subtle impermanence. Body unchanged: none found."
+    },
+    {
+     "key": "GROUNDING",
+     "text": "the tradition's rtsa ba gsum: Changkya (ACIP S0130M_T:761) nges par 'chi ba bsam pa / nam 'chi cha med bsam pa / 'chi ba'i tshe chos ma gtogs gang gis kyang mi phan pa bsam pa ste rtsa ba gsum; lhag pa shes rab kyi bslab pa rim par phye ba (TSD RDI-TOK-07:2403, same in RDI-SS-05:3050): the three root contemplations, each with three branches. The notes' three headings are this formula; body unchanged."
+    }
+   ],
+   "grounding": [],
+   "mitra": "The subject matter for today: 1. Reflecting on death and impermanence. Regarding impermanence, there are two types: coarse impermanence and subtle impermanence. The second, subtle impermanence, is the moment-by-moment transformation of phenomena. The method for meditating on one’s own death and impermanence consists of three techniques. Meditating on the certainty of one’s own death.",
+   "explore": [],
+   "gloss": [
+    {
+     "summary": "DharmaMitra primary search · semantic · no re-ranking · 158 hits in 94 works",
+     "query": "mi rtag pa la rags pa'i mi rtag pa dang phra ba'i mi rtag pa gnyis",
+     "syllables": 16,
+     "root": "",
+     "context_note": "context: DharmaNexus text view, 2 request(s) for 1 work(s): rgyal tshab dar ma rin chen — bzhi brgy…; gloss found in 0",
+     "notes": [
+      "82 further works not shown; --n-works raises the cap"
+     ],
+     "hits": [
+      {
+       "work": "rgyal tshab dar ma rin chen — bzhi brgya pa'i rnam bshad legs bshad s…",
+       "work_tib": "རྒྱལ་ཚབ་དར་མ་རིན་ཆེན — བཞི་བརྒྱ་པའི་རྣམ་བཤད་ལེགས་བཤད་ས",
+       "collection": "ACIP sungbum",
+       "toh": "",
+       "segid": "BO_ACIP-SUNGBUM_S5428I_T:457",
+       "label": "QUOTE",
+       "kind": "",
+       "more": [
+        "210"
+       ],
+       "is_en": false,
+       "wylie": "na dge ba'i bshes gnyen po to ba gsung pa ltar 'chi ba mi rtag pa blo la ma skyes par du rtogs pa skye ba'i lam 'gags pa yin pas rags pa'i mi rtag pa dang/ phra ba'i mi rtag pa gnyis ka rgyun ldan du bsgom par bya'o/ rnyed bkur srid pa'i 'ching ba gcod byad cing/ dben par bsgrub la brtson pa'i bskul ma mchog /",
+       "tib": "ན་དགེ་བའི་བཤེས་གཉེན་པོ་ཏོ་བ་གསུང་པ་ལྟར་འཆི་བ་མི་རྟག་པ་བློ་ལ་མ་སྐྱེས་པར་དུ་རྟོགས་པ་སྐྱེ་བའི་ལམ་འགགས་པ་ཡིན་པས་རགས་པའི་མི་རྟག་པ་དང། ཕྲ་བའི་མི་རྟག་པ་གཉིས་ཀ་རྒྱུན་ལྡན་དུ་བསྒོམ་པར་བྱའོ། རྙེད་བཀུར་སྲིད་པའི་འཆིང་བ་གཅོད་བྱད་ཅིང། དབེན་པར་བསྒྲུབ་ལ་བརྩོན་པའི་བསྐུལ་མ་མཆོག་།",
+       "ctx": [
+        {
+         "mark": "",
+         "id": "449",
+         "wylie": "bdag dang bdag gi ba la chags pas 'jigs nas 'gro mi nus so zhe na/",
+         "tib": "བདག་དང་བདག་གི་བ་ལ་ཆགས་པས་འཇིགས་ནས་འགྲོ་མི་ནུས་སོ་ཞེ་ན།"
+        },
+        {
+         "mark": "",
+         "id": "450",
+         "wylie": "'chi ba mi rtag pa bsgom pa la brtson par byas na bdag dang bdag gi ba la yang chags pa dang bral bar 'gyur te/",
+         "tib": "འཆི་བ་མི་རྟག་པ་བསྒོམ་པ་ལ་བརྩོན་པར་བྱས་ན་བདག་དང་བདག་གི་བ་ལ་ཡང་ཆགས་པ་དང་བྲལ་བར་འགྱུར་ཏེ།"
+        },
+        {
+         "mark": "",
+         "id": "451",
+         "wylie": "'di ltar bdag ni nam 'chi nges pa med cing myur du 'chi'o snyam du sems pa gang la myur du 'chi bar thag chod pa'i nges pa yod par gyur pa de ni/",
+         "tib": "འདི་ལྟར་བདག་ནི་ནམ་འཆི་ངེས་པ་མེད་ཅིང་མྱུར་དུ་འཆིའོ་སྙམ་དུ་སེམས་པ་གང་ལ་མྱུར་དུ་འཆི་བར་ཐག་ཆོད་པའི་ངེས་པ་ཡོད་པར་གྱུར་པ་དེ་ནི།"
+        },
+        {
+         "mark": "",
+         "id": "452",
+         "wylie": "'du 'dzi thams cad spangs nas bdag la yang srid pa'i chags pa yongs su btang ba'i phyir 'chi bdag la yang ga la 'jigs 'jigs pa spangs nas thar pa thob par 'gyur bas na nags su 'gro ba dang bu dang bral ba la 'jigs @014b par mi 'gyur ro/",
+         "tib": "འདུ་འཛི་ཐམས་ཅད་སྤངས་ནས་བདག་ལ་ཡང་སྲིད་པའི་ཆགས་པ་ཡོངས་སུ་བཏང་བའི་ཕྱིར་འཆི་བདག་ལ་ཡང་ག་ལ་འཇིགས་འཇིགས་པ་སྤངས་ནས་ཐར་པ་ཐོབ་པར་འགྱུར་བས་ན་ནགས་སུ་འགྲོ་བ་དང་བུ་དང་བྲལ་བ་ལ་འཇིགས་༄༠༡༤བ་པར་མི་འགྱུར་རོ།"
+        },
+        {
+         "mark": "",
+         "id": "453",
+         "wylie": "dper na kha zas dug med par bya ba'i phyir sor gdub 'jugs dang/",
+         "tib": "དཔེར་ན་ཁ་ཟས་དུག་མེད་པར་བྱ་བའི་ཕྱིར་སོར་གདུབ་འཇུགས་དང།"
+        },
+        {
+         "mark": "",
+         "id": "454",
+         "wylie": "kha zas dug can 'dor ba bzhin no/",
+         "tib": "ཁ་ཟས་དུག་ཅན་འདོར་བ་བཞིན་ནོ།"
+        },
+        {
+         "mark": "",
+         "id": "455",
+         "wylie": "dpe kha cig las 'byung ba ltar nges par yod ces kyang bshad pa la 'gal ba med do/",
+         "tib": "དཔེ་ཁ་ཅིག་ལས་འབྱུང་བ་ལྟར་ངེས་པར་ཡོད་ཅེས་ཀྱང་བཤད་པ་ལ་འགལ་བ་མེད་དོ།"
+        },
+        {
+         "mark": "",
+         "id": "456",
+         "wylie": "de ltar sngar bshad pa ltar 'chi bdag gi gzhan dbang du gyur nas 'chi nges pa dang nam 'chi nges pa med pa yang dang yang du bsams par bya ste/",
+         "tib": "དེ་ལྟར་སྔར་བཤད་པ་ལྟར་འཆི་བདག་གི་གཞན་དབང་དུ་གྱུར་ནས་འཆི་ངེས་པ་དང་ནམ་འཆི་ངེས་པ་མེད་པ་ཡང་དང་ཡང་དུ་བསམས་པར་བྱ་སྟེ།"
+        },
+        {
+         "mark": "hit",
+         "id": "457",
+         "wylie": "'di la khrid legs par tshud na lam gong ma rnams kyang 'bad pa med par skye la gzhan du na dge ba'i bshes gnyen po to ba gsung pa ltar 'chi ba mi rtag pa blo la ma skyes par du rtogs pa skye ba'i lam 'gags pa yin pas rags pa'i mi rtag pa dang/",
+         "tib": "འདི་ལ་ཁྲིད་ལེགས་པར་ཚུད་ན་ལམ་གོང་མ་རྣམས་ཀྱང་འབད་པ་མེད་པར་སྐྱེ་ལ་གཞན་དུ་ན་དགེ་བའི་བཤེས་གཉེན་པོ་ཏོ་བ་གསུང་པ་ལྟར་འཆི་བ་མི་རྟག་པ་བློ་ལ་མ་སྐྱེས་པར་དུ་རྟོགས་པ་སྐྱེ་བའི་ལམ་འགགས་པ་ཡིན་པས་རགས་པའི་མི་རྟག་པ་དང།"
+        },
+        {
+         "mark": "",
+         "id": "458",
+         "wylie": "phra ba'i mi rtag pa gnyis ka rgyun ldan du bsgom par bya'o/",
+         "tib": "ཕྲ་བའི་མི་རྟག་པ་གཉིས་ཀ་རྒྱུན་ལྡན་དུ་བསྒོམ་པར་བྱའོ།"
+        },
+        {
+         "mark": "",
+         "id": "459",
+         "wylie": "rnyed bkur srid pa'i 'ching ba gcod byad cing/",
+         "tib": "རྙེད་བཀུར་སྲིད་པའི་འཆིང་བ་གཅོད་བྱད་ཅིང།"
+        },
+        {
+         "mark": "",
+         "id": "460",
+         "wylie": "dben par bsgrub la brtson pa'i bskul ma mchog /",
+         "tib": "དབེན་པར་བསྒྲུབ་ལ་བརྩོན་པའི་བསྐུལ་མ་མཆོག་།"
+        },
+        {
+         "mark": "",
+         "id": "461",
+         "wylie": "gsung rab kun gyi gsang ba'i dam pa ni/",
+         "tib": "གསུང་རབ་ཀུན་གྱི་གསང་བའི་དམ་པ་ནི།"
+        },
+        {
+         "mark": "",
+         "id": "462",
+         "wylie": "thog mar 'chi ba rjes su dran pa'o/",
+         "tib": "ཐོག་མར་འཆི་བ་རྗེས་སུ་དྲན་པའོ།"
+        },
+        {
+         "mark": "",
+         "id": "463",
+         "wylie": "zhes pa bsdu ba'i tshigs su bcad pa'o/",
+         "tib": "ཞེས་པ་བསྡུ་བའི་ཚིགས་སུ་བཅད་པའོ།"
+        },
+        {
+         "mark": "",
+         "id": "464",
+         "wylie": "gnyis pa le'u'i mtshan bstan pa ni/",
+         "tib": "གཉིས་པ་ལེའུའི་མཚན་བསྟན་པ་ནི།"
+        },
+        {
+         "mark": "",
+         "id": "465",
+         "wylie": "byang chub sems dpa'i rnal 'byor spyod pa bzhi brgya pa'i rnam bshad legs par bshad pa'i snying po zhes bya ba las rtag par 'dzin pa spangs pa'i thabs bstan pa ste rab tu byed pa dang po'i 'grel pa'o//",
+         "tib": "བྱང་ཆུབ་སེམས་དཔའི་རྣལ་འབྱོར་སྤྱོད་པ་བཞི་བརྒྱ་པའི་རྣམ་བཤད་ལེགས་པར་བཤད་པའི་སྙིང་པོ་ཞེས་བྱ་བ་ལས་རྟག་པར་འཛིན་པ་སྤངས་པའི་ཐབས་བསྟན་པ་སྟེ་རབ་ཏུ་བྱེད་པ་དང་པོའི་འགྲེལ་པའོ༎"
+        }
+       ],
+       "note": "no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_ACIP-SUNGBUM_S5428I_T:517 --context --window 8 reads on",
+       "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_S5428I_T/text?active_segment=BO_ACIP-SUNGBUM_S5428I_T:457"
+      },
+      {
+       "work": "dpe rnying :: MANG029",
+       "work_tib": "",
+       "collection": "Sungbum/series",
+       "toh": "",
+       "segid": "BO_S10_MANG029:337",
+       "label": "QUOTE",
+       "kind": "",
+       "more": [],
+       "is_en": false,
+       "wylie": "sa/ zhes pa de'o/ gnyis pa shes 'dod chos can ni/ snang sel so sor ma phye ba'i sgra tsam yin la/ sgrub chos ni/ rags pa'i mi rtag pa dang / phra ba'i mi rtag pa gnyis las 'dir phyi ma'o/ rtags kyi don la/ 'dir gang yod de 'jig bum pa bzhin/ zhes pa'i rtags sgra ji bzhin du khas len nam ji ltar byed ce na/",
+       "tib": "ས། ཞེས་པ་དེའོ། གཉིས་པ་ཤེས་འདོད་ཆོས་ཅན་ནི། སྣང་སེལ་སོ་སོར་མ་ཕྱེ་བའི་སྒྲ་ཙམ་ཡིན་ལ། སྒྲུབ་ཆོས་ནི། རགས་པའི་མི་རྟག་པ་དང་། ཕྲ་བའི་མི་རྟག་པ་གཉིས་ལས་འདིར་ཕྱི་མའོ། རྟགས་ཀྱི་དོན་ལ། འདིར་གང་ཡོད་དེ་འཇིག་བུམ་པ་བཞིན། ཞེས་པའི་རྟགས་སྒྲ་ཇི་བཞིན་དུ་ཁས་ལེན་ནམ་ཇི་ལྟར་བྱེད་ཅེ་ན།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_S10_MANG029/text?active_segment=BO_S10_MANG029:337"
+      },
+      {
+       "work": "mdo kun las btus pa'i bshad pa rin po che snang ba'i rgyan ces bya ba…",
+       "work_tib": "མདོ་ཀུན་ལས་བཏུས་པའི་བཤད་པ་རིན་པོ་ཆེ་སྣང་བའི་རྒྱན་ཅེས་བྱ་བ",
+       "collection": "Tengyur, Toh 3935",
+       "toh": "Toh 3935",
+       "segid": "BO_T04_D3935:262a-21",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "261b-12"
+       ],
+       "is_en": false,
+       "wylie": "i rtag par lta ba'o// de la nang gi mi rtag pa ni skad cig pa dang / rgyun mi rtag pa dang / glo bur gyis mi rtag pa'o// phyi'i mi rtag pa ni dus kyis mi rtag pa ste/ rnam par bam pa la sogs pa'o// de dag kyang yang dang yang du goms par bya ba dang / gnas skabs rnam pa dgur rang gi lus dang mgo bsgre bas log par sgrub pa spang bar 'gyur te/",
+       "tib": "རྟག་པར་ལྟ་བའོ༎ དེ་ལ་ནང་གི་མི་རྟག་པ་ནི་སྐད་ཅིག་པ་དང་། རྒྱུན་མི་རྟག་པ་དང་། གློ་བུར་གྱིས་མི་རྟག་པའོ༎ ཕྱིའི་མི་རྟག་པ་ནི་དུས་ཀྱིས་མི་རྟག་པ་སྟེ། རྣམ་པར་བམ་པ་ལ་སོགས་པའོ༎ དེ་དག་ཀྱང་ཡང་དང་ཡང་དུ་གོམས་པར་བྱ་བ་དང་། གནས་སྐབས་རྣམ་པ་དགུར་རང་གི་ལུས་དང་མགོ་བསྒྲེ་བས་ལོག་པར་སྒྲུབ་པ་སྤང་བར་འགྱུར་ཏེ།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T04_D3935/text?active_segment=BO_T04_D3935:262a-21"
+      },
+      {
+       "work": "rnal 'byor spyod pa'i sa las gzhi bsdu ba/ ([yogācārabhūmau vastusaṁg…",
+       "work_tib": "རྣལ་འབྱོར་སྤྱོད་པའི་ས་ལས་གཞི་བསྡུ་བ།",
+       "collection": "Tengyur, Toh 4039",
+       "toh": "Toh 4039",
+       "segid": "BO_T06_D4039:140a-26",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "252a-3"
+       ],
+       "is_en": false,
+       "wylie": "es pa dgu dang brjed mi ngas// khyad par dag tu 'gro ba dang // bdag tu lta ba'i bye brag dang // 'du byed mtshan nyid rnam pa gsum// chos kyi mdo la sogs pa yi// sde tshan rgya chen tha ma yin// lnga po 'di dag ni 'du byed rnams la mi rtag pa'i 'du shes sgom pa'i rnam pa ste/ 'di lta ste/ mi rtag pa dang / mi brtan pa dang / ther zug ma yin pa dang / yid brtan du mi rung ba dang //",
+       "tib": "པ་དགུ་དང་བརྗེད་མི་ངས༎ ཁྱད་པར་དག་ཏུ་འགྲོ་བ་དང་༎ བདག་ཏུ་ལྟ་བའི་བྱེ་བྲག་དང་༎ འདུ་བྱེད་མཚན་ཉིད་རྣམ་པ་གསུམ༎ ཆོས་ཀྱི་མདོ་ལ་སོགས་པ་ཡི༎ སྡེ་ཚན་རྒྱ་ཆེན་ཐ་མ་ཡིན༎ ལྔ་པོ་འདི་དག་ནི་འདུ་བྱེད་རྣམས་ལ་མི་རྟག་པའི་འདུ་ཤེས་སྒོམ་པའི་རྣམ་པ་སྟེ། འདི་ལྟ་སྟེ། མི་རྟག་པ་དང་། མི་བརྟན་པ་དང་། ཐེར་ཟུག་མ་ཡིན་པ་དང་། ཡིད་བརྟན་དུ་མི་རུང་བ་དང་༎",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T06_D4039/text?active_segment=BO_T06_D4039:140a-26"
+      },
+      {
+       "work": "rnam par bshad pa'i rigs pa'i bshad pa/ (vyākhyāyuktiṭīkā)",
+       "work_tib": "རྣམ་པར་བཤད་པའི་རིགས་པའི་བཤད་པ།",
+       "collection": "Tengyur, Toh 4069",
+       "toh": "Toh 4069",
+       "segid": "BO_T06_D4069:178a-8",
+       "label": "NEAR",
+       "kind": "",
+       "more": [],
+       "is_en": false,
+       "wylie": "a nas rnam par shes pa'i bar mi rtag pa 'dis so// gnyis kyis ni ste mi brtan pa/ yid brtan du mi rung ba zhes bya ba 'di gnyis kyis te bzhin du rigs mthun pa la brten nas yun ring du mi gnas pa nyid kyi phyir dang / dus ma yin par 'chi ba srid pa'i phyir na mi brtan pa/ yid brtan du mi rung ba gnyis kyi rgyun 'jig pa'i mi rtag pa nyid ston par byed do//",
+       "tib": "ནས་རྣམ་པར་ཤེས་པའི་བར་མི་རྟག་པ་འདིས་སོ༎ གཉིས་ཀྱིས་ནི་སྟེ་མི་བརྟན་པ། ཡིད་བརྟན་དུ་མི་རུང་བ་ཞེས་བྱ་བ་འདི་གཉིས་ཀྱིས་ཏེ་བཞིན་དུ་རིགས་མཐུན་པ་ལ་བརྟེན་ནས་ཡུན་རིང་དུ་མི་གནས་པ་ཉིད་ཀྱི་ཕྱིར་དང་། དུས་མ་ཡིན་པར་འཆི་བ་སྲིད་པའི་ཕྱིར་ན་མི་བརྟན་པ། ཡིད་བརྟན་དུ་མི་རུང་བ་གཉིས་ཀྱི་རྒྱུན་འཇིག་པའི་མི་རྟག་པ་ཉིད་སྟོན་པར་བྱེད་དོ༎",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T06_D4069/text?active_segment=BO_T06_D4069:178a-8"
+      },
+      {
+       "work": "'phags pa lang kar gshegs pa zhes bya ba theg pa chen po'i mdo'i 'gre…",
+       "work_tib": "འཕགས་པ་ལང་ཀར་གཤེགས་པ་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོའི་འགྲེ",
+       "collection": "Tengyur, Toh 4019",
+       "toh": "Toh 4019",
+       "segid": "BO_T05_D4019:148b-19",
+       "label": "NEAR",
+       "kind": "",
+       "more": [],
+       "is_en": false,
+       "wylie": "a sogs pa'i don ni byis pa rnams kyis bdag rtag pa la sogs pa dngos por zhen pa dam du bzung ba rnams/ ji ltar shing la sogs pa'i gzer chen po gzer phra mos 'byin par byed pa ltar// de 'dra ba'i phyin ci log rags pa rnams kyang mi rtag pa la sogs pa dngos por bstan pas rim gyis brid de rnam par rtog pa phra mos rags pa rnams zlog par byed pa'o//",
+       "tib": "སོགས་པའི་དོན་ནི་བྱིས་པ་རྣམས་ཀྱིས་བདག་རྟག་པ་ལ་སོགས་པ་དངོས་པོར་ཞེན་པ་དམ་དུ་བཟུང་བ་རྣམས། ཇི་ལྟར་ཤིང་ལ་སོགས་པའི་གཟེར་ཆེན་པོ་གཟེར་ཕྲ་མོས་འབྱིན་པར་བྱེད་པ་ལྟར༎ དེ་འདྲ་བའི་ཕྱིན་ཅི་ལོག་རགས་པ་རྣམས་ཀྱང་མི་རྟག་པ་ལ་སོགས་པ་དངོས་པོར་བསྟན་པས་རིམ་གྱིས་བྲིད་དེ་རྣམ་པར་རྟོག་པ་ཕྲ་མོས་རགས་པ་རྣམས་ཟློག་པར་བྱེད་པའོ༎",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T05_D4019/text?active_segment=BO_T05_D4019:148b-19"
+      },
+      {
+       "work": "rnam par bshad pa'i rigs pa/ (vyākhyāyukti)",
+       "work_tib": "རྣམ་པར་བཤད་པའི་རིགས་པ།",
+       "collection": "Tengyur, Toh 4061",
+       "toh": "Toh 4061",
+       "segid": "BO_T06_D4061:51b-9",
+       "label": "NEAR",
+       "kind": "",
+       "more": [],
+       "is_en": false,
+       "wylie": "na ring po nas 'jig pa'o// gsum pas ni dus nges par 'jig pa'o// bzhi pas ni 'gyur ba med par 'jig pa'o// gzhan yang gcig gis ni skad cig mar 'jig pa'i mi rtag pa nyid ston par byed la/ gnyis kyis ni rgyun gyi 'jig pa'i mi rtag pa nyid de ris mthun pa las yun ring du mi gnas pa nyid kyi phyir dang / dus ma yin par 'chi srid pa'i phyir ro//",
+       "tib": "ན་རིང་པོ་ནས་འཇིག་པའོ༎ གསུམ་པས་ནི་དུས་ངེས་པར་འཇིག་པའོ༎ བཞི་པས་ནི་འགྱུར་བ་མེད་པར་འཇིག་པའོ༎ གཞན་ཡང་གཅིག་གིས་ནི་སྐད་ཅིག་མར་འཇིག་པའི་མི་རྟག་པ་ཉིད་སྟོན་པར་བྱེད་ལ། གཉིས་ཀྱིས་ནི་རྒྱུན་གྱི་འཇིག་པའི་མི་རྟག་པ་ཉིད་དེ་རིས་མཐུན་པ་ལས་ཡུན་རིང་དུ་མི་གནས་པ་ཉིད་ཀྱི་ཕྱིར་དང་། དུས་མ་ཡིན་པར་འཆི་སྲིད་པའི་ཕྱིར་རོ༎",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T06_D4061/text?active_segment=BO_T06_D4061:51b-9"
+      },
+      {
+       "work": "'phags pa dgongs pa nges par 'grel pa'i mdo'i rnam par bshad pa/ (āry…",
+       "work_tib": "འཕགས་པ་དགོངས་པ་ངེས་པར་འགྲེལ་པའི་མདོའི་རྣམ་པར་བཤད་པ།",
+       "collection": "Tengyur, Toh 4358",
+       "toh": "Toh 4358",
+       "segid": "BO_T16_D4358-2:147a-13",
+       "label": "NEAR",
+       "kind": "",
+       "more": [],
+       "is_en": false,
+       "wylie": "skad cig ma nyid ces bya ba bsgrub par bya ba'i chos 'di rjes su dpag par bya'o// de la dpag pa'i mi rtag par rags pa nyid mngon sum du dmigs pa gang yin pa zhes bya ba la/ de la zhes bya ba ni rjes su dpag par bya ba'i chos can 'du byed kyi dngos po de la'o// gnas pa'i mi rtag pa rags pa nyid ces bya ba ni/",
+       "tib": "སྐད་ཅིག་མ་ཉིད་ཅེས་བྱ་བ་བསྒྲུབ་པར་བྱ་བའི་ཆོས་འདི་རྗེས་སུ་དཔག་པར་བྱའོ༎ དེ་ལ་དཔག་པའི་མི་རྟག་པར་རགས་པ་ཉིད་མངོན་སུམ་དུ་དམིགས་པ་གང་ཡིན་པ་ཞེས་བྱ་བ་ལ། དེ་ལ་ཞེས་བྱ་བ་ནི་རྗེས་སུ་དཔག་པར་བྱ་བའི་ཆོས་ཅན་འདུ་བྱེད་ཀྱི་དངོས་པོ་དེ་ལའོ༎ གནས་པའི་མི་རྟག་པ་རགས་པ་ཉིད་ཅེས་བྱ་བ་ནི།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T16_D4358-2/text?active_segment=BO_T16_D4358-2:147a-13"
+      },
+      {
+       "work": "'phags pa dgongs pa zab mo nges par 'grel pa'i mdo'i rgya cher 'grel …",
+       "work_tib": "འཕགས་པ་དགོངས་པ་ཟབ་མོ་ངེས་པར་འགྲེལ་པའི་མདོའི་རྒྱ་ཆེར་འགྲེལ",
+       "collection": "Tengyur, Toh 4016",
+       "toh": "Toh 4016",
+       "segid": "BO_T05_D4016-3:139b-35",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "141b-25",
+        "141a-18",
+        "139b-32"
+       ],
+       "is_en": false,
+       "wylie": "yir mngon sum gyi tshad ma zhes bya ste/ 'di ltar mi rtag pa rags pa 'di la brten nas mi rtag pa phra mo la sogs pa rjes su dpag pa'i phyir mngon sum gyi tshad ma la gnas nas dmigs pa'i mtshan nyid ces bya ba'o zhes bstan par 'gyur ro// dngos po de yang ji lta bu zhe na/ de la re zhig tshe gcig gi mi rtag pa'i don rags pa la brten nas mi rtag pa nyid du mngon sum mthong ba ni mi rtag pa'i mngon sum gyi tshad ma zhes bya'o//",
+       "tib": "ཡིར་མངོན་སུམ་གྱི་ཚད་མ་ཞེས་བྱ་སྟེ། འདི་ལྟར་མི་རྟག་པ་རགས་པ་འདི་ལ་བརྟེན་ནས་མི་རྟག་པ་ཕྲ་མོ་ལ་སོགས་པ་རྗེས་སུ་དཔག་པའི་ཕྱིར་མངོན་སུམ་གྱི་ཚད་མ་ལ་གནས་ནས་དམིགས་པའི་མཚན་ཉིད་ཅེས་བྱ་བའོ་ཞེས་བསྟན་པར་འགྱུར་རོ༎ དངོས་པོ་དེ་ཡང་ཇི་ལྟ་བུ་ཞེ་ན། དེ་ལ་རེ་ཞིག་ཚེ་གཅིག་གི་མི་རྟག་པའི་དོན་རགས་པ་ལ་བརྟེན་ནས་མི་རྟག་པ་ཉིད་དུ་མངོན་སུམ་མཐོང་བ་ནི་མི་རྟག་པའི་མངོན་སུམ་གྱི་ཚད་མ་ཞེས་བྱའོ༎",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T05_D4016-3/text?active_segment=BO_T05_D4016-3:139b-35"
+      },
+      {
+       "work": "D3880",
+       "work_tib": "",
+       "collection": "Tengyur, Toh 3880",
+       "toh": "Toh 3880",
+       "segid": "BO_T04_D3880:278b-1",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "278a-33"
+       ],
+       "is_en": false,
+       "wylie": "zhin kho na phra zhing mi gsal bar ga la 'gyur/ rtag pa'i phyir ro// gcig la tshul du mi rigs so// rags pa gsal ba'i dngos po dor nas phra ba mi gsal ba'i tshul du gyur na/ 'o na rags pa dang phra ba mi rtag pa'i tshul du 'gyur/ skye ba dang 'gags pas so// mi rtag pas ci ste zhe na/ smras pa/ de tsam nyi shu lnga thams cad rags pa dang / phra ba bzhin du mi rtag par ci ste mi 'dod/",
+       "tib": "ཞིན་ཁོ་ན་ཕྲ་ཞིང་མི་གསལ་བར་ག་ལ་འགྱུར། རྟག་པའི་ཕྱིར་རོ༎ གཅིག་ལ་ཚུལ་དུ་མི་རིགས་སོ༎ རགས་པ་གསལ་བའི་དངོས་པོ་དོར་ནས་ཕྲ་བ་མི་གསལ་བའི་ཚུལ་དུ་གྱུར་ན། འོ་ན་རགས་པ་དང་ཕྲ་བ་མི་རྟག་པའི་ཚུལ་དུ་འགྱུར། སྐྱེ་བ་དང་འགགས་པས་སོ༎ མི་རྟག་པས་ཅི་སྟེ་ཞེ་ན། སྨྲས་པ། དེ་ཙམ་ཉི་ཤུ་ལྔ་ཐམས་ཅད་རགས་པ་དང་། ཕྲ་བ་བཞིན་དུ་མི་རྟག་པར་ཅི་སྟེ་མི་འདོད།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T04_D3880/text?active_segment=BO_T04_D3880:278b-1"
+      },
+      {
+       "work": "byang chub sems dpa'i spyod pa la 'jug pa'i rtogs par dka' ba'i gnas …",
+       "work_tib": "བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པའི་རྟོགས་པར་དཀའ་བའི་གནས",
+       "collection": "Tengyur, Toh 3875",
+       "toh": "Toh 3875",
+       "segid": "BO_T04_D3875A:155a-19",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "155a-15"
+       ],
+       "is_en": false,
+       "wylie": "ir ro// gal te rim gyis rags pa spangs nas phyis phra bar 'gyur gyi cig car du ni ma yin no snyam pa la/ rags pa zhes smos te/",
+       "tib": "རོ༎ གལ་ཏེ་རིམ་གྱིས་རགས་པ་སྤངས་ནས་ཕྱིས་ཕྲ་བར་འགྱུར་གྱི་ཅིག་ཅར་དུ་ནི་མ་ཡིན་ནོ་སྙམ་པ་ལ། རགས་པ་ཞེས་སྨོས་ཏེ།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T04_D3875A/text?active_segment=BO_T04_D3875A:155a-19"
+      },
+      {
+       "work": "de kho na nyid bsdus pa'i dka' 'grel/ (tattvasaṁgrahapañjikā)",
+       "work_tib": "དེ་ཁོ་ན་ཉིད་བསྡུས་པའི་དཀའ་འགྲེལ།",
+       "collection": "Tengyur, Toh 4267",
+       "toh": "Toh 4267",
+       "segid": "BO_T11_D4267:276a-17",
+       "label": "NEAR",
+       "kind": "",
+       "more": [],
+       "is_en": false,
+       "wylie": "po nyid do// mi rtag pa ni rdul phra rab gsum pa la sogs pa'i rdzas rnams la'o// de bzhin du rdul phra rab kyang rnam pa gnyis te/ rtag pa dang / mi rtag pa'o// rtag pa ni rdul phra rab dang / yid la zlum pa'i mtshan nyid can no// mi rtag pa ni rdul phra rab gnyis pa nyid do// ut+pa la dang / skyu ru ra dang / bil ba la sogs pa chen po la yang /",
+       "tib": "པོ་ཉིད་དོ༎ མི་རྟག་པ་ནི་རྡུལ་ཕྲ་རབ་གསུམ་པ་ལ་སོགས་པའི་རྫས་རྣམས་ལའོ༎ དེ་བཞིན་དུ་རྡུལ་ཕྲ་རབ་ཀྱང་རྣམ་པ་གཉིས་ཏེ། རྟག་པ་དང་། མི་རྟག་པའོ༎ རྟག་པ་ནི་རྡུལ་ཕྲ་རབ་དང་། ཡིད་ལ་ཟླུམ་པའི་མཚན་ཉིད་ཅན་ནོ༎ མི་རྟག་པ་ནི་རྡུལ་ཕྲ་རབ་གཉིས་པ་ཉིད་དོ༎ ཨུཏྤ་ལ་དང་། སྐྱུ་རུ་ར་དང་། བིལ་བ་ལ་སོགས་པ་ཆེན་པོ་ལ་ཡང་།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T11_D4267/text?active_segment=BO_T11_D4267:276a-17"
+      }
+     ],
+     "n_hits": 158,
+     "n_works": 94,
+     "file": "dm_gloss_U01.txt"
+    }
+   ],
+   "cite": [],
+   "identify": "",
+   "identify_summary": "",
+   "segments": [],
+   "parallels": [],
+   "terms": [
+    {
+     "wylie": "'di ring gi brjod bya",
+     "english": "Today's topics",
+     "note": "lesson-outline heading; brjod bya = topic(s)",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "'chi ba mi rtag pa",
+     "english": "death and impermanence",
+     "note": "coordinate set phrase (so used in Gyaltsab's Four Hundred commentary)",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "bsam pa (heading)",
+     "english": "Contemplating",
+     "note": "'chi ba mi rtag pa bsam pa, 'khor ba sdug bsngal bsam pa; contrast sgom pa = meditating",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "mi rtag pa",
+     "english": "impermanence",
+     "note": "",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "rags pa'i mi rtag pa",
+     "english": "gross impermanence",
+     "note": "Alt: coarse (MITRA); not defined in the notes",
+     "alts": [
+      "coarse (MITRA)"
+     ],
+     "clutter": false
+    },
+    {
+     "wylie": "phra ba'i mi rtag pa",
+     "english": "subtle impermanence",
+     "note": "defined in U01: things change from moment to moment",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "dngos po",
+     "english": "things",
+     "note": "plain for this audience; not 'phenomena' / 'functioning things'",
+     "alts": [
+      "phenomena"
+     ],
+     "clutter": false
+    },
+    {
+     "wylie": "skad cig skad cig gi",
+     "english": "from moment to moment",
+     "note": "",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "'gyur 'gro",
+     "english": "change",
+     "note": "modern compound; rendered as the verb",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "rang nyid 'chi ba mi rtag",
+     "english": "your own death and impermanence",
+     "note": "rang nyid = whose death (no ergative); U01 heading",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "sgom tshul",
+     "english": "how to meditate",
+     "note": "heading",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "sgom pa'i thabs",
+     "english": "ways to meditate",
+     "note": "thabs gsum = three ways; the tradition's rtsa ba gsum",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "sgom pa",
+     "english": "meditating",
+     "note": "list items: Meditating that …",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "bdag nges par 'chi ba",
+     "english": "I will certainly die",
+     "note": "first person kept (the meditator's own thought)",
+     "alts": [],
+     "clutter": false
+    }
+   ]
+  },
+  {
+   "id": "U02",
+   "hint": "prose",
+   "tib": "ནམ་འཆི་ཆ་མེད་སྒོམ་པ། ཤི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་མི་ཕན་པར་སྒོམ་པ། ལས་འབྲས་སྐོར། མངོན་པ་མཛོད་ལས། འཇིག་རྟེན་སྣ་ཚོགས་ལས་ལས་གྲུབ། གསུངས་པ་ལྟར། དཔེར་ན་ཕྱི་སྣོད་འཇིག་རྟེན་ཡང་རྒྱུ་ལས་ལས་གྲུབ། འཁོར་བ་སྡུག་བསྔལ་བསམ་པ།",
+   "wylie": "nam 'chi cha med sgom pa/ shi tshe chos ma gtogs gang gis mi phan par sgom pa/ las 'bras skor/ mngon pa mdzod las/ 'jig rten sna tshogs las las grub/ gsungs pa ltar/ dper na phyi snod 'jig rten yang rgyu las las grub/ 'khor ba sdug bsngal bsam pa/",
+   "tags": [
+    {
+     "kind": "form",
+     "label": "Prose",
+     "detail": "prose (lesson outline: list items 2–3, two headings, an example) with a one-line verse citation: citation mode, rising, 3–4 beats; 1 pada, 1 line, order 1"
+    },
+    {
+     "kind": "register",
+     "label": "Exposition; framing; aphorism",
+     "detail": "exposition; framing; aphorism"
+    },
+    {
+     "kind": "citation",
+     "label": "Citation: Treasury of Abhidharma",
+     "detail": "Toh 4089, Treasury of Abhidharma, D 10b (opening line of chapter 4), quoted as a paraphrase"
+    },
+    {
+     "kind": "grounded",
+     "label": "Grounded: Treasury",
+     "detail": "the Treasury's own commentary (Toh 4090) gloss followed (DM primary search)"
+    }
+   ],
+   "open_q": 0,
+   "header": "U02 · prose (lesson outline: list items 2–3, two headings, an example) with a one-line verse citation: citation mode, rising, 3–4 beats; 1 pada, 1 line, order 1 · exposition; framing; aphorism · new practitioner · Toh 4089, Treasury of Abhidharma, D 10b (opening line of chapter 4), quoted as a paraphrase · grounding: the Treasury's own commentary (Toh 4090) gloss followed (DM primary search) · prior: none · confidence: high",
+   "fields": {
+    "raw": "U02 · prose (lesson outline: list items 2–3, two headings, an example) with a one-line verse citation: citation mode, rising, 3–4 beats; 1 pada, 1 line, order 1 · exposition; framing; aphorism · new practitioner · Toh 4089, Treasury of Abhidharma, D 10b (opening line of chapter 4), quoted as a paraphrase · grounding: the Treasury's own commentary (Toh 4090) gloss followed (DM primary search) · prior: none · confidence: high",
+    "form": "prose (lesson outline: list items 2–3, two headings, an example) with a one-line verse citation: citation mode, rising, 3–4 beats; 1 pada, 1 line, order 1",
+    "audience": "new practitioner",
+    "source": "Toh 4089, Treasury of Abhidharma, D 10b (opening line of chapter 4), quoted as a paraphrase",
+    "grounding": "the Treasury's own commentary (Toh 4090) gloss followed (DM primary search)",
+    "prior": "none",
+    "confidence": "high",
+    "register": "exposition; framing; aphorism"
+   },
+   "confidence": "high",
+   "confidence_reason": "high — the one fork (rgyu las las) resolved by the Treasury's own commentary; source verified; MITRA agrees on content.",
+   "confidence_provisional": false,
+   "text": [
+    "Meditating that the time of death is uncertain.",
+    "Meditating that at death nothing but the Dharma will help.",
+    "",
+    "On karma and its results",
+    "",
+    "As the *Treasury of Abhidharma* says:",
+    "The world's variety comes from karma.",
+    "",
+    "For example, even the outer world, the environment, comes from karma as its cause.",
+    "",
+    "Contemplating the suffering of samsara"
+   ],
+   "footnotes": [],
+   "notes": [
+    {
+     "tag": "Source",
+     "text": "Treasury of Abhidharma (chos mngon pa'i mdzod kyi tshig le'ur byas pa, Vasubandhu), Toh 4089, 10b-43, opening line of ch. 4: las las 'jig rten sna tshogs skyes; the notes quote it from memory as 'jig rten sna tshogs las las grub (order inverted, grub for skyes), translated as given (dm_identify_U02.txt, dm_identify_U02-2.txt, dm_cite_U02.txt). Register row P01/U02; TITLE row fixed."
+    },
+    {
+     "tag": "Comm",
+     "text": "the Treasury's own commentary (Bhāṣya, Toh 4090, 166a-3–7; the same in Toh 4091, 157a-11–15, and Toh 4095, 143a-21–24) reads 'jig rten sna tshogs as the many varieties of the world of beings and of the container world (sems can dang snod kyi 'jig rten), made by no one with prior intent and arising from the karma of beings; Gendun Drup (ACIP SL5525N_T:6430): las las snod bcud kyi 'jig rten sna tshogs pa skyes so. Followed: \"the world's variety\"; it also settles the example."
+    },
+    {
+     "tag": "Q",
+     "text": "rgyu las las grub: resolved by the Bhāṣya and KHEZ022:9760 (snod bcud kyi 'jig rten … rgyu gang las byung … las las): karma is the cause even of the container world, \"comes from karma as its cause\", taken; the alternative (a dittography for rgyu las grub, \"comes from causes\", cf. dang dang in U01) has no support.",
+     "resolved": true
+    },
+    {
+     "tag": "Alt",
+     "text": "phyi snod 'jig rten yang \"the outer world, the environment, also / too\" (MITRA \"also\"); \"even\" taken for the point the commentaries make (not only beings but their world)."
+    },
+    {
+     "tag": "Alt",
+     "text": "'khor ba sdug bsngal bsam pa \"Contemplating that samsara is suffering\"."
+    },
+    {
+     "tag": "Issue",
+     "text": "snod (container) image let go: \"the environment\" (snod bcud = environment and inhabitants). Frame mngon pa mdzod las … gsungs pa ltar → \"As the Treasury of Abhidharma says:\" (block form of the inline formula; keeps ltar). The 7-syllable line set as a one-line verse block; beats.py with \"variety\" hand-counted (va-RI-e-ty, not in its lexicon); \"The world in all its variety …\" dropped (pulse fail, filler \"all\")."
+    },
+    {
+     "tag": "Comm",
+     "text": "items 2–3: chos ma gtogs gang gis kyang mi phan in the lamrim works (TSD RDI-TOK-07:2403; Dwags po chos bzhi'i 'grel pa, TSD BEN-LB-017:704: chos kho na bya dgos) → chos = the Dharma one practises; \"the Dharma\" kept."
+    },
+    {
+     "tag": "MITRA",
+     "text": "agrees on content (rgyu las las \"from the cause of karma\"); turns items 2–3 and the closing heading into imperatives; the list form kept (sgom pa / bsam pa are nominal in the Tibetan)."
+    },
+    {
+     "tag": "Prior",
+     "text": "none found."
+    },
+    {
+     "tag": "Conf",
+     "text": "high — the one fork (rgyu las las) resolved by the Treasury's own commentary; source verified; MITRA agrees on content."
+    },
+    {
+     "tag": "Check",
+     "text": "in-context, nothing found."
+    }
+   ],
+   "flags": [
+    {
+     "phrase": "comes from karma as its cause",
+     "note": 2,
+     "tag": "Q",
+     "tib": "རྒྱུ་ལས་ལས་གྲུབ"
+    },
+    {
+     "phrase": "even",
+     "note": 3,
+     "tag": "Alt",
+     "tib": ""
+    },
+    {
+     "phrase": "the environment",
+     "note": 5,
+     "tag": "Issue",
+     "tib": "ཕྱི་སྣོད་འཇིག་རྟེན"
+    },
+    {
+     "phrase": "variety",
+     "note": 5,
+     "tag": "Issue",
+     "tib": "འཇིག་རྟེན་སྣ་ཚོགས"
+    },
+    {
+     "phrase": "the Dharma",
+     "note": 6,
+     "tag": "Comm",
+     "tib": "ཆོས"
+    }
+   ],
+   "construal": [
+    {
+     "key": "FORM",
+     "text": "prose outline: list items 2–3 (cont. from U01), heading (las 'bras skor), inline verse citation (one 7-syllable pada) in a frame (mngon pa mdzod las … gsungs pa ltar), an example sentence, heading ('khor ba sdug bsngal bsam pa: opens the topic U03 develops). Register: outline exposition + framing; the citation is aphorism."
+    },
+    {
+     "key": "SPINE",
+     "text": "[nam 'chi] [cha med] (when one dies — no certainty) → content of sgom pa. [shi tshe] [chos ma gtogs] [gang gis] [mi phan] → content of sgom pa (\"at death nothing but the Dharma helps\"). Quote: ['jig rten sna tshogs] [las las] grub (the varied world is produced from karma). Frame: mngon pa mdzod las … gsungs pa ltar (as the Kośa says). Example: dper na [phyi snod 'jig rten yang] [rgyu las las] grub."
+    },
+    {
+     "key": "RELATIONS",
+     "text": "shi tshe = temporal \"at death / when one has died\"; ma gtogs = exception \"except, nothing but\"; gang gis … mi = instrument/agent + negation = \"nothing (helps)\"; par sgom pa = content complement; skor = topic \"on, about\"; las (after mdzod) = source of the quote; las las = karma + ablative = source \"from karma\"; gsungs pa ltar = \"as (it) says\" (manner, links the quote to the example); dper na = \"for example\"; yang = \"even / also\"; rgyu las las = \"from karma as its cause\"."
+    },
+    {
+     "key": "NEG/QUANT",
+     "text": "mi phan (negated, scope: gang gis = nothing at all helps); ma gtogs (exception); cha med (negated existential: no certainty); yang (even). No numbers."
+    },
+    {
+     "key": "TERMS",
+     "text": "nam 'chi cha med = the time of death is uncertain; chos = the Dharma; las = karma; las 'bras = karma and its results; 'jig rten sna tshogs = the world's variety (draft had \"the world in all its variety\": PULSE fail and filler \"all\"); las las grub = comes from karma; phyi snod 'jig rten = the outer world, the environment (snod = container: image let go); rgyu = cause; 'khor ba = samsara; sdug bsngal = suffering."
+    },
+    {
+     "key": "Q",
+     "text": "rgyu las las grub: (a) rgyu in apposition to las (karma) + ablative = \"comes from karma as its cause\", taken (it illustrates the quote, and yang = \"even the outer world\" needs karma as the point); (b) dittography for rgyu las grub \"comes from causes\" (cf. dang dang, U01). Ground in the Kośa's own commentary on the line (karma and the receptacle world)."
+    },
+    {
+     "key": "Q",
+     "text": "the quotation is not the canonical wording: the Kośa's line (as remembered) is las las 'jig rten sna tshogs skyes; translated as the notes give it (grub); identify."
+    },
+    {
+     "key": "Q",
+     "text": "gsungs (in gsungs pa ltar): agent = the treatise/its author; \"as the Treasury … says\"."
+    },
+    {
+     "key": "Q",
+     "text": "'khor ba sdug bsngal bsam pa: \"the suffering of samsara\", taken (heading form, parallel to 'chi ba mi rtag pa bsam pa); alt. \"that samsara is suffering\" (U03's definition reads samsara as by nature suffering)."
+    },
+    {
+     "key": "Q",
+     "text": "shi tshe = at death (shi = past stem: \"when one has died / at the time of death\"); \"at death\" covers both."
+    },
+    {
+     "key": "GROUNDING",
+     "text": "Kośa root verified: Toh 4089, 10b-43 (las las 'jig rten sna tshogs skyes// de ni sems pa dang des byas//), opening line of ch. 4 (Bhāṣya 166a-1 closes ch. 3 just before); the notes paraphrase it ('jig rten sna tshogs las las grub). Gloss (dm_gloss_U02.txt): Bhāṣya Toh 4090, 166a-3–7 (same in Toh 4091, 157a-11–15; Toh 4095, 143a-21–24): yang sems can dang snod kyi 'jig rten rnam pa mang po sna tshogs pa … de sus byas she na/ sus kyang blo sngon du btang ste byas pa ni med do// … sems can rnams kyi/ las las 'jig rten sna tshogs skyes = the variety of the world of beings AND of the container world was made by no one with prior intent; it arises from the karma of beings. Gendun Drup (ACIP SL5525N_T:6430): las las snod bcud kyi 'jig rten sna tshogs pa skyes so; KHEZ022:9760: snod bcud kyi 'jig rten … rgyu gang las byung … las las. → resolves the Q on rgyu las las grub: branch (a), karma is the cause even of the container world; followed (body as drafted). Death items: chos ma gtogs gang gis kyang mi phan (RDI-TOK-07:2403; Dwags po chos bzhi'i 'grel pa, TSD BEN-LB-017:704: chos kho na bya dgos) → chos = the Dharma one practises; body unchanged."
+    },
+    {
+     "key": "MITRA",
+     "text": "agrees on content (reads rgyu las las as \"from the cause of karma\", yang as \"also\"); renders items 2–3 and the samsara heading as imperatives (speech-act drift; list form kept)."
+    }
+   ],
+   "grounding": [],
+   "mitra": "Meditate on the uncertainty of the time of death. Meditate on the fact that at the time of death, nothing is of benefit except the Dharma. Regarding karma and its results: as stated in the *Abhidharmakośa*, \"The variety of the world is formed from karma.\" For example, the external vessel-world also arises from the cause of karma. Contemplate the suffering of cyclic existence.",
+   "explore": [],
+   "gloss": [
+    {
+     "summary": "DharmaMitra primary search · semantic · no re-ranking · 178 hits in 112 works",
+     "query": "nam 'chi cha med/ shi tshe chos ma gtogs gang gis mi phan pa/",
+     "syllables": 14,
+     "root": "",
+     "context_note": "context: DharmaNexus text view, 0 request(s) for 0 work(s); gloss found in 0",
+     "notes": [
+      "100 further works not shown; --n-works raises the cap"
+     ],
+     "hits": [
+      {
+       "work": "phyag chen gyi gdams pa gces btus/ gnyis pa/",
+       "work_tib": "ཕྱག་ཆེན་གྱི་གདམས་པ་གཅེས་བཏུས། གཉིས་པ",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_DC_RDI-KK-10:5955",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "1433",
+        "2766",
+        "1434"
+       ],
+       "is_en": false,
+       "wylie": "ags de ni ngo mtshar che/ zhes pa ltar spyir 'dus byas thams cad mi rtagasgos 'gro ba'i tshe srog ni chu bur ltar mi rtag pas nam 'jig cha mi 'tshal/ da lta mi 'chi ba'i nges pa med/ shi tshe chos ma gtogs gang gis kyang mi phan pas/ don med pa'i 'jig rten dang tshe 'di'i bya ba rnams bsgrub na sdug bsngal gyi rgyu las ma 'das pas da lam tshe 'di'i lto gos sogs kyi ched du g.yeng ba skad cig tsam yang byed ri shi bsam pa'i zhe mna' dang*/",
+       "tib": "དེ་ནི་ངོ་མཚར་ཆེ། ཞེས་པ་ལྟར་སྤྱིར་འདུས་བྱས་ཐམས་ཅད་མི་རྟགསྒོས་འགྲོ་བའི་ཚེ་སྲོག་ནི་ཆུ་བུར་ལྟར་མི་རྟག་པས་ནམ་འཇིག་ཆ་མི་འཚལ། ད་ལྟ་མི་འཆི་བའི་ངེས་པ་མེད། ཤི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་ཀྱང་མི་ཕན་པས། དོན་མེད་པའི་འཇིག་རྟེན་དང་ཚེ་འདིའི་བྱ་བ་རྣམས་བསྒྲུབ་ན་སྡུག་བསྔལ་གྱི་རྒྱུ་ལས་མ་འདས་པས་ད་ལམ་ཚེ་འདིའི་ལྟོ་གོས་སོགས་ཀྱི་ཆེད་དུ་གཡེང་བ་སྐད་ཅིག་ཙམ་ཡང་བྱེད་རི་ཤི་བསམ་པའི་ཞེ་མནའ་དང༌།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_RDI-KK-10/text?active_segment=BO_TSD_BO_DC_RDI-KK-10:5955"
+      },
+      {
+       "work": "phyag chen rgyas 'bring bsdus gsum/",
+       "work_tib": "ཕྱག་ཆེན་རྒྱས་འབྲིང་བསྡུས་གསུམ",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_DC_RDI-SS-26:5064",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "562",
+        "1891"
+       ],
+       "is_en": false,
+       "wylie": "ltar spyir 'dus byas thams cad mi rtagasgos 'gro ba'i tshe srog ni chu bur ltar mi rtag pas nam 'jig cha mi 'tshal/ da lta mi 'chi ba'i nges pa med/ shi tshe chos ma gtogs gang gis kyang mi phan pas/ don med pa'i 'jig rten dang tshe 'di'i bya ba rnams bsgrub na sdug bsngal gyi rgyu las ma 'das pas da lam tshe 'di'i lto gos sogs kyi ched du g.yeng ba skad cig tsam yang byed ri shi bsam pa'i zhe mna' dang*/",
+       "tib": "ལྟར་སྤྱིར་འདུས་བྱས་ཐམས་ཅད་མི་རྟགསྒོས་འགྲོ་བའི་ཚེ་སྲོག་ནི་ཆུ་བུར་ལྟར་མི་རྟག་པས་ནམ་འཇིག་ཆ་མི་འཚལ། ད་ལྟ་མི་འཆི་བའི་ངེས་པ་མེད། ཤི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་ཀྱང་མི་ཕན་པས། དོན་མེད་པའི་འཇིག་རྟེན་དང་ཚེ་འདིའི་བྱ་བ་རྣམས་བསྒྲུབ་ན་སྡུག་བསྔལ་གྱི་རྒྱུ་ལས་མ་འདས་པས་ད་ལམ་ཚེ་འདིའི་ལྟོ་གོས་སོགས་ཀྱི་ཆེད་དུ་གཡེང་བ་སྐད་ཅིག་ཙམ་ཡང་བྱེད་རི་ཤི་བསམ་པའི་ཞེ་མནའ་དང༌།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_RDI-SS-26/text?active_segment=BO_TSD_BO_DC_RDI-SS-26:5064"
+      },
+      {
+       "work": "gsung ngag rin po che slob bshad kyi 'chad thabs mdor bsdus zab don n…",
+       "work_tib": "གསུང་ངག་རིན་པོ་ཆེ་སློབ་བཤད་ཀྱི་འཆད་ཐབས་མདོར་བསྡུས་ཟབ་དོན་ན",
+       "collection": "Sungbum/series",
+       "toh": "",
+       "segid": "BO_S08_LAMD109:350",
+       "label": "NEAR",
+       "kind": "",
+       "more": [],
+       "is_en": false,
+       "wylie": "'a ba rnyed na don che ba zhar la dal 'byor gyi lus rten lan gcig thob pa de chud bzos ma song ba myur du chos ma sgrub na mi rtag pa las ma 'das pas tshul nges par 'chi/ nam 'chi cha med 'chi ba'i tshe chos ma gtogs gang gis mi phan par mi rtag pa bstan/ rdo rje'i tshig rkang las ma dag pa snang ba zhes pas spyir 'gro ba rigs drug ma dag pa yin cing*/",
+       "tib": "འ་བ་རྙེད་ན་དོན་ཆེ་བ་ཞར་ལ་དལ་འབྱོར་གྱི་ལུས་རྟེན་ལན་གཅིག་ཐོབ་པ་དེ་ཆུད་བཟོས་མ་སོང་བ་མྱུར་དུ་ཆོས་མ་སྒྲུབ་ན་མི་རྟག་པ་ལས་མ་འདས་པས་ཚུལ་ངེས་པར་འཆི། ནམ་འཆི་ཆ་མེད་འཆི་བའི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་མི་ཕན་པར་མི་རྟག་པ་བསྟན། རྡོ་རྗེའི་ཚིག་རྐང་ལས་མ་དག་པ་སྣང་བ་ཞེས་པས་སྤྱིར་འགྲོ་བ་རིགས་དྲུག་མ་དག་པ་ཡིན་ཅིང༌།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_S08_LAMD109/text?active_segment=BO_S08_LAMD109:350"
+      },
+      {
+       "work": "lag len sum sbrel gyi gdams pa gces btus/",
+       "work_tib": "ལག་ལེན་སུམ་སྦྲེལ་གྱི་གདམས་པ་གཅེས་བཏུས",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_DC_RDI-SK-03:2394",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "2390",
+        "4089",
+        "3108",
+        "2402"
+       ],
+       "is_en": false,
+       "wylie": "hi nges pa dang*/ rgan gzhon ma nges par shi ba'i rtags kyis nam 'chi cha med pa dang*/ 'chi ba'i tshe chos ma gtogs gang gis kyang mi phan par lung gis bsgrubs te bsam pa ni rtsa ba'i dmigs pa gsum yin la/ de re re la'ang yan lag gsum gsum sbyar te/ 'chi bdag nges par 'ong zhing de'ang thabs gang gis kyang mi zlog pa dang*/",
+       "tib": "ཧི་ངེས་པ་དང༌། རྒན་གཞོན་མ་ངེས་པར་ཤི་བའི་རྟགས་ཀྱིས་ནམ་འཆི་ཆ་མེད་པ་དང༌། འཆི་བའི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་ཀྱང་མི་ཕན་པར་ལུང་གིས་བསྒྲུབས་ཏེ་བསམ་པ་ནི་རྩ་བའི་དམིགས་པ་གསུམ་ཡིན་ལ། དེ་རེ་རེ་ལའང་ཡན་ལག་གསུམ་གསུམ་སྦྱར་ཏེ། འཆི་བདག་ངེས་པར་འོང་ཞིང་དེའང་ཐབས་གང་གིས་ཀྱང་མི་ཟློག་པ་དང༌།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_RDI-SK-03/text?active_segment=BO_TSD_BO_DC_RDI-SK-03:2394"
+      },
+      {
+       "work": "paN chen blo bzang chos kyi rgyal mtshan — byang chub lam gyi rim pa'…",
+       "work_tib": "",
+       "collection": "ACIP sungbum",
+       "toh": "",
+       "segid": "BO_ACIP-SUNGBUM_S5944M_T:273",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "269",
+        "277"
+       ],
+       "is_en": false,
+       "wylie": "es pa med de/ rang cag 'dzam bu gling pa'i tshe la nges pa med pa dang/ 'chi rkyen shin tu mang zhing gson pa'i rkyen nyung ba dang/ lus chu'i sbu ba lta bur nyams chung bas nam 'chi la nges pa med/ 'chi ba'i tshe chos ma gtogs gang gis kyang phan pa med de/ gnyen bshes brtse gdung ji ltar che bas mtha' bskor kyang gcig kyang khrid sa med/",
+       "tib": "པ་མེད་དེ། རང་ཅག་འཛམ་བུ་གླིང་པའི་ཚེ་ལ་ངེས་པ་མེད་པ་དང། འཆི་རྐྱེན་ཤིན་ཏུ་མང་ཞིང་གསོན་པའི་རྐྱེན་ཉུང་བ་དང། ལུས་ཆུའི་སྦུ་བ་ལྟ་བུར་ཉམས་ཆུང་བས་ནམ་འཆི་ལ་ངེས་པ་མེད། འཆི་བའི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་ཀྱང་ཕན་པ་མེད་དེ། གཉེན་བཤེས་བརྩེ་གདུང་ཇི་ལྟར་ཆེ་བས་མཐའ་བསྐོར་ཀྱང་གཅིག་ཀྱང་ཁྲིད་ས་མེད།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_S5944M_T/text?active_segment=BO_ACIP-SUNGBUM_S5944M_T:273"
+      },
+      {
+       "work": "lam rim dang blo sbyong nyams len gces btus/",
+       "work_tib": "ལམ་རིམ་དང་བློ་སྦྱོང་ཉམས་ལེན་གཅེས་བཏུས",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_DC_RDI-SS-05:3050",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "3046"
+       ],
+       "is_en": false,
+       "wylie": "'chi nges pa dang*/ rgan gzhon ma nges par shi ba'i rtags kyis nam 'chi cha med pa dang*/ 'chi ba'i tshe chos ma gtogs gang gis kyang mi phan par lung gis bsgrubs te bsam pa ni rtsa ba'i dmigs pa gsum yin la/ de re re la'ang yan lag gsum gsum sbyar te/ 'chi bdag nges par 'ong zhing de'ang thabs gang gis kyang mi zlog pa dang*/",
+       "tib": "འཆི་ངེས་པ་དང༌། རྒན་གཞོན་མ་ངེས་པར་ཤི་བའི་རྟགས་ཀྱིས་ནམ་འཆི་ཆ་མེད་པ་དང༌། འཆི་བའི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་ཀྱང་མི་ཕན་པར་ལུང་གིས་བསྒྲུབས་ཏེ་བསམ་པ་ནི་རྩ་བའི་དམིགས་པ་གསུམ་ཡིན་ལ། དེ་རེ་རེ་ལའང་ཡན་ལག་གསུམ་གསུམ་སྦྱར་ཏེ། འཆི་བདག་ངེས་པར་འོང་ཞིང་དེའང་ཐབས་གང་གིས་ཀྱང་མི་ཟློག་པ་དང༌།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_RDI-SS-05/text?active_segment=BO_TSD_BO_DC_RDI-SS-05:3050"
+      },
+      {
+       "work": "lcang skya ngag dbang blo bzang chos ldan — bsags sbyang gi gnad bsdu…",
+       "work_tib": "ལྕང་སྐྱ་ངག་དབང་བློ་བཟང་ཆོས་ལྡན — བསགས་སྦྱང་གི་གནད་བསྡུ",
+       "collection": "ACIP sungbum",
+       "toh": "",
+       "segid": "BO_ACIP-SUNGBUM_S0130M_T:761",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "768"
+       ],
+       "is_en": false,
+       "wylie": "9ba ngan 'gro'i nyes dmigs bsam pa gnyis/ 'chi ba mi rtag pa bsam pa la/ nges par 'chi ba bsam pa/ nam 'chi cha med bsam pa/ 'chi ba'i tshe chos ma gtogs gang gis kyang mi phan pa bsam pa ste rtsa ba gsum/ nges par 'chi bsam pa la/ 'chi bdag nges par 'ong zhing rkyen gang gis kyang bzlog tu med pa/ tshel snon pa med cing 'brid byed par mchad dang bcas pa; gson pa'i tshe yang chos bya ba'i long med pa ste rgyu mtshan gsum dang/",
+       "tib": "༩བ་ངན་འགྲོའི་ཉེས་དམིགས་བསམ་པ་གཉིས། འཆི་བ་མི་རྟག་པ་བསམ་པ་ལ། ངེས་པར་འཆི་བ་བསམ་པ། ནམ་འཆི་ཆ་མེད་བསམ་པ། འཆི་བའི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་ཀྱང་མི་ཕན་པ་བསམ་པ་སྟེ་རྩ་བ་གསུམ། ངེས་པར་འཆི་བསམ་པ་ལ། འཆི་བདག་ངེས་པར་འོང་ཞིང་རྐྱེན་གང་གིས་ཀྱང་བཟློག་ཏུ་མེད་པ། ཚེལ་སྣོན་པ་མེད་ཅིང་འབྲིད་བྱེད་པར་མཆད་དང་བཅས་པ༏་གསོན་པའི་ཚེ་ཡང་ཆོས་བྱ་བའི་ལོང་མེད་པ་སྟེ་རྒྱུ་མཚན་གསུམ་དང།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_S0130M_T/text?active_segment=BO_ACIP-SUNGBUM_S0130M_T:761"
+      },
+      {
+       "work": "Keutsang Lobsang Jamyang Munlam — BYANG CHUB LAM GYI RIM PA'I SNGON '…",
+       "work_tib": "",
+       "collection": "ACIP sungbum",
+       "toh": "",
+       "segid": "BO_ACIP-SUNGBUM_S6515E_T:3810",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "3813"
+       ],
+       "is_en": false,
+       "wylie": "ga/ rtag tu bag dang ldan par byin gyis rlobs/ zhes pa'i skabs su tshogs zhing rnams las rang 'dra gnyis pa re chad de rang gzhan la thim pas yon tan rnams 'phel zhing rgyas/ khyad par du tshe 'dir yun ring du mi gnas par nges par 'chi/ nam 'chi la yang nges pa med cing shi ba'i tshe chos ma gtogs gang gis kyang mi phan pa'i tshul dran nas/",
+       "tib": "ག། རྟག་ཏུ་བག་དང་ལྡན་པར་བྱིན་གྱིས་རློབས། ཞེས་པའི་སྐབས་སུ་ཚོགས་ཞིང་རྣམས་ལས་རང་འདྲ་གཉིས་པ་རེ་ཆད་དེ་རང་གཞན་ལ་ཐིམ་པས་ཡོན་ཏན་རྣམས་འཕེལ་ཞིང་རྒྱས། ཁྱད་པར་དུ་ཚེ་འདིར་ཡུན་རིང་དུ་མི་གནས་པར་ངེས་པར་འཆི། ནམ་འཆི་ལ་ཡང་ངེས་པ་མེད་ཅིང་ཤི་བའི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་ཀྱང་མི་ཕན་པའི་ཚུལ་དྲན་ནས།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_S6515E_T/text?active_segment=BO_ACIP-SUNGBUM_S6515E_T:3810"
+      },
+      {
+       "work": "theg pa chen po'i blo sbyong don bdun ma nyams su len tshul snying po…",
+       "work_tib": "ཐེག་པ་ཆེན་པོའི་བློ་སྦྱོང་དོན་བདུན་མ་ཉམས་སུ་ལེན་ཚུལ་སྙིང་པོ",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_JKW-KABUM-10-THA-008-001:40",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "38"
+       ],
+       "is_en": false,
+       "wylie": "pa 'di'ang yun ring du mi gnas par myur du 'jig ste nges par 'chi/ nam 'chi la nges pa med/ 'chi ba'i tshe chos ma gtogs gang gis kyang mi phan/ shi nas cang med du mi 'gro/ ma byas pa'i las dang mi 'phrad/ byas pa chud mi 'dza' bar las dang las kyi 'bras bu 'ba' zhig la brten nas ngan song gsum du ltung na ni tsha grang dang /",
+       "tib": "པ་འདིའང་ཡུན་རིང་དུ་མི་གནས་པར་མྱུར་དུ་འཇིག་སྟེ་ངེས་པར་འཆི། ནམ་འཆི་ལ་ངེས་པ་མེད། འཆི་བའི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་ཀྱང་མི་ཕན། ཤི་ནས་ཅང་མེད་དུ་མི་འགྲོ། མ་བྱས་པའི་ལས་དང་མི་འཕྲད། བྱས་པ་ཆུད་མི་འཛའ་བར་ལས་དང་ལས་ཀྱི་འབྲས་བུ་འབའ་ཞིག་ལ་བརྟེན་ནས་ངན་སོང་གསུམ་དུ་ལྟུང་ན་ནི་ཚ་གྲང་དང་།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_JKW-KABUM-10-THA-008-001/text?active_segment=BO_TSD_BO_JKW-KABUM-10-THA-008-001:40"
+      },
+      {
+       "work": "dwags po chos bzhi'i 'grel pa gces btus bzhugs so//",
+       "work_tib": "དྭགས་པོ་ཆོས་བཞིའི་འགྲེལ་པ་གཅེས་བཏུས་བཞུགས་སོ།",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_DC_BEN-LB-017:704",
+       "label": "NEAR",
+       "kind": "",
+       "more": [
+        "696"
+       ],
+       "is_en": false,
+       "wylie": "i nges pa med pas chos da lta nyid du bya dgos par thag bcad/ 'chi ba'i tshe chos ma gtogs gang gis kyang mi phan pas chos kho na bya dgos par thag bcad do/ gnyis pa 'jig rten gzhan du ji ltar 'gyur tshul bsam pa ni/ shi nas 'gro ba gnyis su skye ba te/ de dag bsam nas tshe 'dir blo ldog go/ 'phags pa klu sgrub zhabs kyis/",
+       "tib": "ངེས་པ་མེད་པས་ཆོས་ད་ལྟ་ཉིད་དུ་བྱ་དགོས་པར་ཐག་བཅད། འཆི་བའི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་ཀྱང་མི་ཕན་པས་ཆོས་ཁོ་ན་བྱ་དགོས་པར་ཐག་བཅད་དོ། གཉིས་པ་འཇིག་རྟེན་གཞན་དུ་ཇི་ལྟར་འགྱུར་ཚུལ་བསམ་པ་ནི། ཤི་ནས་འགྲོ་བ་གཉིས་སུ་སྐྱེ་བ་ཏེ། དེ་དག་བསམ་ནས་ཚེ་འདིར་བློ་ལྡོག་གོ། འཕགས་པ་ཀླུ་སྒྲུབ་ཞབས་ཀྱིས།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_BEN-LB-017/text?active_segment=BO_TSD_BO_DC_BEN-LB-017:704"
+      },
+      {
+       "work": "lhag pa shes rab kyi bslab pa rim par phye ba/",
+       "work_tib": "ལྷག་པ་ཤེས་རབ་ཀྱི་བསླབ་པ་རིམ་པར་ཕྱེ་བ",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_DC_RDI-TOK-07:2403",
+       "label": "NEAR",
+       "kind": "",
+       "more": [],
+       "is_en": false,
+       "wylie": "es 'chi ba mi rtag pa bsam pa la/ skyes pa'i rtags kyis 'chi bar grub pas cis kyang 'chi nges pa dang*/ rgan gzhon ma nges par shi ba'i rtags kyis nam 'chi cha med pa dang*/ 'chi ba'i tshe chos ma gtogs gang gis kyang mi phan par lung gis bsgrubs te bsam pa ni rtsa ba'i dmigs pa gsum yin la/ de re re la'ang yan lag gsum gsum sbyar te/",
+       "tib": "འཆི་བ་མི་རྟག་པ་བསམ་པ་ལ། སྐྱེས་པའི་རྟགས་ཀྱིས་འཆི་བར་གྲུབ་པས་ཅིས་ཀྱང་འཆི་ངེས་པ་དང༌། རྒན་གཞོན་མ་ངེས་པར་ཤི་བའི་རྟགས་ཀྱིས་ནམ་འཆི་ཆ་མེད་པ་དང༌། འཆི་བའི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་ཀྱང་མི་ཕན་པར་ལུང་གིས་བསྒྲུབས་ཏེ་བསམ་པ་ནི་རྩ་བའི་དམིགས་པ་གསུམ་ཡིན་ལ། དེ་རེ་རེ་ལའང་ཡན་ལག་གསུམ་གསུམ་སྦྱར་ཏེ།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_RDI-TOK-07/text?active_segment=BO_TSD_BO_DC_RDI-TOK-07:2403"
+      },
+      {
+       "work": "bla ma'i thugs sgrub bar chad kun sel las/ phyi gsol 'debs kyi tshul …",
+       "work_tib": "བླ་མའི་ཐུགས་སྒྲུབ་བར་ཆད་ཀུན་སེལ་ལས། ཕྱི་གསོལ་འདེབས་ཀྱི་ཚུལ",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_Terdzo-CA-053:16",
+       "label": "NEAR",
+       "kind": "",
+       "more": [],
+       "is_en": false,
+       "wylie": "'chi ba de'ang nam 'ong cha med/ 'chi ba'i tshe chos ma gtogs gang gis kyang phan pa med/ shi nas kyang mar me shi ba bzhin cang med du mi 'gro bar las dang las kyi 'bras bu 'ba' zhig gi rjes su 'brangs te/ gnas khams gsum rten rigs drug gis bsdus pa'i 'jig rten gyi khams su skye ba yang yang du len dgos/",
+       "tib": "འཆི་བ་དེའང་ནམ་འོང་ཆ་མེད། འཆི་བའི་ཚེ་ཆོས་མ་གཏོགས་གང་གིས་ཀྱང་ཕན་པ་མེད། ཤི་ནས་ཀྱང་མར་མེ་ཤི་བ་བཞིན་ཅང་མེད་དུ་མི་འགྲོ་བར་ལས་དང་ལས་ཀྱི་འབྲས་བུ་འབའ་ཞིག་གི་རྗེས་སུ་འབྲངས་ཏེ། གནས་ཁམས་གསུམ་རྟེན་རིགས་དྲུག་གིས་བསྡུས་པའི་འཇིག་རྟེན་གྱི་ཁམས་སུ་སྐྱེ་བ་ཡང་ཡང་དུ་ལེན་དགོས།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_Terdzo-CA-053/text?active_segment=BO_TSD_BO_Terdzo-CA-053:16"
+      }
+     ],
+     "n_hits": 178,
+     "n_works": 112,
+     "file": "dm_gloss_U02-2.txt"
+    },
+    {
+     "summary": "DharmaMitra primary search · semantic · no re-ranking · 154 hits in 95 works",
+     "query": "las las 'jig rten sna tshogs skyes/ de ni sems pa dang des byas/",
+     "syllables": 14,
+     "root": "chos mngon pa'i mdzod kyi tshid le'ur byas pa/ (abhidharmakośakārikā) [Toh 4089]",
+     "context_note": "context: DharmaNexus text view, 8 request(s) for 5 work(s): chos mngon pa'i mdzod kyi 'grel pa gnad…, chos mngon pa'i mdzod kyi bshad pa/ (ab…, chos mngon pa'i mdzod kyi bstan bcos ky…, dam pa'i chos mngon pa kun las btus pa'…, Gyelwa Gendun Drup — DAM PA'I CHOS MNGO…; gloss found in 0",
+     "notes": [
+      "83 further works not shown; --n-works raises the cap"
+     ],
+     "hits": [
+      {
+       "work": "chos mngon pa'i mdzod kyi 'grel pa gnad kyi sgron ma zhes bya ba/ (ab…",
+       "work_tib": "ཆོས་མངོན་པའི་མཛོད་ཀྱི་འགྲེལ་པ་གནད་ཀྱི་སྒྲོན་མ་ཞེས་བྱ་བ།",
+       "collection": "Tengyur, Toh 4095",
+       "toh": "Toh 4095",
+       "segid": "BO_T07_D4095:143a-19",
+       "label": "GLOSS",
+       "kind": "paraphrase",
+       "more": [
+        "143a-23",
+        "143a-28"
+       ],
+       "is_en": false,
+       "wylie": "nas gsum pa'o// // yang sems can dang snod kyi 'jig rten rnam pa sna tshogs pa bshad pa gang yin pa de dag sus byas she na// sus kyang blo sngon du btang nas byas pa ni med do// 'on kyang sems can rnams kyi/ las las 'jig rten sna tshogs skyes// las las de ci zhig ce na// de ni sems pa dang des byas//",
+       "tib": "ནས་གསུམ་པའོ༎ ༎ ཡང་སེམས་ཅན་དང་སྣོད་ཀྱི་འཇིག་རྟེན་རྣམ་པ་སྣ་ཚོགས་པ་བཤད་པ་གང་ཡིན་པ་དེ་དག་སུས་བྱས་ཤེ་ན༎ སུས་ཀྱང་བློ་སྔོན་དུ་བཏང་ནས་བྱས་པ་ནི་མེད་དོ༎ འོན་ཀྱང་སེམས་ཅན་རྣམས་ཀྱི། ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས༎ ལས་ལས་དེ་ཅི་ཞིག་ཅེ་ན༎ དེ་ནི་སེམས་པ་དང་དེས་བྱས༎",
+       "ctx": [
+        {
+         "mark": "hit",
+         "id": "143a-19",
+         "wylie": "'jig rten bstan pa zhes bya ba mdzod kyi gnas gsum pa'o/ /",
+         "tib": "འཇིག་རྟེན་བསྟན་པ་ཞེས་བྱ་བ་མཛོད་ཀྱི་གནས་གསུམ་པའོ། །"
+        },
+        {
+         "mark": "",
+         "id": "143a-20",
+         "wylie": "/ /",
+         "tib": "། །"
+        },
+        {
+         "mark": "",
+         "id": "143a-21",
+         "wylie": "yang sems can dang snod kyi 'jig rten rnam pa sna tshogs pa bshad pa gang yin pa de dag sus byas she na/ /",
+         "tib": "ཡང་སེམས་ཅན་དང་སྣོད་ཀྱི་འཇིག་རྟེན་རྣམ་པ་སྣ་ཚོགས་པ་བཤད་པ་གང་ཡིན་པ་དེ་དག་སུས་བྱས་ཤེ་ན། །"
+        },
+        {
+         "mark": "",
+         "id": "143a-22",
+         "wylie": "sus kyang blo sngon du btang nas byas pa ni med do/ /",
+         "tib": "སུས་ཀྱང་བློ་སྔོན་དུ་བཏང་ནས་བྱས་པ་ནི་མེད་དོ། །"
+        },
+        {
+         "mark": "",
+         "id": "143a-23",
+         "wylie": "'on kyang sems can rnams kyi/",
+         "tib": "འོན་ཀྱང་སེམས་ཅན་རྣམས་ཀྱི།"
+        },
+        {
+         "mark": "",
+         "id": "143a-24",
+         "wylie": "las las 'jig rten sna tshogs skyes/ /",
+         "tib": "ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས། །"
+        },
+        {
+         "mark": "",
+         "id": "143a-25",
+         "wylie": "las las de ci zhig ce na/ /",
+         "tib": "ལས་ལས་དེ་ཅི་ཞིག་ཅེ་ན། །"
+        },
+        {
+         "mark": "",
+         "id": "143a-26",
+         "wylie": "de ni sems pa dang des byas/ /",
+         "tib": "དེ་ནི་སེམས་པ་དང་དེས་བྱས། །"
+        },
+        {
+         "mark": "",
+         "id": "143a-27",
+         "wylie": "sems pa dang bsams pa'i las so zhes gsungs la/",
+         "tib": "སེམས་པ་དང་བསམས་པའི་ལས་སོ་ཞེས་གསུངས་ལ།"
+        }
+       ],
+       "note": "no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_T07_D4095:144a-7 --context --window 8 reads on",
+       "url": "https://dharmamitra.org/db/bo/BO_T07_D4095/text?active_segment=BO_T07_D4095:143a-19"
+      },
+      {
+       "work": "chos mngon pa'i mdzod kyi bshad pa/ (abhidharmakośabhāṣya)",
+       "work_tib": "ཆོས་མངོན་པའི་མཛོད་ཀྱི་བཤད་པ།",
+       "collection": "Tengyur, Toh 4090",
+       "toh": "Toh 4090",
+       "segid": "BO_T07_D4090:166a-1",
+       "label": "GLOSS",
+       "kind": "paraphrase",
+       "more": [
+        "166a-8"
+       ],
+       "is_en": false,
+       "wylie": "zhes bya ba mdzod kyi gnas gsum pa rdzogs so// // yang sems can dang snod kyi 'jig rten rnam pa mang po sna tshogs pa bshad pa gang yin pa de sus byas she na/ sus kyang blo sngon du btang ste byas pa ni med do// 'o na ji lta bu zhe na/ sems can rnams kyi/ las las 'jig rten sna tshogs skyes// gal te las las skyes nas ci'i phyir sems can rnams kyi las dag gis gur gum dang / tsan dan la sogs pa ches dga' dga' lta bur skyes par 'gyur la de dag gi lus ni ma yin zhe na/",
+       "tib": "ཞེས་བྱ་བ་མཛོད་ཀྱི་གནས་གསུམ་པ་རྫོགས་སོ༎ ༎ ཡང་སེམས་ཅན་དང་སྣོད་ཀྱི་འཇིག་རྟེན་རྣམ་པ་མང་པོ་སྣ་ཚོགས་པ་བཤད་པ་གང་ཡིན་པ་དེ་སུས་བྱས་ཤེ་ན། སུས་ཀྱང་བློ་སྔོན་དུ་བཏང་སྟེ་བྱས་པ་ནི་མེད་དོ༎ འོ་ན་ཇི་ལྟ་བུ་ཞེ་ན། སེམས་ཅན་རྣམས་ཀྱི། ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས༎ གལ་ཏེ་ལས་ལས་སྐྱེས་ནས་ཅིའི་ཕྱིར་སེམས་ཅན་རྣམས་ཀྱི་ལས་དག་གིས་གུར་གུམ་དང་། ཙན་དན་ལ་སོགས་པ་ཆེས་དགའ་དགའ་ལྟ་བུར་སྐྱེས་པར་འགྱུར་ལ་དེ་དག་གི་ལུས་ནི་མ་ཡིན་ཞེ་ན།",
+       "ctx": [
+        {
+         "mark": "",
+         "id": "165b-29",
+         "wylie": "de nas ni/",
+         "tib": "དེ་ནས་ནི།"
+        },
+        {
+         "mark": "",
+         "id": "165b-30",
+         "wylie": "mjug tu rlung gis 'jig pa yin/ /",
+         "tib": "མཇུག་ཏུ་རླུང་གིས་འཇིག་པ་ཡིན། །"
+        },
+        {
+         "mark": "",
+         "id": "165b-31",
+         "wylie": "de nas ni mjug tu rlung gis 'jig pa gcig 'byung ngo / /",
+         "tib": "དེ་ནས་ནི་མཇུག་ཏུ་རླུང་གིས་འཇིག་པ་གཅིག་འབྱུང་ངོ་། །"
+        },
+        {
+         "mark": "",
+         "id": "165b-32",
+         "wylie": "ci'i phyir zhe na/",
+         "tib": "ཅིའི་ཕྱིར་ཞེ་ན།"
+        },
+        {
+         "mark": "",
+         "id": "165b-33",
+         "wylie": "sems can de dag gi snyoms par 'jug pa'i khyad par las lus dag gnas pa'i khyad par ji lta bar snod rnams kyang de bzhin no/ /",
+         "tib": "སེམས་ཅན་དེ་དག་གི་སྙོམས་པར་འཇུག་པའི་ཁྱད་པར་ལས་ལུས་དག་གནས་པའི་ཁྱད་པར་ཇི་ལྟ་བར་སྣོད་རྣམས་ཀྱང་དེ་བཞིན་ནོ། །"
+        },
+        {
+         "mark": "",
+         "id": "165b-34",
+         "wylie": "de dag ni mes 'jig pa lnga bcu rtsa drug dang / chus 'jig pa bdun dang rlung gis 'jig pa gcig yin te/",
+         "tib": "དེ་དག་ནི་མེས་འཇིག་པ་ལྔ་བཅུ་རྩ་དྲུག་དང་། ཆུས་འཇིག་པ་བདུན་དང་རླུང་གིས་འཇིག་པ་གཅིག་ཡིན་ཏེ།"
+        },
+        {
+         "mark": "",
+         "id": "165b-36",
+         "wylie": "de ltar bshad nas btags pa'i bshad",
+         "tib": "དེ་ལྟར་བཤད་ནས་བཏགས་པའི་བཤད"
+        },
+        {
+         "mark": "",
+         "id": "166a-0",
+         "wylie": "pa dge rgyas kyi lha rnams kyi tshe'i tshad ni bskal pa drug cu rtsa bzhi'i zhes bya ba legs par drangs pa yin no/ /",
+         "tib": "པ་དགེ་རྒྱས་ཀྱི་ལྷ་རྣམས་ཀྱི་ཚེའི་ཚད་ནི་བསྐལ་པ་དྲུག་ཅུ་རྩ་བཞིའི་ཞེས་བྱ་བ་ལེགས་པར་དྲངས་པ་ཡིན་ནོ། །"
+        },
+        {
+         "mark": "hit",
+         "id": "166a-1",
+         "wylie": "chos mngon pa'i mdzod kyi bshad pa las 'jig rten bstan pa zhes bya ba mdzod kyi gnas gsum pa rdzogs so/ /",
+         "tib": "ཆོས་མངོན་པའི་མཛོད་ཀྱི་བཤད་པ་ལས་འཇིག་རྟེན་བསྟན་པ་ཞེས་བྱ་བ་མཛོད་ཀྱི་གནས་གསུམ་པ་རྫོགས་སོ། །"
+        },
+        {
+         "mark": "",
+         "id": "166a-2",
+         "wylie": "/ /",
+         "tib": "། །"
+        },
+        {
+         "mark": "",
+         "id": "166a-3",
+         "wylie": "yang sems can dang snod kyi 'jig rten rnam pa mang po sna tshogs pa bshad pa gang yin pa de sus byas she na/",
+         "tib": "ཡང་སེམས་ཅན་དང་སྣོད་ཀྱི་འཇིག་རྟེན་རྣམ་པ་མང་པོ་སྣ་ཚོགས་པ་བཤད་པ་གང་ཡིན་པ་དེ་སུས་བྱས་ཤེ་ན།"
+        },
+        {
+         "mark": "",
+         "id": "166a-4",
+         "wylie": "sus kyang blo sngon du btang ste byas pa ni med do/ /",
+         "tib": "སུས་ཀྱང་བློ་སྔོན་དུ་བཏང་སྟེ་བྱས་པ་ནི་མེད་དོ། །"
+        },
+        {
+         "mark": "",
+         "id": "166a-5",
+         "wylie": "'o na ji lta bu zhe na/",
+         "tib": "འོ་ན་ཇི་ལྟ་བུ་ཞེ་ན།"
+        },
+        {
+         "mark": "",
+         "id": "166a-6",
+         "wylie": "sems can rnams kyi/",
+         "tib": "སེམས་ཅན་རྣམས་ཀྱི།"
+        },
+        {
+         "mark": "",
+         "id": "166a-7",
+         "wylie": "las las 'jig rten sna tshogs skyes/ /",
+         "tib": "ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས། །"
+        },
+        {
+         "mark": "",
+         "id": "166a-8",
+         "wylie": "gal te las las skyes nas ci'i phyir sems can rnams kyi las dag gis gur gum dang / tsan dan la sogs pa ches dga' dga' lta bur skyes par 'gyur la de dag gi lus ni ma yin zhe na/",
+         "tib": "གལ་ཏེ་ལས་ལས་སྐྱེས་ནས་ཅིའི་ཕྱིར་སེམས་ཅན་རྣམས་ཀྱི་ལས་དག་གིས་གུར་གུམ་དང་། ཙན་དན་ལ་སོགས་པ་ཆེས་དགའ་དགའ་ལྟ་བུར་སྐྱེས་པར་འགྱུར་ལ་དེ་དག་གི་ལུས་ནི་མ་ཡིན་ཞེ་ན།"
+        },
+        {
+         "mark": "",
+         "id": "166a-10",
+         "wylie": "sems can 'dren mar byed pa rnams kyi las de lta bu dag kho na gang rma lta bur gyur pa'i lus dag dang / de'i tshe gnyen por gyur pa longs spyod dga' dga' lta bu dag kyang skye'i/",
+         "tib": "སེམས་ཅན་འདྲེན་མར་བྱེད་པ་རྣམས་ཀྱི་ལས་དེ་ལྟ་བུ་དག་ཁོ་ན་གང་རྨ་ལྟ་བུར་གྱུར་པའི་ལུས་དག་དང་། དེའི་ཚེ་གཉེན་པོར་གྱུར་པ་ལོངས་སྤྱོད་དགའ་དགའ་ལྟ་བུ་དག་ཀྱང་སྐྱེའི།"
+        }
+       ],
+       "note": "no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_T07_D4090:166b-32 --context --window 8 reads on",
+       "url": "https://dharmamitra.org/db/bo/BO_T07_D4090/text?active_segment=BO_T07_D4090:166a-1"
+      },
+      {
+       "work": "chos mngon pa'i mdzod kyi bstan bcos kyi tshig le'ur byas pa'i rnam p…",
+       "work_tib": "ཆོས་མངོན་པའི་མཛོད་ཀྱི་བསྟན་བཅོས་ཀྱི་ཚིག་ལེའུར་བྱས་པའི་རྣམ་པ",
+       "collection": "Tengyur, Toh 4091",
+       "toh": "Toh 4091",
+       "segid": "BO_T07_D4091:157a-9",
+       "label": "GLOSS",
+       "kind": "paraphrase",
+       "more": [
+        "157a-16"
+       ],
+       "is_en": false,
+       "wylie": "'o// // yang sems can dang snod kyi 'jig rten rnam pa sna tshogs bshad pa gang yin pa de sus byas she na/ sus kyang blo sngon du btang ste byas pa ni med do// 'o na ji lta bu zhe na/ sems can rnams kyi/ las las 'jig rten sna tshogs skyes// gal te las las skyes na ci'i phyir sems can rnams kyi las dag gis gur kum dang / tsan dan la sogs pa ches dga' dga' lta bu skye bar 'gyur la de dag gi lus ma yin zhe na//",
+       "tib": "འོ༎ ༎ ཡང་སེམས་ཅན་དང་སྣོད་ཀྱི་འཇིག་རྟེན་རྣམ་པ་སྣ་ཚོགས་བཤད་པ་གང་ཡིན་པ་དེ་སུས་བྱས་ཤེ་ན། སུས་ཀྱང་བློ་སྔོན་དུ་བཏང་སྟེ་བྱས་པ་ནི་མེད་དོ༎ འོ་ན་ཇི་ལྟ་བུ་ཞེ་ན། སེམས་ཅན་རྣམས་ཀྱི། ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས༎ གལ་ཏེ་ལས་ལས་སྐྱེས་ན་ཅིའི་ཕྱིར་སེམས་ཅན་རྣམས་ཀྱི་ལས་དག་གིས་གུར་ཀུམ་དང་། ཙན་དན་ལ་སོགས་པ་ཆེས་དགའ་དགའ་ལྟ་བུ་སྐྱེ་བར་འགྱུར་ལ་དེ་དག་གི་ལུས་མ་ཡིན་ཞེ་ན༎",
+       "ctx": [
+        {
+         "mark": "",
+         "id": "156b-33",
+         "wylie": "tha",
+         "tib": "ཐ"
+        },
+        {
+         "mark": "",
+         "id": "157a-0",
+         "wylie": "mar rlung gis 'jig pa'o/ /",
+         "tib": "མར་རླུང་གིས་འཇིག་པའོ། །"
+        },
+        {
+         "mark": "",
+         "id": "157a-1",
+         "wylie": "phyis ni rlung gi 'jig pa gcig yin no/ /",
+         "tib": "ཕྱིས་ནི་རླུང་གི་འཇིག་པ་གཅིག་ཡིན་ནོ། །"
+        },
+        {
+         "mark": "",
+         "id": "157a-2",
+         "wylie": "ci'i phyir zhe na/",
+         "tib": "ཅིའི་ཕྱིར་ཞེ་ན།"
+        },
+        {
+         "mark": "",
+         "id": "157a-3",
+         "wylie": "sems can de dag gi snyoms par 'jug pa'i khyad par lus rnams gnas pa'i khyad par ji lta bar snod rnams kyang de bzhin no/ /",
+         "tib": "སེམས་ཅན་དེ་དག་གི་སྙོམས་པར་འཇུག་པའི་ཁྱད་པར་ལུས་རྣམས་གནས་པའི་ཁྱད་པར་ཇི་ལྟ་བར་སྣོད་རྣམས་ཀྱང་དེ་བཞིན་ནོ། །"
+        },
+        {
+         "mark": "",
+         "id": "157a-4",
+         "wylie": "de ltar de dag gis mes 'jig pa lnga bcu rtsa drug dang / chus 'jig pa bdun dang / rlung gi 'jig pa gcig tu 'gyur te/",
+         "tib": "དེ་ལྟར་དེ་དག་གིས་མེས་འཇིག་པ་ལྔ་བཅུ་རྩ་དྲུག་དང་། ཆུས་འཇིག་པ་བདུན་དང་། རླུང་གི་འཇིག་པ་གཅིག་ཏུ་འགྱུར་ཏེ།"
+        },
+        {
+         "mark": "",
+         "id": "157a-7",
+         "wylie": "de ltar byas na btags pa las/",
+         "tib": "དེ་ལྟར་བྱས་ན་བཏགས་པ་ལས།"
+        },
+        {
+         "mark": "",
+         "id": "157a-8",
+         "wylie": "dge rgyas kyi lha rnams kyi tshe'i tshad ni bskal pa drug cu rtsa bzhi'o zhes bshad pa legs par grangs pa yin no/ /",
+         "tib": "དགེ་རྒྱས་ཀྱི་ལྷ་རྣམས་ཀྱི་ཚེའི་ཚད་ནི་བསྐལ་པ་དྲུག་ཅུ་རྩ་བཞིའོ་ཞེས་བཤད་པ་ལེགས་པར་གྲངས་པ་ཡིན་ནོ། །"
+        },
+        {
+         "mark": "hit",
+         "id": "157a-9",
+         "wylie": "chos mngon pa mdzod kyi bstan bcos 'jig rten bstan pa'i 'grel pa mdo dang mthun pa las 'jig rten bstan pa zhes bya ba mdzod kyi gnas gsum pa'o/ /",
+         "tib": "ཆོས་མངོན་པ་མཛོད་ཀྱི་བསྟན་བཅོས་འཇིག་རྟེན་བསྟན་པའི་འགྲེལ་པ་མདོ་དང་མཐུན་པ་ལས་འཇིག་རྟེན་བསྟན་པ་ཞེས་བྱ་བ་མཛོད་ཀྱི་གནས་གསུམ་པའོ། །"
+        },
+        {
+         "mark": "",
+         "id": "157a-10",
+         "wylie": "/ /",
+         "tib": "། །"
+        },
+        {
+         "mark": "",
+         "id": "157a-11",
+         "wylie": "yang sems can dang snod kyi 'jig rten rnam pa sna tshogs bshad pa gang yin pa de sus byas she na/",
+         "tib": "ཡང་སེམས་ཅན་དང་སྣོད་ཀྱི་འཇིག་རྟེན་རྣམ་པ་སྣ་ཚོགས་བཤད་པ་གང་ཡིན་པ་དེ་སུས་བྱས་ཤེ་ན།"
+        },
+        {
+         "mark": "",
+         "id": "157a-12",
+         "wylie": "sus kyang blo sngon du btang ste byas pa ni med do/ /",
+         "tib": "སུས་ཀྱང་བློ་སྔོན་དུ་བཏང་སྟེ་བྱས་པ་ནི་མེད་དོ། །"
+        },
+        {
+         "mark": "",
+         "id": "157a-13",
+         "wylie": "'o na ji lta bu zhe na/",
+         "tib": "འོ་ན་ཇི་ལྟ་བུ་ཞེ་ན།"
+        },
+        {
+         "mark": "",
+         "id": "157a-14",
+         "wylie": "sems can rnams kyi/",
+         "tib": "སེམས་ཅན་རྣམས་ཀྱི།"
+        },
+        {
+         "mark": "",
+         "id": "157a-15",
+         "wylie": "las las 'jig rten sna tshogs skyes/ /",
+         "tib": "ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས། །"
+        },
+        {
+         "mark": "",
+         "id": "157a-16",
+         "wylie": "gal te las las skyes na ci'i phyir sems can rnams kyi las dag gis gur kum dang / tsan dan la sogs pa ches dga' dga' lta bu skye bar 'gyur la de dag gi lus ma yin zhe na/ /",
+         "tib": "གལ་ཏེ་ལས་ལས་སྐྱེས་ན་ཅིའི་ཕྱིར་སེམས་ཅན་རྣམས་ཀྱི་ལས་དག་གིས་གུར་ཀུམ་དང་། ཙན་དན་ལ་སོགས་པ་ཆེས་དགའ་དགའ་ལྟ་བུ་སྐྱེ་བར་འགྱུར་ལ་དེ་དག་གི་ལུས་མ་ཡིན་ཞེ་ན། །"
+        },
+        {
+         "mark": "",
+         "id": "157a-18",
+         "wylie": "sems can 'dren mar byed pa rnams kyi las de lta bu dag kho nas gang rma lta bur 'gyur ba'i lus dag dang / de'i gnyen por 'gyur ba longs spyod dga' dga' lta bu dag skye'i/",
+         "tib": "སེམས་ཅན་འདྲེན་མར་བྱེད་པ་རྣམས་ཀྱི་ལས་དེ་ལྟ་བུ་དག་ཁོ་ནས་གང་རྨ་ལྟ་བུར་འགྱུར་བའི་ལུས་དག་དང་། དེའི་གཉེན་པོར་འགྱུར་བ་ལོངས་སྤྱོད་དགའ་དགའ་ལྟ་བུ་དག་སྐྱེའི།"
+        }
+       ],
+       "note": "no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_T07_D4091:158a-1 --context --window 8 reads on",
+       "url": "https://dharmamitra.org/db/bo/BO_T07_D4091/text?active_segment=BO_T07_D4091:157a-9"
+      },
+      {
+       "work": "dam pa'i chos mngon pa kun las btus pa'i 'grel ba shes bya rab gsal s…",
+       "work_tib": "དམ་པའི་ཆོས་མངོན་པ་ཀུན་ལས་བཏུས་པའི་འགྲེལ་བ་ཤེས་བྱ་རབ་གསལ་ས",
+       "collection": "Sungbum/series",
+       "toh": "",
+       "segid": "BO_S05_NGONPA-108:15497",
+       "label": "GLOSS",
+       "kind": "paraphrase",
+       "more": [
+        "15494",
+        "15487"
+       ],
+       "is_en": false,
+       "wylie": "/ las las 'jig rten sna tshogs skyes/ de ni sems pa dang des byas/ sems pa yid kyi las yin te/ des bskyed ngag dang lus kyi las/ zhes kyang bshad la/ ye shes bshes gnyen ni/ 'di dang 'dis 'gro bar byed do zhes/ yang dag par 'dzin pa'i sems dang*/ bya mi bya dpyod pa la zhugs pa/ nges pa'i sems pa dang*/",
+       "tib": "། ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས། དེ་ནི་སེམས་པ་དང་དེས་བྱས། སེམས་པ་ཡིད་ཀྱི་ལས་ཡིན་ཏེ། དེས་བསྐྱེད་ངག་དང་ལུས་ཀྱི་ལས། ཞེས་ཀྱང་བཤད་ལ། ཡེ་ཤེས་བཤེས་གཉེན་ནི། འདི་དང་འདིས་འགྲོ་བར་བྱེད་དོ་ཞེས། ཡང་དག་པར་འཛིན་པའི་སེམས་དང༌། བྱ་མི་བྱ་དཔྱོད་པ་ལ་ཞུགས་པ། ངེས་པའི་སེམས་པ་དང༌།",
+       "ctx": [
+        {
+         "mark": "",
+         "id": "15489",
+         "wylie": "mdo dang sbyar te shin tu rgyas bshad do/",
+         "tib": "མདོ་དང་སྦྱར་ཏེ་ཤིན་ཏུ་རྒྱས་བཤད་དོ།"
+        },
+        {
+         "mark": "",
+         "id": "15490",
+         "wylie": "dang po ni/",
+         "tib": "དང་པོ་ནི།"
+        },
+        {
+         "mark": "",
+         "id": "15491",
+         "wylie": "mdo las/",
+         "tib": "མདོ་ལས།"
+        },
+        {
+         "mark": "",
+         "id": "15492",
+         "wylie": "dge slong dag",
+         "tib": "དགེ་སློང་དག"
+        },
+        {
+         "mark": "",
+         "id": "15493",
+         "wylie": "sems pa las su nga smra ste/",
+         "tib": "སེམས་པ་ལས་སུ་ང་སྨྲ་སྟེ།"
+        },
+        {
+         "mark": "",
+         "id": "15494",
+         "wylie": "bsam pa yang ngo zhes gsungs pa ltar sems pa yid kho na'i las dang*/",
+         "tib": "བསམ་པ་ཡང་ངོ་ཞེས་གསུངས་པ་ལྟར་སེམས་པ་ཡིད་ཁོ་ནའི་ལས་དང༌།"
+        },
+        {
+         "mark": "",
+         "id": "15495",
+         "wylie": "des bskyed pa'i bsam pa lus dang ngag dang yid gsum ka'i las te/",
+         "tib": "དེས་བསྐྱེད་པའི་བསམ་པ་ལུས་དང་ངག་དང་ཡིད་གསུམ་ཀའི་ལས་ཏེ།"
+        },
+        {
+         "mark": "",
+         "id": "15496",
+         "wylie": "gnyis po des las kyi kun 'byung gi mtshan nyid dam rang bzhin thams cad mdor bsdus pa'o/",
+         "tib": "གཉིས་པོ་དེས་ལས་ཀྱི་ཀུན་འབྱུང་གི་མཚན་ཉིད་དམ་རང་བཞིན་ཐམས་ཅད་མདོར་བསྡུས་པའོ།"
+        },
+        {
+         "mark": "hit",
+         "id": "15497",
+         "wylie": "mdzod du/",
+         "tib": "མཛོད་དུ།"
+        },
+        {
+         "mark": "",
+         "id": "15498",
+         "wylie": "las las 'jig rten sna tshogs skyes/",
+         "tib": "ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས།"
+        },
+        {
+         "mark": "",
+         "id": "15499",
+         "wylie": "de ni sems pa dang des byas/",
+         "tib": "དེ་ནི་སེམས་པ་དང་དེས་བྱས།"
+        },
+        {
+         "mark": "",
+         "id": "15500",
+         "wylie": "sems pa yid kyi las yin te/",
+         "tib": "སེམས་པ་ཡིད་ཀྱི་ལས་ཡིན་ཏེ།"
+        },
+        {
+         "mark": "",
+         "id": "15501",
+         "wylie": "des bskyed ngag dang lus kyi las/",
+         "tib": "དེས་བསྐྱེད་ངག་དང་ལུས་ཀྱི་ལས།"
+        },
+        {
+         "mark": "",
+         "id": "15502",
+         "wylie": "zhes kyang bshad la/",
+         "tib": "ཞེས་ཀྱང་བཤད་ལ།"
+        },
+        {
+         "mark": "",
+         "id": "15503",
+         "wylie": "ye shes bshes gnyen ni/",
+         "tib": "ཡེ་ཤེས་བཤེས་གཉེན་ནི།"
+        },
+        {
+         "mark": "",
+         "id": "15504",
+         "wylie": "'di dang 'dis 'gro bar byed do zhes/",
+         "tib": "འདི་དང་འདིས་འགྲོ་བར་བྱེད་དོ་ཞེས།"
+        },
+        {
+         "mark": "",
+         "id": "15505",
+         "wylie": "yang dag par 'dzin pa'i sems dang*/",
+         "tib": "ཡང་དག་པར་འཛིན་པའི་སེམས་དང༌།"
+        }
+       ],
+       "note": "no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_S05_NGONPA-108:15557 --context --window 8 reads on",
+       "url": "https://dharmamitra.org/db/bo/BO_S05_NGONPA-108/text?active_segment=BO_S05_NGONPA-108:15497"
+      },
+      {
+       "work": "Gyelwa Gendun Drup — DAM PA'I CHOS MNGON PA'I MDZOD KYI RNAM PAR BSHA…",
+       "work_tib": "",
+       "collection": "ACIP sungbum",
+       "toh": "",
+       "segid": "BO_ACIP-SUNGBUM_SL5525N_T:6433",
+       "label": "GLOSS",
+       "kind": "paraphrase",
+       "more": [
+        "6427",
+        "8732"
+       ],
+       "is_en": false,
+       "wylie": "ma grangs so/ dang po la/ bstan/ bshad do/ dang po ni/ las las 'jig rten sna tshogs skyes/ zhes bshad na/ las de la dbye na du zhe na/ las de ni gnyis su yod de/ sems pa'i las dang/ sems pa des byas pa'i bsam pa'i las gnyis su yod pa'i phyir/ de dag gi ngo bo gang zhe na/ sems pa ni yid kyi las yin te/",
+       "tib": "མ་གྲངས་སོ། དང་པོ་ལ། བསྟན། བཤད་དོ། དང་པོ་ནི། ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས། ཞེས་བཤད་ན། ལས་དེ་ལ་དབྱེ་ན་དུ་ཞེ་ན། ལས་དེ་ནི་གཉིས་སུ་ཡོད་དེ། སེམས་པའི་ལས་དང། སེམས་པ་དེས་བྱས་པའི་བསམ་པའི་ལས་གཉིས་སུ་ཡོད་པའི་ཕྱིར། དེ་དག་གི་ངོ་བོ་གང་ཞེ་ན། སེམས་པ་ནི་ཡིད་ཀྱི་ལས་ཡིན་ཏེ།",
+       "ctx": [
+        {
+         "mark": "",
+         "id": "6425",
+         "wylie": "rgyu med dang mi mthun pa'i rgyu las byung ba ma yin te/",
+         "tib": "རྒྱུ་མེད་དང་མི་མཐུན་པའི་རྒྱུ་ལས་བྱུང་བ་མ་ཡིན་ཏེ།"
+        },
+        {
+         "mark": "",
+         "id": "6426",
+         "wylie": "res 'ga' skye ba dang/",
+         "tib": "རེས་འགའ་སྐྱེ་བ་དང།"
+        },
+        {
+         "mark": "",
+         "id": "6427",
+         "wylie": "dbang phyug sogs min rim sogs phyir/",
+         "tib": "དབང་ཕྱུག་སོགས་མིན་རིམ་སོགས་ཕྱིར།"
+        },
+        {
+         "mark": "",
+         "id": "6428",
+         "wylie": "zhes bshad pa'i phyir/",
+         "tib": "ཞེས་བཤད་པའི་ཕྱིར།"
+        },
+        {
+         "mark": "",
+         "id": "6429",
+         "wylie": "'o na gang las skyes she na/",
+         "tib": "འོ་ན་གང་ལས་སྐྱེས་ཤེ་ན།"
+        },
+        {
+         "mark": "",
+         "id": "6430",
+         "wylie": "las las snod bcud kyi 'jig rten sna tshogs pa skyes so/",
+         "tib": "ལས་ལས་སྣོད་བཅུད་ཀྱི་འཇིག་རྟེན་སྣ་ཚོགས་པ་སྐྱེས་སོ།"
+        },
+        {
+         "mark": "",
+         "id": "6431",
+         "wylie": "gnyis pa la/",
+         "tib": "གཉིས་པ་ལ།"
+        },
+        {
+         "mark": "",
+         "id": "6432",
+         "wylie": "las kyi ngo bo/",
+         "tib": "ལས་ཀྱི་ངོ་བོ།"
+        },
+        {
+         "mark": "hit",
+         "id": "6433",
+         "wylie": "mdo las 'byung ba'i ming gi rnam grangs so/",
+         "tib": "མདོ་ལས་འབྱུང་བའི་མིང་གི་རྣམ་གྲངས་སོ།"
+        },
+        {
+         "mark": "",
+         "id": "6434",
+         "wylie": "dang po la/",
+         "tib": "དང་པོ་ལ།"
+        },
+        {
+         "mark": "",
+         "id": "6435",
+         "wylie": "bstan/",
+         "tib": "བསྟན།"
+        },
+        {
+         "mark": "",
+         "id": "6436",
+         "wylie": "bshad do/",
+         "tib": "བཤད་དོ།"
+        },
+        {
+         "mark": "",
+         "id": "6437",
+         "wylie": "dang po ni/",
+         "tib": "དང་པོ་ནི།"
+        },
+        {
+         "mark": "",
+         "id": "6438",
+         "wylie": "las las 'jig rten sna tshogs skyes/",
+         "tib": "ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས།"
+        },
+        {
+         "mark": "",
+         "id": "6439",
+         "wylie": "zhes bshad na/",
+         "tib": "ཞེས་བཤད་ན།"
+        },
+        {
+         "mark": "",
+         "id": "6440",
+         "wylie": "las de la dbye na du zhe na/",
+         "tib": "ལས་དེ་ལ་དབྱེ་ན་དུ་ཞེ་ན།"
+        },
+        {
+         "mark": "",
+         "id": "6441",
+         "wylie": "las de ni gnyis su yod de/",
+         "tib": "ལས་དེ་ནི་གཉིས་སུ་ཡོད་དེ།"
+        }
+       ],
+       "note": "no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_ACIP-SUNGBUM_SL5525N_T:6493 --context --window 8 reads on",
+       "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_SL5525N_T/text?active_segment=BO_ACIP-SUNGBUM_SL5525N_T:6433"
+      },
+      {
+       "work": "chos mngon pa'i mdzod kyi rnam par bshad pa chos mngon rgya mtsho'i s…",
+       "work_tib": "ཆོས་མངོན་པའི་མཛོད་ཀྱི་རྣམ་པར་བཤད་པ་ཆོས་མངོན་རྒྱ་མཚོའི་ས",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_DC_VVI-011:5869",
+       "label": "GLOSS",
+       "kind": "paraphrase",
+       "more": [
+        "5874"
+       ],
+       "is_en": false,
+       "wylie": "pas mjug bsdu ba'o/ dang po (thams cad las las byung ba )ni/ las las 'jig rten sna tshogs skyes/ zhes pas bstan/ sngar bshad pa'i snod bcud kyi 'jig rten 'di sus byas/ dbang phyug sogs kyis blo sngon du btang ste byas pa ni ma yin gyi/ las dge mi dge sna tshogs las snod bcud kyi 'jig rten bde sdug dang bzang ngan sna tshogs pa skyes pa yin no/",
+       "tib": "པས་མཇུག་བསྡུ་བའོ། དང་པོ ༼ཐམས་ཅད་ལས་ལས་བྱུང་བ་༽ནི། ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས། ཞེས་པས་བསྟན། སྔར་བཤད་པའི་སྣོད་བཅུད་ཀྱི་འཇིག་རྟེན་འདི་སུས་བྱས། དབང་ཕྱུག་སོགས་ཀྱིས་བློ་སྔོན་དུ་བཏང་སྟེ་བྱས་པ་ནི་མ་ཡིན་གྱི། ལས་དགེ་མི་དགེ་སྣ་ཚོགས་ལས་སྣོད་བཅུད་ཀྱི་འཇིག་རྟེན་བདེ་སྡུག་དང་བཟང་ངན་སྣ་ཚོགས་པ་སྐྱེས་པ་ཡིན་ནོ།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_VVI-011/text?active_segment=BO_TSD_BO_DC_VVI-011:5869"
+      },
+      {
+       "work": "Gyelwa Gendun Drup — DAM PA'I CHOS MNGON PA'I MDZOD KYI RNAM PAR BSHA…",
+       "work_tib": "",
+       "collection": "ACIP sungbum",
+       "toh": "",
+       "segid": "BO_ACIP-SUNGBUM_SE5525M_T:6428",
+       "label": "GLOSS",
+       "kind": "paraphrase",
+       "more": [],
+       "is_en": false,
+       "wylie": "as las snod bcud kyi 'jig rten sna tshogs pa skyes so/ gnyis pa la/ las kyi ngo bo/ mdo las 'byung ba'i ming gi rnam grangs so/ dang po la/ bstan/ bshad do/ dang po ni/ las las 'jig rten sna tshogs skyes/ zhes bshad na/ las de la dbye na du zhe na/ las de ni gnyis su yod de/ sems pa'i las dang/ sems pa des byas pa'i bsam pa'i las gnyis su yod pa'i phyir/",
+       "tib": "ལས་སྣོད་བཅུད་ཀྱི་འཇིག་རྟེན་སྣ་ཚོགས་པ་སྐྱེས་སོ། གཉིས་པ་ལ། ལས་ཀྱི་ངོ་བོ། མདོ་ལས་འབྱུང་བའི་མིང་གི་རྣམ་གྲངས་སོ། དང་པོ་ལ། བསྟན། བཤད་དོ། དང་པོ་ནི། ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས། ཞེས་བཤད་ན། ལས་དེ་ལ་དབྱེ་ན་དུ་ཞེ་ན། ལས་དེ་ནི་གཉིས་སུ་ཡོད་དེ། སེམས་པའི་ལས་དང། སེམས་པ་དེས་བྱས་པའི་བསམ་པའི་ལས་གཉིས་སུ་ཡོད་པའི་ཕྱིར།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_SE5525M_T/text?active_segment=BO_ACIP-SUNGBUM_SE5525M_T:6428"
+      },
+      {
+       "work": "tshad ma rnam 'grel gyi 'grel pa rigs pa'i mdzod ces bya ba bzhugs so",
+       "work_tib": "ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་རིགས་པའི་མཛོད་ཅེས་བྱ་བ་བཞུགས་སོ",
+       "collection": "Sungbum/series",
+       "toh": "",
+       "segid": "BO_S04_TSEMA-122:4619",
+       "label": "GLOSS",
+       "kind": "paraphrase",
+       "more": [],
+       "is_en": false,
+       "wylie": "da kyis 'dod pa de gang zag gnyis ka la grub pa'i phyir ro/ 'di ltar sangs rgyas pa la yang las kyi ming can gyi sems pas bsgrub par 'dod pa'i phyir te/ 'jig rten sna tshogs las las skyes/ las ni sems pa dang des byas/ zhes pa'o/ gal te dbang phyug rtag pa gcig gis thams cad byas par sgrub pa yin na dpe ma grub ste bum pa la sogs pa thams cad dbang phyug gis byas par ma grub pa'i phyir ro/",
+       "tib": "ད་ཀྱིས་འདོད་པ་དེ་གང་ཟག་གཉིས་ཀ་ལ་གྲུབ་པའི་ཕྱིར་རོ། འདི་ལྟར་སངས་རྒྱས་པ་ལ་ཡང་ལས་ཀྱི་མིང་ཅན་གྱི་སེམས་པས་བསྒྲུབ་པར་འདོད་པའི་ཕྱིར་ཏེ། འཇིག་རྟེན་སྣ་ཚོགས་ལས་ལས་སྐྱེས། ལས་ནི་སེམས་པ་དང་དེས་བྱས། ཞེས་པའོ། གལ་ཏེ་དབང་ཕྱུག་རྟག་པ་གཅིག་གིས་ཐམས་ཅད་བྱས་པར་སྒྲུབ་པ་ཡིན་ན་དཔེ་མ་གྲུབ་སྟེ་བུམ་པ་ལ་སོགས་པ་ཐམས་ཅད་དབང་ཕྱུག་གིས་བྱས་པར་མ་གྲུབ་པའི་ཕྱིར་རོ།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_S04_TSEMA-122/text?active_segment=BO_S04_TSEMA-122:4619"
+      },
+      {
+       "work": "chos mngon pa mdzod kyi rnam bshad shes bya rab gsal zhes bya ba bzhu…",
+       "work_tib": "ཆོས་མངོན་པ་མཛོད་ཀྱི་རྣམ་བཤད་ཤེས་བྱ་རབ་གསལ་ཞེས་བྱ་བ་བཞུ",
+       "collection": "Sungbum/series",
+       "toh": "",
+       "segid": "BO_S09_RONT071:4213",
+       "label": "GLOSS",
+       "kind": "paraphrase",
+       "more": [
+        "4207",
+        "4218"
+       ],
+       "is_en": false,
+       "wylie": "kyi 'jig rten rnam pa du ma de sus byas she na/ byed pa po sogs su yang med kyi/ sems can gyi las las 'jig rten bzang ngan 'dres pa sna tshogs skyes so/ gnyis pa la gsum ste/ las ngos bzung*/ las kyi rnam bzhag las mdo las byung ba'i don no/ dang po ni/ las de ci zhe na/ las de ni mdo las/ sems pa dang des byas pa'i bsam pa'i las gnyis su gsungs so/",
+       "tib": "ཀྱི་འཇིག་རྟེན་རྣམ་པ་དུ་མ་དེ་སུས་བྱས་ཤེ་ན། བྱེད་པ་པོ་སོགས་སུ་ཡང་མེད་ཀྱི། སེམས་ཅན་གྱི་ལས་ལས་འཇིག་རྟེན་བཟང་ངན་འདྲེས་པ་སྣ་ཚོགས་སྐྱེས་སོ། གཉིས་པ་ལ་གསུམ་སྟེ། ལས་ངོས་བཟུང༌། ལས་ཀྱི་རྣམ་བཞག་ལས་མདོ་ལས་བྱུང་བའི་དོན་ནོ། དང་པོ་ནི། ལས་དེ་ཅི་ཞེ་ན། ལས་དེ་ནི་མདོ་ལས། སེམས་པ་དང་དེས་བྱས་པའི་བསམ་པའི་ལས་གཉིས་སུ་གསུངས་སོ།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_S09_RONT071/text?active_segment=BO_S09_RONT071:4213"
+      },
+      {
+       "work": "chos mngon pa mdzod kyi rnam bshad tshig don rab gsal zhes bya ba bzh…",
+       "work_tib": "ཆོས་མངོན་པ་མཛོད་ཀྱི་རྣམ་བཤད་ཚིག་དོན་རབ་གསལ་ཞེས་བྱ་བ་བཞ",
+       "collection": "Sungbum/series",
+       "toh": "",
+       "segid": "BO_S10_KHEZ022:9760",
+       "label": "GLOSS",
+       "kind": "paraphrase",
+       "more": [
+        "9756",
+        "9765"
+       ],
+       "is_en": false,
+       "wylie": "/ gong du snod bcud kyi 'jig rten sna tshogs gsungs pa de dag rgyu gang las byung zhe na/ byed pa po gzhan med kyis/ las las 'jig rten bzang ngan 'dres ma sna tshogs skyes so/ gnyis pa la/ bstan bshad gnyis/ dang po ni/ las de ci zhig ce na/ las de ni mdo las/ sems pa'i las dang des byas pa bsam pa'i las gnyis su gsungs so/",
+       "tib": "། གོང་དུ་སྣོད་བཅུད་ཀྱི་འཇིག་རྟེན་སྣ་ཚོགས་གསུངས་པ་དེ་དག་རྒྱུ་གང་ལས་བྱུང་ཞེ་ན། བྱེད་པ་པོ་གཞན་མེད་ཀྱིས། ལས་ལས་འཇིག་རྟེན་བཟང་ངན་འདྲེས་མ་སྣ་ཚོགས་སྐྱེས་སོ། གཉིས་པ་ལ། བསྟན་བཤད་གཉིས། དང་པོ་ནི། ལས་དེ་ཅི་ཞིག་ཅེ་ན། ལས་དེ་ནི་མདོ་ལས། སེམས་པའི་ལས་དང་དེས་བྱས་པ་བསམ་པའི་ལས་གཉིས་སུ་གསུངས་སོ།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_S10_KHEZ022/text?active_segment=BO_S10_KHEZ022:9760"
+      },
+      {
+       "work": "dam pa'i chos mngon pa mdzod kyi 'grel pa gzhung don rab tu gsal ba'i…",
+       "work_tib": "དམ་པའི་ཆོས་མངོན་པ་མཛོད་ཀྱི་འགྲེལ་པ་གཞུང་དོན་རབ་ཏུ་གསལ་བའི",
+       "collection": "Sungbum/series",
+       "toh": "",
+       "segid": "BO_S05_NGONPA-115:5355",
+       "label": "GLOSS",
+       "kind": "paraphrase",
+       "more": [
+        "5364"
+       ],
+       "is_en": false,
+       "wylie": "gyis mdor bstan/ las dngos rgyas par bshad/ zhar la chos kyi rnam grangs kha cig bstan pas mjug bsdu ba'o/ dang po ni/ snod bcud kyi 'jig rten sna tshogs pa rnams rgyu med pa dang mi mthun pa'i rgyu las byung ba ni sngar bkag na de dag ci las byung zhe na/ sems can rnams kyi dge mi dge'i las las 'jig rten bzang ngan 'dres ma sna tshogs pa rnams skyes so/",
+       "tib": "གྱིས་མདོར་བསྟན། ལས་དངོས་རྒྱས་པར་བཤད། ཞར་ལ་ཆོས་ཀྱི་རྣམ་གྲངས་ཁ་ཅིག་བསྟན་པས་མཇུག་བསྡུ་བའོ། དང་པོ་ནི། སྣོད་བཅུད་ཀྱི་འཇིག་རྟེན་སྣ་ཚོགས་པ་རྣམས་རྒྱུ་མེད་པ་དང་མི་མཐུན་པའི་རྒྱུ་ལས་བྱུང་བ་ནི་སྔར་བཀག་ན་དེ་དག་ཅི་ལས་བྱུང་ཞེ་ན། སེམས་ཅན་རྣམས་ཀྱི་དགེ་མི་དགེའི་ལས་ལས་འཇིག་རྟེན་བཟང་ངན་འདྲེས་མ་སྣ་ཚོགས་པ་རྣམས་སྐྱེས་སོ།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_S05_NGONPA-115/text?active_segment=BO_S05_NGONPA-115:5355"
+      },
+      {
+       "work": "byang chub kyi spyod pa la 'jug pa'i dka' 'grel/ (bodhicaryāvatārapañ…",
+       "work_tib": "བྱང་ཆུབ་ཀྱི་སྤྱོད་པ་ལ་འཇུག་པའི་དཀའ་འགྲེལ།",
+       "collection": "Tengyur, Toh 3872",
+       "toh": "Toh 3872",
+       "segid": "BO_T04_D3872:88b-25",
+       "label": "QUOTE",
+       "kind": "",
+       "more": [
+        "233b-26",
+        "89a-19",
+        "233b-24",
+        "234a-3",
+        "88b-19"
+       ],
+       "is_en": false,
+       "wylie": "cad ni las kyi sprul pa yin la/ de yang sems las gzhan na med pa'i phyir ro// de ni/ las las 'jig rten sna tshogs skyes// de ni sems pa dang des byas// sems pa yid kyi las yin te// des skyed lus dang ngag gi las// zhes bstan to// gnod pa byed pa'i sems med pa la ni su yang gnod pa byed par mi 'gyur te/",
+       "tib": "ཅད་ནི་ལས་ཀྱི་སྤྲུལ་པ་ཡིན་ལ། དེ་ཡང་སེམས་ལས་གཞན་ན་མེད་པའི་ཕྱིར་རོ༎ དེ་ནི། ལས་ལས་འཇིག་རྟེན་སྣ་ཚོགས་སྐྱེས༎ དེ་ནི་སེམས་པ་དང་དེས་བྱས༎ སེམས་པ་ཡིད་ཀྱི་ལས་ཡིན་ཏེ༎ དེས་སྐྱེད་ལུས་དང་ངག་གི་ལས༎ ཞེས་བསྟན་ཏོ༎ གནོད་པ་བྱེད་པའི་སེམས་མེད་པ་ལ་ནི་སུ་ཡང་གནོད་པ་བྱེད་པར་མི་འགྱུར་ཏེ།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T04_D3872/text?active_segment=BO_T04_D3872:88b-25"
+      }
+     ],
+     "n_hits": 154,
+     "n_works": 95,
+     "file": "dm_gloss_U02.txt"
+    }
+   ],
+   "cite": [
+    {
+     "academic": "*abhidharmakośakārikā* (chos mngon pa'i mdzod kyi tshid le'ur byas pa), Toh 4089, Degé Tengyur, mngon pa, vol. ku, f. 10b (segment 43); Peking 5590.",
+     "reader": "*Treasury of Abhidharma* (Toh 4089), f. 10b.",
+     "register": "Treasury of Abhidharma; Toh 4089, mngon pa ku, f. 10b; BDRC http://purl.bdrc.io/resource/WA23703",
+     "credits": "author Dbyig-gNen; Tibetan translators Jinamitra, Dpal brtsegs rakSita",
+     "note": "the segment number locates the passage inside the folio in Dharmamitra's alignment; it is not the Derge line number.",
+     "file": "dm_cite_U02.txt"
+    }
+   ],
+   "identify": "— dm_identify_U02-2.txt —\nquery (14 syllables): las las 'jig rten sna tshogs skyes/ de ni sems pa dang des byas/\n154 hits in 95 works (semantic search, Tibetan sources)\nVERBATIM MATCH: yes, canonical — 15 Kangyur/Tengyur hit(s) share 14 consecutive syllables; best: chos mngon pa'i mdzod kyi tshid le'ur byas pa/ (abhidharmakośakārikā) [Toh 4089 (Tengyur)] BO_T07_D4089:10b-43\n\nCANONICAL / SOURCE CANDIDATES\n- byang chub kyi spyod pa la 'jug pa'i dka' 'grel/ (bodhicaryāvatārapañ…  [Toh 3872 (Tengyur)]  BO_T04_D3872:88b-25  (6 hits; verbatim run 14)\n    cad ni las kyi sprul pa yin la/ de yang sems las gzhan na med pa'i phyir ro// de ni/ las las 'jig rten sna tshogs skyes// de ni sems pa dang\n- chos mngon pa'i mdzod kyi tshid le'ur byas pa/ (abhidharmakośakārikā)  [Toh 4089 (Tengyur)]  BO_T07_D4089:10b-43  (3 hits; verbatim run 14)\n    / las las 'jig rten sna tshogs skyes// de ni sems pa dang des byas// sems pa yid kyi las yin no// des bskyed lus dang ngag gi las// de dag r\n- tshad ma rnam 'grel gyi rgyan/ (pramāṇavārttikālaṁkāra)  [Toh 4221 (Tengyur)]  BO_T11_D4221:31a-20  (2 hits; verbatim run 14)\n    rub pa phyogs yin pa'i phyir ro// gang la rtsod pa yod pa de sgrub pa'i phyir sgrub par byed pa nye bar dgod par rigs pa yin na/ thams cad l\n- bde bar gshegs pa'i gzhung rnam par 'byed pa'i bshad pa/ (sugatamatav…  [Toh 3900 (Tengyur)]  BO_T04_D3900:36b-8  (3 hits; verbatim run 12)\n    gas pa sprul pa'i phyir te/ las las 'jig rten sna tshogs skyes// de ni sems pa dang nges byas// sems pa yid kyi las yin no// des skyed lus d\n- kun tu bzang po'i sgrub pa'i thabs kyi 'grel pa/ (samanabhadrasādhana…  [Toh 1867 (Tengyur)]  BO_T02_D1867:183a-13  (2 hits; verbatim run 10)\n    yid kyi las rnams gang yin pa de thams cad ni nyon mongs pa can gyi sems kyi 'jug pa yin gyi/ de kho na nyid mthong ba rnams kyi ni ma yin n\n\nQUOTED IN / COMMENTED ON BY (69 other works; first 8):\n- mngon pa :: 110NGONPA  BO_S05_NGONPA-110:929  [Sungbum/series; run 14]\n- dpe rnying :: ZTSA005  BO_S10_ZTSA005:907  [Sungbum/series; run 14]\n- dam pa'i chos mngon pa kun las btus pa'i 'grel ba shes…  BO_S05_NGONPA-108:15497  [Sungbum/series; run 14]\n- kun gzigs ma hA paN+Ti ta rje bla ma gzhan phan chos k…  BO_TSD_BO_DC_SHE-SEN-01:42  [Tsadra series; run 14]\n- sdom pa gsum gyi rab tu dbye ba'i rnam bshad legs par …  BO_S06_DOMSUM-162:1770  [Sungbum/series; run 14]\n- rgyud kyi mngon par rtogs pa'i gsal byed legs par bsha…  BO_S11_GYTU305:1305  [Sungbum/series; run 14]\n- rgyud kyi mngon par rtogs pa'i gsal byed legs par bsha…  BO_S08_LAMD212:1305  [Sungbum/series; run 14]\n- rgyu pha rol tu phyin pa'i theg pa'i grub mtha' bzhi'i…  BO_S10_AMAI038:589  [Sungbum/series; run 14]\n\nNext: dm.py parallels <segmentnr> for variant readings; dm.py segment <segmentnr> --context for the surrounding text (e.g. a commentary's gloss of the line).\n\n— dm_identify_U02.txt —\nquery (7 syllables): 'jig rten sna tshogs las las grub\n169 hits in 128 works (semantic search, Tibetan sources)\nVERBATIM MATCH: yes, canonical — 12 Kangyur/Tengyur hit(s) share 6 consecutive syllables; best: chos mngon pa'i mdzod kyi bshad pa'i rgya cher 'grel pa don gyi de kh… [Toh 4421 (Tengyur)] BO_T16_D4421-2:97b-15\n\nCANONICAL / SOURCE CANDIDATES\n- chos mngon pa'i mdzod kyi bshad pa'i rgya cher 'grel pa don gyi de kh…  [Toh 4421 (Tengyur)]  BO_T16_D4421-2:97b-15  (1 hit; verbatim run 6)\n    pa don gyi de kho na nyid ces bya ba las mdzod kyi gnas bzhi pa las bstan pa zhes bya ba rdzogs pa'o// // 'jig rten mgon po la phyag 'tshal \n- sangs rgyas phal po che zhes bya ba shin tu rgyas pa chen po'i mdo/ (…  [Toh 44 (Kangyur)]  BO_K09_D0044-3:21b-11  (3 hits; verbatim run 4)\n    rten thams cad du sangs rgyas kyi phrin las mdzad do// chos kyi 'khor lo bskor bas kyang 'jig rten thams cad du sangs rgyas kyi phrin las md\n- sangs rgyas phal po che zhes bya ba shin tu rgyas pa chen po'i mdo/ (…  [Toh 44 (Kangyur)]  BO_K09_D0044-2:379b-1  (3 hits; verbatim run 4)\n    han nyid de 'dra bas// mtshan rnams yongs su dag byas sems can 'dul ba byed// sgyu ma lta bu'i chos rnams nges par sus rtags pa// de dag 'ji\n- byang chub kyi spyod pa la 'jug pa'i dka' 'grel/ (bodhicaryāvatārapañ…  [Toh 3872 (Tengyur)]  BO_T04_D3872:233b-26  (4 hits; verbatim run 4)\n    hes gsungs pas so// de skad du gsungs pa/ las las 'jig rten sna tshogs skye// las ni sems pa dang des byas// sems pa yid kyi las yin te// de\n- shes rab sgron ma'i rgya cher 'grel pa/ (prajñāpradīpaṭīkā)  [Toh 3859 (Tengyur)]  BO_T04_D3859:127b-13  (2 hits; verbatim run 4)\n    'i las dge ba dang / mi dge ba dbang phyug ces bya ste/ ci'i phyir zhe na/ 'jig rten gnas pa dang / 'byung ba dang / 'jig pa dang / bde ba d\n\nQUOTED IN / COMMENTED ON BY (89 other works; first 8):\n- dpal gsang ba snying po'i rgya cher 'grel ba slob dpon…  BO_NK056_(li)001:1946  [Nyingma Kama; run 6]\n- stong thun chung ba dbang po'i rdo rje zhes bya ba blo…  BO_S09_SHAK012:1041  [Sungbum/series; run 6]\n- gsang sngags snga 'gyur rnying ma pa'i bstan pa'i rnam…  BO_NK086_(lu)003:161  [Nyingma Kama; run 6]\n- dam chos yid bzhin nor bu thar pa rin po che'i rgyan/  BO_TSD_BO_DC_RDI-KK-04:2357  [Tsadra series; run 6]\n- mkhas mchog sbyin pa dar rgyas —  BO_ACIP-SUNGBUM_S0468E_inc_t:3700  [ACIP sungbum; run 6]\n- rong ston chos rjes mdzad pa bzhugs so  BO_S09_RONT056:13068  [Sungbum/series; run 6]\n- rong ston chos rjes mdzad pa bzhugs so  BO_S03_PARCHIN-070:13276  [Sungbum/series; run 6]\n- dwags po chos bzhi'i 'grel pa gces btus bzhugs so//  BO_TSD_BO_DC_BEN-LB-017:1540  [Tsadra series; run 6]\n\nNext: dm.py parallels <segmentnr> for variant readings; dm.py segment <segmentnr> --context for the surrounding text (e.g. a commentary's gloss of the line).",
+   "identify_summary": "VERBATIM MATCH: yes, canonical — 15 Kangyur/Tengyur hit(s) share 14 consecutive syllables; best: chos mngon pa'i mdzod kyi tshid le'ur byas pa/ (abhidharmakośakārikā) [Toh 4089 (Tengyur)] BO_T07_D4089:10b-43",
+   "segments": [],
+   "parallels": [],
+   "terms": [
+    {
+     "wylie": "bsam pa (heading)",
+     "english": "Contemplating",
+     "note": "'chi ba mi rtag pa bsam pa, 'khor ba sdug bsngal bsam pa; contrast sgom pa = meditating",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "sgom pa",
+     "english": "meditating",
+     "note": "list items: Meditating that …",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "nam 'chi cha med",
+     "english": "the time of death is uncertain",
+     "note": "second of the three roots",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "shi tshe",
+     "english": "at death",
+     "note": "",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "chos",
+     "english": "the Dharma",
+     "note": "capitalized; the Dharma one practises: nothing but the Dharma will help",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "las 'bras",
+     "english": "karma and its results",
+     "note": "",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "skor (heading)",
+     "english": "On …",
+     "note": "las 'bras skor = On karma and its results",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "'jig rten sna tshogs",
+     "english": "the world's variety",
+     "note": "per the Kośa Bhāṣya: the world of beings and the container world in their variety",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "las las grub",
+     "english": "comes from karma",
+     "note": "quotation and example alike (Kośa: las las … skyes)",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "phyi snod 'jig rten",
+     "english": "the outer world, the environment",
+     "note": "snod (container) image let go; snod bcud = environment and inhabitants",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "rgyu",
+     "english": "cause",
+     "note": "rgyu las las grub = comes from karma as its cause",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "'khor ba",
+     "english": "samsara",
+     "note": "anglicized, lowercase, no diacritics",
+     "alts": [],
+     "clutter": true
+    },
+    {
+     "wylie": "sdug bsngal",
+     "english": "suffering",
+     "note": "",
+     "alts": [],
+     "clutter": false
+    }
+   ]
+  },
+  {
+   "id": "U03",
+   "hint": "prose",
+   "tib": "འཁོར་བ་དེ་སྡུག་བསྔལ་གསུམ་གྱི་རང་བཞིན་དུ་ཤེས་པར་བྱེད་ནས་དེ་ལས་ཐར་འདོད་ཀྱི་བློ་སྐྱེ་བ་ལ་ངེས་འབྱུངས་གསུངས་ཀྱིས་ཡོད། སྡུག་བསྔལ་གསུམ། སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ། འགྱུར་བའི་སྡུག་བསྔལ། ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ།",
+   "wylie": "'khor ba de sdug bsngal gsum gyi rang bzhin du shes par byed nas de las thar 'dod kyi blo skye ba la nges 'byungs gsungs kyis yod/ sdug bsngal gsum/ sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal/",
+   "tags": [
+    {
+     "kind": "form",
+     "label": "Prose",
+     "detail": "prose (one definition, a heading, a three-item list)"
+    },
+    {
+     "kind": "register",
+     "label": "Exposition",
+     "detail": "exposition"
+    },
+    {
+     "kind": "grounded",
+     "label": "Grounded",
+     "detail": "Toh 3996 gloss followed; a lamrim commentary (TSD KN-LYN-02) makes the same move (DM primary search)"
+    }
+   ],
+   "open_q": 2,
+   "header": "U03 · prose (one definition, a heading, a three-item list) · exposition · new practitioner · not a citation · grounding: Toh 3996 gloss followed; a lamrim commentary (TSD KN-LYN-02) makes the same move (DM primary search) · prior: none · confidence: medium",
+   "fields": {
+    "raw": "U03 · prose (one definition, a heading, a three-item list) · exposition · new practitioner · not a citation · grounding: Toh 3996 gloss followed; a lamrim commentary (TSD KN-LYN-02) makes the same move (DM primary search) · prior: none · confidence: medium",
+    "form": "prose (one definition, a heading, a three-item list)",
+    "audience": "new practitioner",
+    "source": "not a citation",
+    "grounding": "Toh 3996 gloss followed; a lamrim commentary (TSD KN-LYN-02) makes the same move (DM primary search)",
+    "prior": "none",
+    "confidence": "medium",
+    "register": "exposition"
+   },
+   "confidence": "medium",
+   "confidence_reason": "medium — one open Q on who \"calls\" it renunciation (honorific gsungs, no agent named); the English stays neutral.",
+   "confidence_provisional": false,
+   "text": [
+    "Once you recognize that samsara is by nature the three kinds of suffering, the wish to be free from it arises. This is what the teachings call renunciation.",
+    "",
+    "The three kinds of suffering:",
+    "The suffering of suffering.",
+    "The suffering of change.",
+    "The pervasive suffering of conditioning."
+   ],
+   "footnotes": [
+    {
+     "anchor": "The three kinds of suffering",
+     "text": "Pain is the suffering of suffering, passing pleasure is the suffering of change, and the suffering of conditioning is called pervasive because it runs through every feeling, even the neutral ones."
+    }
+   ],
+   "notes": [
+    {
+     "tag": "Q",
+     "text": "agent of gsungs kyis yod (= colloquial gsung gi yod, honorific): the Buddha, the masters, or the class's own teacher; \"This is what the teachings call renunciation\" commits to none; alt. \"This is called renunciation\" / \"the masters call this renunciation\". Open.",
+     "resolved": false
+    },
+    {
+     "tag": "Q",
+     "text": "elided agent of shes par byed: generic \"you\" (lesson register); alt. impersonal (\"Recognizing that samsara …\").",
+     "resolved": false
+    },
+    {
+     "tag": "Issue",
+     "text": "source spellings read as nges 'byung (nges 'byungs) and gsung gi yod (gsungs kyis yod)."
+    },
+    {
+     "tag": "Comm",
+     "text": "Toh 3996, 165a-18–26: pain = sdug bsngal gyi sdug bsngal, pleasure = 'gyur ba'i, neither = 'du byed kyi; khyab pa because it pervades every feeling (tshor ba thams cad la khyab pas); Toh 4421, 194a-19–194b-8, the same by feeling type; zhal gdams lam rim ye shes snying po'i rnam 'grel rab gsal nyin byed (TSD KN-LYN-02:1476–1490) makes U03's move (samsara never goes beyond the nature of the three sufferings → the wish to be quickly free of them). Followed: terms and reading; the footnote is written from Toh 3996, with \"passing\" from KN-LYN-02 (mi rtag g.yo ba)."
+    },
+    {
+     "tag": "Alt",
+     "text": "khyab pa 'du byed kyi sdug bsngal \"the all-pervasive suffering of conditioned existence\"."
+    },
+    {
+     "tag": "MITRA",
+     "text": "agrees (the same three terms; gsungs as \"is taught as\")."
+    },
+    {
+     "tag": "Prior",
+     "text": "none found."
+    },
+    {
+     "tag": "Conf",
+     "text": "medium — one open Q on who \"calls\" it renunciation (honorific gsungs, no agent named); the English stays neutral."
+    },
+    {
+     "tag": "Check",
+     "text": "in-context, nothing found."
+    }
+   ],
+   "flags": [
+    {
+     "phrase": "This is what the teachings call renunciation",
+     "note": 0,
+     "tag": "Q",
+     "tib": "ངེས་འབྱུང"
+    },
+    {
+     "phrase": "you",
+     "note": 1,
+     "tag": "Q",
+     "tib": ""
+    }
+   ],
+   "construal": [
+    {
+     "key": "FORM",
+     "text": "prose: one definitional period (3 clauses, ~37 syllables), then a heading and a three-item list. Register: exposition (definition), plain."
+    },
+    {
+     "key": "SPINE",
+     "text": "(elided agent: the practitioner) shes par byed ['khor ba de … rang bzhin du] → nas → [de las thar 'dod kyi blo] skye ba → la → (elided honorific agent: the Buddha/masters/the teacher) gsungs kyis yod [nges 'byung] = \"X arising is what (they) call renunciation\"."
+    },
+    {
+     "key": "RELATIONS",
+     "text": "'khor ba de = samsara (de resumes U02's closing heading); gsum gyi rang bzhin du = \"as having the nature of the three sufferings\" (adverbial of the knowing); nas = sequence: having recognized → then the wish arises (keep the order; not upgraded to cause); de las = source \"from it (samsara)\"; thar 'dod kyi blo = attitude of wanting to be free; skye ba la … gsungs = naming: \"(the arising) is called\"; gsungs kyis yod = gsung gi yod, colloquial present-habitual honorific \"(they) say/call\"."
+    },
+    {
+     "key": "NEG/QUANT",
+     "text": "gsum (three) twice. No negation."
+    },
+    {
+     "key": "TERMS",
+     "text": "'khor ba = samsara; sdug bsngal gsum = the three kinds of suffering; rang bzhin = nature (\"by nature\"); thar 'dod kyi blo = the wish to be free; nges 'byung = renunciation; sdug bsngal gyi sdug bsngal = the suffering of suffering; 'gyur ba'i sdug bsngal = the suffering of change; khyab pa 'du byed kyi sdug bsngal = the pervasive suffering of conditioning."
+    },
+    {
+     "key": "Q",
+     "text": "agent of shes par byed: the practitioner, generic → \"you\" (lesson register); alt. impersonal (\"recognizing samsara as …\")."
+    },
+    {
+     "key": "Q",
+     "text": "agent of gsungs: the Buddha / the masters / the class's teacher (lesson notes); rendered \"what the teachings call\" (honorific realized by register, no person invented); alt. passive \"is called\"."
+    },
+    {
+     "key": "Q",
+     "text": "nges 'byungs = nges 'byung (final s a slip); gsungs kyis = gsung gi (colloquial auxiliary)."
+    },
+    {
+     "key": "Q",
+     "text": "khyab pa = \"pervasive\" (not kun khyab \"all-pervasive\"); bound term \"the pervasive suffering of conditioning\"; Alt: \"all-pervasive suffering of conditioned existence\"."
+    },
+    {
+     "key": "GROUNDING",
+     "text": "Toh 3996 (rten cing 'brel par 'byung ba dang po dang rnam par 'byed pa bstan pa'i … bshad pa), 165a-18–26: sdug bsngal ni sdug bsngal ba'i sdug bsngal nyid … bde ba ni 'gyur ba'i sdug bsngal nyid … sdug bsngal yang ma yin bde ba yang ma yin pa ni 'du byed kyi sdug bsngal nyid … de khyab pa yin pa'i phyir ro zhes bya ba ni 'du byed kyi sdug bsngal la bya ste/ de ni tshor ba thams cad la khyab pas so = pain / pleasure / neither; \"pervasive\" because it pervades every feeling. Toh 4421, 194a-19–194b-8: same by feeling type (pleasant things: grief when parted from them; the rest: conditioned by causes and conditions). zhal gdams lam rim ye shes snying po'i rnam 'grel rab gsal nyin byed (TSD KN-LYN-02:1476–1490): the three; samsaric happiness mi rtag g.yo ba; then 'khor ba'i gnas gang du skyes kyang sdug bsngal gsum gyi rang bzhin las ma 'das pas de dag las myur du thar bar 'dod pa'i blo … bskyed par bya = the same move as U03's definition (samsara by nature the three sufferings → the wish to be free). Terms and reading confirmed; footnote on the three written from 3996/4421/KN-LYN-02. MITRA: agrees (same three terms; gsungs as \"is taught as\")."
+    },
+    {
+     "key": "CHECK",
+     "text": "U01–U03 tested clause by clause (polarity, role, relation, omission, invention, speaker, term, doubt): no finding in the body; this sketch's U02 TERMS entry aligned with the glossary/body (housekeeping, not a page fix)."
+    }
+   ],
+   "grounding": [],
+   "mitra": "Having realized that samsara is of the nature of the three sufferings, the arising of the mind that wishes to be liberated from it is taught as renunciation. The three sufferings are: the suffering of suffering, the suffering of change, and the pervasive suffering of conditioning.",
+   "explore": [],
+   "gloss": [
+    {
+     "summary": "DharmaMitra primary search · semantic · no re-ranking · 167 hits in 114 works",
+     "query": "sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal/",
+     "syllables": 16,
+     "root": "",
+     "context_note": "context: DharmaNexus text view, 8 request(s) for 5 work(s): rten cing 'brel par 'byung ba dang po d…, chos mngon pa'i mdzod kyi bshad pa'i rg…, zhal gdams lam rim ye shes snying po'i …, tshar chen chos kyi rgyal pos mdzad pa'…, legs par bshad pa lung rigs kyi rgya mt…; gloss found in 3",
+     "notes": [
+      "102 further works not shown; --n-works raises the cap"
+     ],
+     "hits": [
+      {
+       "work": "rten cing 'brel par 'byung ba dang po dang rnam par 'byed pa bstan pa…",
+       "work_tib": "རྟེན་ཅིང་འབྲེལ་པར་འབྱུང་བ་དང་པོ་དང་རྣམ་པར་འབྱེད་པ་བསྟན་པ",
+       "collection": "Tengyur, Toh 3996",
+       "toh": "Toh 3996",
+       "segid": "BO_T05_D3996:165a-21",
+       "label": "GLOSS",
+       "kind": "la bya",
+       "more": [
+        "165a-17"
+       ],
+       "is_en": false,
+       "wylie": "sdug bsngal ni sdug bsngal ba'i sdug bsngal nyid yin no// bde ba ni 'gyur ba'i sdug bsngal nyid yin no// sdug bsngal yang ma yin/ bde ba yang ma yin pa ni 'du byed kyi sdug bsngal nyid yin no// de khyab pa yin pa'i phyir ro zhes bya ba ni 'du byed kyi sdug bsngal la bya ste/ de ni tshor ba thams cad la khyab pas so//",
+       "tib": "སྡུག་བསྔལ་ནི་སྡུག་བསྔལ་བའི་སྡུག་བསྔལ་ཉིད་ཡིན་ནོ༎ བདེ་བ་ནི་འགྱུར་བའི་སྡུག་བསྔལ་ཉིད་ཡིན་ནོ༎ སྡུག་བསྔལ་ཡང་མ་ཡིན། བདེ་བ་ཡང་མ་ཡིན་པ་ནི་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ཉིད་ཡིན་ནོ༎ དེ་ཁྱབ་པ་ཡིན་པའི་ཕྱིར་རོ་ཞེས་བྱ་བ་ནི་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ལ་བྱ་སྟེ། དེ་ནི་ཚོར་བ་ཐམས་ཅད་ལ་ཁྱབ་པས་སོ༎",
+       "ctx": [
+        {
+         "mark": "",
+         "id": "165a-18",
+         "wylie": "bcom ldan 'das kyis ni sdug bsngal rnam pa gsum bstan pa yin la zhes bya ba ni sdug bsngal gyi sdug bsngal nyid dang / 'gyur ba'i sdug bsngal nyid dang / 'du byed kyi sdug bsngal nyid do/ /",
+         "tib": "བཅོམ་ལྡན་འདས་ཀྱིས་ནི་སྡུག་བསྔལ་རྣམ་པ་གསུམ་བསྟན་པ་ཡིན་ལ་ཞེས་བྱ་བ་ནི་སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ་ཉིད་དང་། འགྱུར་བའི་སྡུག་བསྔལ་ཉིད་དང་། འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ཉིད་དོ། །"
+        },
+        {
+         "mark": "hit",
+         "id": "165a-21",
+         "wylie": "de la sdug bsngal ni sdug bsngal ba'i sdug bsngal nyid yin no/ /",
+         "tib": "དེ་ལ་སྡུག་བསྔལ་ནི་སྡུག་བསྔལ་བའི་སྡུག་བསྔལ་ཉིད་ཡིན་ནོ། །"
+        },
+        {
+         "mark": "",
+         "id": "165a-22",
+         "wylie": "bde ba ni 'gyur ba'i sdug bsngal nyid yin no/ /",
+         "tib": "བདེ་བ་ནི་འགྱུར་བའི་སྡུག་བསྔལ་ཉིད་ཡིན་ནོ། །"
+        },
+        {
+         "mark": "",
+         "id": "165a-23",
+         "wylie": "sdug bsngal yang ma yin/",
+         "tib": "སྡུག་བསྔལ་ཡང་མ་ཡིན།"
+        },
+        {
+         "mark": "",
+         "id": "165a-24",
+         "wylie": "bde ba yang ma yin pa ni 'du byed kyi sdug bsngal nyid yin no/ /",
+         "tib": "བདེ་བ་ཡང་མ་ཡིན་པ་ནི་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ཉིད་ཡིན་ནོ། །"
+        },
+        {
+         "mark": "gloss",
+         "id": "165a-25",
+         "wylie": "de khyab pa yin pa'i phyir ro zhes bya ba ni 'du byed kyi sdug bsngal la bya ste/",
+         "tib": "དེ་ཁྱབ་པ་ཡིན་པའི་ཕྱིར་རོ་ཞེས་བྱ་བ་ནི་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ལ་བྱ་སྟེ།"
+        },
+        {
+         "mark": "",
+         "id": "165a-26",
+         "wylie": "de ni tshor ba thams cad la khyab pas so/ /",
+         "tib": "དེ་ནི་ཚོར་བ་ཐམས་ཅད་ལ་ཁྱབ་པས་སོ། །"
+        },
+        {
+         "mark": "",
+         "id": "165a-27",
+         "wylie": "mi 'gyur te nye bar len pa'i phung po lnga la dgongs te gsungs pa'i phyir ro zhes bya ba ni de ltar lam la thal bar 'gyur ba nyid ma yin te/",
+         "tib": "མི་འགྱུར་ཏེ་ཉེ་བར་ལེན་པའི་ཕུང་པོ་ལྔ་ལ་དགོངས་ཏེ་གསུངས་པའི་ཕྱིར་རོ་ཞེས་བྱ་བ་ནི་དེ་ལྟར་ལམ་ལ་ཐལ་བར་འགྱུར་བ་ཉིད་མ་ཡིན་ཏེ།"
+        },
+        {
+         "mark": "",
+         "id": "165a-28",
+         "wylie": "'di ltar nye bar len pa'i phung po lnga la dgongs nas gang mi rtag pa de sdug bsngal ba'o zhes de skad gsungs so/ /",
+         "tib": "འདི་ལྟར་ཉེ་བར་ལེན་པའི་ཕུང་པོ་ལྔ་ལ་དགོངས་ནས་གང་མི་རྟག་པ་དེ་སྡུག་བསྔལ་བའོ་ཞེས་དེ་སྐད་གསུངས་སོ། །"
+        },
+        {
+         "mark": "",
+         "id": "165a-29",
+         "wylie": "ci'i phyir zhe na zhes bya ba ni gang mi rtag pa de sdug bsngal ba yin par bstan na go/ /",
+         "tib": "ཅིའི་ཕྱིར་ཞེ་ན་ཞེས་བྱ་བ་ནི་གང་མི་རྟག་པ་དེ་སྡུག་བསྔལ་བ་ཡིན་པར་བསྟན་ན་གོ། །"
+        },
+        {
+         "mark": "",
+         "id": "165a-30",
+         "wylie": "lam yang mi rtag pa yin na 'dir ci'i phyir nye bar len pa'i phung po gang yin pa de kho na mi rtag pa yin pa'i phyir sdug bsngal ba yin gyi/",
+         "tib": "ལམ་ཡང་མི་རྟག་པ་ཡིན་ན་འདིར་ཅིའི་ཕྱིར་ཉེ་བར་ལེན་པའི་ཕུང་པོ་གང་ཡིན་པ་དེ་ཁོ་ན་མི་རྟག་པ་ཡིན་པའི་ཕྱིར་སྡུག་བསྔལ་བ་ཡིན་གྱི།"
+        },
+        {
+         "mark": "",
+         "id": "165a-31",
+         "wylie": "lam ma yin zhe na zhes bya ba yin no/ /",
+         "tib": "ལམ་མ་ཡིན་ཞེ་ན་ཞེས་བྱ་བ་ཡིན་ནོ། །"
+        },
+        {
+         "mark": "",
+         "id": "165a-32",
+         "wylie": "de'i phyir 'dun pa dang 'dod chags kyi dngos po gang yin pa de nyid la zhes rgyas par smras te/",
+         "tib": "དེའི་ཕྱིར་འདུན་པ་དང་འདོད་ཆགས་ཀྱི་དངོས་པོ་གང་ཡིན་པ་དེ་ཉིད་ལ་ཞེས་རྒྱས་པར་སྨྲས་ཏེ།"
+        },
+        {
+         "mark": "",
+         "id": "165a-33",
+         "wylie": "'dun pa dang 'dod chags kyi dmigs pa ni 'dun pa",
+         "tib": "འདུན་པ་དང་འདོད་ཆགས་ཀྱི་དམིགས་པ་ནི་འདུན་པ"
+        }
+       ],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T05_D3996/text?active_segment=BO_T05_D3996:165a-21"
+      },
+      {
+       "work": "chos mngon pa'i mdzod kyi bshad pa'i rgya cher 'grel pa don gyi de kh…",
+       "work_tib": "ཆོས་མངོན་པའི་མཛོད་ཀྱི་བཤད་པའི་རྒྱ་ཆེར་འགྲེལ་པ་དོན་གྱི་དེ་ཁ",
+       "collection": "Tengyur, Toh 4421",
+       "toh": "Toh 4421",
+       "segid": "BO_T16_D4421-2:194a-20",
+       "label": "GLOSS",
+       "kind": "zhes bya ba ni",
+       "more": [],
+       "is_en": false,
+       "wylie": "as sdug bsngal zhes bya ba'i tha tshig go// 'gyur bas sdug bsngal ba nyid ni 'gyur ba'i sdug bsngal nyid do// rang gi ngo bos ma yin zhes bya ba'i don to// 'du byed kyis sdug bsngal ba nyid ni 'du byed kyi sdug bsngal nyid de skye bas zhes bya ba'i tha tshig go// de la yid du 'ong ba rnams ni/ 'gyur ba'i sdug bsngal gyis zhes bya ba ni de dang bral bas 'dod chags dang bral ba ma yin pa rnams nges par mya ngan la sogs pa skye bas 'gyur ba'i sdug bsngal nyid kyis sdug bsngal ba nyid do//",
+       "tib": "སྡུག་བསྔལ་ཞེས་བྱ་བའི་ཐ་ཚིག་གོ༎ འགྱུར་བས་སྡུག་བསྔལ་བ་ཉིད་ནི་འགྱུར་བའི་སྡུག་བསྔལ་ཉིད་དོ༎ རང་གི་ངོ་བོས་མ་ཡིན་ཞེས་བྱ་བའི་དོན་ཏོ༎ འདུ་བྱེད་ཀྱིས་སྡུག་བསྔལ་བ་ཉིད་ནི་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ཉིད་དེ་སྐྱེ་བས་ཞེས་བྱ་བའི་ཐ་ཚིག་གོ༎ དེ་ལ་ཡིད་དུ་འོང་བ་རྣམས་ནི། འགྱུར་བའི་སྡུག་བསྔལ་གྱིས་ཞེས་བྱ་བ་ནི་དེ་དང་བྲལ་བས་འདོད་ཆགས་དང་བྲལ་བ་མ་ཡིན་པ་རྣམས་ངེས་པར་མྱ་ངན་ལ་སོགས་པ་སྐྱེ་བས་འགྱུར་བའི་སྡུག་བསྔལ་ཉིད་ཀྱིས་སྡུག་བསྔལ་བ་ཉིད་དོ༎",
+       "ctx": [
+        {
+         "mark": "",
+         "id": "194a-19",
+         "wylie": "sdug bsngal kho na sdug bsngal nyid yin pa ni sdug bsngal gyi sdug bsngal nyid de/",
+         "tib": "སྡུག་བསྔལ་ཁོ་ན་སྡུག་བསྔལ་ཉིད་ཡིན་པ་ནི་སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ་ཉིད་དེ།"
+        },
+        {
+         "mark": "hit",
+         "id": "194a-20",
+         "wylie": "rang gi ngo bo kho nas sdug bsngal zhes bya ba'i tha tshig go/ /",
+         "tib": "རང་གི་ངོ་བོ་ཁོ་ནས་སྡུག་བསྔལ་ཞེས་བྱ་བའི་ཐ་ཚིག་གོ། །"
+        },
+        {
+         "mark": "",
+         "id": "194a-21",
+         "wylie": "'gyur bas sdug bsngal ba nyid ni 'gyur ba'i sdug bsngal nyid",
+         "tib": "འགྱུར་བས་སྡུག་བསྔལ་བ་ཉིད་ནི་འགྱུར་བའི་སྡུག་བསྔལ་ཉིད"
+        },
+        {
+         "mark": "gap",
+         "id": "",
+         "wylie": "… 3 segments",
+         "tib": ""
+        },
+        {
+         "mark": "",
+         "id": "194b-3",
+         "wylie": "de la yid du 'ong ba rnams ni/",
+         "tib": "དེ་ལ་ཡིད་དུ་འོང་བ་རྣམས་ནི།"
+        },
+        {
+         "mark": "",
+         "id": "194b-4",
+         "wylie": "'gyur ba'i sdug bsngal gyis zhes bya ba ni de dang bral bas 'dod chags dang bral ba ma yin pa rnams nges par mya ngan la sogs pa skye bas 'gyur ba'i sdug bsngal nyid kyis sdug bsngal ba nyid do/ /",
+         "tib": "འགྱུར་བའི་སྡུག་བསྔལ་གྱིས་ཞེས་བྱ་བ་ནི་དེ་དང་བྲལ་བས་འདོད་ཆགས་དང་བྲལ་བ་མ་ཡིན་པ་རྣམས་ངེས་པར་མྱ་ངན་ལ་སོགས་པ་སྐྱེ་བས་འགྱུར་བའི་སྡུག་བསྔལ་ཉིད་ཀྱིས་སྡུག་བསྔལ་བ་ཉིད་དོ། །"
+        },
+        {
+         "mark": "gloss",
+         "id": "194b-5",
+         "wylie": "yid du mi 'ong ba rnams ni sdug bsngal gyi sdug bsngal gyis zhes bya ba ni de rnams ni sdug bsngal gyi rang bzhin dang sdug bsngal dang mthun pa nyid kyis sdug bsngal ba nyid do/ /",
+         "tib": "ཡིད་དུ་མི་འོང་བ་རྣམས་ནི་སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ་གྱིས་ཞེས་བྱ་བ་ནི་དེ་རྣམས་ནི་སྡུག་བསྔལ་གྱི་རང་བཞིན་དང་སྡུག་བསྔལ་དང་མཐུན་པ་ཉིད་ཀྱིས་སྡུག་བསྔལ་བ་ཉིད་དོ། །"
+        },
+        {
+         "mark": "",
+         "id": "194b-6",
+         "wylie": "mngon sum du gyur pas lus dang sems dag la gnod par 'byung ba'i phyir ro/ /",
+         "tib": "མངོན་སུམ་དུ་གྱུར་པས་ལུས་དང་སེམས་དག་ལ་གནོད་པར་འབྱུང་བའི་ཕྱིར་རོ། །"
+        },
+        {
+         "mark": "",
+         "id": "194b-7",
+         "wylie": "de dag las gzhan pa rnams ni zhes bya ba ni yid du 'ong ba dang yid du mi 'ong ba dag las gzhan pa ste/",
+         "tib": "དེ་དག་ལས་གཞན་པ་རྣམས་ནི་ཞེས་བྱ་བ་ནི་ཡིད་དུ་འོང་བ་དང་ཡིད་དུ་མི་འོང་བ་དག་ལས་གཞན་པ་སྟེ།"
+        },
+        {
+         "mark": "",
+         "id": "194b-8",
+         "wylie": "de dag ni rgyu dang rkyen gyis mngon par 'du byas pa nyid kyi sdug bsngal lo/ /",
+         "tib": "དེ་དག་ནི་རྒྱུ་དང་རྐྱེན་གྱིས་མངོན་པར་འདུ་བྱས་པ་ཉིད་ཀྱི་སྡུག་བསྔལ་ལོ། །"
+        },
+        {
+         "mark": "",
+         "id": "194b-9",
+         "wylie": "tshor ba rnams kho na phan pa dang gnod pa dang de gnyis ka dang bral ba'i bdag nyid yin pa'i phyir yid du 'ong ba la sogs pa nyid du grub na gzugs la sogs pa rnams ji ltar yin zhes 'dri ba ni/",
+         "tib": "ཚོར་བ་རྣམས་ཁོ་ན་ཕན་པ་དང་གནོད་པ་དང་དེ་གཉིས་ཀ་དང་བྲལ་བའི་བདག་ཉིད་ཡིན་པའི་ཕྱིར་ཡིད་དུ་འོང་བ་ལ་སོགས་པ་ཉིད་དུ་གྲུབ་ན་གཟུགས་ལ་སོགས་པ་རྣམས་ཇི་ལྟར་ཡིན་ཞེས་འདྲི་བ་ནི།"
+        },
+        {
+         "mark": "",
+         "id": "194b-10",
+         "wylie": "yid du 'ong ba ni gang dag yin zhes bya ba rgyas par 'byung ba'o/ /",
+         "tib": "ཡིད་དུ་འོང་བ་ནི་གང་དག་ཡིན་ཞེས་བྱ་བ་རྒྱས་པར་འབྱུང་བའོ། །"
+        },
+        {
+         "mark": "",
+         "id": "194b-11",
+         "wylie": "de'i dbang gis zhes bya ba ni bden pa la sogs pa'i tshor ba'i dbang gis so/ /",
+         "tib": "དེའི་དབང་གིས་ཞེས་བྱ་བ་ནི་བདེན་པ་ལ་སོགས་པའི་ཚོར་བའི་དབང་གིས་སོ། །"
+        },
+        {
+         "mark": "",
+         "id": "194b-12",
+         "wylie": "ci ltar bde ba'i tshogs su gyur pa yid du 'ong ba 'dis yid du mi 'ong ba dang de las gzhan pa yang bshad ce na/",
+         "tib": "ཅི་ལྟར་བདེ་བའི་ཚོགས་སུ་གྱུར་པ་ཡིད་དུ་འོང་བ་འདིས་ཡིད་དུ་མི་འོང་བ་དང་དེ་ལས་གཞན་པ་ཡང་བཤད་ཅེ་ན།"
+        },
+        {
+         "mark": "",
+         "id": "194b-13",
+         "wylie": "'di skad bstan par 'gyur te/",
+         "tib": "འདི་སྐད་བསྟན་པར་འགྱུར་ཏེ།"
+        }
+       ],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_T16_D4421-2/text?active_segment=BO_T16_D4421-2:194a-20"
+      },
+      {
+       "work": "zhal gdams lam rim ye shes snying po'i rnam 'grel rab gsal nyin byed …",
+       "work_tib": "ཞལ་གདམས་ལམ་རིམ་ཡེ་ཤེས་སྙིང་པོའི་རྣམ་འགྲེལ་རབ་གསལ་ཉིན་བྱེད",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_DC_KN-LYN-02:1477",
+       "label": "GLOSS",
+       "kind": "ni … ste",
+       "more": [],
+       "is_en": false,
+       "wylie": "ug bsngal gyi sdug bsngal ni mtshan gzhi'i gtso bor dmyal ba tsha grang / yi dwags bkres skom/ dud 'gro glen lkugs rnams yin la/ sdug bsngal chen po mngon par mdze thog tu phol mig byung ba lta bu'o/ 'gyur ba'i sdug bsngal ni 'khor ba'i bde 'byor thams cad mi rtag g.yo ba'i chos can yin pas bde bar sdod la nad dam dgras glo bur du bcom pa lta bu ste/",
+       "tib": "བསྔལ་གྱི་སྡུག་བསྔལ་ནི་མཚན་གཞིའི་གཙོ་བོར་དམྱལ་བ་ཚ་གྲང་། ཡི་དྭགས་བཀྲེས་སྐོམ། དུད་འགྲོ་གླེན་ལྐུགས་རྣམས་ཡིན་ལ། སྡུག་བསྔལ་ཆེན་པོ་མངོན་པར་མཛེ་ཐོག་ཏུ་ཕོལ་མིག་བྱུང་བ་ལྟ་བུའོ། འགྱུར་བའི་སྡུག་བསྔལ་ནི་འཁོར་བའི་བདེ་འབྱོར་ཐམས་ཅད་མི་རྟག་གཡོ་བའི་ཆོས་ཅན་ཡིན་པས་བདེ་བར་སྡོད་ལ་ནད་དམ་དགྲས་གློ་བུར་དུ་བཅོམ་པ་ལྟ་བུ་སྟེ།",
+       "ctx": [
+        {
+         "mark": "",
+         "id": "1476",
+         "wylie": "de la 'khor ba'i sdug bsngal mdor bsdu na gsum ste/_",
+         "tib": "དེ་ལ་འཁོར་བའི་སྡུག་བསྔལ་མདོར་བསྡུ་ན་གསུམ་སྟེ། "
+        },
+        {
+         "mark": "hit",
+         "id": "1477",
+         "wylie": "sdug bsngal gyi sdug bsngal ni mtshan gzhi'i gtso bor dmyal ba tsha grang /_",
+         "tib": "སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ་ནི་མཚན་གཞིའི་གཙོ་བོར་དམྱལ་བ་ཚ་གྲང་། "
+        },
+        {
+         "mark": "",
+         "id": "1478",
+         "wylie": "yi dwags bkres skom/_",
+         "tib": "ཡི་དྭགས་བཀྲེས་སྐོམ། "
+        },
+        {
+         "mark": "gap",
+         "id": "",
+         "wylie": "… 2 segments",
+         "tib": ""
+        },
+        {
+         "mark": "",
+         "id": "1481",
+         "wylie": "'gyur ba'i sdug bsngal ni 'khor ba'i bde 'byor thams cad mi rtag g.yo ba'i chos can yin pas bde bar sdod la nad dam dgras glo bur du bcom pa lta bu ste/_",
+         "tib": "འགྱུར་བའི་སྡུག་བསྔལ་ནི་འཁོར་བའི་བདེ་འབྱོར་ཐམས་ཅད་མི་རྟག་གཡོ་བའི་ཆོས་ཅན་ཡིན་པས་བདེ་བར་སྡོད་ལ་ནད་དམ་དགྲས་གློ་བུར་དུ་བཅོམ་པ་ལྟ་བུ་སྟེ། "
+        },
+        {
+         "mark": "",
+         "id": "1482",
+         "wylie": "lha mi rnams ltar snang bde ba ltar gnas kyang don du mi rtag par 'gyur nas 'gro bas so/_",
+         "tib": "ལྷ་མི་རྣམས་ལྟར་སྣང་བདེ་བ་ལྟར་གནས་ཀྱང་དོན་དུ་མི་རྟག་པར་འགྱུར་ནས་འགྲོ་བས་སོ། "
+        },
+        {
+         "mark": "gloss",
+         "id": "1483",
+         "wylie": "khyab pa 'du byed kyi sdug bsngal ni phung lngas bsdus pa'i 'khor ba'i chos thams cad skad cig gis skye 'gags byed pa so skyes mi rtogs kyang 'phags pa rnams kyi gzigs ngor rtag tu g.yo ba'i 'du byed can yin pas sdug bsngal ba ste/_",
+         "tib": "ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ནི་ཕུང་ལྔས་བསྡུས་པའི་འཁོར་བའི་ཆོས་ཐམས་ཅད་སྐད་ཅིག་གིས་སྐྱེ་འགགས་བྱེད་པ་སོ་སྐྱེས་མི་རྟོགས་ཀྱང་འཕགས་པ་རྣམས་ཀྱི་གཟིགས་ངོར་རྟག་ཏུ་གཡོ་བའི་འདུ་བྱེད་ཅན་ཡིན་པས་སྡུག་བསྔལ་བ་སྟེ། "
+        },
+        {
+         "mark": "",
+         "id": "1484",
+         "wylie": "mdzod TIka las/",
+         "tib": "མཛོད་ཊཱིཀ་ལས།"
+        },
+        {
+         "mark": "",
+         "id": "1485",
+         "wylie": "byis pa lag mthil 'dra ba yis/_",
+         "tib": "བྱིས་པ་ལག་མཐིལ་འདྲ་བ་ཡིས། "
+        },
+        {
+         "mark": "",
+         "id": "1486",
+         "wylie": "'du byed sdug bsngal spu mi rtogs/_",
+         "tib": "འདུ་བྱེད་སྡུག་བསྔལ་སྤུ་མི་རྟོགས། "
+        },
+        {
+         "mark": "",
+         "id": "1487",
+         "wylie": "'phags pa mig dang 'dra ba yis/_",
+         "tib": "འཕགས་པ་མིག་དང་འདྲ་བ་ཡིས། "
+        },
+        {
+         "mark": "",
+         "id": "1488",
+         "wylie": "'du byed la ni sdug bsngal gzigs/_",
+         "tib": "འདུ་བྱེད་ལ་ནི་སྡུག་བསྔལ་གཟིགས། "
+        },
+        {
+         "mark": "",
+         "id": "1489",
+         "wylie": "zhes so/_",
+         "tib": "ཞེས་སོ། "
+        },
+        {
+         "mark": "",
+         "id": "1490",
+         "wylie": "des na 'khor ba'i gnas gang du skyes kyang sdug bsngal gsum gyi rang bzhin las ma 'das pas de dag las myur du thar bar 'dod pa'i blo shugs drag po 'phral rkyen gyis bskul ba'i bcos ma ma yin pa snying khung rus pa'i gting nas yang dang yang du bskyed par bya ste/_",
+         "tib": "དེས་ན་འཁོར་བའི་གནས་གང་དུ་སྐྱེས་ཀྱང་སྡུག་བསྔལ་གསུམ་གྱི་རང་བཞིན་ལས་མ་འདས་པས་དེ་དག་ལས་མྱུར་དུ་ཐར་བར་འདོད་པའི་བློ་ཤུགས་དྲག་པོ་འཕྲལ་རྐྱེན་གྱིས་བསྐུལ་བའི་བཅོས་མ་མ་ཡིན་པ་སྙིང་ཁུང་རུས་པའི་གཏིང་ནས་ཡང་དང་ཡང་དུ་བསྐྱེད་པར་བྱ་སྟེ། "
+        },
+        {
+         "mark": "",
+         "id": "1491",
+         "wylie": "'dul ba lung las/",
+         "tib": "འདུལ་བ་ལུང་ལས།"
+        }
+       ],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_KN-LYN-02/text?active_segment=BO_TSD_BO_DC_KN-LYN-02:1477"
+      },
+      {
+       "work": "Unknown — BYANG CHUB LAM GYI RIM PA'I 'KHRID KYI SA BCAD",
+       "work_tib": "",
+       "collection": "ACIP sungbum",
+       "toh": "",
+       "segid": "BO_ACIP-SUNGBUM_SD5394E_T:372",
+       "label": "QUOTE",
+       "kind": "",
+       "more": [
+        "379",
+        "367"
+       ],
+       "is_en": false,
+       "wylie": "nges pa med pa/ ngoms mi shes pa/ lus yang dang yang du 'dor ba/ yang dang yang du nying mtshams sbyor ba/ yang dang yang du mtho dman du 'gyur ba/ grogs med pa'i nyes pa bsam pa'o/ gsum pa la gsum/ sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal lo/ gnyis pa so so'i sdug bsngal bsam pa la drug /",
+       "tib": "ངེས་པ་མེད་པ། ངོམས་མི་ཤེས་པ། ལུས་ཡང་དང་ཡང་དུ་འདོར་བ། ཡང་དང་ཡང་དུ་ཉིང་མཚམས་སྦྱོར་བ། ཡང་དང་ཡང་དུ་མཐོ་དམན་དུ་འགྱུར་བ། གྲོགས་མེད་པའི་ཉེས་པ་བསམ་པའོ། གསུམ་པ་ལ་གསུམ། སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ། འགྱུར་བའི་སྡུག་བསྔལ། ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ལོ། གཉིས་པ་སོ་སོའི་སྡུག་བསྔལ་བསམ་པ་ལ་དྲུག་།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_SD5394E_T/text?active_segment=BO_ACIP-SUNGBUM_SD5394E_T:372"
+      },
+      {
+       "work": "bdud rtsi'i zegs ma/",
+       "work_tib": "བདུད་རྩིའི་ཟེགས་མ",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_DC_BOK-001:697",
+       "label": "QUOTE",
+       "kind": "",
+       "more": [
+        "699",
+        "693"
+       ],
+       "is_en": false,
+       "wylie": "so so so la sdug bsngal mi 'dra ba zhe drag mang po yod pa red/ yin na yang rigs drug spyi khyab la sdug bsngal gsum gyi rang bzhin yin pa sdug bsngal gsum de tshang ma la yod par bstan pa red/ sdug bsngal gsum ni sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal lo/",
+       "tib": "སོ་སོ་སོ་ལ་སྡུག་བསྔལ་མི་འདྲ་བ་ཞེ་དྲག་མང་པོ་ཡོད་པ་རེད། ཡིན་ན་ཡང་རིགས་དྲུག་སྤྱི་ཁྱབ་ལ་སྡུག་བསྔལ་གསུམ་གྱི་རང་བཞིན་ཡིན་པ་སྡུག་བསྔལ་གསུམ་དེ་ཚང་མ་ལ་ཡོད་པར་བསྟན་པ་རེད། སྡུག་བསྔལ་གསུམ་ནི་སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ། འགྱུར་བའི་སྡུག་བསྔལ། ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ལོ།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_BOK-001/text?active_segment=BO_TSD_BO_DC_BOK-001:697"
+      },
+      {
+       "work": "thun mong gi sngon 'gro'i chos bshad rin chen them skas zhes bya ba b…",
+       "work_tib": "ཐུན་མོང་གི་སྔོན་འགྲོའི་ཆོས་བཤད་རིན་ཆེན་ཐེམ་སྐས་ཞེས་བྱ་བ་བ",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_DC_MIN-TC-02:662",
+       "label": "QUOTE",
+       "kind": "",
+       "more": [
+        "656",
+        "651"
+       ],
+       "is_en": false,
+       "wylie": "de yang mdor bsdu na rnam pa gsum ste/ sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal dang gsum mo/ dang po ni/ dper na rma khar dug btab pa bzhin tsha grang bkres skom sogs tshor ba sdug bsngal thams cad yin te/ gtso bor ngan song gsum na'o/ gnyis pa ni/",
+       "tib": "དེ་ཡང་མདོར་བསྡུ་ན་རྣམ་པ་གསུམ་སྟེ། སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ། འགྱུར་བའི་སྡུག་བསྔལ། ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་དང་གསུམ་མོ། དང་པོ་ནི། དཔེར་ན་རྨ་ཁར་དུག་བཏབ་པ་བཞིན་ཚ་གྲང་བཀྲེས་སྐོམ་སོགས་ཚོར་བ་སྡུག་བསྔལ་ཐམས་ཅད་ཡིན་ཏེ། གཙོ་བོར་ངན་སོང་གསུམ་ནའོ། གཉིས་པ་ནི།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_MIN-TC-02/text?active_segment=BO_TSD_BO_DC_MIN-TC-02:662"
+      },
+      {
+       "work": "lam rim dang blo sbyong nyams len gces btus/",
+       "work_tib": "ལམ་རིམ་དང་བློ་སྦྱོང་ཉམས་ལེན་གཅེས་བཏུས",
+       "collection": "Tsadra series",
+       "toh": "",
+       "segid": "BO_TSD_BO_DC_RDI-SS-05:3414",
+       "label": "QUOTE",
+       "kind": "",
+       "more": [
+        "2394",
+        "2395"
+       ],
+       "is_en": false,
+       "wylie": "'pho ba dang gnas pa la rang dbang med pas gnas ngan len gyis ni sdug bsngal lo/ mdor na khams gsum gnas ris mtho dman gang du skyes kyang sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal gsum gyi rgya mtshor rtag tu g.yeng ba'i tshul la bsam ste 'khor ba las blo ldog go /",
+       "tib": "འཕོ་བ་དང་གནས་པ་ལ་རང་དབང་མེད་པས་གནས་ངན་ལེན་གྱིས་ནི་སྡུག་བསྔལ་ལོ། མདོར་ན་ཁམས་གསུམ་གནས་རིས་མཐོ་དམན་གང་དུ་སྐྱེས་ཀྱང་སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ། འགྱུར་བའི་སྡུག་བསྔལ། ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་གསུམ་གྱི་རྒྱ་མཚོར་རྟག་ཏུ་གཡེང་བའི་ཚུལ་ལ་བསམ་སྟེ་འཁོར་བ་ལས་བློ་ལྡོག་གོ་།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_RDI-SS-05/text?active_segment=BO_TSD_BO_DC_RDI-SS-05:3414"
+      },
+      {
+       "work": "tshar chen chos kyi rgyal pos mdzad pa'i gsung ngag lam rim smon lam …",
+       "work_tib": "ཚར་ཆེན་ཆོས་ཀྱི་རྒྱལ་པོས་མཛད་པའི་གསུང་ངག་ལམ་རིམ་སྨོན་ལམ",
+       "collection": "Sungbum/series",
+       "toh": "",
+       "segid": "BO_S08_LAMD175:183",
+       "label": "QUOTE",
+       "kind": "",
+       "more": [
+        "190"
+       ],
+       "is_en": false,
+       "wylie": "da/ 'on kyang glo bur dri mas bsgribs/ ces dang*/ bstan bcos las/ sems can la nyon mongs la ma dag pa'i snang ba zhes pas bstan/ de la gsum/ 'khor ba'i sdug bsngal bsam pa/ dal 'byor rnyed dka' bsam pa/ las 'bras bsam pa'o/ dang po la gsum/ sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal lo/",
+       "tib": "ད། འོན་ཀྱང་གློ་བུར་དྲི་མས་བསྒྲིབས། ཅེས་དང༌། བསྟན་བཅོས་ལས། སེམས་ཅན་ལ་ཉོན་མོངས་ལ་མ་དག་པའི་སྣང་བ་ཞེས་པས་བསྟན། དེ་ལ་གསུམ། འཁོར་བའི་སྡུག་བསྔལ་བསམ་པ། དལ་འབྱོར་རྙེད་དཀའ་བསམ་པ། ལས་འབྲས་བསམ་པའོ། དང་པོ་ལ་གསུམ། སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ། འགྱུར་བའི་སྡུག་བསྔལ། ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ལོ།",
+       "ctx": [
+        {
+         "mark": "",
+         "id": "175",
+         "wylie": "tha mar dge ba bsngo smon gyis rgyas gdab pa rnams su yod pa las/",
+         "tib": "ཐ་མར་དགེ་བ་བསྔོ་སྨོན་གྱིས་རྒྱས་གདབ་པ་རྣམས་སུ་ཡོད་པ་ལས།"
+        },
+        {
+         "mark": "",
+         "id": "176",
+         "wylie": "'dir skyabs 'gro dngos su bstan nas/",
+         "tib": "འདིར་སྐྱབས་འགྲོ་དངོས་སུ་བསྟན་ནས།"
+        },
+        {
+         "mark": "",
+         "id": "177",
+         "wylie": "sems bskyed dang bsngo smon gyi don shugs las bstan cing skyabs su 'gro ba mthar phyin pa'i phyir bslu med skyabs mgon sogs tshigs su bcad pa gcig gsungs pa'i don ni go sla'o/",
+         "tib": "སེམས་བསྐྱེད་དང་བསྔོ་སྨོན་གྱི་དོན་ཤུགས་ལས་བསྟན་ཅིང་སྐྱབས་སུ་འགྲོ་བ་མཐར་ཕྱིན་པའི་ཕྱིར་བསླུ་མེད་སྐྱབས་མགོན་སོགས་ཚིགས་སུ་བཅད་པ་གཅིག་གསུངས་པའི་དོན་ནི་གོ་སླའོ།"
+        },
+        {
+         "mark": "",
+         "id": "178",
+         "wylie": "gnyis pa dngos gzhi snang ba gsum gyi dang po ma dag pa'i snang ba la/",
+         "tib": "གཉིས་པ་དངོས་གཞི་སྣང་བ་གསུམ་གྱི་དང་པོ་མ་དག་པའི་སྣང་བ་ལ།"
+        },
+        {
+         "mark": "",
+         "id": "179",
+         "wylie": "spyi gzhung gnyis/",
+         "tib": "སྤྱི་གཞུང་གཉིས།"
+        },
+        {
+         "mark": "",
+         "id": "180",
+         "wylie": "dang po la/",
+         "tib": "དང་པོ་ལ།"
+        },
+        {
+         "mark": "",
+         "id": "181",
+         "wylie": "lung ni/",
+         "tib": "ལུང་ནི།"
+        },
+        {
+         "mark": "",
+         "id": "182",
+         "wylie": "brtag pa gnyis pa las/",
+         "tib": "བརྟག་པ་གཉིས་པ་ལས།"
+        },
+        {
+         "mark": "hit",
+         "id": "183",
+         "wylie": "sems can rnams ni sangs rgyas nyid/",
+         "tib": "སེམས་ཅན་རྣམས་ནི་སངས་རྒྱས་ཉིད།"
+        },
+        {
+         "mark": "",
+         "id": "184",
+         "wylie": "'on kyang glo bur dri mas bsgribs/",
+         "tib": "འོན་ཀྱང་གློ་བུར་དྲི་མས་བསྒྲིབས།"
+        },
+        {
+         "mark": "",
+         "id": "185",
+         "wylie": "ces dang*/",
+         "tib": "ཅེས་དང༌།"
+        },
+        {
+         "mark": "",
+         "id": "186",
+         "wylie": "bstan bcos las/",
+         "tib": "བསྟན་བཅོས་ལས།"
+        },
+        {
+         "mark": "",
+         "id": "187",
+         "wylie": "sems can la nyon mongs la ma dag pa'i snang ba zhes pas bstan/",
+         "tib": "སེམས་ཅན་ལ་ཉོན་མོངས་ལ་མ་དག་པའི་སྣང་བ་ཞེས་པས་བསྟན།"
+        },
+        {
+         "mark": "",
+         "id": "188",
+         "wylie": "de la gsum/",
+         "tib": "དེ་ལ་གསུམ།"
+        },
+        {
+         "mark": "",
+         "id": "189",
+         "wylie": "'khor ba'i sdug bsngal bsam pa/",
+         "tib": "འཁོར་བའི་སྡུག་བསྔལ་བསམ་པ།"
+        },
+        {
+         "mark": "",
+         "id": "190",
+         "wylie": "dal 'byor rnyed dka' bsam pa/",
+         "tib": "དལ་འབྱོར་རྙེད་དཀའ་བསམ་པ།"
+        },
+        {
+         "mark": "",
+         "id": "191",
+         "wylie": "las 'bras bsam pa'o/",
+         "tib": "ལས་འབྲས་བསམ་པའོ།"
+        }
+       ],
+       "note": "no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_S08_LAMD175:243 --context --window 8 reads on",
+       "url": "https://dharmamitra.org/db/bo/BO_S08_LAMD175/text?active_segment=BO_S08_LAMD175:183"
+      },
+      {
+       "work": "legs par bshad pa lung rigs kyi rgya mtsho bzhugs so",
+       "work_tib": "ལེགས་པར་བཤད་པ་ལུང་རིགས་ཀྱི་རྒྱ་མཚོ་བཞུགས་སོ",
+       "collection": "Sungbum/series",
+       "toh": "",
+       "segid": "BO_S03_PARCHIN-080:7047",
+       "label": "QUOTE",
+       "kind": "",
+       "more": [
+        "7043"
+       ],
+       "is_en": false,
+       "wylie": "go / zhes so/ mtshan gzhi'i sgo nas dbye na/ sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal lo/ dang po ni/ tshor ba sdug bsngal rgyu dang bcas pa lta bu/ gnyis pa ni/ zag bcas kyi tshor ba bde ba rgyu dang bcas pa lta bu/ gsum pa ni/ zag bcas kyi tshor ba btang snyoms rgyu dang bcas pa dang*/",
+       "tib": "གོ་། ཞེས་སོ། མཚན་གཞིའི་སྒོ་ནས་དབྱེ་ན། སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ། འགྱུར་བའི་སྡུག་བསྔལ། ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ལོ། དང་པོ་ནི། ཚོར་བ་སྡུག་བསྔལ་རྒྱུ་དང་བཅས་པ་ལྟ་བུ། གཉིས་པ་ནི། ཟག་བཅས་ཀྱི་ཚོར་བ་བདེ་བ་རྒྱུ་དང་བཅས་པ་ལྟ་བུ། གསུམ་པ་ནི། ཟག་བཅས་ཀྱི་ཚོར་བ་བཏང་སྙོམས་རྒྱུ་དང་བཅས་པ་དང༌།",
+       "ctx": [
+        {
+         "mark": "",
+         "id": "7039",
+         "wylie": "'og min la sogs pa'i snod kyi 'jig rten sdug bsngal gyi bden pa ma yin te/",
+         "tib": "འོག་མིན་ལ་སོགས་པའི་སྣོད་ཀྱི་འཇིག་རྟེན་སྡུག་བསྔལ་གྱི་བདེན་པ་མ་ཡིན་ཏེ།"
+        },
+        {
+         "mark": "",
+         "id": "7040",
+         "wylie": "las nyon gyi dbang gis byung ba ma yin pa'i phyir/",
+         "tib": "ལས་ཉོན་གྱི་དབང་གིས་བྱུང་བ་མ་ཡིན་པའི་ཕྱིར།"
+        },
+        {
+         "mark": "",
+         "id": "7041",
+         "wylie": "sangs rgyas kyi zhing phun sum tshogs pa 'grub pa'i smon lam dang dge ba'i rtsa ba'i dbang gi byung ba'i phyir te/",
+         "tib": "སངས་རྒྱས་ཀྱི་ཞིང་ཕུན་སུམ་ཚོགས་པ་འགྲུབ་པའི་སྨོན་ལམ་དང་དགེ་བའི་རྩ་བའི་དབང་གི་བྱུང་བའི་ཕྱིར་ཏེ།"
+        },
+        {
+         "mark": "",
+         "id": "7042",
+         "wylie": "kun btus las/",
+         "tib": "ཀུན་བཏུས་ལས།"
+        },
+        {
+         "mark": "",
+         "id": "7043",
+         "wylie": "yongs su dag pa'i 'jig rten gyi khams de dag ni sdug bsngal gyi bden pa ma yin pa blta ste/",
+         "tib": "ཡོངས་སུ་དག་པའི་འཇིག་རྟེན་གྱི་ཁམས་དེ་དག་ནི་སྡུག་བསྔལ་གྱི་བདེན་པ་མ་ཡིན་པ་བལྟ་སྟེ།"
+        },
+        {
+         "mark": "",
+         "id": "7044",
+         "wylie": "de dag las dang nyon mongs pas skyed pa ma yin/",
+         "tib": "དེ་དག་ལས་དང་ཉོན་མོངས་པས་སྐྱེད་པ་མ་ཡིན།"
+        },
+        {
+         "mark": "",
+         "id": "7045",
+         "wylie": "las dang nyon mongs pa'i dbang gis byung ba ma yin gyi/",
+         "tib": "ལས་དང་ཉོན་མོངས་པའི་དབང་གིས་བྱུང་བ་མ་ཡིན་གྱི།"
+        },
+        {
+         "mark": "",
+         "id": "7046",
+         "wylie": "smon lam dang dge",
+         "tib": "སྨོན་ལམ་དང་དགེ"
+        },
+        {
+         "mark": "hit",
+         "id": "7047",
+         "wylie": "ba'i rtsa ba'i dbang gis byung ba dag go_/",
+         "tib": "བའི་རྩ་བའི་དབང་གིས་བྱུང་བ་དག་གོ །"
+        },
+        {
+         "mark": "",
+         "id": "7048",
+         "wylie": "zhes so/",
+         "tib": "ཞེས་སོ།"
+        },
+        {
+         "mark": "",
+         "id": "7049",
+         "wylie": "mtshan gzhi'i sgo nas dbye na/",
+         "tib": "མཚན་གཞིའི་སྒོ་ནས་དབྱེ་ན།"
+        },
+        {
+         "mark": "",
+         "id": "7050",
+         "wylie": "sdug bsngal gyi sdug bsngal/",
+         "tib": "སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ།"
+        },
+        {
+         "mark": "",
+         "id": "7051",
+         "wylie": "'gyur ba'i sdug bsngal/",
+         "tib": "འགྱུར་བའི་སྡུག་བསྔལ།"
+        },
+        {
+         "mark": "",
+         "id": "7052",
+         "wylie": "khyab pa 'du byed kyi sdug bsngal lo/",
+         "tib": "ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ལོ།"
+        },
+        {
+         "mark": "",
+         "id": "7053",
+         "wylie": "dang po ni/",
+         "tib": "དང་པོ་ནི།"
+        },
+        {
+         "mark": "",
+         "id": "7054",
+         "wylie": "tshor ba sdug bsngal rgyu dang bcas pa lta bu/",
+         "tib": "ཚོར་བ་སྡུག་བསྔལ་རྒྱུ་དང་བཅས་པ་ལྟ་བུ།"
+        },
+        {
+         "mark": "",
+         "id": "7055",
+         "wylie": "gnyis pa ni/",
+         "tib": "གཉིས་པ་ནི།"
+        }
+       ],
+       "note": "no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_S03_PARCHIN-080:7107 --context --window 8 reads on",
+       "url": "https://dharmamitra.org/db/bo/BO_S03_PARCHIN-080/text?active_segment=BO_S03_PARCHIN-080:7047"
+      },
+      {
+       "work": "Unknown — BYANG CHUB LAM RIM CHEN MO'I SA BCAD",
+       "work_tib": "",
+       "collection": "ACIP sungbum",
+       "toh": "",
+       "segid": "BO_ACIP-SUNGBUM_S5394L_T:386",
+       "label": "QUOTE",
+       "kind": "",
+       "more": [
+        "375"
+       ],
+       "is_en": false,
+       "wylie": "sa pa bsam pa'o/ gsum pa sdug bsngal gsum bsam pa la gsum/ sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal lo/ gnyis pa so so'i sdug bsngal bsam pa la drug / dmyal ba/ yi dwags/ dud 'gro/ mi/ lha ma yin/ lha'i sdug bsngal bsam pa'o/ 'di la gnyis/ 'dod lha'i sdug bsngal dang/",
+       "tib": "ས་པ་བསམ་པའོ། གསུམ་པ་སྡུག་བསྔལ་གསུམ་བསམ་པ་ལ་གསུམ། སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ། འགྱུར་བའི་སྡུག་བསྔལ། ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་ལོ། གཉིས་པ་སོ་སོའི་སྡུག་བསྔལ་བསམ་པ་ལ་དྲུག་། དམྱལ་བ། ཡི་དྭགས། དུད་འགྲོ། མི། ལྷ་མ་ཡིན། ལྷའི་སྡུག་བསྔལ་བསམ་པའོ། འདི་ལ་གཉིས། འདོད་ལྷའི་སྡུག་བསྔལ་དང།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_S5394L_T/text?active_segment=BO_ACIP-SUNGBUM_S5394L_T:386"
+      },
+      {
+       "work": "— rdo rje 'chang pha bong kha pa dpal bzang pos lam gtso'i zab khrid …",
+       "work_tib": "",
+       "collection": "ACIP sungbum",
+       "toh": "",
+       "segid": "BO_ACIP-SUNGBUM_S0034N_T:985",
+       "label": "QUOTE",
+       "kind": "",
+       "more": [
+        "877"
+       ],
+       "is_en": false,
+       "wylie": "zhung du khyer ba lta bu'i ma rig pa'i mun pa'i smag chen gyis kun nas gtibs shing/ mtha' med mu med kyi srid pa'i rgya mtshor skye zhing skye ba la sdug bsngal gyi sdug bsngal/ 'gyur ba'i sdug bsngal/ khyab pa 'du byed kyi sdug bsngal gsum gyis rgyun chad med par dus rtag tu mnar nas sdug bsngal bzod par dka' ba'i gnas skabs 'di 'drar gyur kyang; ma rang gi ngos nas ni bya thabs med la/",
+       "tib": "ཞུང་དུ་ཁྱེར་བ་ལྟ་བུའི་མ་རིག་པའི་མུན་པའི་སྨག་ཆེན་གྱིས་ཀུན་ནས་གཏིབས་ཤིང། མཐའ་མེད་མུ་མེད་ཀྱི་སྲིད་པའི་རྒྱ་མཚོར་སྐྱེ་ཞིང་སྐྱེ་བ་ལ་སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ། འགྱུར་བའི་སྡུག་བསྔལ། ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་གསུམ་གྱིས་རྒྱུན་ཆད་མེད་པར་དུས་རྟག་ཏུ་མནར་ནས་སྡུག་བསྔལ་བཟོད་པར་དཀའ་བའི་གནས་སྐབས་འདི་འདྲར་གྱུར་ཀྱང༏་མ་རང་གི་ངོས་ནས་ནི་བྱ་ཐབས་མེད་ལ།",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_S0034N_T/text?active_segment=BO_ACIP-SUNGBUM_S0034N_T:985"
+      },
+      {
+       "work": "chos kyi gter mdzod chen po kun 'dus rig pa'i sgron me/",
+       "work_tib": "ཆོས་ཀྱི་གཏེར་མཛོད་ཆེན་པོ་ཀུན་འདུས་རིག་པའི་སྒྲོན་མེ",
+       "collection": "Nyingma Kama",
+       "toh": "",
+       "segid": "BO_NK117_(she)001:14092",
+       "label": "QUOTE",
+       "kind": "",
+       "more": [
+        "13843"
+       ],
+       "is_en": false,
+       "wylie": "'a thub 'dus // rnam pa brgyad kyi sdug bsngal rtul phod pas // mi yi skye ba'i 'khri shing rtag tu gtser // zhes pa ni sdug bsngal nyid gsum ni sdug bsngal gyi sdug bsngal / 'gyur ba'i sdug bsngal / khyab pa 'du byed kyi sdug bsngal gsum ni 'brog dgon pa srog la ya nga ba'i gnas lta bur skye rga na 'chi'i sdug bsngal gyi tshor ba rnam par 'khyams pa ni de'i ngang du lus pa'o //",
+       "tib": "འ་ཐུབ་འདུས་༎ རྣམ་པ་བརྒྱད་ཀྱི་སྡུག་བསྔལ་རྟུལ་ཕོད་པས་༎ མི་ཡི་སྐྱེ་བའི་འཁྲི་ཤིང་རྟག་ཏུ་གཙེར་༎ ཞེས་པ་ནི་སྡུག་བསྔལ་ཉིད་གསུམ་ནི་སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ་། འགྱུར་བའི་སྡུག་བསྔལ་། ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་གསུམ་ནི་འབྲོག་དགོན་པ་སྲོག་ལ་ཡ་ང་བའི་གནས་ལྟ་བུར་སྐྱེ་རྒ་ན་འཆིའི་སྡུག་བསྔལ་གྱི་ཚོར་བ་རྣམ་པར་འཁྱམས་པ་ནི་དེའི་ངང་དུ་ལུས་པའོ་༎",
+       "ctx": [],
+       "note": "",
+       "url": "https://dharmamitra.org/db/bo/BO_NK117_(she)001/text?active_segment=BO_NK117_(she)001:14092"
+      }
+     ],
+     "n_hits": 167,
+     "n_works": 114,
+     "file": "dm_gloss_U03.txt"
+    }
+   ],
+   "cite": [],
+   "identify": "",
+   "identify_summary": "",
+   "segments": [],
+   "parallels": [],
+   "terms": [
+    {
+     "wylie": "'khor ba",
+     "english": "samsara",
+     "note": "anglicized, lowercase, no diacritics",
+     "alts": [],
+     "clutter": true
+    },
+    {
+     "wylie": "sdug bsngal",
+     "english": "suffering",
+     "note": "",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "sdug bsngal gsum",
+     "english": "the three kinds of suffering",
+     "note": "",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "sdug bsngal gyi sdug bsngal",
+     "english": "the suffering of suffering",
+     "note": "",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "'gyur ba'i sdug bsngal",
+     "english": "the suffering of change",
+     "note": "",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "khyab pa 'du byed kyi sdug bsngal",
+     "english": "the pervasive suffering of conditioning",
+     "note": "khyab pa = pervasive (not kun khyab); Alt: all-pervasive suffering of conditioned existence",
+     "alts": [
+      "all-pervasive suffering of conditioned existence"
+     ],
+     "clutter": false
+    },
+    {
+     "wylie": "rang bzhin",
+     "english": "nature",
+     "note": "… gyi rang bzhin du = by nature …",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "shes par byed",
+     "english": "recognize",
+     "note": "U03",
+     "alts": [],
+     "clutter": false
+    },
+    {
+     "wylie": "thar 'dod kyi blo",
+     "english": "the wish to be free",
+     "note": "de las thar 'dod kyi blo = the wish to be free from it",
+     "alts": [],
+     "clutter": false
+    }
+   ]
+  }
+ ],
+ "outline": [
+  {
+   "label": "Exposition",
+   "items": [
+    {
+     "label": "Exposition",
+     "units": [
+      "U01"
+     ]
+    }
+   ],
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "label": "Exposition; framing; aphorism",
+   "items": [
+    {
+     "label": "Exposition; framing; aphorism",
+     "units": [
+      "U02"
+     ],
+     "source": "Toh 4089, Treasury of Abhidharma, D 10b (opening line of chapter 4), quoted as a paraphrase"
+    }
+   ],
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "label": "Exposition",
+   "items": [
+    {
+     "label": "Exposition",
+     "units": [
+      "U03"
+     ]
+    }
+   ],
+   "units": [
+    "U03"
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "wylie": "'di ring gi brjod bya",
+   "english": "Today's topics",
+   "note": "lesson-outline heading; brjod bya = topic(s)"
+  },
+  {
+   "wylie": "'chi ba mi rtag pa",
+   "english": "death and impermanence",
+   "note": "coordinate set phrase (so used in Gyaltsab's Four Hundred commentary)"
+  },
+  {
+   "wylie": "bsam pa (heading)",
+   "english": "Contemplating",
+   "note": "'chi ba mi rtag pa bsam pa, 'khor ba sdug bsngal bsam pa; contrast sgom pa = meditating"
+  },
+  {
+   "wylie": "mi rtag pa",
+   "english": "impermanence",
+   "note": ""
+  },
+  {
+   "wylie": "rags pa'i mi rtag pa",
+   "english": "gross impermanence",
+   "note": "Alt: coarse (MITRA); not defined in the notes"
+  },
+  {
+   "wylie": "phra ba'i mi rtag pa",
+   "english": "subtle impermanence",
+   "note": "defined in U01: things change from moment to moment"
+  },
+  {
+   "wylie": "dngos po",
+   "english": "things",
+   "note": "plain for this audience; not 'phenomena' / 'functioning things'"
+  },
+  {
+   "wylie": "skad cig skad cig gi",
+   "english": "from moment to moment",
+   "note": ""
+  },
+  {
+   "wylie": "'gyur 'gro",
+   "english": "change",
+   "note": "modern compound; rendered as the verb"
+  },
+  {
+   "wylie": "rang nyid 'chi ba mi rtag",
+   "english": "your own death and impermanence",
+   "note": "rang nyid = whose death (no ergative); U01 heading"
+  },
+  {
+   "wylie": "sgom tshul",
+   "english": "how to meditate",
+   "note": "heading"
+  },
+  {
+   "wylie": "sgom pa'i thabs",
+   "english": "ways to meditate",
+   "note": "thabs gsum = three ways; the tradition's rtsa ba gsum"
+  },
+  {
+   "wylie": "sgom pa",
+   "english": "meditating",
+   "note": "list items: Meditating that …"
+  },
+  {
+   "wylie": "bdag nges par 'chi ba",
+   "english": "I will certainly die",
+   "note": "first person kept (the meditator's own thought)"
+  },
+  {
+   "wylie": "nam 'chi cha med",
+   "english": "the time of death is uncertain",
+   "note": "second of the three roots"
+  },
+  {
+   "wylie": "shi tshe",
+   "english": "at death",
+   "note": ""
+  },
+  {
+   "wylie": "chos",
+   "english": "the Dharma",
+   "note": "capitalized; the Dharma one practises: nothing but the Dharma will help"
+  },
+  {
+   "wylie": "las",
+   "english": "karma",
+   "note": "anglicized, common dictionary word"
+  },
+  {
+   "wylie": "las 'bras",
+   "english": "karma and its results",
+   "note": ""
+  },
+  {
+   "wylie": "skor (heading)",
+   "english": "On …",
+   "note": "las 'bras skor = On karma and its results"
+  },
+  {
+   "wylie": "'jig rten sna tshogs",
+   "english": "the world's variety",
+   "note": "per the Kośa Bhāṣya: the world of beings and the container world in their variety"
+  },
+  {
+   "wylie": "las las grub",
+   "english": "comes from karma",
+   "note": "quotation and example alike (Kośa: las las … skyes)"
+  },
+  {
+   "wylie": "phyi snod 'jig rten",
+   "english": "the outer world, the environment",
+   "note": "snod (container) image let go; snod bcud = environment and inhabitants"
+  },
+  {
+   "wylie": "rgyu",
+   "english": "cause",
+   "note": "rgyu las las grub = comes from karma as its cause"
+  },
+  {
+   "wylie": "'khor ba",
+   "english": "samsara",
+   "note": "anglicized, lowercase, no diacritics"
+  },
+  {
+   "wylie": "sdug bsngal",
+   "english": "suffering",
+   "note": ""
+  },
+  {
+   "wylie": "sdug bsngal gsum",
+   "english": "the three kinds of suffering",
+   "note": ""
+  },
+  {
+   "wylie": "sdug bsngal gyi sdug bsngal",
+   "english": "the suffering of suffering",
+   "note": ""
+  },
+  {
+   "wylie": "'gyur ba'i sdug bsngal",
+   "english": "the suffering of change",
+   "note": ""
+  },
+  {
+   "wylie": "khyab pa 'du byed kyi sdug bsngal",
+   "english": "the pervasive suffering of conditioning",
+   "note": "khyab pa = pervasive (not kun khyab); Alt: all-pervasive suffering of conditioned existence"
+  },
+  {
+   "wylie": "rang bzhin",
+   "english": "nature",
+   "note": "… gyi rang bzhin du = by nature …"
+  },
+  {
+   "wylie": "shes par byed",
+   "english": "recognize",
+   "note": "U03"
+  },
+  {
+   "wylie": "thar 'dod kyi blo",
+   "english": "the wish to be free",
+   "note": "de las thar 'dod kyi blo = the wish to be free from it"
+  },
+  {
+   "wylie": "nges 'byung",
+   "english": "renunciation",
+   "note": "defined in U03 (source spells nges 'byungs)"
+  },
+  {
+   "wylie": "… la X gsungs kyis yod",
+   "english": "this is what the teachings call X",
+   "note": "honorific naming (colloquial gsung gi yod); no agent invented"
+  },
+  {
+   "wylie": "X las … gsungs pa ltar",
+   "english": "As the *Title* says:",
+   "note": "frame before a verse line set as a block; keeps ltar"
+  }
+ ],
+ "titles": [
+  {
+   "english": "Treasury of Abhidharma",
+   "wylie": "chos mngon pa'i mdzod (chos mngon pa'i mdzod kyi tshig le'ur byas pa; mngon pa mdzod)",
+   "iast": "Abhidharmakośa(kārikā)",
+   "locator": "Toh 4089 (Tengyur), Degé mngon pa ku, f. 10b (segment 10b-43)"
+  }
+ ],
+ "sources": [
+  {
+   "chunk": "P01",
+   "unit_id": "U02",
+   "orig_fn": "-",
+   "opening_words": "The world's variety comes from karma",
+   "work_and_locator": "Treasury of Abhidharma (chos mngon pa'i mdzod kyi tshig le'ur byas pa, Abhidharmakośakārikā), Vasubandhu; Toh 4089, Degé Tengyur mngon pa ku, f. 10b (segment 10b-43), opening line of chapter 4; quoted in the notes as a paraphrase ('jig rten sna tshogs las las grub for las las 'jig rten sna tshogs skyes); the line is explained in the Treasury's own commentary, Toh 4090, f. 166a"
+  }
+ ],
+ "works": [
+  {
+   "key": "BO_ACIP-SUNGBUM_SL5525N_T",
+   "title": "Gyelwa Gendun Drup — DAM PA'I CHOS MNGON PA'I MDZOD KYI RNAM PAR BSHA…",
+   "title_wylie": "",
+   "author": "",
+   "collection": "ACIP sungbum",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_SL5525N_T/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 4
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_S10_KHEZ022",
+   "title": "ཆོས་མངོན་པ་མཛོད་ཀྱི་རྣམ་བཤད་ཚིག་དོན་རབ་གསལ་ཞེས་བྱ་བ་བཞ",
+   "title_wylie": "chos mngon pa mdzod kyi rnam bshad tshig don rab gsal zhes bya ba bzh…",
+   "author": "",
+   "collection": "Sungbum/series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_S10_KHEZ022/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 3
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_S09_RONT071",
+   "title": "ཆོས་མངོན་པ་མཛོད་ཀྱི་རྣམ་བཤད་ཤེས་བྱ་རབ་གསལ་ཞེས་བྱ་བ་བཞུ",
+   "title_wylie": "chos mngon pa mdzod kyi rnam bshad shes bya rab gsal zhes bya ba bzhu…",
+   "author": "",
+   "collection": "Sungbum/series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_S09_RONT071/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 3
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_T07_D4095",
+   "title": "ཆོས་མངོན་པའི་མཛོད་ཀྱི་འགྲེལ་པ་གནད་ཀྱི་སྒྲོན་མ་ཞེས་བྱ་བ།",
+   "title_wylie": "chos mngon pa'i mdzod kyi 'grel pa gnad kyi sgron ma zhes bya ba/ (ab…",
+   "author": "",
+   "collection": "Tengyur, Toh 4095",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T07_D4095/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 3
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_S05_NGONPA-108",
+   "title": "དམ་པའི་ཆོས་མངོན་པ་ཀུན་ལས་བཏུས་པའི་འགྲེལ་བ་ཤེས་བྱ་རབ་གསལ་ས",
+   "title_wylie": "dam pa'i chos mngon pa kun las btus pa'i 'grel ba shes bya rab gsal s…",
+   "author": "",
+   "collection": "Sungbum/series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_S05_NGONPA-108/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 3
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_T07_D4090",
+   "title": "ཆོས་མངོན་པའི་མཛོད་ཀྱི་བཤད་པ།",
+   "title_wylie": "chos mngon pa'i mdzod kyi bshad pa/ (abhidharmakośabhāṣya)",
+   "author": "",
+   "collection": "Tengyur, Toh 4090",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T07_D4090/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 2
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_T07_D4091",
+   "title": "ཆོས་མངོན་པའི་མཛོད་ཀྱི་བསྟན་བཅོས་ཀྱི་ཚིག་ལེའུར་བྱས་པའི་རྣམ་པ",
+   "title_wylie": "chos mngon pa'i mdzod kyi bstan bcos kyi tshig le'ur byas pa'i rnam p…",
+   "author": "",
+   "collection": "Tengyur, Toh 4091",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T07_D4091/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 2
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_TSD_BO_DC_VVI-011",
+   "title": "ཆོས་མངོན་པའི་མཛོད་ཀྱི་རྣམ་པར་བཤད་པ་ཆོས་མངོན་རྒྱ་མཚོའི་ས",
+   "title_wylie": "chos mngon pa'i mdzod kyi rnam par bshad pa chos mngon rgya mtsho'i s…",
+   "author": "",
+   "collection": "Tsadra series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_VVI-011/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 2
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_S05_NGONPA-115",
+   "title": "དམ་པའི་ཆོས་མངོན་པ་མཛོད་ཀྱི་འགྲེལ་པ་གཞུང་དོན་རབ་ཏུ་གསལ་བའི",
+   "title_wylie": "dam pa'i chos mngon pa mdzod kyi 'grel pa gzhung don rab tu gsal ba'i…",
+   "author": "",
+   "collection": "Sungbum/series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_S05_NGONPA-115/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 2
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_T05_D3996",
+   "title": "རྟེན་ཅིང་འབྲེལ་པར་འབྱུང་བ་དང་པོ་དང་རྣམ་པར་འབྱེད་པ་བསྟན་པ",
+   "title_wylie": "rten cing 'brel par 'byung ba dang po dang rnam par 'byed pa bstan pa…",
+   "author": "",
+   "collection": "Tengyur, Toh 3996",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T05_D3996/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 2
+   },
+   "units": [
+    "U03"
+   ]
+  },
+  {
+   "key": "BO_T16_D4421-2",
+   "title": "ཆོས་མངོན་པའི་མཛོད་ཀྱི་བཤད་པའི་རྒྱ་ཆེར་འགྲེལ་པ་དོན་གྱི་དེ་ཁ",
+   "title_wylie": "chos mngon pa'i mdzod kyi bshad pa'i rgya cher 'grel pa don gyi de kh…",
+   "author": "",
+   "collection": "Tengyur, Toh 4421",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T16_D4421-2/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 1
+   },
+   "units": [
+    "U03"
+   ]
+  },
+  {
+   "key": "BO_S04_TSEMA-122",
+   "title": "ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་རིགས་པའི་མཛོད་ཅེས་བྱ་བ་བཞུགས་སོ",
+   "title_wylie": "tshad ma rnam 'grel gyi 'grel pa rigs pa'i mdzod ces bya ba bzhugs so",
+   "author": "",
+   "collection": "Sungbum/series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_S04_TSEMA-122/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 1
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_TSD_BO_DC_KN-LYN-02",
+   "title": "ཞལ་གདམས་ལམ་རིམ་ཡེ་ཤེས་སྙིང་པོའི་རྣམ་འགྲེལ་རབ་གསལ་ཉིན་བྱེད",
+   "title_wylie": "zhal gdams lam rim ye shes snying po'i rnam 'grel rab gsal nyin byed …",
+   "author": "",
+   "collection": "Tsadra series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_KN-LYN-02/text",
+   "from_search": true,
+   "labels": {
+    "GLOSS": 1
+   },
+   "units": [
+    "U03"
+   ]
+  },
+  {
+   "key": "BO_T04_D3872",
+   "title": "བྱང་ཆུབ་ཀྱི་སྤྱོད་པ་ལ་འཇུག་པའི་དཀའ་འགྲེལ།",
+   "title_wylie": "byang chub kyi spyod pa la 'jug pa'i dka' 'grel/ (bodhicaryāvatārapañ…",
+   "author": "",
+   "collection": "Tengyur, Toh 3872",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T04_D3872/text",
+   "from_search": true,
+   "labels": {
+    "QUOTE": 6
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_ACIP-SUNGBUM_SD5394E_T",
+   "title": "Unknown — BYANG CHUB LAM GYI RIM PA'I 'KHRID KYI SA BCAD",
+   "title_wylie": "",
+   "author": "",
+   "collection": "ACIP sungbum",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_SD5394E_T/text",
+   "from_search": true,
+   "labels": {
+    "QUOTE": 3
+   },
+   "units": [
+    "U03"
+   ]
+  },
+  {
+   "key": "BO_TSD_BO_DC_MIN-TC-02",
+   "title": "ཐུན་མོང་གི་སྔོན་འགྲོའི་ཆོས་བཤད་རིན་ཆེན་ཐེམ་སྐས་ཞེས་བྱ་བ་བ",
+   "title_wylie": "thun mong gi sngon 'gro'i chos bshad rin chen them skas zhes bya ba b…",
+   "author": "",
+   "collection": "Tsadra series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_MIN-TC-02/text",
+   "from_search": true,
+   "labels": {
+    "QUOTE": 3
+   },
+   "units": [
+    "U03"
+   ]
+  },
+  {
+   "key": "BO_TSD_BO_DC_BOK-001",
+   "title": "བདུད་རྩིའི་ཟེགས་མ",
+   "title_wylie": "bdud rtsi'i zegs ma/",
+   "author": "",
+   "collection": "Tsadra series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_BOK-001/text",
+   "from_search": true,
+   "labels": {
+    "QUOTE": 3
+   },
+   "units": [
+    "U03"
+   ]
+  },
+  {
+   "key": "BO_TSD_BO_DC_RDI-SS-05",
+   "title": "ལམ་རིམ་དང་བློ་སྦྱོང་ཉམས་ལེན་གཅེས་བཏུས",
+   "title_wylie": "lam rim dang blo sbyong nyams len gces btus/",
+   "author": "",
+   "collection": "Tsadra series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_RDI-SS-05/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 2,
+    "QUOTE": 3
+   },
+   "units": [
+    "U02",
+    "U03"
+   ]
+  },
+  {
+   "key": "BO_ACIP-SUNGBUM_S5394L_T",
+   "title": "Unknown — BYANG CHUB LAM RIM CHEN MO'I SA BCAD",
+   "title_wylie": "",
+   "author": "",
+   "collection": "ACIP sungbum",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_S5394L_T/text",
+   "from_search": true,
+   "labels": {
+    "QUOTE": 2
+   },
+   "units": [
+    "U03"
+   ]
+  },
+  {
+   "key": "BO_NK117_(she)001",
+   "title": "ཆོས་ཀྱི་གཏེར་མཛོད་ཆེན་པོ་ཀུན་འདུས་རིག་པའི་སྒྲོན་མེ",
+   "title_wylie": "chos kyi gter mdzod chen po kun 'dus rig pa'i sgron me/",
+   "author": "",
+   "collection": "Nyingma Kama",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_NK117_(she)001/text",
+   "from_search": true,
+   "labels": {
+    "QUOTE": 2
+   },
+   "units": [
+    "U03"
+   ]
+  },
+  {
+   "key": "BO_S08_LAMD175",
+   "title": "ཚར་ཆེན་ཆོས་ཀྱི་རྒྱལ་པོས་མཛད་པའི་གསུང་ངག་ལམ་རིམ་སྨོན་ལམ",
+   "title_wylie": "tshar chen chos kyi rgyal pos mdzad pa'i gsung ngag lam rim smon lam …",
+   "author": "",
+   "collection": "Sungbum/series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_S08_LAMD175/text",
+   "from_search": true,
+   "labels": {
+    "QUOTE": 2
+   },
+   "units": [
+    "U03"
+   ]
+  },
+  {
+   "key": "BO_ACIP-SUNGBUM_S5428I_T",
+   "title": "རྒྱལ་ཚབ་དར་མ་རིན་ཆེན — བཞི་བརྒྱ་པའི་རྣམ་བཤད་ལེགས་བཤད་ས",
+   "title_wylie": "rgyal tshab dar ma rin chen — bzhi brgya pa'i rnam bshad legs bshad s…",
+   "author": "",
+   "collection": "ACIP sungbum",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_S5428I_T/text",
+   "from_search": true,
+   "labels": {
+    "QUOTE": 2
+   },
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "key": "BO_S03_PARCHIN-080",
+   "title": "ལེགས་པར་བཤད་པ་ལུང་རིགས་ཀྱི་རྒྱ་མཚོ་བཞུགས་སོ",
+   "title_wylie": "legs par bshad pa lung rigs kyi rgya mtsho bzhugs so",
+   "author": "",
+   "collection": "Sungbum/series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_S03_PARCHIN-080/text",
+   "from_search": true,
+   "labels": {
+    "QUOTE": 2
+   },
+   "units": [
+    "U03"
+   ]
+  },
+  {
+   "key": "BO_ACIP-SUNGBUM_S0034N_T",
+   "title": "— rdo rje 'chang pha bong kha pa dpal bzang pos lam gtso'i zab khrid …",
+   "title_wylie": "",
+   "author": "",
+   "collection": "ACIP sungbum",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_S0034N_T/text",
+   "from_search": true,
+   "labels": {
+    "QUOTE": 2
+   },
+   "units": [
+    "U03"
+   ]
+  },
+  {
+   "key": "BO_S10_MANG029",
+   "title": "dpe rnying :: MANG029",
+   "title_wylie": "",
+   "author": "",
+   "collection": "Sungbum/series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_S10_MANG029/text",
+   "from_search": true,
+   "labels": {
+    "QUOTE": 1
+   },
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "key": "BO_T04_D3880",
+   "title": "D3880",
+   "title_wylie": "",
+   "author": "",
+   "collection": "Tengyur, Toh 3880",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T04_D3880/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 2
+   },
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "key": "BO_ACIP-SUNGBUM_S6515E_T",
+   "title": "Keutsang Lobsang Jamyang Munlam — BYANG CHUB LAM GYI RIM PA'I SNGON '…",
+   "title_wylie": "",
+   "author": "",
+   "collection": "ACIP sungbum",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_S6515E_T/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 2
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_ACIP-SUNGBUM_S5944M_T",
+   "title": "paN chen blo bzang chos kyi rgyal mtshan — byang chub lam gyi rim pa'…",
+   "title_wylie": "",
+   "author": "",
+   "collection": "ACIP sungbum",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_S5944M_T/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 3
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_S08_LAMD109",
+   "title": "གསུང་ངག་རིན་པོ་ཆེ་སློབ་བཤད་ཀྱི་འཆད་ཐབས་མདོར་བསྡུས་ཟབ་དོན་ན",
+   "title_wylie": "gsung ngag rin po che slob bshad kyi 'chad thabs mdor bsdus zab don n…",
+   "author": "",
+   "collection": "Sungbum/series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_S08_LAMD109/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 1
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_TSD_BO_JKW-KABUM-10-THA-008-001",
+   "title": "ཐེག་པ་ཆེན་པོའི་བློ་སྦྱོང་དོན་བདུན་མ་ཉམས་སུ་ལེན་ཚུལ་སྙིང་པོ",
+   "title_wylie": "theg pa chen po'i blo sbyong don bdun ma nyams su len tshul snying po…",
+   "author": "",
+   "collection": "Tsadra series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_JKW-KABUM-10-THA-008-001/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 2
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_T11_D4267",
+   "title": "དེ་ཁོ་ན་ཉིད་བསྡུས་པའི་དཀའ་འགྲེལ།",
+   "title_wylie": "de kho na nyid bsdus pa'i dka' 'grel/ (tattvasaṁgrahapañjikā)",
+   "author": "",
+   "collection": "Tengyur, Toh 4267",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T11_D4267/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 1
+   },
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "key": "BO_TSD_BO_DC_BEN-LB-017",
+   "title": "དྭགས་པོ་ཆོས་བཞིའི་འགྲེལ་པ་གཅེས་བཏུས་བཞུགས་སོ།",
+   "title_wylie": "dwags po chos bzhi'i 'grel pa gces btus bzhugs so//",
+   "author": "",
+   "collection": "Tsadra series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_BEN-LB-017/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 2
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_TSD_BO_DC_RDI-KK-10",
+   "title": "ཕྱག་ཆེན་གྱི་གདམས་པ་གཅེས་བཏུས། གཉིས་པ",
+   "title_wylie": "phyag chen gyi gdams pa gces btus/ gnyis pa/",
+   "author": "",
+   "collection": "Tsadra series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_RDI-KK-10/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 4
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_TSD_BO_DC_RDI-SS-26",
+   "title": "ཕྱག་ཆེན་རྒྱས་འབྲིང་བསྡུས་གསུམ",
+   "title_wylie": "phyag chen rgyas 'bring bsdus gsum/",
+   "author": "",
+   "collection": "Tsadra series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_RDI-SS-26/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 3
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_T04_D3875A",
+   "title": "བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པའི་རྟོགས་པར་དཀའ་བའི་གནས",
+   "title_wylie": "byang chub sems dpa'i spyod pa la 'jug pa'i rtogs par dka' ba'i gnas …",
+   "author": "",
+   "collection": "Tengyur, Toh 3875",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T04_D3875A/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 2
+   },
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "key": "BO_TSD_BO_Terdzo-CA-053",
+   "title": "བླ་མའི་ཐུགས་སྒྲུབ་བར་ཆད་ཀུན་སེལ་ལས། ཕྱི་གསོལ་འདེབས་ཀྱི་ཚུལ",
+   "title_wylie": "bla ma'i thugs sgrub bar chad kun sel las/ phyi gsol 'debs kyi tshul …",
+   "author": "",
+   "collection": "Tsadra series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_Terdzo-CA-053/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 1
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_T04_D3935",
+   "title": "མདོ་ཀུན་ལས་བཏུས་པའི་བཤད་པ་རིན་པོ་ཆེ་སྣང་བའི་རྒྱན་ཅེས་བྱ་བ",
+   "title_wylie": "mdo kun las btus pa'i bshad pa rin po che snang ba'i rgyan ces bya ba…",
+   "author": "",
+   "collection": "Tengyur, Toh 3935",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T04_D3935/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 2
+   },
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "key": "BO_T16_D4358-2",
+   "title": "འཕགས་པ་དགོངས་པ་ངེས་པར་འགྲེལ་པའི་མདོའི་རྣམ་པར་བཤད་པ།",
+   "title_wylie": "'phags pa dgongs pa nges par 'grel pa'i mdo'i rnam par bshad pa/ (āry…",
+   "author": "",
+   "collection": "Tengyur, Toh 4358",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T16_D4358-2/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 1
+   },
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "key": "BO_T05_D4016-3",
+   "title": "འཕགས་པ་དགོངས་པ་ཟབ་མོ་ངེས་པར་འགྲེལ་པའི་མདོའི་རྒྱ་ཆེར་འགྲེལ",
+   "title_wylie": "'phags pa dgongs pa zab mo nges par 'grel pa'i mdo'i rgya cher 'grel …",
+   "author": "",
+   "collection": "Tengyur, Toh 4016",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T05_D4016-3/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 4
+   },
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "key": "BO_T05_D4019",
+   "title": "འཕགས་པ་ལང་ཀར་གཤེགས་པ་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོའི་འགྲེ",
+   "title_wylie": "'phags pa lang kar gshegs pa zhes bya ba theg pa chen po'i mdo'i 'gre…",
+   "author": "",
+   "collection": "Tengyur, Toh 4019",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T05_D4019/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 1
+   },
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "key": "BO_T06_D4061",
+   "title": "རྣམ་པར་བཤད་པའི་རིགས་པ།",
+   "title_wylie": "rnam par bshad pa'i rigs pa/ (vyākhyāyukti)",
+   "author": "",
+   "collection": "Tengyur, Toh 4061",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T06_D4061/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 1
+   },
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "key": "BO_T06_D4069",
+   "title": "རྣམ་པར་བཤད་པའི་རིགས་པའི་བཤད་པ།",
+   "title_wylie": "rnam par bshad pa'i rigs pa'i bshad pa/ (vyākhyāyuktiṭīkā)",
+   "author": "",
+   "collection": "Tengyur, Toh 4069",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T06_D4069/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 1
+   },
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "key": "BO_T06_D4039",
+   "title": "རྣལ་འབྱོར་སྤྱོད་པའི་ས་ལས་གཞི་བསྡུ་བ།",
+   "title_wylie": "rnal 'byor spyod pa'i sa las gzhi bsdu ba/ ([yogācārabhūmau vastusaṁg…",
+   "author": "",
+   "collection": "Tengyur, Toh 4039",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_T06_D4039/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 2
+   },
+   "units": [
+    "U01"
+   ]
+  },
+  {
+   "key": "BO_TSD_BO_DC_RDI-SK-03",
+   "title": "ལག་ལེན་སུམ་སྦྲེལ་གྱི་གདམས་པ་གཅེས་བཏུས",
+   "title_wylie": "lag len sum sbrel gyi gdams pa gces btus/",
+   "author": "",
+   "collection": "Tsadra series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_RDI-SK-03/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 5
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_ACIP-SUNGBUM_S0130M_T",
+   "title": "ལྕང་སྐྱ་ངག་དབང་བློ་བཟང་ཆོས་ལྡན — བསགས་སྦྱང་གི་གནད་བསྡུ",
+   "title_wylie": "lcang skya ngag dbang blo bzang chos ldan — bsags sbyang gi gnad bsdu…",
+   "author": "",
+   "collection": "ACIP sungbum",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_ACIP-SUNGBUM_S0130M_T/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 2
+   },
+   "units": [
+    "U02"
+   ]
+  },
+  {
+   "key": "BO_TSD_BO_DC_RDI-TOK-07",
+   "title": "ལྷག་པ་ཤེས་རབ་ཀྱི་བསླབ་པ་རིམ་པར་ཕྱེ་བ",
+   "title_wylie": "lhag pa shes rab kyi bslab pa rim par phye ba/",
+   "author": "",
+   "collection": "Tsadra series",
+   "genre": "",
+   "source": "",
+   "bdrc": "",
+   "file": "",
+   "url": "https://dharmamitra.org/db/bo/BO_TSD_BO_DC_RDI-TOK-07/text",
+   "from_search": true,
+   "labels": {
+    "NEAR": 1
+   },
+   "units": [
+    "U02"
+   ]
+  }
+ ],
+ "check": [],
+ "runlog": "# runlog — lesson-prep\n\n2026-10-09 · MODEL: Claude Opus 5.5 (claude-opus-5-5), max reasoning effort as set for this session: the calibrated setting. Autonomous run inside Vikramashila CAT; brief taken from CLAUDE.md, Pass 0 not asked.\n- Brief from CLAUDE.md (Pass 0 answered): audience new practitioner · purpose publication · house style per modes.md (new practitioner column) · notes: reader footnotes, sources in lesson-prep.sources.tsv · source context: infer and state · prior translations: consult and cite (dm.py cite) · glossary lesson-prep.glossary.tsv binds.\n- Page: U01–U03 of lesson-prep.units.md, treated as one page.\n- Read: SKILL.md (on disk, authoritative; identical to the loaded skill), reference/english.md, modes.md (new-practitioner column), notes.md, prose.md.\n- Read: tools/export_docx.py header (TEXT: lines = line breaks inside a paragraph, blank line = new paragraph; `## ` ends a unit block); format conventions checked against projects/rays/run (final.md, sources.tsv columns).\n- Skill tool: tibetan-verse (loaded; ~/.claude/skills/tibetan-verse/SKILL.md checked on disk) for the one-pada verse citation in U02; guidelines.md not read (a single line, no question arose).\n- Pass 1: lesson-prep.construal.md (source context assumed and stated there), lesson-prep.draft1.md written.\n- beats.py (citation): \"variety\" UNKNOWN in lexicon.py → hand-counted va-RI-e-ty (4, [2], []) in memory for this run, tool files untouched; \"The world in all its variety comes from karma.\" PULSE:2 → rejected; \"The world's variety comes from karma.\" 3–4 beats, passes.\n- Read: reference/grounding.md (before the first grounding call). Skill tool: tibetan-citations (loaded) for the U02 quotation.\n- dm.py identify U02 (as quoted, 7 syl.) → dm_identify_U02.txt: best verbatim run 6/7 (paraphrase); Toh 4089 not among the top candidates.\n- dm.py gloss U02 (canonical wording, --context 8) → dm_gloss_U02.txt: root work Toh 4089; Bhāṣya Toh 4090 166a-3–7 (= Toh 4091, 4095) and Tibetan Kośa commentaries: sems can dang snod kyi 'jig rten … las las; resolves the rgyu las las Q.\n- dm.py identify U02 (canonical, 14 syl.) → dm_identify_U02-2.txt: verbatim, Toh 4089 10b-43 (verification of the locator).\n- dm.py cite BO_T07_D4089:10b-43 → dm_cite_U02.txt (REGISTER line; READER title Treasury of Abhidharma).\n- dm.py gloss U03 (the three sufferings, --context 8) → dm_gloss_U03.txt: Toh 3996 165a-18–26 gloss (pain / pleasure / neither; khyab = pervades every feeling); Toh 4421 194a–b; KN-LYN-02 lamrim commentary.\n- dm.py gloss U01 (gross/subtle impermanence, --context 8) → dm_gloss_U01.txt: QUOTE (Gyaltsab, Four Hundred comm.) and NEAR only; none found for the formula.\n- dm.py gloss U02-2 (the three death contemplations, --context 8) → dm_gloss_U02-2.txt: NEAR (lamrim works: rtsa ba gsum); consistent.\n- Gloss calls: 4 (budget 2–4). EN_ (published English) hits: none in any saved output; prior translations: none found (consult policy, nothing to consult; existing-translations.md not needed).\n- dm.py translate --file lesson-prep.units.md (MITRA flag) → dm_translate_U01-U03.txt: agrees on content; differs on person in U01 item 1 (one's own vs bdag = I) and turns list items into imperatives.\n- Pass 3 (style, new-practitioner mode) → lesson-prep.pass3.md: no change of meaning from draft1; glossary: 36 term rows + TITLE row (Treasury of Abhidharma) appended to lesson-prep.glossary.tsv; register row P01/U02 via register.py --add (--check: 0 problems; --titles: 0 problems).\n- Read: reference/check.md. Pass 4 (in-context, after re-reading lesson-prep.construal.md from disk): no finding in the body; the sketch's U02 TERMS entry aligned with the glossary (housekeeping). Check: in-context, 0 fixed.\n- Pass 5: editor notes per unit; one reader footnote (U03, the three kinds of suffering, written from Toh 3996 165a and KN-LYN-02); confidence U01 high, U02 high, U03 medium (agent of honorific gsungs open).\n- final.md created with a title line; U01–U03 appended. Test export (export_docx.py → /tmp, deleted): 3 units, 1 footnote, no anchor warning. Note for the user: export_docx.py writes TEXT lines as plain runs, so *Treasury of Abhidharma* would show its asterisks in Word (italics not rendered); not changed.\n- After the run (tibetan-verse §3.7): 'variety': (4, [2], []) added to ~/.claude/skills/tibetan-verse/tools/lexicon.py; beats.py now passes the U02 line without the hand count.\n- DONE U01–U03.\n",
+ "pending": 0,
+ "counts": {
+  "units": 3,
+  "glossary": 36,
+  "sources": 1,
+  "explore_calls": 0,
+  "gloss_calls": 4,
+  "segments": 0,
+  "footnotes": 1,
+  "notes": 30
+ }
+}

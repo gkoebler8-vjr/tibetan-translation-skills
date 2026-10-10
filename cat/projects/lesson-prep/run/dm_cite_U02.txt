@@ -1,0 +1,5 @@
+ACADEMIC: *abhidharmakośakārikā* (chos mngon pa'i mdzod kyi tshid le'ur byas pa), Toh 4089, Degé Tengyur, mngon pa, vol. ku, f. 10b (segment 43); Peking 5590.
+READER:   *Treasury of Abhidharma* (Toh 4089), f. 10b.
+REGISTER: Treasury of Abhidharma; Toh 4089, mngon pa ku, f. 10b; BDRC http://purl.bdrc.io/resource/WA23703
+CREDITS:  author Dbyig-gNen; Tibetan translators Jinamitra, Dpal brtsegs rakSita
+NOTE:     the segment number locates the passage inside the folio in Dharmamitra's alignment; it is not the Derge line number.

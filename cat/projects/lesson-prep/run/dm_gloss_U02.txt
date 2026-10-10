@@ -1,0 +1,124 @@
+DharmaMitra primary search · semantic · no re-ranking · 154 hits in 95 works
+query (14 syllables): las las 'jig rten sna tshogs skyes/ de ni sems pa dang des byas/
+root work (Kangyur/Tengyur hit with the verbatim line): chos mngon pa'i mdzod kyi tshid le'ur byas pa/ (abhidharmakośakārikā) [Toh 4089]
+(context: DharmaNexus text view, 8 request(s) for 5 work(s): chos mngon pa'i mdzod kyi 'grel pa gnad…, chos mngon pa'i mdzod kyi bshad pa/ (ab…, chos mngon pa'i mdzod kyi bstan bcos ky…, dam pa'i chos mngon pa kun las btus pa'…, Gyelwa Gendun Drup — DAM PA'I CHOS MNGO…; gloss found in 0)
+
+=== chos mngon pa'i mdzod kyi 'grel pa gnad kyi sgron ma zhes bya ba/ (ab… · Tengyur, Toh 4095 · BO_T07_D4095:143a-19 · GLOSS (paraphrase gloss) (+2 more hits: 143a-23, 143a-28)
+nas gsum pa'o// // yang sems can dang snod kyi 'jig rten rnam pa sna tshogs pa bshad pa gang yin pa de dag sus byas she na// sus kyang blo sngon du btang nas byas pa ni med do// 'on kyang sems can rnams kyi/ las las 'jig rten sna tshogs skyes// las las de ci zhig ce na// de ni sems pa dang des byas//
+>> 143a-19: 'jig rten bstan pa zhes bya ba mdzod kyi gnas gsum pa'o/ /
+   143a-20: / /
+   143a-21: yang sems can dang snod kyi 'jig rten rnam pa sna tshogs pa bshad pa gang yin pa de dag sus byas she na/ /
+   143a-22: sus kyang blo sngon du btang nas byas pa ni med do/ /
+   143a-23: 'on kyang sems can rnams kyi/
+   143a-24: las las 'jig rten sna tshogs skyes/ /
+   143a-25: las las de ci zhig ce na/ /
+   143a-26: de ni sems pa dang des byas/ /
+   143a-27: sems pa dang bsams pa'i las so zhes gsungs la/
+   (no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_T07_D4095:144a-7 --context --window 8 reads on)
+
+=== chos mngon pa'i mdzod kyi bshad pa/ (abhidharmakośabhāṣya) · Tengyur, Toh 4090 · BO_T07_D4090:166a-1 · GLOSS (paraphrase gloss) (+1 more hit: 166a-8)
+zhes bya ba mdzod kyi gnas gsum pa rdzogs so// // yang sems can dang snod kyi 'jig rten rnam pa mang po sna tshogs pa bshad pa gang yin pa de sus byas she na/ sus kyang blo sngon du btang ste byas pa ni med do// 'o na ji lta bu zhe na/ sems can rnams kyi/ las las 'jig rten sna tshogs skyes// gal te las las skyes nas ci'i phyir sems can rnams kyi las dag gis gur gum dang / tsan dan la sogs pa ches dga' dga' lta bur skyes par 'gyur la de dag gi lus ni ma yin zhe na/
+   165b-29: de nas ni/
+   165b-30: mjug tu rlung gis 'jig pa yin/ /
+   165b-31: de nas ni mjug tu rlung gis 'jig pa gcig 'byung ngo / /
+   165b-32: ci'i phyir zhe na/
+   165b-33: sems can de dag gi snyoms par 'jug pa'i khyad par las lus dag gnas pa'i khyad par ji lta bar snod rnams kyang de bzhin no/ /
+   165b-34: de dag ni mes 'jig pa lnga bcu rtsa drug dang / chus 'jig pa bdun dang rlung gis 'jig pa gcig yin te/
+   165b-36: de ltar bshad nas btags pa'i bshad
+   166a-0: pa dge rgyas kyi lha rnams kyi tshe'i tshad ni bskal pa drug cu rtsa bzhi'i zhes bya ba legs par drangs pa yin no/ /
+>> 166a-1: chos mngon pa'i mdzod kyi bshad pa las 'jig rten bstan pa zhes bya ba mdzod kyi gnas gsum pa rdzogs so/ /
+   166a-2: / /
+   166a-3: yang sems can dang snod kyi 'jig rten rnam pa mang po sna tshogs pa bshad pa gang yin pa de sus byas she na/
+   166a-4: sus kyang blo sngon du btang ste byas pa ni med do/ /
+   166a-5: 'o na ji lta bu zhe na/
+   166a-6: sems can rnams kyi/
+   166a-7: las las 'jig rten sna tshogs skyes/ /
+   166a-8: gal te las las skyes nas ci'i phyir sems can rnams kyi las dag gis gur gum dang / tsan dan la sogs pa ches dga' dga' lta bur skyes par 'gyur la de dag gi lus ni ma yin zhe na/
+   166a-10: sems can 'dren mar byed pa rnams kyi las de lta bu dag kho na gang rma lta bur gyur pa'i lus dag dang / de'i tshe gnyen por gyur pa longs spyod dga' dga' lta bu dag kyang skye'i/
+   (no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_T07_D4090:166b-32 --context --window 8 reads on)
+
+=== chos mngon pa'i mdzod kyi bstan bcos kyi tshig le'ur byas pa'i rnam p… · Tengyur, Toh 4091 · BO_T07_D4091:157a-9 · GLOSS (paraphrase gloss) (+1 more hit: 157a-16)
+'o// // yang sems can dang snod kyi 'jig rten rnam pa sna tshogs bshad pa gang yin pa de sus byas she na/ sus kyang blo sngon du btang ste byas pa ni med do// 'o na ji lta bu zhe na/ sems can rnams kyi/ las las 'jig rten sna tshogs skyes// gal te las las skyes na ci'i phyir sems can rnams kyi las dag gis gur kum dang / tsan dan la sogs pa ches dga' dga' lta bu skye bar 'gyur la de dag gi lus ma yin zhe na//
+   156b-33: tha
+   157a-0: mar rlung gis 'jig pa'o/ /
+   157a-1: phyis ni rlung gi 'jig pa gcig yin no/ /
+   157a-2: ci'i phyir zhe na/
+   157a-3: sems can de dag gi snyoms par 'jug pa'i khyad par lus rnams gnas pa'i khyad par ji lta bar snod rnams kyang de bzhin no/ /
+   157a-4: de ltar de dag gis mes 'jig pa lnga bcu rtsa drug dang / chus 'jig pa bdun dang / rlung gi 'jig pa gcig tu 'gyur te/
+   157a-7: de ltar byas na btags pa las/
+   157a-8: dge rgyas kyi lha rnams kyi tshe'i tshad ni bskal pa drug cu rtsa bzhi'o zhes bshad pa legs par grangs pa yin no/ /
+>> 157a-9: chos mngon pa mdzod kyi bstan bcos 'jig rten bstan pa'i 'grel pa mdo dang mthun pa las 'jig rten bstan pa zhes bya ba mdzod kyi gnas gsum pa'o/ /
+   157a-10: / /
+   157a-11: yang sems can dang snod kyi 'jig rten rnam pa sna tshogs bshad pa gang yin pa de sus byas she na/
+   157a-12: sus kyang blo sngon du btang ste byas pa ni med do/ /
+   157a-13: 'o na ji lta bu zhe na/
+   157a-14: sems can rnams kyi/
+   157a-15: las las 'jig rten sna tshogs skyes/ /
+   157a-16: gal te las las skyes na ci'i phyir sems can rnams kyi las dag gis gur kum dang / tsan dan la sogs pa ches dga' dga' lta bu skye bar 'gyur la de dag gi lus ma yin zhe na/ /
+   157a-18: sems can 'dren mar byed pa rnams kyi las de lta bu dag kho nas gang rma lta bur 'gyur ba'i lus dag dang / de'i gnyen por 'gyur ba longs spyod dga' dga' lta bu dag skye'i/
+   (no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_T07_D4091:158a-1 --context --window 8 reads on)
+
+=== dam pa'i chos mngon pa kun las btus pa'i 'grel ba shes bya rab gsal s… · Sungbum/series · BO_S05_NGONPA-108:15497 · GLOSS (paraphrase gloss) (+2 more hits: 15494, 15487)
+/ las las 'jig rten sna tshogs skyes/ de ni sems pa dang des byas/ sems pa yid kyi las yin te/ des bskyed ngag dang lus kyi las/ zhes kyang bshad la/ ye shes bshes gnyen ni/ 'di dang 'dis 'gro bar byed do zhes/ yang dag par 'dzin pa'i sems dang*/ bya mi bya dpyod pa la zhugs pa/ nges pa'i sems pa dang*/
+   15489: mdo dang sbyar te shin tu rgyas bshad do/
+   15490: dang po ni/
+   15491: mdo las/
+   15492: dge slong dag
+   15493: sems pa las su nga smra ste/
+   15494: bsam pa yang ngo zhes gsungs pa ltar sems pa yid kho na'i las dang*/
+   15495: des bskyed pa'i bsam pa lus dang ngag dang yid gsum ka'i las te/
+   15496: gnyis po des las kyi kun 'byung gi mtshan nyid dam rang bzhin thams cad mdor bsdus pa'o/
+>> 15497: mdzod du/
+   15498: las las 'jig rten sna tshogs skyes/
+   15499: de ni sems pa dang des byas/
+   15500: sems pa yid kyi las yin te/
+   15501: des bskyed ngag dang lus kyi las/
+   15502: zhes kyang bshad la/
+   15503: ye shes bshes gnyen ni/
+   15504: 'di dang 'dis 'gro bar byed do zhes/
+   15505: yang dag par 'dzin pa'i sems dang*/
+   (no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_S05_NGONPA-108:15557 --context --window 8 reads on)
+
+=== Gyelwa Gendun Drup — DAM PA'I CHOS MNGON PA'I MDZOD KYI RNAM PAR BSHA… · ACIP sungbum · BO_ACIP-SUNGBUM_SL5525N_T:6433 · GLOSS (paraphrase gloss) (+2 more hits: 6427, 8732)
+ma grangs so/ dang po la/ bstan/ bshad do/ dang po ni/ las las 'jig rten sna tshogs skyes/ zhes bshad na/ las de la dbye na du zhe na/ las de ni gnyis su yod de/ sems pa'i las dang/ sems pa des byas pa'i bsam pa'i las gnyis su yod pa'i phyir/ de dag gi ngo bo gang zhe na/ sems pa ni yid kyi las yin te/
+   6425: rgyu med dang mi mthun pa'i rgyu las byung ba ma yin te/
+   6426: res 'ga' skye ba dang/
+   6427: dbang phyug sogs min rim sogs phyir/
+   6428: zhes bshad pa'i phyir/
+   6429: 'o na gang las skyes she na/
+   6430: las las snod bcud kyi 'jig rten sna tshogs pa skyes so/
+   6431: gnyis pa la/
+   6432: las kyi ngo bo/
+>> 6433: mdo las 'byung ba'i ming gi rnam grangs so/
+   6434: dang po la/
+   6435: bstan/
+   6436: bshad do/
+   6437: dang po ni/
+   6438: las las 'jig rten sna tshogs skyes/
+   6439: zhes bshad na/
+   6440: las de la dbye na du zhe na/
+   6441: las de ni gnyis su yod de/
+   (no gloss on the query's words in the 60 segments after the hit; dm.py segment BO_ACIP-SUNGBUM_SL5525N_T:6493 --context --window 8 reads on)
+
+=== chos mngon pa'i mdzod kyi rnam par bshad pa chos mngon rgya mtsho'i s… · Tsadra series · BO_TSD_BO_DC_VVI-011:5869 · GLOSS (paraphrase gloss) (+1 more hit: 5874)
+pas mjug bsdu ba'o/ dang po (thams cad las las byung ba )ni/ las las 'jig rten sna tshogs skyes/ zhes pas bstan/ sngar bshad pa'i snod bcud kyi 'jig rten 'di sus byas/ dbang phyug sogs kyis blo sngon du btang ste byas pa ni ma yin gyi/ las dge mi dge sna tshogs las snod bcud kyi 'jig rten bde sdug dang bzang ngan sna tshogs pa skyes pa yin no/
+
+=== Gyelwa Gendun Drup — DAM PA'I CHOS MNGON PA'I MDZOD KYI RNAM PAR BSHA… · ACIP sungbum · BO_ACIP-SUNGBUM_SE5525M_T:6428 · GLOSS (paraphrase gloss)
+as las snod bcud kyi 'jig rten sna tshogs pa skyes so/ gnyis pa la/ las kyi ngo bo/ mdo las 'byung ba'i ming gi rnam grangs so/ dang po la/ bstan/ bshad do/ dang po ni/ las las 'jig rten sna tshogs skyes/ zhes bshad na/ las de la dbye na du zhe na/ las de ni gnyis su yod de/ sems pa'i las dang/ sems pa des byas pa'i bsam pa'i las gnyis su yod pa'i phyir/
+
+=== tshad ma rnam 'grel gyi 'grel pa rigs pa'i mdzod ces bya ba bzhugs so · Sungbum/series · BO_S04_TSEMA-122:4619 · GLOSS (paraphrase gloss)
+da kyis 'dod pa de gang zag gnyis ka la grub pa'i phyir ro/ 'di ltar sangs rgyas pa la yang las kyi ming can gyi sems pas bsgrub par 'dod pa'i phyir te/ 'jig rten sna tshogs las las skyes/ las ni sems pa dang des byas/ zhes pa'o/ gal te dbang phyug rtag pa gcig gis thams cad byas par sgrub pa yin na dpe ma grub ste bum pa la sogs pa thams cad dbang phyug gis byas par ma grub pa'i phyir ro/
+
+=== chos mngon pa mdzod kyi rnam bshad shes bya rab gsal zhes bya ba bzhu… · Sungbum/series · BO_S09_RONT071:4213 · GLOSS (paraphrase gloss) (+2 more hits: 4207, 4218)
+kyi 'jig rten rnam pa du ma de sus byas she na/ byed pa po sogs su yang med kyi/ sems can gyi las las 'jig rten bzang ngan 'dres pa sna tshogs skyes so/ gnyis pa la gsum ste/ las ngos bzung*/ las kyi rnam bzhag las mdo las byung ba'i don no/ dang po ni/ las de ci zhe na/ las de ni mdo las/ sems pa dang des byas pa'i bsam pa'i las gnyis su gsungs so/
+
+=== chos mngon pa mdzod kyi rnam bshad tshig don rab gsal zhes bya ba bzh… · Sungbum/series · BO_S10_KHEZ022:9760 · GLOSS (paraphrase gloss) (+2 more hits: 9756, 9765)
+/ gong du snod bcud kyi 'jig rten sna tshogs gsungs pa de dag rgyu gang las byung zhe na/ byed pa po gzhan med kyis/ las las 'jig rten bzang ngan 'dres ma sna tshogs skyes so/ gnyis pa la/ bstan bshad gnyis/ dang po ni/ las de ci zhig ce na/ las de ni mdo las/ sems pa'i las dang des byas pa bsam pa'i las gnyis su gsungs so/
+
+=== dam pa'i chos mngon pa mdzod kyi 'grel pa gzhung don rab tu gsal ba'i… · Sungbum/series · BO_S05_NGONPA-115:5355 · GLOSS (paraphrase gloss) (+1 more hit: 5364)
+gyis mdor bstan/ las dngos rgyas par bshad/ zhar la chos kyi rnam grangs kha cig bstan pas mjug bsdu ba'o/ dang po ni/ snod bcud kyi 'jig rten sna tshogs pa rnams rgyu med pa dang mi mthun pa'i rgyu las byung ba ni sngar bkag na de dag ci las byung zhe na/ sems can rnams kyi dge mi dge'i las las 'jig rten bzang ngan 'dres ma sna tshogs pa rnams skyes so/
+
+=== byang chub kyi spyod pa la 'jug pa'i dka' 'grel/ (bodhicaryāvatārapañ… · Tengyur, Toh 3872 · BO_T04_D3872:88b-25 · QUOTE (+5 more hits: 233b-26, 89a-19, 233b-24, 234a-3, 88b-19)
+cad ni las kyi sprul pa yin la/ de yang sems las gzhan na med pa'i phyir ro// de ni/ las las 'jig rten sna tshogs skyes// de ni sems pa dang des byas// sems pa yid kyi las yin te// des skyed lus dang ngag gi las// zhes bstan to// gnod pa byed pa'i sems med pa la ni su yang gnod pa byed par mi 'gyur te/
+
+(83 further works not shown; --n-works raises the cap)
